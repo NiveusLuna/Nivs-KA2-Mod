@@ -1,0 +1,40 @@
+#include "station.odf"
+
+//Generic Research Station ODF file
+
+//Default values for ALL turrets (can be overriden in successive ODF files)
+//Sensor arrays should also use the turret odf to derive from although.
+//they have to override several values provided here.
+
+//Buffer around bounding box for laying station footprint
+//to block building.
+footprintBuffer = 40.0f
+
+//**********************************************************************
+//PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
+
+//programming thing DO NOT CHANGE
+//classLabel = "research"
+
+//**********************************************************************
+// Tara additions for context sensitive menus
+research = 1
+// These don't need the special weapon or movement autonomy buttons
+SHOW_MOVEMENT_AUTONOMY = 0;
+SHOW_SW_AUTONOMY = 0;
+
+// ****************************
+// Let's add queues!
+
+// Research stations don't have those things, so we're a shipyard.
+classlabel = "shipyard"
+
+// We are a *terrible* shipyard and don't actually repair or decom anything.
+repairFacility = 0
+decommissionFacility = 0
+
+// We build at our center
+buildHardpoint = "root"
+
+// Shipyard? Where?
+research = 1

@@ -1,0 +1,94 @@
+#include "station.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+
+//Number of crew required to build ship & Starting crew
+crewCost = 0
+
+//Max Shield Strength & Begining Shield Strength <1000
+maxHealth = 300
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 1.0
+
+//Buffer around bounding box for laying station footprint
+//to block building.
+footprintBuffer = 0.0f
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 0.10f
+
+
+//**********************************************************************
+
+
+//**********************************************************************
+//SYSTEM HITPOINTS
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 80
+enginesHitPoints = 0
+weaponsHitPoints = 0
+lifeSupportHitPoints = 80
+sensorsHitPoints = 80
+
+//**********************************************************************
+
+
+//**********************************************************************
+
+// This is the size of the build animation sparks.
+weldingRadius = 0.25
+
+//**********************************************************************
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+eventAcknowledge = "PodAcknowledge"
+eventDecommission = "PodDecommission"
+eventSelect = "PodSelect"
+
+//**********************************************************************
+
+
+
+//**********************************************************************
+//PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
+
+//programming thing DO NOT CHANGE
+classLabel = "pod"
+
+//Explosion to use
+fireball = "x_no_explosion"
+clearsfog = 0
+invincible = 1
+hidden = 1
+avoidme = 0
+canrepairshiprepair = 0
+destroymewithresearchstation = 0
+iamgametothedeathcondition = 0
+perceivedneutral = 1
+invalidAsTarget = 1
+has_crew = 0
+footprintbuffer = 0f
+
+// ****************************
+// Let's add queues!
+
+// The AI needs to be told where to find me.
+isresearchedbyyard = 1
+
+// I make upgrade noises!
+constructionvoice = 3
+
+// I am a special snowflake!
+fleetcapfile = "all_cap_research.odf"

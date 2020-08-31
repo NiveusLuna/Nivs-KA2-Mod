@@ -1,0 +1,12 @@
+#include "IUpgrade.odf"
+
+buildItem0 = "ISCPod11"
+buildItem1 = "ISCPod21"
+buildItem2 = "ISCPod12"
+buildItem3 = "ISCPod22"
+buildItem4 = "ISCPod13"
+buildItem5 = "ISCPod23"
+buildItem6 = "ISCPod14"
+buildItem7 = "ISCPod24"
+buildItem8 = "ISCPod15"
+buildItem9 = "ISCPod25"

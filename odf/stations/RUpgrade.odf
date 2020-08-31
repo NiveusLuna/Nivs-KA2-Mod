@@ -1,0 +1,12 @@
+#include "RUpgrade.odf"
+
+buildItem0 = "rompod11"
+BuildItem1 = "rompod21"
+buildItem2 = "rompod12"
+BuildItem3 = "rompod22"
+buildItem4 = "rompod13"
+BuildItem5 = "rompod23"
+buildItem6 = "rompod14"
+BuildItem7 = "rompod24"
+buildItem8 = "rompod15"
+BuildItem9 = "rompod25"
