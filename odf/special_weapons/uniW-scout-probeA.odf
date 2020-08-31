@@ -1,0 +1,89 @@
+
+//Name of the ODF file for the ordinance for this weapon
+ordName = "uniW-scout-probeAo"
+
+// Mark this as a special weapon.
+special = 0
+
+// Set the target location flag
+targetLocation = 0
+
+// Set the need target flag
+needTarget = 0
+AItargetLocation = 0
+
+//showRange = 1
+
+//Display name for this weapon
+wpnName = "Probe"
+
+//tooltips
+tooltip = "Probe"
+verboseTooltip = "Order the selected ship to fire a Probe from a forward tube. They can be used for surveying dangerous areas of space."
+
+//Location of the button in the speed panel
+buttonSlot = 5
+
+// Priority of button in the speed panel, this is only
+// used if it is non-zero.
+buttonPriority = 2
+
+//Type of border to use for this button.
+//0 = No border.
+//1 = Offensive border.
+//2 = Defensive border.
+buttonBorder = 1
+
+// The weapon is not harmful to the target (so don't fire regular weapons at it)
+beneficial = 1
+
+// Do not say "attack" when turned on.
+attackSpeech = 0;
+
+//Switch to attack is false
+switchToAttack = 0
+
+speakonattack = 0
+
+//Time Delay between shots
+shotDelay = 0
+
+// Range within which the weapon will fire.
+//range = 1000.0f
+  range = 600.0f
+
+//Sound which is played when the weapon fires
+fireSound = "probelaunch.wav"
+
+//Programming Stuff DO NOT CHANGE
+//classLabel = "launcher"
+classlabel = "minelayer"
+
+// Restrict the Fire Arc
+restrictFireArc = 1
+
+// Use this fire arc restriction
+fireArc = 1.0
+
+// Percent chance of hitting the target.
+//Can be applied to specific ships in format default "shipname.odf" 0.9 (this is a percentage)
+hitChance = 0.7
+
+// Modifier that changes the percent chance (from hitChance)
+//to hit a target based on whether or not the attacker is full impulse
+impulseToHitModifier = -0.25
+
+// Modifier that changes the percent chance (from hitChance)
+//to hit a target based on whether or not attacker is stopped 
+stopToHitModifier = 0.0
+
+// Modifier that changes the percent chance (from hitChance)
+//to hit a target based on whether or not the target is full impulse
+toHitImpulseModifier = -0.25
+
+// Modifier that changes the percent chance (from hitChance)
+//to hit a target based on whether or not the target is stopped 
+toHitStopModifier = -0.0
+
+HardpointShift = 1
+hotkeyLabel = "GAME-HOTKEY-BACKQUOTE_P"
