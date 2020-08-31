@@ -1,0 +1,12 @@
+#include "hbase.odf"
+#include "0north-south-buffer.odf"
+
+//**********************************************************************
+//Construction Parameters
+buildItem0 = "hconst"
+buildItem1 = "hfreight"
+buildItem2 = "hcolony"
+buildItem3 = "hsrepair"
+buildItem4 = "hassault"
+buildItem5 = "hcargo"
+buildItem6 = lousyape

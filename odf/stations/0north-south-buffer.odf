@@ -1,0 +1,3 @@
+northBuffer = 200
+southBuffer = 100
+eastBuffer = 100
