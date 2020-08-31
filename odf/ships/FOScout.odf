@@ -1,6 +1,6 @@
 #include "foscout.odf"
-// include "0decom-no-gain.odf"
+#include "0decom-no-gain.odf"
 // we are not a planet. allow decom and REPAIR.
-// planet = 0
+planet = 0
 weapon7 = "uniRW-scout-probe"
 // weaponHardpoints7 = "root"
