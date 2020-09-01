@@ -1,0 +1,3562 @@
+sprite_table
+
+@include gui_research-queue.spr
+
+# Shared GUI sprites, a.k.a. non-race specific.
+
+## SPRITE DATA ##
+
+# @reference=texture size in pixels from which the u,v,w, and h values
+# were measured.  This value will effect all subsequent textures until
+# a different value is specified.
+
+# Must include this first to ensure texture animations are found
+@include tex_anim_gui.spr									
+@include miniimages.spr									
+@include systembackgrounds.spr									
+@include systemimages.spr
+
+# Name				File			U	V	W	H	
+
+# Bridge Components
+# -----------------
+
+######## Default Bridge Scene
+
+@skip=off
+@reference=256
+@tmaterial=interface
+
+
+# Drop Player Pop-up Components
+# -----------------------------
+
+# Drop Player Screen
+@reference=256
+@tmaterial=interface
+drop_player_panel.0		dropPlayer0		0	0	256	256
+drop_player_panel.1		dropPlayer1		0	0	256	256
+drop_player_panel.2		dropPlayer2		0	0	256	256
+drop_player_panel.3		dropPlayer9		0	0	0	256
+drop_player_panel.4		dropPlayer3		0	0	256	256
+drop_player_panel.5		dropPlayer4		0	0	256	256
+drop_player_panel.6		dropPlayer5		0	0	256	256
+drop_player_panel.7		dropPlayer9		0	0	0	256
+drop_player_panel.8		dropPlayer6		0	0	256	256
+drop_player_panel.9		dropPlayer7		0	0	256	256
+drop_player_panel.10	dropPlayer8		0	0	256	256
+drop_player_panel.11	dropPlayer9		0	0	0	256
+drop_player_panel.12	dropPlayer9		0	0	256	128
+drop_player_panel.13	dropPlayer9		0	128	256	128
+drop_player_panel.14	dropPlayer10	0	0	256	128
+drop_player_panel.15	dropPlayer9		0	0	0	128
+
+drop_drop_Button		uiObjectives20		0	0	252	60
+
+# Pause Pop-up Components
+# -----------------------------
+
+# Pause Screen
+@reference=256
+@tmaterial=interface
+
+pauseGame.0				uiPause0		0	0	256	192
+pauseGame.1				uiPause1		0	0	128	192
+pause_unpause_Button	uiPause0		0	192	176	28
+
+
+
+
+# Objective Pop-up Components
+# ---------------------------
+
+# Objectives Screen
+@reference=256
+@tmaterial=interface
+
+
+objectives_panel.0		uiObjectives0		0	0	256	256
+objectives_panel.1		uiObjectives1		0	0	256	256
+objectives_panel.2		uiObjectives2		0	0	256	256
+objectives_panel.3		uiObjectives3		0	0	256	256
+objectives_panel.4		uiObjectives4		0	0	256	256
+objectives_panel.5		uiObjectives5		0	0	256	256
+objectives_panel.6		uiObjectives6		0	0	256	256
+objectives_panel.7		uiObjectives7		0	0	256	256
+objectives_panel.8		uiObjectives8		0	0	256	256
+objectives_panel.9		uiObjectives9		0	0	256	256
+objectives_panel.10		uiObjectives10		0	0	256	256
+objectives_panel.11		uiObjectives11		0	0	256	256
+objectives_panel.12		uiObjectives12		0	0	256	256
+objectives_panel.13		uiObjectives13		0	0	256	256
+objectives_panel.14		uiObjectives14		0	0	256	256
+objectives_panel.15		uiObjectives15		0	0	256	256
+objectives_panel.16		uiObjectives16		0	0	256	256
+objectives_panel.17		uiObjectives17		0	0	256	256
+objectives_panel.18		uiObjectives18		0	0	256	256
+objectives_panel.19		uiObjectives19		0	0	256	256
+
+obj_okay_Button			uiObjectives20		0	0	252	60
+
+# Comm Pop-up Components
+# ----------------------
+
+# Comm Screen
+@reference=256
+@tmaterial=interface
+
+
+
+comm_panel.0		commMenu0		0	0	256	256
+comm_panel.1		commMenu1		0	0	256	256
+comm_panel.2		commMenu2		0	0	256	256
+comm_panel.3		commMenu3		0	0	256	256
+comm_panel.4		commMenu4		0	0	256	256
+comm_panel.5		commMenu10		0	0	0	256
+comm_panel.6		commMenu5		0	0	256	256
+comm_panel.7		commMenu6		0	0	256	256
+comm_panel.8		commMenu7		0	0	256	256
+comm_panel.9		commMenu8		0	0	256	256
+comm_panel.10		commMenu9		0	0	256	256
+comm_panel.11		commMenu10		0	0	0	256
+comm_panel.12		commMenu10		0	0	256	128
+comm_panel.13		commMenu10		0	128	256	128
+comm_panel.14		commMenu11		0	0	256	128
+comm_panel.15		commMenu11		0	128	256	128
+comm_panel.16		commMenu12		0	0	256	128
+comm_panel.17		commMenu10		0	0	0	128
+
+
+
+comm_down_Button		commMenu12		0	220	32	20
+comm_up_Button			commMenu12		32	220	32	20
+
+
+comm_toggle_Button		commMenu13		0	132	44	44
+comm_toggle_check		commMenu13		176	88	44	44
+comm_bar_player			commMenu12		0	176	256	44
+comm_bar_team			commMenu13		0	44	140	44
+comm_select_Button		commMenu13		132	88	44	44
+comm_resource_Button	commMenu13		0	0	240	44
+comm_alliance_red		commMenu13		0	88	44	44
+comm_alliance_yellow	commMenu13		44	88	44	44
+comm_alliance_green		commMenu13		88	88	44	44
+comm_generic_Button		commMenu12		0	128	236	48
+
+comm_amount_display		commMenu13		140	44	108	44
+
+
+comm_alliance_red_him		commMenu13		176	132	44	44
+comm_alliance_yellow_him	commMenu13		88	132	44	44
+comm_alliance_green_him		commMenu13		132	132	44	44
+comm_select_check			commMenu13		44	132	44	44
+
+comm_indicator			commMenu3		119	136	1	1
+
+//comm_generic_Button		CommMenu		52	95	98	20
+//comm_toggle_Button		CommMenu		205	165	19	19
+//comm_toggle_check			CommMenu		110	120	19	19
+//comm_okay_Button			CommMenu		32	165	126	23
+//comm_bar_player			CommMenu		32	146	173	19
+//comm_bar_team				CommMenu		53	120	57	19
+//comm_alliance_red			CommMenu		53	71	19	19
+//comm_alliance_yellow		CommMenu		72	71	19	19
+//comm_alliance_green		CommMenu		91	71	19	19
+//comm_alliance_red_him		CommMenu		179	165	19	19
+//comm_alliance_yellow_him	CommMenu		205	146	19	19
+//comm_alliance_green_him	CommMenu		160	165	19	19
+//comm_select_Button		CommMenu		129	71	19	19
+//comm_select_check			CommMenu		129	120	19	19
+//comm_indicator			CommMenu		34	106	2	2
+
+
+
+# Minimap Components
+# ------------------
+
+# Minimap Layers
+@reference=128
+@tmaterial=default
+map_background			gminimap		0	0	128	128
+map_fog					gfog			0	0	128	128 @chromakey
+map_shroud				gshroud			0	0	128	128 @chromakey
+
+@tmaterial=alpha
+@reference=32
+mapicon_empty		mapicons		31	31	1	1
+
+# Selection Components
+# --------------------
+
+# Selection Reticle
+@reference=64
+@tmaterial=additive
+selection.00			GCselect	0	0	22	22			#upper left
+selection.10			GCselect	21	0	22	22			#upper mid
+selection.20			GCselect	43	0	21	22			#upper right
+selection.01			GCselect	0	21	22	22			#center left
+selection.11			GCselect	21	21	22	22			#center mid
+selection.21			GCselect	43	21	21	22			#center right
+selection.02			GCselect	0	43	22	21			#bottom left
+selection.12			GCselect	21	43	22	21			#bottom mid
+selection.22			GCselect	43	43	21	21			#bottom right
+
+# Drop down selection circle.
+@reference=64
+@tmaterial=add_nomipf
+selectionCircle			Gshadow		0	0	64	64
+selectionBillboard		Gshadow		0	0	64	64
+@reference=128
+gridFXSprite			GgridFX		0	0	128	128
+
+# Selection Bars
+@reference=512
+#select_shield_bar			fguib04		252	368	192	20		@snap_to_pixel
+#select_hull_bar			fguib04		252	368	192	20		@snap_to_pixel
+select_energy_bar			fguib04		252	344	192	20		@snap_to_pixel
+select_crew_dot				fguib04		428	148	28	28		@snap_to_pixel
+#large_shield_bar			fguib04		252	368	192	20		@snap_to_pixel
+large_energy_bar			fguib04		252	344	192	20		@snap_to_pixel
+#large_construction_bar		fguib04		312	448	192	20		@snap_to_pixel
+#large_dilithium_bar		fguib04		170	472	340	20		@snap_to_pixel
+#small_shield_bar			fguib04		284	504	172	8		@snap_to_pixel
+small_energy_bar			fguib04		284	496	172	8		@snap_to_pixel
+small_crew_dot				fguib04		464	496	12	12		@snap_to_pixel
+large_metal_bar				fguib04		252	400	196	20		@snap_to_pixel
+race_icon_bar				fguib04		252	368	192	20		@snap_to_pixel
+
+####################									
+######	Bars  ######									
+####################									
+@referenceWidth=1024									
+@referenceHeight=256									
+large_dilithium_bar		all_interface	1	1	592	32	@snap_to_pixel			
+large_construction_bar	all_interface	1	35	592	32	@snap_to_pixel			
+large_shield_bar		all_interface	1	70	103	7	@snap_to_pixel			
+large_hull_bar			all_interface	1	77	103	8	@snap_to_pixel			
+small_shield_bar		all_interface	1	87	72	7	@snap_to_pixel			
+small_hull_bar			all_interface	1	94	72	8	@snap_to_pixel			
+select_shield_bar		all_interface	131	70	245	7	@snap_to_pixel			
+select_hull_bar			all_interface	131	77	245	7	@snap_to_pixel	
+
+
+# Selection Systems
+@reference=32
+@tmaterial=additive
+select_system.0			gminisys	21	1	9	9		
+select_system.1			gminisys	11	11	9	9		
+select_system.2			gminisys	11	1	9	9		
+select_system.3			gminisys	1	11	9	9		
+select_system.4			gminisys	1	1	9	9		
+
+# Backing for the groups...
+@reference=8
+@tmaterial=additive
+group_background		colors		5	5	2	2
+
+# Button Panel Background and Buttons
+# --------------------
+@reference=256
+@tmaterial=interface
+
+ButtonBackgroundPanel.0		uiButtons		61	40	21	40
+ButtonBackgroundPanel.1		uiButtons		40	40	21	40
+
+comm_Button				uiButtons		120	0	40	40
+help_Button				uiButtons		160	0	40	40
+toggle_Button			uiButtons		0	0	40	40
+palette_Button			uiButtons		0	40	40	40
+objectives_Button		uiButtons		80	0	40	40
+
+#some more Buttons for the panel
+menu_Button				uiButtons		200	0	40	40
+more_Button				uiButtons		40	0	40	40
+
+# Replay Panel Buttons
+# --------------------
+@reference=256
+repeat_Button		replay0		38	0	38	40
+#restart_Button		replay0		0	160	38	40
+restart_Button		replay0		38	160	38	40
+prev_Button			replay0		152	120	38	40
+prev_Button_h		replay0		190	120	38	40
+next_Button			replay0		152	40	38	40
+next_Button_h		replay0		190	40	38	40
+#pause_Button		replay0		0	120	38	40
+pause_Button		replay0		38	120	38	40
+#slow_Button		replay0		190	160	38	40
+slow_Button			replay0		0	40	38	40
+#normal_Button		replay0		152	80	38	40
+normal_Button		replay0		190	80	38	40
+#fast_Button		replay0		38	200	38	40
+fast_Button			replay0		38	40	38	40
+fogOn_Button		replay0		152	160	38	40
+fogOn_Button_h		replay0		0	200	38	40
+nextPlayer_Button	replay0		0	80	38	40
+nextPlayer_Button_h	replay0		38	80	38	40
+
+chapter_end_continue	replay0		0	0	38	40
+chapter_end_loop		replay0		76	40	38	40
+chapter_end_loop_h		replay0		114	40	38	40
+chapter_end_once		replay0		76	120	38	40
+chapter_end_once_h		replay0		114	120	38	40
+
+player_show_all			replay0		76	80	38	40
+player_show_all_h		replay0		114	80	38	40
+player_show_fog			replay0		76	160	38	40
+player_show_fog_h		replay0		114	160	38	40
+
+# Buttons
+# -------
+
+###############################									
+######	Command Buttons	 ######									
+###############################									
+@reference=512									
+@tmaterial=interface									
+b_attack	all_interface_buttons01	0	0	96	96		#	1	1
+b_move		all_interface_buttons01	104	0	96	96		#	2	1
+b_cancel	all_interface_buttons01	208	0	96	96		#	3	1
+b_transport	all_interface_buttons01	312	0	96	96		#	4	1
+b_stop		all_interface_buttons01	0	104	96	96		#	1	2
+b_guard		all_interface_buttons01	312	208	96	96		#	4	3
+b_patrol	all_interface_buttons01	0	208	96	96		#	1	3
+b_scout		all_interface_buttons01	104	208	96	96		#	2	3
+b_sandd		all_interface_buttons01	208	208	96	96		#	3	3
+b_decom		all_interface_buttons02	104	0	96	96		#	2	1
+b_galert	all_interface_buttons02	0	104	96	96		#	1	2
+b_yalert	all_interface_buttons02	104	104	96	96		#	2	2
+b_ralert	all_interface_buttons02	208	104	96	96		#	3	2
+b_order		all_interface_buttons01	104	104	96	96		#	2	2
+b_standdown	all_interface_buttons01	0	104	96	96		#	1	2
+b_build		all_interface_buttons03	208	104	96	96		#	3	2	
+
+b_repair		all_interface_buttons01	208	416	96	96		#	3	5
+b_superRepair	all_interface_buttons01	312	416	96	96		#	4	5
+
+b_research	all_interface_buttons01	104	416	96	96		#	2	5
+b_capture	all_interface_buttons02	312	104	96	96		#	4	2
+b_back		all_interface_buttons01	416	416	96	96		#	5	5
+b_harvest	all_interface_buttons01	416	104	96	96		#	5	2
+b_rally		all_interface_buttons01	312	104	96	96		#	4	2
+
+b_aiMenu	all_interface_buttons01	208	104	96	96		#	3	2
+
+b_form		all_interface_buttons01	416	208	96	96		#	5	3
+b_form1		all_interface_buttons01	416	312	96	96		#	5	4
+b_form2		all_interface_buttons01	0	312	96	96		#	1	4
+b_form3		all_interface_buttons01	104	312	96	96		#	2	4
+b_form4		all_interface_buttons01	208	312	96	96		#	3	4
+b_formwall	all_interface_buttons01	0	416	96	96		#	1	5
+b_formx		all_interface_buttons01	312	312	96	96		#	4	4
+b_fclover	all_interface_buttons04	208	0	96	96		#	3	1
+b_fcircle	all_interface_buttons04	104	0	96	96		#	2	1
+b_farrow	all_interface_buttons04	0	0	96	96		#	1	1
+
+b_swNone	all_interface_buttons02	0	312	96	96		#	1	4
+b_swMed		all_interface_buttons02	104	312	96	96		#	2	4
+b_swHigh	all_interface_buttons02	208	312	96	96		#	3	4
+
+b_moveLow	all_interface_buttons02	0	208	96	96		#	1	3
+b_moveMed	all_interface_buttons02	104	208	96	96		#	2	3
+b_moveHigh	all_interface_buttons02	208	208	96	96		#	3	3
+
+b_repother	all_interface_buttons02	416	0	96	96		#	5	1
+
+b_colonize	all_interface_buttons02	0	0	96	96		#	1	1
+
+b_strade			all_trade_buttons	0	0	96	96		#	1	1
+b_etrade			all_trade_buttons	104	0	96	96		#	2	1
+b_trade				all_trade_buttons	208	0	96	96		#	3	1
+b_trad_dil			all_trade_buttons	416	0	96	96		#	5	1
+b_trad_lat			all_trade_buttons	0	104	96	96		#	1	2
+b_trad_met			all_trade_buttons	104	104	96	96		#	2	2
+b_tradcrew			all_trade_buttons	312	0	96	96		#	4	1
+b_buydil			all_trade_buttons	416	104	96	96		#	5	2
+b_buymet			all_trade_buttons	104	208	96	96		#	2	3
+b_selldil			all_trade_buttons	0	208	96	96		#	1	3
+b_sellmet			all_trade_buttons	208	208	96	96		#	3	3
+b_recyclemet		all_trade_buttons	312	104	96	96		#	4	2
+b_recycledil		all_trade_buttons	208	104	96	96		#	3	2
+
+@reference=64
+@tmaterial=interface
+b_flag					gbflag00		0	0	64	64								
+b_frupgrade				gbfrupgrd00		0	0	64	64		
+b_brupgrade				gbbrupgrd00		0	0	64	64		
+b_krupgrade				gbkrupgrd00		0	0	64	64		
+b_rrupgrade				gbrrupgrd00		0	0	64	64						
+b_close					gbclose			0	0	64	64	
+b_trad_off				gbtradeoff		0	0	64	64
+b_evolve				gbevolve		0	0	64	64		
+
+#################################
+######	New Advanced Weapons ####
+#################################
+@reference=512									
+@tmaterial=interface
+
+# Generic Advanced Weapon Buttons
+
+b_gtracbm	all_interface_buttons09	312	416	96	96		#	4	5
+b_probe		all_interface_buttons03	416	416	96	96		#	5	5
+b_probeC	all_interface_buttons03	416	416	96	96		#	5	5
+b_gecm		all_interface_buttons05	0	312	96	96		#	1	4
+b_geccm		all_interface_buttons05	0	416	96	96		#	1	5
+b_gselfdes	all_interface_buttons06	0	416	96	96		#	1	5
+
+# Federation Advanced Weapon Buttons
+
+b_faphoton		all_interface_buttons04	104	104	96	96		#	2	2
+b_gFQCB			all_interface_buttons09	104	208	96	96		#	2	3 
+b_hQCB			all_interface_buttons09	104	208	96	96		#	2	3 
+b_gFESG2		all_interface_buttons09	312	312	96	96		#	4	4
+b_gFDAssault	all_interface_buttons03	104	416	96	96		#	2	5
+b_gFSSDG		all_interface_buttons06	0	104	96	96		#	1	2
+b_gFSSDG2		all_interface_buttons06	0	104	96	96		#	1	2
+b_gFHologen		all_interface_buttons05	0	208	96	96		#	1	3
+b_fcarrierup	all_interface_buttons02 312	0	96	96		#	4	1
+
+b_ReserveFleetWarpIn	all_interface_buttons03	312	208	96	96		#	4	3
+
+# Klingon Advanced Weapon Buttons
+
+b_gKAMFP		all_interface_buttons09	208	0	96	96		#	3	1
+b_gKCloak		all_interface_buttons05	0	104	96	96		#	1	2
+b_gKCloakNew	all_interface_buttons05	0	104	96	96		#	1	2
+b_gKCloak2		all_interface_buttons05	0	104	96	96		#	1	2
+b_gKCloakR		all_interface_buttons05	416	0	96	96		#	5	1
+b_gKCloakR2		all_interface_buttons05	416	0	96	96		#	5	1
+b_gKGHRC		all_interface_buttons09	0	208	96	96		#	1	3
+b_gKGrappler	all_interface_buttons09	416	416	96	96		#	5	5
+b_gKESG2		all_interface_buttons09	312	312	96	96		#	4	4
+b_gKAssault		all_interface_buttons03	312	416	96	96		#	4	5
+b_gKCloakE		all_interface_buttons05	208	104	96	96		#	3	2
+b_gKJammer		all_interface_buttons08	208	0	96	96		#	3	1
+b_kcarrierup	all_interface_buttons02 312	0	96	96		#	4	1
+
+b_kOrionWarpIn	all_interface_buttons03	208	208	96	96		#	3	3
+b_kShakurianWarpIn	all_interface_buttons03	416	208	96	96		#	5	3
+
+# Romulan Advanced Weapon Buttons
+
+b_gRCloak		all_interface_buttons05	416	0	96	96		#	5	1
+b_gRCloakStat	all_interface_buttons05	416	0	96	96		#	5	1
+b_gRCloakfield	all_interface_buttons05	312	104	96	96		#	4	2
+b_raphoton		all_interface_buttons04	0	104	96	96		#	1	2
+b_gRGHRC		all_interface_buttons09	0	208	96	96		#	1	3
+b_gRQCB			all_interface_buttons09	104	208	96	96		#	2	3
+b_gRAMFP		all_interface_buttons09	208	0	96	96		#	3	1
+b_gRAMFP2		all_interface_buttons09	208	0	96	96		#	3	1
+b_gRESG2		all_interface_buttons09	312	312	96	96		#	4	4
+b_gRESG2B		all_interface_buttons09	312	312	96	96		#	4	4
+b_gRDAssault	all_interface_buttons03	208	416	96	96		#	3	5
+b_gRomSpy		all_interface_buttons06	416	208	96	96		#	5	3
+b_gRPPDM		all_interface_buttons06	312	312	96	96		#	4	4
+b_gREHFRC		all_interface_buttons10	208	0	96	96		#	3	1
+b_gRCFDIC		all_interface_buttons06	208	104	96	96		#	3	2
+b_rcarrierup	all_interface_buttons02 312	0	96	96		#	4	1
+
+b_rOrionWarpIn	all_interface_buttons03	208	208	96	96		#	3	3
+b_rMirakWarpIn	all_interface_buttons03	104	208	96	96		#	2	3 
+
+# Gorn Advanced Weapon Buttons
+
+b_gGTriP	 all_interface_buttons08	416	312	96	96		#	5	4
+b_gGCloak	 all_interface_buttons05	416	0	96	96		#	5	1
+b_gGQCB		 all_interface_buttons09	104	208	96	96		#	2	3
+b_gGGHRC	 all_interface_buttons09	0	208	96	96		#	1	3
+b_gGGHRC2	 all_interface_buttons09	0	208	96	96		#	1	3
+b_gGGDDS	 all_interface_buttons09	208	312	96	96		#	3	4
+b_gGGDDSCL	 all_interface_buttons09	208	312	96	96		#	3	4
+b_gGGDDS2	 all_interface_buttons09	312	312	96	96		#	4	4
+b_gGPPDM	 all_interface_buttons06	312	312	96	96		#	4	4
+b_gGEHFRC	 all_interface_buttons10	208	0	96	96		#	3	1
+b_gGEHFRC2	 all_interface_buttons10	208	0	96	96		#	3	1
+b_gcarrierup all_interface_buttons02	312	0	96	96		#	4	1
+b_gstationup all_interface_buttons02	312	0	96	96		#	4	1
+
+b_gMirakWarpIn	all_interface_buttons03	104	208	96	96		#	2	3 
+b_gShakurianWarpIn	all_interface_buttons03	416	208	96	96		#	5	3
+
+b_gGDDSDefensive all_interface_buttons09	208	312	96	96		#	3	4
+
+# ISC Advanced Weapon Buttons
+
+b_gICloak		all_interface_buttons05	416	0	96	96		#	5	1
+b_gIGHRC		all_interface_buttons09	0	208	96	96		#	1	3
+b_gIGHRC2		all_interface_buttons09	0	208	96	96		#	1	3
+b_gIGrappler	all_interface_buttons09	416	416	96	96		#	5	5
+b_gIESG2		all_interface_buttons09	208	312	96	96		#	3	4
+b_gISSJD		all_interface_buttons06	0	104	96	96		#	1	2
+b_gISSDG		all_interface_buttons06	0	104	96	96		#	1	2
+b_gISubPort		all_interface_buttons06	0	104	96	96		#	1	2
+b_gISubRift		all_interface_buttons10	208	312	96	96		#	3	4
+b_gIPPDH		all_interface_buttons06	416	312	96	96		#	5	4
+b_gIPPDMBase	all_interface_buttons06	416	312	96	96		#	5	4
+b_gIPPDM		all_interface_buttons06	312	312	96	96		#	4	4
+b_gIPPDL		all_interface_buttons06	208	312	96	96		#	3	4
+b_gIIonbeam		all_interface_buttons02	0	416	96	96		#	1	5
+b_icarrierup	all_interface_buttons02 312	0	96	96		#	4	1
+b_iFFrefit		all_interface_buttons02 312	0	96	96		#	4	1
+b_iDDrefit		all_interface_buttons02 312	0	96	96		#	4	1
+b_iDLrefit		all_interface_buttons02 312	0	96	96		#	4	1
+b_iCArefit		all_interface_buttons02 312	0	96	96		#	4	1
+b_iDNrefit		all_interface_buttons02 312	0	96	96		#	4	1
+
+b_iTerranWarpIn	all_interface_buttons03	0	312	96	96		#	1	4
+
+# Tholian Advanced Weapon Buttons
+
+b_GTWeb						all_interface_buttons10	0	312	96	96		#	1	4
+b_GTRift					all_interface_buttons10	104	312	96	96		#	2	4
+b_gResourceExtractionBeam	all_interface_buttons09	416	312	96	96		#	5	4
+
+b_tTerranWarpIn	all_interface_buttons03	0	312	96	96		#	1	4
+
+# Hydran Advanced Weapon Buttons
+
+b_hapcan	all_interface_buttons04	208	104	96	96		#	3	2
+b_gHCloak	all_interface_buttons05	416	0	96	96		#	5	1
+b_gHAMFP	all_interface_buttons09	208	0	96	96		#	3	1
+b_gHESG		all_interface_buttons09	208	312	96	96		#	3	4
+b_gHGDDS2	all_interface_buttons09	312	312	96	96		#	4	4
+
+b_hMirakWarpIn	all_interface_buttons03	104	208	96	96		#	2	3
+b_hShakurianWarpIn	all_interface_buttons03	416	208	96	96		#	5	3 
+
+# Lyran Advanced Weapon Buttons
+
+b_gLCloak		all_interface_buttons05	416	0	96	96		#	5	1
+b_gLCloak2		all_interface_buttons05	416	0	96	96		#	5	1
+b_gLGHRC		all_interface_buttons09	0	208	96	96		#	1	3
+b_gLGrappler	all_interface_buttons09	416	416	96	96		#	5	5
+b_gLESG			all_interface_buttons09	208	312	96	96		#	3	4
+b_gLESGBC		all_interface_buttons09	208	312	96	96		#	3	4
+b_gLESGDN		all_interface_buttons09	208	312	96	96		#	3	4
+b_gLESGBB		all_interface_buttons09	208	312	96	96		#	3	4
+b_gLESG2		all_interface_buttons09	312	312	96	96		#	4	4
+b_gLSSJD		all_interface_buttons06	0	104	96	96		#	1	2
+b_gHPPDL		all_interface_buttons06	208	312	96	96		#	3	4
+b_LProxMis		all_interface_buttons10	312	208	96	96		#	4	3
+b_lcarrierup	all_interface_buttons02 312	0	96	96		#	4	1
+b_lstationup	all_interface_buttons02 312	0	96	96		#	4	1
+
+b_lOrionWarpIn	all_interface_buttons03	208	208	96	96		#	3	3
+b_lShakurianWarpIn	all_interface_buttons03	416	208	96	96		#	5	3
+
+# Mirak Advanced Weapon Buttons
+
+# Shakurian Advanced Weapon Buttons
+
+b_gSGDDS2	all_interface_buttons09	312	312	96	96		#	4	4
+b_gATGB		all_interface_buttons10	312	208	96	96		#	4	3
+b_gBP		all_interface_buttons06	208	416	96	96		#	3	5
+
+# Orion Pirate Advanced Weapon Buttons
+
+b_gPCloak	all_interface_buttons05	416	0	96	96		#	5	1
+
+# Other Advanced Weapon Buttons
+
+#################################									
+######	Interface Symbols  ######									
+#################################									
+@referenceWidth=1024									
+@referenceHeight=256									
+@tmaterial=interface									
+infosystem.0			all_interface	655	1	28	28		#	sensors	
+infosystem.1			all_interface	595	1	28	28		#	shields	
+infosystem.2			all_interface	625	31	28	28		#	weapons	
+infosystem.3			all_interface	595	31	28	28		#	engines	
+infosystem.4			all_interface	625	1	28	28		#	lifesupport	
+select_system.0			all_interface	595	1	28	28		#	shields	
+select_system.1			all_interface	595	31	28	28		#	engines	
+select_system.2			all_interface	625	31	28	28		#	weapons	
+select_system.3			all_interface	625	1	28	28		#	lifesupport	
+select_system.4			all_interface	655	1	28	28		#	sensors	
+shields					all_interface	685	1	28	28				
+hull					all_interface	715	1	28	28				
+crew_amt				all_interface	745	1	28	28				
+energy_amt				all_interface	775	1	28	28				
+infoBuildQueueSlot_0	all_interface2	1	1	96	96				
+infoBuildQueueSlot_1	all_interface2	98	1	64	64				
+infoBuildQueueSlot_2	all_interface2	163	1	64	64				
+infoBuildQueueSlot_3	all_interface2	228	1	64	64				
+infoBuildQueueSlot_4	all_interface2	293	1	64	64				
+infoBuildQueueSlot_5	all_interface2	358	1	64	64				
+infoBuildQueueSlot_6	all_interface2	423	1	64	64				
+infoBuildQueueSlot_7	all_interface2	488	1	64	64				
+infoBuildQueueSlot_8	all_interface2	553	1	64	64				
+infoBuildQueueSlot_9	all_interface2	618	1	64	64				
+
+
+# Federation Build Buttons
+@reference=128
+@tmaterial=default
+		
+@tmaterial=interface	
+@reference=64
+
+b_FMining			FMiningButton		0	0	64	64
+b_FOrbital			FOrbitalButton		0	0	64	64
+b_FTrading			FTradingButton		0	0	64	64		
+b_FYard				FYardButton			0	0	64	64
+b_FYard2			FYard2Button		0	0	64	64
+b_FMonitoring		FMonitoringButton	0	0	64	64
+b_FSensor			FSensorButton		0	0	64	64
+b_FMine				FMineButton			0	0	64	64
+b_FResearchA		FResearchAButton	0	0	64	64
+b_FResearchB		FResearchBButton	0	0	64	64
+b_FResearchC		FResearchCButton	0	0	64	64				
+b_FUpgrade			FUpgradeButton		0	0	64	64
+b_FSuperbl			FSuperblButton		0	0	64	64
+
+b_FedPod1			FedPod1Button		0	0	64	64		
+b_FedPod2			FedPod2Button		0	0	64	64	
+b_FedPod3			FedPod3Button		0	0	64	64	
+b_FedPod4			FedPod4Button		0	0	64	64			
+b_FedPod5			FedPod5Button		0	0	64	64
+b_FedPod11			FedPod11Button		0	0	64	64
+b_FedPod12			FedPod12Button		0	0	64	64
+b_FedPod13			FedPod13Button		0	0	64	64
+b_FedPod14			FedPod14Button		0	0	64	64
+b_FedPod15			FedPod15Button		0	0	64	64
+b_FedPod21			FedPod21Button		0	0	64	64
+b_FedPod22			FedPod22Button		0	0	64	64
+b_FedPod23			FedPod23Button		0	0	64	64
+b_FedPod24			FedPod24Button		0	0	64	64
+b_FedPod25			FedPod25Button		0	0	64	64
+b_FedEqu1			FedEqu1Button		0	0	64	64
+b_FedEqu2			FedEqu2Button		0	0	64	64
+b_FedEqu3			FedEqu3Button		0	0	64	64
+b_FedEqu4			FedEqu4Button		0	0	64	64
+b_FedEqu5			FedEqu5Button		0	0	64	64
+b_FedEqu6			FedEqu6Button		0	0	64	64
+b_FedHull1			FedHull1Button		0	0	64	64 
+b_FedHull2			FedHull2Button		0	0	64	64
+b_FedHull3			FedHull3Button		0	0	64	64
+b_FedHull4			FedHull4Button		0	0	64	64
+b_FedHull5			FedHull5Button		0	0	64	64
+b_FedHull6			FedHull6Button		0	0	64	64
+b_FedHull7			FedHull7Button		0	0	64	64
+b_FedHull8			FedHull8Button		0	0	64	64
+b_FedMiscR1			FedMiscR1Button		0	0	64	64 
+b_FedMiscR2			FedMiscR2Button		0	0	64	64 
+b_FedMiscR3			FedMiscR3Button		0	0	64	64 
+b_FedMiscR4			FedMiscR4Button		0	0	64	64 
+b_FedMiscR5			FedMiscR5Button		0	0	64	64 
+b_FedMiscR6			FedMiscR6Button		0	0	64	64 
+b_FedMix1			FedKliMixButton		0	0	64	64 
+b_FedMix2			FedRomMixButton		0	0	64	64 
+b_FedMix3			FedGorMixButton		0	0	64	64 
+b_FedMix4			FedISCMixButton		0	0	64	64 
+b_FedMix5			FedHydMixButton		0	0	64	64 
+b_FedMix6			FedLyrMixButton		0	0	64	64 
+
+b_FYamato			FXBattleButton		0	0	64	64
+b_FArkRoyal			FCarrierButton		0	0	64	64 
+b_FMissouri			FBattleButton		0	0	64	64
+b_FBelknap			FDreadPButton		0	0	64	64
+b_FStarEmpire		FSDreadButton		0	0	64	64
+b_FUlysses			FDreadButton		0	0	64	64
+b_FExcelsiorR		FBCruiseRButton		0	0	64	64
+b_FExcelsior		FBCruiseButton		0	0	64	64
+b_FRichmond			FNCruiseButton		0	0	64	64
+b_FLexington		FCCruiseButton		0	0	64	64
+b_FSalazar			FTCruiseButton		0	0	64	64
+b_FRanger			FGSCruiseButton		0	0	64	64
+b_FConstitutionR	FCruiseButton		0	0	64	64
+b_FSoyuz			FGCruiseButton		0	0	64	64
+b_FMiranda			FLCruiseButton		0	0	64	64
+b_FWarsaw			FDestroyLButton		0	0	64	64
+b_FAkulaR			FDestroyButton		0	0	64	64
+b_FOkinawa			FFrigateButton		0	0	64	64	
+b_FOberth			FEscortButton		0	0	64	64
+b_FHornet			FFighterButton		0	0	64	64 
+b_FHornetB			FFighterBButton		0	0	64	64 
+
+b_FEnterprise		FEntAButton			0	0	64	64
+b_FCerberus			FCerberusButton		0	0	64	64
+
+b_FWashington		FAssaultButton		0	0	64	64
+b_FUnity			FSRepairButton		0	0	64	64	
+b_FIndependence		FColonyButton		0	0	64	64				
+b_FClydesdale		FCargoButton		0	0	64	64
+b_FFreelancer		FFreightButton		0	0	64	64		
+b_FLiberty			FConstButton		0	0	64	64
+
+b_FLangley			FOBattleButton		0	0	64	64
+b_FFederation		FODreadButton		0	0	64	64
+b_FConstitution		FOCruiseButton		0	0	64	64
+b_FSurya			FOLCruiseButton		0	0	64	64
+b_FAkula			FODestroyButton		0	0	64	64
+b_FDavids			FOFrigateButton		0	0	64	64	 
+
+b_Premo				PremButton			0	0	64	64	
+
+# Added Mirak in here
+
+b_MDenMother		MFreightButton		0	0	64	64			
+
+@tmaterial=interface		
+
+@reference=64
+
+
+FArkRoyalw1			FCarrierWire		0	0	64	64
+FArkRoyalw2			FCarrierWire		0	0	64	64	
+FArkRoyalw3			FCarrierWire		0	0	64	64
+FArkRoyalw4			FCarrierWire		0	0	64	64
+FArkRoyalw5			FCarrierWire		0	0	64	64
+
+FHornetw1			FFighterWire		0	0	64	64
+FHornetw2			FFighterWire		0	0	64	64	
+FHornetw3			FFighterWire		0	0	64	64
+FHornetw4			FFighterWire		0	0	64	64
+FHornetw5			FFighterWire		0	0	64	64
+
+FHornetBw1			FFighterWire		0	0	64	64
+FHornetBw2			FFighterWire		0	0	64	64	
+FHornetBw3			FFighterWire		0	0	64	64
+FHornetBw4			FFighterWire		0	0	64	64
+FHornetBw5			FFighterWire		0	0	64	64
+
+FYamatow1			FXBattleWire		0	0	64	64		
+FYamatow2			FXBattleWire		0	0	64	64	
+FYamatow3			FXBattleWire		0	0	64	64		
+FYamatow4			FXBattleWire		0	0	64	64		
+FYamatow5			FXBattleWire		0	0	64	64
+
+FMissouriw1			FBattleWire		0	0	64	64		
+FMissouriw2			FBattleWire		0	0	64	64	
+FMissouriw3			FBattleWire		0	0	64	64		
+FMissouriw4			FBattleWire		0	0	64	64		
+FMissouriw5			FBattleWire		0	0	64	64
+
+FUlyssesw1			FDreadWire		0	0	64	64		
+FUlyssesw2			FDreadWire		0	0	64	64	
+FUlyssesw3			FDreadWire		0	0	64	64		
+FUlyssesw4			FDreadWire		0	0	64	64		
+FUlyssesw5			FDreadWire		0	0	64	64
+
+FStarEmpirew1			FSDreadWire		0	0	64	64		
+FStarEmpirew2			FSDreadWire		0	0	64	64	
+FStarEmpirew3			FSDreadWire		0	0	64	64		
+FStarEmpirew4			FSDreadWire		0	0	64	64		
+FStarEmpirew5			FSDreadWire		0	0	64	64
+
+FBelknapw1			FDreadWire		0	0	64	64		
+FBelknapw2			FDreadWire		0	0	64	64	
+FBelknapw3			FDreadWire		0	0	64	64		
+FBelknapw4			FDreadWire		0	0	64	64		
+FBelknapw5			FDreadWire		0	0	64	64
+
+FExcelsiorRw1			FBcruiseRWire		0	0	64	64		
+FExcelsiorRw2			FBcruiseRWire		0	0	64	64	
+FExcelsiorRw3			FBcruiseRWire		0	0	64	64		
+FExcelsiorRw4			FBcruiseRWire		0	0	64	64		
+FExcelsiorRw5			FBcruiseRWire		0	0	64	64
+
+FExcelsiorw1			FBcruiseWire		0	0	64	64		
+FExcelsiorw2			FBcruiseWire		0	0	64	64	
+FExcelsiorw3			FBcruiseWire		0	0	64	64		
+FExcelsiorw4			FBcruiseWire		0	0	64	64		
+FExcelsiorw5			FBcruiseWire		0	0	64	64
+
+FRichmondw1			FCCruiseWire		0	0	64	64		
+FRichmondw2			FCCruiseWire		0	0	64	64	
+FRichmondw3			FCCruiseWire		0	0	64	64		
+FRichmondw4			FCCruiseWire		0	0	64	64		
+FRichmondw5			FCCruiseWire		0	0	64	64
+
+FLexingtonw1			FCCruiseWire		0	0	64	64		
+FLexingtonw2			FCCruiseWire		0	0	64	64	
+FLexingtonw3			FCCruiseWire		0	0	64	64		
+FLexingtonw4			FCCruiseWire		0	0	64	64		
+FLexingtonw5			FCCruiseWire		0	0	64	64
+
+FSalazarw1			FTCruiseWire		0	0	64	64		
+FSalazarw2			FTCruiseWire		0	0	64	64	
+FSalazarw3			FTCruiseWire		0	0	64	64		
+FSalazarw4			FTCruiseWire		0	0	64	64		
+FSalazarw5			FTCruiseWire		0	0	64	64
+
+FConstitutionRw1		FCruiseWire		0	0	64	64		
+FConstitutionRw2		FCruiseWire		0	0	64	64	
+FConstitutionRw3		FCruiseWire		0	0	64	64		
+FConstitutionRw4		FCruiseWire		0	0	64	64		
+FConstitutionRw5		FCruiseWire		0	0	64	64
+
+FRangerw1			FCruiseWire		0	0	64	64		
+FRangerw2			FCruiseWire		0	0	64	64	
+FRangerw3			FCruiseWire		0	0	64	64		
+FRangerw4			FCruiseWire		0	0	64	64		
+FRangerw5			FCruiseWire		0	0	64	64
+
+FEnterprisew1			FCruiseWire		0	0	64	64		
+FEnterprisew2			FCruiseWire		0	0	64	64	
+FEnterprisew3			FCruiseWire		0	0	64	64		
+FEnterprisew4			FCruiseWire		0	0	64	64		
+FEnterprisew5			FCruiseWire		0	0	64	64
+
+FMirandaw1			FLCruiseWire		0	0	64	64		
+FMirandaw2			FLCruiseWire		0	0	64	64	
+FMirandaw3			FLCruiseWire		0	0	64	64		
+FMirandaw4			FLCruiseWire		0	0	64	64		
+FMirandaw5			FLCruiseWire		0	0	64	64
+
+FCerberusw1			FLCruiseWire		0	0	64	64		
+FCerberusw2			FLCruiseWire		0	0	64	64	
+FCerberusw3			FLCruiseWire		0	0	64	64		
+FCerberusw4			FLCruiseWire		0	0	64	64		
+FCerberusw5			FLCruiseWire		0	0	64	64
+
+FSoyuzw1			FGCruiseWire		0	0	64	64		
+FSoyuzw2			FGCruiseWire		0	0	64	64	
+FSoyuzw3			FGCruiseWire		0	0	64	64		
+FSoyuzw4			FGCruiseWire		0	0	64	64		
+FSoyuzw5			FGCruiseWire		0	0	64	64
+
+FWarsaww1			FDestroyWire		0	0	64	64		
+FWarsaww2			FDestroyWire		0	0	64	64	
+FWarsaww3			FDestroyWire		0	0	64	64		
+FWarsaww4			FDestroyWire		0	0	64	64		
+FWarsaww5			FDestroyWire		0	0	64	64
+
+FAkulaRw1			FDestroyWire		0	0	64	64		
+FAkulaRw2			FDestroyWire		0	0	64	64	
+FAkulaRw3			FDestroyWire		0	0	64	64		
+FAkulaRw4			FDestroyWire		0	0	64	64		
+FAkulaRw5			FDEstroyWire		0	0	64	64
+
+FOkinawaw1			FFrigateWire		0	0	64	64		
+FOkinawaw2			FFrigateWire		0	0	64	64	
+FOkinawaw3			FFrigateWire		0	0	64	64		
+FOkinawaw4			FFrigateWire		0	0	64	64		
+FOkinawaw5			FFrigateWire		0	0	64	64
+
+FOberthw1			FEscortWire		0	0	64	64		
+FOberthw2			FEscortWire		0	0	64	64	
+FOberthw3			FEscortWire		0	0	64	64		
+FOberthw4			FEscortWire		0	0	64	64		
+FOberthw5			FEscortWire		0	0	64	64
+
+FUnityw1			FSRepairWire		0	0	64	64		
+FUnityw2			FSRepairWire		0	0	64	64	
+FUnityw3			FSRepairWire		0	0	64	64		
+FUnityw4			FSRepairWire		0	0	64	64		
+FUnityw5			FSRepairWire		0	0	64	64
+
+FWashingtonw1			FSRepairWire		0	0	64	64		
+FWashingtonw2			FSRepairWire		0	0	64	64	
+FWashingtonw3			FSRepairWire		0	0	64	64		
+FWashingtonw4			FSRepairWire		0	0	64	64		
+FWashingtonw5			FSRepairWire		0	0	64	64
+
+FLibertyw1			FConstWire		0	0	64	64		
+FLibertyw2			FConstWire		0	0	64	64		
+FLibertyw3			FConstWire		0	0	64	64		
+FLibertyw4			FConstWire		0	0	64	64		
+FLibertyw5			FConstWire		0	0	64	64
+
+FIndependencew1			FConstWire		0	0	64	64		
+FIndependencew2			FConstWire		0	0	64	64		
+FIndependencew3			FConstWire		0	0	64	64		
+FIndependencew4			FConstWire		0	0	64	64		
+FIndependencew5			FConstWire		0	0	64	64
+
+FFreelancerw1			FFreightWire		0	0	64	64		
+FFreelancerw2			FFreightWire		0	0	64	64		
+FFreelancerw3			FFreightWire		0	0	64	64		
+FFreelancerw4			FFreightWire		0	0	64	64		
+FFreelancerw5			FFreightWire		0	0	64	64
+
+FClydesdalew1			FCargoWire		0	0	64	64		
+FClydesdalew2			FCargoWire		0	0	64	64	
+FClydesdalew3			FCargoWire		0	0	64	64		
+FClydesdalew4			FCargoWire		0	0	64	64		
+FClydesdalew5			FCargoWire		0	0	64	64
+
+FMinew1				FMineWire		0	0	64	64		
+FMinew2				FMineWire		0	0	64	64			
+FMinew3				FMineWire		0	0	64	64			
+FMinew4				FMineWire		0	0	64	64			
+FMinew5				FMineWire		0	0	64	64
+
+FMonitoringw1			FMonitoringWire		0	0	64	64		
+FMonitoringw2			FMonitoringWire		0	0	64	64			
+FMonitoringw3			FMonitoringWire		0	0	64	64			
+FMonitoringw4			FMonitoringWire		0	0	64	64			
+FMonitoringw5			FMonitoringWire		0	0	64	64	
+
+FSuperblw1			FSuperblWire		0	0	64	64			
+FSuperblw2			FSuperblWire		0	0	64	64			
+FSuperblw3			FSuperblWire		0	0	64	64			
+FSuperblw4			FSuperblWire		0	0	64	64			
+FSuperblw5			FSuperblWire		0	0	64	64	
+
+FBasew1				FStarbaseWire		0	0	64	64			
+FBasew2				FStarbaseWire		0	0	64	64		
+FBasew3				FStarbaseWire		0	0	64	64		
+FBasew4				FStarbaseWire		0	0	64	64		
+FBasew5				FStarbaseWire		0	0	64	64
+
+FOrbitalw1			FOrbitalWire		0	0	64	64		
+FOrbitalw2			FOrbitalWire		0	0	64	64		
+FOrbitalw3			FOrbitalWire		0	0	64	64		
+FOrbitalw4			FOrbitalWire		0	0	64	64		
+FOrbitalw5			FOrbitalWire		0	0	64	64
+
+FTradingw1			FTradingWire		0	0	64	64		
+FTradingw2			FTradingWire		0	0	64	64		
+FTradingw3			FTradingWire		0	0	64	64		
+FTradingw4			FTradingWire		0	0	64	64		
+FTradingw5			FTradingWire		0	0	64	64	
+
+FResearchAw1			FResearchWire		0	0	64	64		
+FResearchAw2			FResearchWire		0	0	64	64		
+FResearchAw3			FResearchWire		0	0	64	64		
+FResearchAw4			FResearchWire		0	0	64	64		
+FResearchAw5			FResearchWire		0	0	64	64
+
+FResearchBw1			FResearchWire		0	0	64	64		
+FResearchBw2			FResearchWire		0	0	64	64		
+FResearchBw3			FResearchWire		0	0	64	64		
+FResearchBw4			FResearchWire		0	0	64	64		
+FResearchBw5			FResearchWire		0	0	64	64
+
+FResearchCw1			FResearchWire		0	0	64	64		
+FResearchCw2			FResearchWire		0	0	64	64		
+FResearchCw3			FResearchWire		0	0	64	64		
+FResearchCw4			FResearchWire		0	0	64	64		
+FResearchCw5			FResearchWire		0	0	64	64
+
+FUpgradew1			FUpgradeWire		0	0	64	64		
+FUpgradew2			FUpgradeWire		0	0	64	64		
+FUpgradew3			FUpgradeWire		0	0	64	64		
+FUpgradew4			FUpgradeWire		0	0	64	64		
+FUpgradew5			FUpgradeWire		0	0	64	64
+
+FMiningw1			FMiningWire		0	0	64	64	
+FMiningw2			FMiningWire		0	0	64	64		
+FMiningw3			FMiningWire		0	0	64	64		
+FMiningw4			FMiningWire		0	0	64	64		
+FMiningw5			FMiningWire		0	0	64	64
+
+FYardw1				FYardWire		0	0	64	64		
+FYardw2				FYardWire		0	0	64	64		
+FYardw3				FYardWire		0	0	64	64		
+FYardw4				FYardWire		0	0	64	64		
+FYardw5				FYardWire		0	0	64	64
+
+FYard2w1			FYard2Wire		0	0	64	64		
+FYard2w2			FYard2Wire		0	0	64	64		
+FYard2w3			FYard2Wire		0	0	64	64		
+FYard2w4			FYard2Wire		0	0	64	64		
+FYard2w5			FYard2Wire		0	0	64	64
+	
+FSensorw1			FSensorWire		0	0	64	64		
+FSensorw2			FSensorWire		0	0	64	64		
+FSensorw3			FSensorWire		0	0	64	64		
+FSensorw4			FSensorWire		0	0	64	64		
+FSensorw5			FSensorWire		0	0	64	64
+
+# Reserve Fleet Wireframes
+
+FLangleyw1			FOBattleWire		0	0	64	64		
+FLangleyw2			FOBattleWire		0	0	64	64		
+FLangleyw3			FOBattleWire		0	0	64	64		
+FLangleyw4			FOBattleWire		0	0	64	64		
+FLangleyw5			FOBattleWire		0	0	64	64
+
+FFederationw1			FODreadWire		0	0	64	64		
+FFederationw2			FODreadWire		0	0	64	64		
+FFederationw3			FODreadWire		0	0	64	64		
+FFederationw4			FODreadWire		0	0	64	64		
+FFederationw5			FODreadWire		0	0	64	64
+
+FConstitutionw1			FOCruiseWire		0	0	64	64		
+FConstitutionw2			FOCruiseWire		0	0	64	64		
+FConstitutionw3			FOCruiseWire		0	0	64	64		
+FConstitutionw4			FOCruiseWire		0	0	64	64		
+FConstitutionw5			FOCruiseWire		0	0	64	64
+
+FSuryaw1			FOLCruiseWire		0	0	64	64		
+FSuryaw2			FOLCruiseWire		0	0	64	64		
+FSuryaw3			FOLCruiseWire		0	0	64	64		
+FSuryaw4			FOLCruiseWire		0	0	64	64		
+FSuryaw5			FOLCruiseWire		0	0	64	64
+
+FAkulaw1			FODestroyWire		0	0	64	64		
+FAkulaw2			FODestroyWire		0	0	64	64		
+FAkulaw3			FODestroyWire		0	0	64	64		
+FAkulaw4			FODestroyWire		0	0	64	64		
+FAkulaw5			FODestroyWire		0	0	64	64
+
+FDavidsw1			FOFrigateWire		0	0	64	64		
+FDavidsw2			FOFrigateWire		0	0	64	64		
+FDavidsw3			FOFrigateWire		0	0	64	64		
+FDavidsw4			FOFrigateWire		0	0	64	64		
+FDavidsw5			FOFrigateWire		0	0	64	64
+
+# TLE Test Wireframes 
+
+FConstellationw1			FConstelWire		0	0	64	64		
+FConstellationw2			FConstelWire		0	0	64	64	
+FConstellationw3			FConstelWire		0	0	64	64		
+FConstellationw4			FConstelWire		0	0	64	64		
+FConstellationw5			FConstelWire		0	0	64	64
+
+FCentaurw1			FCentaurWire		0	0	64	64		
+FCentaurw2			FCentaurWire		0	0	64	64	
+FCentaurw3			FCentaurWire		0	0	64	64		
+FCentaurw4			FCentaurWire		0	0	64	64		
+FCentaurw5			FCentaurWire		0	0	64	64
+
+FExcelsiorRetw1			FExcelsiorRetWire		0	0	64	64		
+FExcelsiorRetw2			FExcelsiorRetWire		0	0	64	64	
+FExcelsiorRetw3			FExcelsiorRetWire		0	0	64	64		
+FExcelsiorRetw4			FExcelsiorRetWire		0	0	64	64		
+FExcelsiorRetw5			FExcelsiorRetWire		0	0	64	64
+
+FSpringfieldw1			FSpringWire		0	0	64	64		
+FSpringfieldw2			FSpringWire		0	0	64	64	
+FSpringfieldw3			FSpringWire		0	0	64	64		
+FSpringfieldw4			FSpringWire		0	0	64	64		
+FSpringfieldw5			FSpringWire		0	0	64	64
+
+FNewOrleansw1			FNewOrleansWire		0	0	64	64		
+FNewOrleansw2			FNewOrleansWire		0	0	64	64	
+FNewOrleansw3			FNewOrleansWire		0	0	64	64		
+FNewOrleansw4			FNewOrleansWire		0	0	64	64		
+FNewOrleansw5			FNewOrleansWire		0	0	64	64
+
+FAmbassadorw1			FAmbassadorWire		0	0	64	64		
+FAmbassadorw2			FAmbassadorWire		0	0	64	64	
+FAmbassadorw3			FAmbassadorWire		0	0	64	64		
+FAmbassadorw4			FAmbassadorWire		0	0	64	64		
+FAmbassadorw5			FAmbassadorWire		0	0	64	64
+
+FNebulaBattlew1			FNebulaBattleWire		0	0	64	64		
+FNebulaBattlew2			FNebulaBattleWire		0	0	64	64	
+FNebulaBattlew3			FNebulaBattleWire		0	0	64	64		
+FNebulaBattlew4			FNebulaBattleWire		0	0	64	64		
+FNebulaBattlew5			FNebulaBattleWire		0	0	64	64
+
+FNebulaSciencew1			FNebulaScienceWire		0	0	64	64		
+FNebulaSciencew2			FNebulaScienceWire		0	0	64	64	
+FNebulaSciencew3			FNebulaScienceWire		0	0	64	64		
+FNebulaSciencew4			FNebulaScienceWire		0	0	64	64		
+FNebulaSciencew5			FNebulaScienceWire		0	0	64	64
+
+FGalaxyw1			FGalaxyWire		0	0	64	64		
+FGalaxyw2			FGalaxyWire		0	0	64	64	
+FGalaxyw3			FGalaxyWire		0	0	64	64		
+FGalaxyw4			FGalaxyWire		0	0	64	64		
+FGalaxyw5			FGalaxyWire		0	0	64	64
+
+FBradshaww1			FBradshawWire		0	0	64	64		
+FBradshaww2			FBradshawWire		0	0	64	64	
+FBradshaww3			FBradshawWire		0	0	64	64		
+FBradshaww4			FBradshawWire		0	0	64	64		
+FBradshaww5			FBradshawWire		0	0	64	64
+
+FLondonw1			FLondonWire		0	0	64	64		
+FLondonw2			FLondonWire		0	0	64	64	
+FLondonw3			FLondonWire		0	0	64	64		
+FLondonw4			FLondonWire		0	0	64	64		
+FLondonw5			FLondonWire		0	0	64	64
+
+FGlasgoww1			FGlasgowWire		0	0	64	64		
+FGlasgoww2			FGlasgowWire		0	0	64	64	
+FGlasgoww3			FGlasgowWire		0	0	64	64		
+FGlasgoww4			FGlasgowWire		0	0	64	64		
+FGlasgoww5			FGlasgowWire		0	0	64	64
+
+# USS Premonition Wireframe
+
+Premow1					PremoWire		0	0	64	64		
+Premow2					PremoWire		0	0	64	64		
+Premow3				PremoWire		0	0	64	64		
+Premow4				PremoWire		0	0	64	64		
+Premow5				PremoWire		0	0	64	64
+
+# Terran Wireframes
+
+EImperatorw1			EDreadWire		0	0	64	64
+EImperatorw2			EDreadWire		0	0	64	64
+EImperatorw3			EDreadWire		0	0	64	64
+EImperatorw4			EDreadWire		0	0	64	64
+EImperatorw5			EDreadWire		0	0	64	64
+
+EDominatorw1			EBCruiseWire		0	0	64	64
+EDominatorw2			EBCruiseWire		0	0	64	64
+EDominatorw3			EBCruiseWire		0	0	64	64
+EDominatorw4			EBCruiseWire		0	0	64	64
+EDominatorw5			EBCruiseWire		0	0	64	64
+
+EConflagrationw1		ECruiseWire		0	0	64	64
+EConflagrationw2		ECruiseWire		0	0	64	64
+EConflagrationw3		ECruiseWire		0	0	64	64
+EConflagrationw4		ECruiseWire		0	0	64	64
+EConflagrationw5		ECruiseWire		0	0	64	64
+
+ETempestw1			ELCruiseWire		0	0	64	64
+ETempestw2			ELCruiseWire		0	0	64	64
+ETempestw3			ELCruiseWire		0	0	64	64
+ETempestw4			ELCruiseWire		0	0	64	64
+ETempestw5			ELCruiseWire		0	0	64	64
+
+EMakow1				EDestroyWire		0	0	64	64
+EMakow2				EDestroyWire		0	0	64	64
+EMakow3				EDestroyWire		0	0	64	64
+EMakow4				EDestroyWire		0	0	64	64
+EMakow5				EDestroyWire		0	0	64	64
+
+ELegionaryw1			EFrigateWire		0	0	64	64
+ELegionaryw2			EFrigateWire		0	0	64	64
+ELegionaryw3			EFrigateWire		0	0	64	64
+ELegionaryw4			EFrigateWire		0	0	64	64
+ELegionaryw5			EFrigateWire		0	0	64	64
+
+
+# for the planetary shield
+# this is now defined per GUI file 
+#@reference=64
+#@tmaterial=interface
+# b_shield			planetshieldButton	0	0	64	64
+
+# Klingon build Buttons
+@reference=128
+@tmaterial=default
+		
+@tmaterial=interface	
+@reference=64
+
+b_KMining			KMiningButton		0	0	64	64
+b_KOrbital			KOrbitalButton		0	0	64	64
+b_KTrading			KTradingButton		0	0	64	64		
+b_KYard				KYardButton		0	0	64	64
+b_KYard2			KYard2Button		0	0	64	64
+b_KSensor			KSensorButton		0	0	64	64
+b_KMine				KMineButton			0	0	64	64
+b_KResearchA			KResearchAButton	0	0	64	64	
+b_KResearchB			KResearchBButton	0	0	64	64	
+b_KResearchC			KResearchCButton	0	0	64	64	
+b_KOutpost					KOutpostButton		0	0	64	64					
+b_KUpgrade			KUpgradeButton		0	0	64	64
+b_KSuperbl			KSuperblButton		0	0	64	64
+
+b_KSwordofKahless		KBattleButton		0	0	64	64
+b_KMother				KCarrierButton		0	0	64	64
+b_KColdFury				KABattleButton		0	0	64	64
+b_KAccuser				KDreadButton		0	0	64	64
+b_KBirdofBlood			KSuperCruiseButton	0	0	64	64 
+b_KEmperor				KHBCruiseButton		0	0	64	64
+b_KHero					KHeroButton			0	0	64	64
+b_KKronos				KBCruiseButton		0	0	64	64
+b_KWarriorsAnger		KCCruiseButton		0	0	64	64
+b_KShortsword			KTCruiseButton		0	0	64	64
+b_KWarScout				KSCruiseButton		0	0	64	64
+b_KConqueror			KCruiseButton		0	0	64	64
+b_KRelentless			KLCruiseButton		0	0	64	64
+b_KCaptain				KDestroyLButton		0	0	64	64
+b_KInsurrection			KDestroyButton		0	0	64	64
+b_KSuspicious			KBFrigateButton		0	0	64	64
+b_KSuspiciousS			KSFrigateButton		0	0	64	64
+b_KSuspiciousC			KCFrigateButton		0	0	64	64
+b_KBirdofPrey			KEscortButton		0	0	64	64
+b_KIronfist				KFighterButton		0	0	64	64
+b_KSteelfist			KFighterBButton		0	0	64	64
+
+b_KPoisoned				KAssaultButton		0	0	64	64
+b_KSuspiciousR			KRFrigateButton		0	0	64	64
+b_KBraveSettler			KColonyButton		0	0	64	64
+b_KLifeblood			KCargoButton		0	0	64	64
+b_KBloodline			KFreightButton		0	0	64	64
+b_KWarpig				KConstButton		0	0	64	64
+
+b_KliPod1			KliPod1Button		0	0	64	64		
+b_KliPod2			KliPod2Button		0	0	64	64	
+b_KliPod3			KliPod3Button		0	0	64	64	
+b_KliPod4			KliPod4Button		0	0	64	64
+b_KliPod5			KliPod5Button		0	0	64	64
+b_KliPod6			KliPod6Button		0	0	64	64
+b_KliPod11			KliPod11Button		0	0	64	64
+b_KliPod12			KliPod12Button		0	0	64	64
+b_KliPod13			KliPod13Button		0	0	64	64
+b_KliPod14			KliPod14Button		0	0	64	64
+b_KliPod15			KliPod15Button		0	0	64	64
+b_KliPod21			KliPod21Button		0	0	64	64
+b_KliPod22			KliPod22Button		0	0	64	64
+b_KliPod23			KliPod23Button		0	0	64	64
+b_KliPod24			KliPod24Button		0	0	64	64
+b_KliPod25			KliPod25Button		0	0	64	64
+b_KliEqu1			KliEqu1Button		0	0	64	64
+b_KliEqu2			KliEqu2Button		0	0	64	64	
+b_KliEqu3			KliEqu3Button		0	0	64	64
+b_KliEqu4			KliEqu4Button		0	0	64	64	
+b_KliEqu5			KliEqu5Button		0	0	64	64
+b_KliHull1			KliHull1Button		0	0	64	64
+b_KliHull2			KliHull2Button		0	0	64	64
+b_KliHull3			KliHull3Button		0	0	64	64
+b_KliHull4			KliHull4Button		0	0	64	64
+b_KliHull5			KliHull5Button		0	0	64	64
+b_KliMiscR1			KliMiscR1Button		0	0	64	64
+b_KliMiscR2			KliMiscR2Button		0	0	64	64
+b_KliMiscR3			KliMiscR3Button		0	0	64	64
+b_KliMiscR4			KliMiscR4Button		0	0	64	64
+b_KliMix1			KliFedMixButton		0	0	64	64
+b_KliMix2			KliRomMixButton		0	0	64	64
+b_KliMix3			KliRomMix2Button	0	0	64	64
+b_KliMix4			KliGorMixButton		0	0	64	64
+b_KliMix5			KliISCMixButton		0	0	64	64
+b_KliMix6			KliHydMixButton		0	0	64	64
+b_KliMix7			KliLyrMixButton		0	0	64	64
+
+@tmaterial=interface
+
+KBasew1				KStarbaseWire		0	0	64	64		
+KBasew2				KStarbaseWire		0	0	64	64		
+KBasew3				KStarbaseWire		0	0	64	64		
+KBasew4				KStarbaseWire		0	0	64	64		
+KBasew5				KStarbaseWire		0	0	64	64
+
+KOutpostw1			KOutpostWire		0	0	64	64		
+KOutpostw2			KOutpostWire		0	0	64	64		
+KOutpostw3			KOutpostWire		0	0	64	64		
+KOutpostw4			KOutpostWire		0	0	64	64		
+KOutpostw5			KOutpostWire		0	0	64	64
+
+KMiningw1			KMiningWire		0	0	64	64		
+KMiningw2			KMiningWire		0	0	64	64		
+KMiningw3			KMiningWire		0	0	64	64		
+KMiningw4			KMiningWire		0	0	64	64		
+KMiningw5			KMiningWire		0	0	64	64
+
+KOrbitalw1			KOrbitalWire		0	0	64	64		
+KOrbitalw2			KOrbitalWire		0	0	64	64		
+KOrbitalw3			KOrbitalWire		0	0	64	64		
+KOrbitalw4			KOrbitalWire		0	0	64	64		
+KOrbitalw5			KOrbitalWire		0	0	64	64
+
+KTradingw1			KTradingWire		0	0	64	64		
+KTradingw2			KTradingWire		0	0	64	64		
+KTradingw3			KTradingWire		0	0	64	64		
+KTradingw4			KTradingWire		0	0	64	64		
+KTradingw5			KTradingWire		0	0	64	64
+
+KYardw1				KYardWire		0	0	64	64		
+KYardw2				KYardWire		0	0	64	64		
+KYardw3				KYardWire		0	0	64	64		
+KYardw4				KYardWire		0	0	64	64		
+KYardw5				KYardWire		0	0	64	64
+
+KYard2w1			KYardWire		0	0	64	64		
+KYard2w2			KYardWire		0	0	64	64		
+KYard2w3			KYardWire		0	0	64	64		
+KYard2w4			KYardWire		0	0	64	64		
+KYard2w5			KYardWire		0	0	64	64
+
+KSensorw1			KSensorWire		0	0	64	64		
+KSensorw2			KSensorWire		0	0	64	64		
+KSensorw3			KSensorWire		0	0	64	64		
+KSensorw4			KSensorWire		0	0	64	64		
+KSensorw5			KSensorWire		0	0	64	64
+
+KMinew1				KMineWire		0	0	64	64		
+KMinew2				KMineWire		0	0	64	64		
+KMinew3				KMineWire		0	0	64	64		
+KMinew4				KMineWire		0	0	64	64		
+KMinew5				KMineWire		0	0	64	64
+
+KResearchAw1			KResearchAWire		0	0	64	64		
+KResearchAw2			KResearchAWire		0	0	64	64		
+KResearchAw3			KResearchAWire		0	0	64	64		
+KResearchAw4			KResearchAWire		0	0	64	64		
+KResearchAw5			KResearchAWire		0	0	64	64
+
+KResearchBw1			KResearchAWire		0	0	64	64		
+KResearchBw2			KResearchAWire		0	0	64	64		
+KResearchBw3			KResearchAWire		0	0	64	64		
+KResearchBw4			KResearchAWire		0	0	64	64		
+KResearchBw5			KResearchAWire		0	0	64	64
+
+KResearchCw1			KResearchCWire		0	0	64	64		
+KResearchCw2			KResearchCWire		0	0	64	64		
+KResearchCw3			KResearchCWire		0	0	64	64		
+KResearchCw4			KResearchCWire		0	0	64	64		
+KResearchCw5			KResearchCWire		0	0	64	64
+
+KUpgradew1			KUpgradeWire		0	0	64	64		
+KUpgradew2			KUpgradeWire		0	0	64	64		
+KUpgradew3			KUpgradeWire		0	0	64	64		
+KUpgradew4			KUpgradeWire		0	0	64	64		
+KUpgradew5			KUpgradeWire		0	0	64	64
+
+KSuperBlw1			KSuperBlWire		0	0	64	64		
+KSuperBlw2			KSuperBlWire		0	0	64	64		
+KSuperBlw3			KSuperBlWire		0	0	64	64		
+KSuperBlw4			KSuperBlWire		0	0	64	64		
+KSuperBlw5			KSuperBlWire		0	0	64	64
+
+KBirdofBloodw1			KSuperCruiseWire	0	0	64	64		
+KBirdofBloodw2			KSuperCruiseWire	0	0	64	64		
+KBirdofBloodw3			KSuperCruiseWire	0	0	64	64		
+KBirdofBloodw4			KSuperCruiseWire	0	0	64	64		
+KBirdofBloodw5			KSuperCruiseWire	0	0	64	64
+
+KMotherw1			KCarrierWire		0	0	64	64		
+KMotherw2			KCarrierWire		0	0	64	64		
+KMotherw3			KCarrierWire		0	0	64	64		
+KMotherw4			KCarrierWire		0	0	64	64		
+KMotherw5			KCarrierWire		0	0	64	64
+
+KSwordofKahlessw1		KBattleWire		0	0	64	64		
+KSwordofKahlessw2		KBattleWire		0	0	64	64		
+KSwordofKahlessw3		KBattleWire		0	0	64	64		
+KSwordofKahlessw4		KBattleWire		0	0	64	64		
+KSwordofKahlessw5		KBattleWire		0	0	64	64
+
+KColdFuryw1			KABattleWire		0	0	64	64		
+KColdFuryw2			KABattleWire		0	0	64	64		
+KColdFuryw3			KABattleWire		0	0	64	64		
+KColdFuryw4			KABattleWire		0	0	64	64		
+KColdFuryw5			KABattleWire		0	0	64	64
+
+KAccuserw1			KDreadWire		0	0	64	64		
+KAccuserw2			KDreadWire		0	0	64	64		
+KAccuserw3			KDreadWire		0	0	64	64		
+KAccuserw4			KDreadWire		0	0	64	64		
+KAccuserw5			KDreadWire		0	0	64	64
+
+KEmperorw1			KHBCruiseWire		0	0	64	64		
+KEmperorw2			KHBCruiseWire		0	0	64	64		
+KEmperorw3			KHBCruiseWire		0	0	64	64		
+KEmperorw4			KHBCruiseWire		0	0	64	64		
+KEmperorw5			KHBCruiseWire		0	0	64	64
+
+KHerow1			KHBCruiseWire		0	0	64	64		
+KHerow2			KHBCruiseWire		0	0	64	64		
+KHerow3			KHBCruiseWire		0	0	64	64		
+KHerow4			KHBCruiseWire		0	0	64	64		
+KHerow5			KHBCruiseWire		0	0	64	64
+
+KWarriorsAngerw1		KCCruiseWire		0	0	64	64		
+KWarriorsAngerw2		KCCruiseWire		0	0	64	64		
+KWarriorsAngerw3		KCCruiseWire		0	0	64	64		
+KWarriorsAngerw4		KCCruiseWire		0	0	64	64		
+KWarriorsAngerw5		KCCruiseWire		0	0	64	64
+
+KKronosw1			KBCruiseWire		0	0	64	64		
+KKronosw2			KBCruiseWire		0	0	64	64		
+KKronosw3			KBCruiseWire		0	0	64	64		
+KKronosw4			KBCruiseWire		0	0	64	64		
+KKronosw5			KBCruiseWire		0	0	64	64
+
+KConquerorw1			KCruiseWire		0	0	64	64		
+KConquerorw2			KCruiseWire		0	0	64	64		
+KConquerorw3			KCruiseWire		0	0	64	64		
+KConquerorw4			KCruiseWire		0	0	64	64		
+KConquerorw5			KCruiseWire		0	0	64	64
+
+KWarScoutw1			KSCruiseWire		0	0	64	64		
+KWarScoutw2			KSCruiseWire		0	0	64	64		
+KWarScoutw3			KSCruiseWire		0	0	64	64		
+KWarScoutw4			KSCruiseWire		0	0	64	64		
+KWarScoutw5			KSCruiseWire		0	0	64	64
+
+KRelentlessw1			KLCruiseWire		0	0	64	64		
+KRelentlessw2			KLCruiseWire		0	0	64	64		
+KRelentlessw3			KLCruiseWire		0	0	64	64		
+KRelentlessw4			KLCruiseWire		0	0	64	64		
+KRelentlessw5			KLCruiseWire		0	0	64	64
+
+KCaptainw1			KDestroyWire		0	0	64	64		
+KCaptainw2			KDestroyWire		0	0	64	64		
+KCaptainw3			KDestroyWire		0	0	64	64		
+KCaptainw4			KDestroyWire		0	0	64	64		
+KCaptainw5			KDestroyWire		0	0	64	64
+
+KInsurrectionw1			KDestroyWire		0	0	64	64		
+KInsurrectionw2			KDestroyWire		0	0	64	64		
+KInsurrectionw3			KDestroyWire		0	0	64	64		
+KInsurrectionw4			KDestroyWire		0	0	64	64		
+KInsurrectionw5			KDestroyWire		0	0	64	64
+
+KSuspiciousw1			KBFrigateWire		0	0	64	64		
+KSuspiciousw2			KBFrigateWire		0	0	64	64		
+KSuspiciousw3			KBFrigateWire		0	0	64	64		
+KSuspiciousw4			KBFrigateWire		0	0	64	64		
+KSuspiciousw5			KBFrigateWire		0	0	64	64
+
+KSuspiciousSw1			KSFrigateWire		0	0	64	64		
+KSuspiciousSw2			KSFrigateWire		0	0	64	64		
+KSuspiciousSw3			KSFrigateWire		0	0	64	64		
+KSuspiciousSw4			KSFrigateWire		0	0	64	64		
+KSuspiciousSw5			KSFrigateWire		0	0	64	64
+
+KSuspiciousCw1			KCFrigateWire		0	0	64	64		
+KSuspiciousCw2			KCFrigateWire		0	0	64	64		
+KSuspiciousCw3			KCFrigateWire		0	0	64	64		
+KSuspiciousCw4			KCFrigateWire		0	0	64	64		
+KSuspiciousCw5			KCFrigateWire		0	0	64	64
+
+KSuspiciousRw1			KCFrigateWire		0	0	64	64		
+KSuspiciousRw2			KCFrigateWire		0	0	64	64		
+KSuspiciousRw3			KCFrigateWire		0	0	64	64		
+KSuspiciousRw4			KCFrigateWire		0	0	64	64		
+KSuspiciousRw5			KCFrigateWire		0	0	64	64
+
+KBirdofPreyw1			KEscortWire		0	0	64	64		
+KBirdofPreyw2			KEscortWire		0	0	64	64		
+KBirdofPreyw3			KEscortWire		0	0	64	64		
+KBirdofPreyw4			KEscortWire		0	0	64	64		
+KBirdofPreyw5			KEscortWire		0	0	64	64
+
+KShortswordw1			KTCruiseWire		0	0	64	64		
+KShortswordw2			KTCruiseWire		0	0	64	64		
+KShortswordw3			KTCruiseWire		0	0	64	64		
+KShortswordw4			KTCruiseWire		0	0	64	64		
+KShortswordw5			KTCruiseWire		0	0	64	64
+
+KBloodlinew1			KFreightWire		0	0	64	64		
+KBloodlinew2			KFreightWire		0	0	64	64		
+KBloodlinew3			KFreightWire		0	0	64	64		
+KBloodlinew4			KFreightWire		0	0	64	64		
+KBloodlinew5			KFreightWire		0	0	64	64
+
+KLifebloodw1			KCargoWire		0	0	64	64		
+KLifebloodw2			KCargoWire		0	0	64	64		
+KLifebloodw3			KCargoWire		0	0	64	64		
+KLifebloodw4			KCargoWire		0	0	64	64		
+KLifebloodw5			KCargoWire		0	0	64	64
+
+KSteelFistw1			KFighterWire		0	0	64	64		
+KSteelFistw2			KFighterWire		0	0	64	64		
+KSteelFistw3			KFighterWire		0	0	64	64		
+KSteelFistw4			KFighterWire		0	0	64	64		
+KSteelFistw5			KFighterWire		0	0	64	64
+
+KIronFistw1			KFighterWire		0	0	64	64		
+KIronFistw2			KFighterWire		0	0	64	64		
+KIronFistw3			KFighterWire		0	0	64	64		
+KIronFistw4			KFighterWire		0	0	64	64		
+KIronFistw5			KFighterWire		0	0	64	64
+
+KPoisonedw1			KAssaultWire		0	0	64	64		
+KPoisonedw2			KAssaultWire		0	0	64	64		
+KPoisonedw3			KAssaultWire		0	0	64	64		
+KPoisonedw4			KAssaultWire		0	0	64	64		
+KPoisonedw5			KAssaultWire		0	0	64	64
+
+KBraveSettlerw1			KColonyWire		0	0	64	64		
+KBraveSettlerw2			KColonyWire		0	0	64	64		
+KBraveSettlerw3			KColonyWire		0	0	64	64		
+KBraveSettlerw4			KColonyWire		0	0	64	64		
+KBraveSettlerw5			KColonyWire		0	0	64	64
+
+KWarpigw1			KConstWire		0	0	64	64		
+KWarpigw2			KConstWire		0	0	64	64		
+KWarpigw3			KConstWire		0	0	64	64		
+KWarpigw4			KConstWire		0	0	64	64		
+KWarpigw5			KConstWire		0	0	64	64
+
+# New TLE Wireframes 
+
+KBirdOfPreyNeww1	KBopWire		0	0	64	64		
+KBirdOfPreyNeww2	KBopWire		0	0	64	64		
+KBirdOfPreyNeww3	KBopWire		0	0	64	64		
+KBirdOfPreyNeww4	KBopWire		0	0	64	64		
+KBirdOfPreyNeww5	KBopWire		0	0	64	64
+
+KKolothw1			KKolothWire		0	0	64	64		
+KKolothw2			KKolothWire		0	0	64	64	
+KKolothw3			KKolothWire		0	0	64	64		
+KKolothw4			KKolothWire		0	0	64	64		
+KKolothw5			KKolothWire		0	0	64	64
+
+KKVortw1			KKVortWire		0	0	64	64		
+KKVortw2			KKVortWire		0	0	64	64	
+KKVortw3			KKVortWire		0	0	64	64		
+KKVortw4			KKVortWire		0	0	64	64		
+KKVortw5			KKVortWire		0	0	64	64
+
+KNuQDuJw1			KNuQDuJWire		0	0	64	64		
+KNuQDuJw2			KNuQDuJWire		0	0	64	64	
+KNuQDuJw3			KNuQDuJWire		0	0	64	64		
+KNuQDuJw4			KNuQDuJWire		0	0	64	64		
+KNuQDuJw5			KNuQDuJWire		0	0	64	64
+
+KVorchaw1			KVorchaWire		0	0	64	64		
+KVorchaw2			KVorchaWire		0	0	64	64	
+KVorchaw3			KVorchaWire		0	0	64	64		
+KVorchaw4			KVorchaWire		0	0	64	64		
+KVorchaw5			KVorchaWire		0	0	64	64
+
+KQehralw1			KABattleWire		0	0	64	64		
+KQehralw2			KABattleWire		0	0	64	64	
+KQehralw3			KABattleWire		0	0	64	64		
+KQehralw4			KABattleWire		0	0	64	64		
+KQehralw5			KABattleWire		0	0	64	64
+
+KCharghwlw1			KSteadfastWire		0	0	64	64		
+KCharghwlw2			KSteadfastWire		0	0	64	64	
+KCharghwlw3			KSteadfastWire		0	0	64	64		
+KCharghwlw4			KSteadfastWire		0	0	64	64		
+KCharghwlw5			KSteadfastWire		0	0	64	64
+
+# Hydran build Buttons	
+@tmaterial=interface	
+@reference=64
+b_HMining			HMiningButton		0	0	64	64
+b_HOrbital			HOrbitalButton		0	0	64	64	
+b_HYard				HYardButton		0	0	64	64
+b_HTrading			HTradingButton		0	0	64	64
+b_HSensor			HSensorButton		0	0	64	64
+b_HMine				HMineButton			0	0	64	64
+b_HResearchA			HResearchAButton	0	0	64	64
+b_HResearchB			HResearchBButton	0	0	64	64
+b_HResearchC			HResearchCButton	0	0	64	64
+b_HUpgrade			HUpgradeButton		0	0	64	64
+b_HOutpost			HOutpostButton		0	0	64	64
+
+b_HPeasant			HConstButton		0	0	64	64
+b_HSerf							HFreightButton		0	0	64	64 
+b_HAutocrat			HColonyButton		0	0	64	64
+b_HMerchant			HCargoButton		0	0	64	64
+b_HSquire			HSRepairButton		0	0	64	64
+b_HSaracen			HAssaultButton		0	0	64	64
+
+b_HArcher			HScoutButton		0	0	64	64
+b_HYeoman			HFrigateButton		0	0	64	64
+b_HKnight			HDestroyButton		0	0	64	64
+b_HPaladin			HDestroyLButton		0	0	64	64
+b_HRegent			HLCruiseButton		0	0	64	64
+b_HBaron			HCruiseButton		0	0	64	64
+b_HDuke				HCCruiseButton		0	0	64	64
+b_HPikeman			HMonitorButton		0	0	64	64
+b_HMonarch			HDreadButton		0	0	64	64
+b_HRoyalSovereign		HCarrierButton		0	0	64	64
+b_HFusileer			HFighterButton		0	0	64	64
+
+b_HydPod11			HydPod11Button		0	0	64	64
+b_HydPod12			HydPod12Button		0	0	64	64
+b_HydPod13			HydPod13Button		0	0	64	64
+b_HydPod14			HydPod14Button		0	0	64	64
+b_HydPod15			HydPod15Button		0	0	64	64
+b_HydPod21			HydPod21Button		0		0		64		64
+b_HydPod22			HydPod22Button		0		0		64		64
+b_HydPod23			HydPod23Button		0		0		64		64
+b_HydPod24			HydPod24Button		0		0		64		64
+b_HydPod25			HydPod25Button		0		0		64		64
+b_HydEqu1					HydEqu1Button		0		0		64		64
+b_HydEqu2					HydEqu2Button		0		0		64		64
+b_HydEqu3					HydEqu3Button		0		0		64		64
+b_HydEqu4					HydEqu4Button		0		0		64		64
+b_HydHull1					HydHull1Button		0		0		64		64 
+b_HydHull2					HydHull2Button		0		0		64		64
+b_HydHull3					HydHull3Button		0		0		64		64
+b_HydHull4					HydHull4Button		0		0		64		64
+b_HydHull5					HydHull5Button		0		0		64		64
+b_HydMiscR1					HydMiscR1Button		0		0		64		64 
+b_HydMiscR2					HydMiscR2Button		0		0		64		64 
+b_HydMiscR3					HydMiscR3Button		0		0		64		64 
+b_HydMiscR4					HydMiscR4Button		0		0		64		64 
+b_HydMiscR5					HydMiscR5Button		0		0		64		64 
+b_HydMiscR6					HydMiscR6Button		0		0		64		64 
+b_HydMix1			HydFedMixButton		0	0	64	64
+b_HydMix2			HydKliMixButton		0	0	64	64
+b_HydMix3			HydRomMixButton		0	0	64	64
+b_HydMix4			HydGorMixButton		0	0	64	64
+b_HydMix5			HydISCMixButton		0	0	64	64
+b_HydMix6			HydLyrMixButton		0	0	64	64
+
+HSaracenw1			HAssaultWire		0	0	64	64		
+HSaracenw2			HAssaultWire		0	0	64	64		
+HSaracenw3			HAssaultWire		0	0	64	64		
+HSaracenw4			HAssaultWire		0	0	64	64		
+HSaracenw5			HAssaultWire		0	0	64	64
+
+HSquirew1			HAssaultWire		0	0	64	64		
+HSquirew2			HAssaultWire		0	0	64	64		
+HSquirew3			HAssaultWire		0	0	64	64		
+HSquirew4			HAssaultWire		0	0	64	64		
+HSquirew5			HAssaultWire		0	0	64	64
+
+HPeasantw1			HConstWire		0	0	64	64		
+HPeasantw2			HConstWire		0	0	64	64		
+HPeasantw3			HConstWire		0	0	64	64		
+HPeasantw4			HConstWire		0	0	64	64		
+HPeasantw5			HConstWire		0	0	64	64
+
+HAutocratw1			HColonyWire		0	0	64	64		
+HAutocratw2			HColonyWire		0	0	64	64		
+HAutocratw3			HColonyWire		0	0	64	64		
+HAutocratw4			HColonyWire		0	0	64	64		
+HAutocratw5			HColonyWire		0	0	64	64
+
+HMerchantw1			HCargoWire		0	0	64	64		
+HMerchantw2			HCargoWire		0	0	64	64		
+HMerchantw3			HCargoWire		0	0	64	64		
+HMerchantw4			HCargoWire		0	0	64	64		
+HMerchantw5			HCargoWire		0	0	64	64
+
+HRoyalSovereignw1		HCarrierWire		0	0	64	64		
+HRoyalSovereignw2		HCarrierWire		0	0	64	64		
+HRoyalSovereignw3		HCarrierWire		0	0	64	64		
+HRoyalSovereignw4		HCarrierWire		0	0	64	64		
+HRoyalSovereignw5		HCarrierWire		0	0	64	64
+
+HMonarchw1			HDreadWire		0	0	64	64		
+HMonarchw2			HDreadWire		0	0	64	64		
+HMonarchw3			HDreadWire		0	0	64	64		
+HMonarchw4			HDreadWire		0	0	64	64		
+HMonarchw5			HDreadWire		0	0	64	64
+
+HDukew1				HCCruiseWire		0	0	64	64		
+HDukew2				HCCruiseWire		0	0	64	64		
+HDukew3				HCCruiseWire		0	0	64	64		
+HDukew4				HCCruiseWire		0	0	64	64		
+HDukew5				HCCruiseWire		0	0	64	64
+
+HBaronw1			HCruiseWire		0	0	64	64		
+HBaronw2			HCruiseWire		0	0	64	64		
+HBaronw3			HCruiseWire		0	0	64	64		
+HBaronw4			HCruiseWire		0	0	64	64		
+HBaronw5			HCruiseWire		0	0	64	64
+
+HPikemanw1			HMonitorWire		0	0	64	64		
+HPikemanw2			HMonitorWire		0	0	64	64		
+HPikemanw3			HMonitorWire		0	0	64	64		
+HPikemanw4			HMonitorWire		0	0	64	64		
+HPikemanw5			HMonitorWire		0	0	64	64
+
+HRegentw1			HLCruiseWire		0	0	64	64		
+HRegentw2			HLCruiseWire		0	0	64	64		
+HRegentw3			HLCruiseWire		0	0	64	64		
+HRegentw4			HLCruiseWire		0	0	64	64		
+HRegentw5			HLCruiseWire		0	0	64	64
+
+HKnightw1			HDestroyWire		0	0	64	64		
+HKnightw2			HDestroyWire		0	0	64	64		
+HKnightw3			HDestroyWire		0	0	64	64		
+HKnightw4			HDestroyWire		0	0	64	64		
+HKnightw5			HDestroyWire		0	0	64	64
+
+HPaladinw1			HDestroyLWire		0	0	64	64		
+HPaladinw2			HDestroyLWire		0	0	64	64		
+HPaladinw3			HDestroyLWire		0	0	64	64		
+HPaladinw4			HDestroyLWire		0	0	64	64		
+HPaladinw5			HDestroyLWire		0	0	64	64
+
+HYeomanw1			HFrigateWire		0	0	64	64		
+HYeomanw2			HFrigateWire		0	0	64	64		
+HYeomanw3			HFrigateWire		0	0	64	64		
+HYeomanw4			HFrigateWire		0	0	64	64		
+HYeomanw5			HFrigateWire		0	0	64	64
+
+HArcherw1			HFrigateWire		0	0	64	64		
+HArcherw2			HFrigateWire		0	0	64	64		
+HArcherw3			HFrigateWire		0	0	64	64		
+HArcherw4			HFrigateWire		0	0	64	64		
+HArcherw5			HFrigateWire		0	0	64	64
+
+HSerfw1				HFreightWire		0	0	64	64		
+HSerfw2				HFreightWire		0	0	64	64		
+HSerfw3				HFreightWire		0	0	64	64		
+HSerfw4				HFreightWire		0	0	64	64		
+HSerfw5				HFreightWire		0	0	64	64
+
+HFusileerw1			HFighterWire		0	0	64	64		
+HFusileerw2			HFighterWire		0	0	64	64		
+HFusileerw3			HFighterWire		0	0	64	64		
+HFusileerw4			HFighterWire		0	0	64	64		
+HFusileerw5			HFighterWire		0	0	64	64
+
+HBasew1				HStarbaseWire		0	0	64	64		
+HBasew2				HStarbaseWire		0	0	64	64		
+HBasew3				HStarbaseWire		0	0	64	64		
+HBasew4				HStarbaseWire		0	0	64	64		
+HBasew5				HStarbaseWire		0	0	64	64
+
+HMiningw1			HMiningWire		0	0	64	64		
+HMiningw2			HMiningWire		0	0	64	64		
+HMiningw3			HMiningWire		0	0	64	64		
+HMiningw4			HMiningWire		0	0	64	64		
+HMiningw5			HMiningWire		0	0	64	64
+
+HOrbitalw1			HOrbitalWire		0	0	64	64		
+HOrbitalw2			HOrbitalWire		0	0	64	64		
+HOrbitalw3			HOrbitalWire		0	0	64	64		
+HOrbitalw4			HOrbitalWire		0	0	64	64		
+HOrbitalw5			HOrbitalWire		0	0	64	64
+
+HYardw1				HYardWire		0	0	64	64		
+HYardw2				HYardWire		0	0	64	64		
+HYardw3				HYardWire		0	0	64	64		
+HYardw4				HYardWire		0	0	64	64		
+HYardw5				HYardWire		0	0	64	64
+
+HTradingw1			HTradingWire		0	0	64	64		
+HTradingw2			HTradingWire		0	0	64	64		
+HTradingw3			HTradingWire		0	0	64	64		
+HTradingw4			HTradingWire		0	0	64	64		
+HTradingw5			HTradingWire		0	0	64	64
+
+HOutpostw1			HOutpostWire		0	0	64	64		
+HOutpostw2			HOutpostWire		0	0	64	64		
+HOutpostw3			HOutpostWire		0	0	64	64		
+HOutpostw4			HOutpostWire		0	0	64	64		
+HOutpostw5			HOutpostWire		0	0	64	64
+
+HMinew1				HMineWire		0	0	64	64		
+HMinew2				HMineWire		0	0	64	64		
+HMinew3				HMineWire		0	0	64	64		
+HMinew4				HMineWire		0	0	64	64		
+HMinew5				HMineWire		0	0	64	64
+
+HSensorw1			HSensorWire		0	0	64	64		
+HSensorw2			HSensorWire		0	0	64	64		
+HSensorw3			HSensorWire		0	0	64	64		
+HSensorw4			HSensorWire		0	0	64	64		
+HSensorw5			HSensorWire		0	0	64	64
+
+HResearchaw1			HResearchaWire		0	0	64	64		
+HResearchaw2			HResearchaWire		0	0	64	64		
+HResearchaw3			HResearchaWire		0	0	64	64		
+HResearchaw4			HResearchaWire		0	0	64	64		
+HResearchaw5			HResearchaWire		0	0	64	64
+
+HResearchbw1			HResearchaWire		0	0	64	64		
+HResearchbw2			HResearchaWire		0	0	64	64		
+HResearchbw3			HResearchaWire		0	0	64	64		
+HResearchbw4			HResearchaWire		0	0	64	64		
+HResearchbw5			HResearchaWire		0	0	64	64
+
+HResearchcw1			HResearchcWire		0	0	64	64		
+HResearchcw2			HResearchcWire		0	0	64	64		
+HResearchcw3			HResearchcWire		0	0	64	64		
+HResearchcw4			HResearchcWire		0	0	64	64		
+HResearchcw5			HResearchcWire		0	0	64	64
+
+HUpgradew1			HResearchcWire		0	0	64	64		
+HUpgradew2			HResearchcWire		0	0	64	64		
+HUpgradew3			HResearchcWire		0	0	64	64		
+HUpgradew4			HResearchcWire		0	0	64	64		
+HUpgradew5			HResearchcWire		0	0	64	64
+
+# Lyran build Buttons
+@reference=64
+@tmaterial=interface
+
+b_LMining			LMiningButton		0	0	64	64
+b_LOrbital			LOrbitalButton		0	0	64	64
+b_LOutpost			LOutpostButton		0	0	64	64
+b_LTrading			LTradingButton		0	0	64	64		
+b_LYard				LYardButton		0	0	64	64
+b_LYard2			LYard2Button		0	0	64	64
+b_LSensor			LSensorButton		0	0	64	64
+b_LMine				LMineButton			0	0	64	64
+b_LResearcha			LResearchaButton	0	0	64	64
+b_LResearchb			LResearchbButton	0	0	64	64
+b_LResearchc			LResearchcButton	0	0	64	64
+b_LUpgrade			LUpgradeButton		0	0	64	64
+
+b_LyrPod11			LyrPod11Button		0		0	64	64
+b_LyrPod12			LyrPod12Button		0	0	64	64
+b_LyrPod13			LyrPod13Button		0	0	64	64
+b_LyrPod14			LyrPod14Button		0	0	64	64
+b_LyrPod15			LyrPod15Button		0	0	64	64
+b_LyrPod21			LyrPod21Button		0		0		64		64
+b_LyrPod22			LyrPod22Button		0		0		64		64
+b_LyrPod23			LyrPod23Button		0		0		64		64
+b_LyrPod24			LyrPod24Button		0		0		64		64
+b_LyrPod25			LyrPod25Button		0		0		64		64
+b_LyrEqu1			LyrEqu1Button		0	0	64	64
+b_LyrEqu2			LyrEqu2Button		0	0	64	64
+b_LyrEqu3			LyrEqu3Button		0	0	64	64
+b_LyrEqu4			LyrEqu4Button		0	0	64	64
+b_LyrMiscR1			LyrMiscR1Button		0	0	64	64
+b_LyrMiscR2			LyrMiscR2Button		0	0	64	64
+b_LyrMiscR3			LyrMiscR3Button		0	0	64	64
+b_LyrMiscR4			LyrMiscR4Button		0	0	64	64
+b_LyrMiscR5			LyrMiscR5Button		0	0	64	64
+b_LyrMiscR6			LyrMiscR6Button		0	0	64	64
+b_LyrHull1			LyrHull1Button		0	0	64	64
+b_LyrHull2			LyrHull2Button		0	0	64	64
+b_LyrHull3			LyrHull3Button		0	0	64	64
+b_LyrHull4			LyrHull4Button		0	0	64	64
+b_LyrHull5			LyrHull5Button		0	0	64	64
+b_LyrMix1			LyrFedMixButton		0	0	64	64
+b_LyrMix2			LyrKliMixButton		0	0	64	64
+b_LyrMix3			LyrRomMixButton		0	0	64	64
+b_LyrMix4			LyrRomMix2Button	0	0	64	64
+b_LyrMix5			LyrGorMixButton		0	0	64	64
+b_LyrMix6			LyrISCMixButton		0	0	64	64
+b_LyrMix7			LyrHydMixButton		0	0	64	64
+
+b_LLioness						LCarrierButton		0	0	64	64
+b_LRoyalLion					LBattleButton		0	0	64	64
+b_LLion				LDreadButton		0	0	64	64
+b_LPanther			LBCruiseButton		0	0	64	64
+b_LPuma				LMonitorButton		0	0	64	64
+b_LTiger			LCruiseButton		0	0	64	64
+b_LLeopard			LLCruiseButton		0	0	64	64
+b_LCaracal			LDestroyButton		0	0	64	64
+b_LLynx				LFrigateButton		0	0	64	64
+b_LWildcat			LScoutButton		0	0	64	64
+b_LBobcat			LRFrigateButton		0	0	64	64
+b_LOccilot			LPFighterBButton	0	0	64	64
+b_LOccicat			LPFighterButton		0	0	64	64
+b_LFelidae			LConstButton		0	0	64	64
+b_LCougar			LCargoButton		0	0	64	64
+b_LServal			LAssaultButton		0	0		64	64
+b_LQueenCat			LFreightButton		0	0	64	64
+b_LFeline			LColonyButton		0	0	64	64
+
+LBasew1				LStarbaseWire		0	0	64	64		
+LBasew2				LStarbaseWire		0	0	64	64		
+LBasew3				LStarbaseWire		0	0	64	64		
+LBasew4				LStarbaseWire		0	0	64	64		
+LBasew5				LStarbaseWire		0	0	64	64
+
+LOutpostw1			LOutpostWire		0	0	64	64		
+LOutpostw2			LOutpostWire		0	0	64	64		
+LOutpostw3			LOutpostWire		0	0	64	64		
+LOutpostw4			LOutpostWire		0	0	64	64		
+LOutpostw5			LOutpostWire		0	0	64	64
+
+LMiningw1			LMiningWire		0	0	64	64		
+LMiningw2			LMiningWire		0	0	64	64		
+LMiningw3			LMiningWire		0	0	64	64		
+LMiningw4			LMiningWire		0	0	64	64		
+LMiningw5			LMiningWire		0	0	64	64
+
+LOrbitalw1			LOrbitalWire		0	0	64	64		
+LOrbitalw2			LOrbitalWire		0	0	64	64		
+LOrbitalw3			LOrbitalWire		0	0	64	64		
+LOrbitalw4			LOrbitalWire		0	0	64	64		
+LOrbitalw5			LOrbitalWire		0	0	64	64
+
+LTradingw1			LTradingWire		0	0	64	64		
+LTradingw2			LTradingWire		0	0	64	64		
+LTradingw3			LTradingWire		0	0	64	64		
+LTradingw4			LTradingWire		0	0	64	64		
+LTradingw5			LTradingWire		0	0	64	64
+
+LYardw1				LYardWire		0	0	64	64		
+LYardw2				LYardWire		0	0	64	64		
+LYardw3				LYardWire		0	0	64	64		
+LYardw4				LYardWire		0	0	64	64		
+LYardw5				LYardWire		0	0	64	64
+
+LYard2w1			LYard2Wire		0	0	64	64		
+LYard2w2			LYard2Wire		0	0	64	64		
+LYard2w3			LYard2Wire		0	0	64	64		
+LYard2w4			LYard2Wire		0	0	64	64		
+LYard2w5			LYard2Wire		0	0	64	64
+
+LSensorw1			LSensorWire		0	0	64	64		
+LSensorw2			LSensorWire		0	0	64	64		
+LSensorw3			LSensorWire		0	0	64	64		
+LSensorw4			LSensorWire		0	0	64	64		
+LSensorw5			LSensorWire		0	0	64	64
+
+LMinew1				LMineWire		0	0	64	64		
+LMinew2				LMineWire		0	0	64	64		
+LMinew3				LMineWire		0	0	64	64		
+LMinew4				LMineWire		0	0	64	64		
+LMinew5				LMineWire		0	0	64	64
+
+LResearchaw1			LResearchWire		0	0	64	64		
+LResearchaw2			LResearchWire		0	0	64	64		
+LResearchaw3			LResearchWire		0	0	64	64		
+LResearchaw4			LResearchWire		0	0	64	64		
+LResearchaw5			LResearchWire		0	0	64	64
+
+LResearchbw1			LResearchWire		0	0	64	64		
+LResearchbw2			LResearchWire		0	0	64	64		
+LResearchbw3			LResearchWire		0	0	64	64		
+LResearchbw4			LResearchWire		0	0	64	64		
+LResearchbw5			LResearchWire		0	0	64	64
+
+LResearchcw1			LResearchWire		0	0	64	64		
+LResearchcw2			LResearchWire		0	0	64	64		
+LResearchcw3			LResearchWire		0	0	64	64		
+LResearchcw4			LResearchWire		0	0	64	64		
+LResearchaw5			LResearchWire		0	0	64	64
+
+LUpgradew1			LUpgradeWire		0	0	64	64		
+LUpgradew2			LUpgradeWire		0	0	64	64		
+LUpgradew3			LUpgradeWire		0	0	64	64		
+LUpgradew4			LUpgradeWire		0	0	64	64		
+LUpgradew5			LUpgradeWire		0	0	64	64
+
+LLionessw1			LCarrierWire		0	0	64	64		
+LLionessw2			LCarrierWire		0	0	64	64		
+LLionessw3			LCarrierWire		0	0	64	64		
+LLionessw4			LCarrierWire		0	0	64	64		
+LLionessw5			LCarrierWire		0	0	64	64
+
+LRoyalLionw1			LBattleWire		0	0	64	64		
+LRoyalLionw2			LBattleWire		0	0	64	64		
+LRoyalLionw3			LBattleWire		0	0	64	64		
+LRoyalLionw4			LBattleWire		0	0	64	64		
+LRoyalLionw5			LBattleWire		0	0	64	64
+
+LLionw1				LDreadWire		0	0	64	64		
+LLionw2				LDreadWire		0	0	64	64		
+LLionw3				LDreadWire		0	0	64	64		
+LLionw4				LDreadWire		0	0	64	64		
+LLionw5				LDreadWire		0	0	64	64
+
+LPantherw1			LBCruiseWire		0	0	64	64		
+LPantherw2			LBCruiseWire		0	0	64	64		
+LPantherw3			LBCruiseWire		0	0	64	64		
+LPantherw4			LBCruiseWire		0	0	64	64		
+LPantherw5			LBCruiseWire		0	0	64	64
+
+LPumaw1				LMonitorWire		0	0	64	64		
+LPumaw2				LMonitorWire		0	0	64	64		
+LPumaw3				LMonitorWire		0	0	64	64		
+LPumaw4				LMonitorWire		0	0	64	64		
+LPumaw5				LMonitorWire		0	0	64	64
+
+LTigerw1			LCruiseWire		0	0	64	64		
+LTigerw2			LCruiseWire		0	0	64	64		
+LTigerw3			LCruiseWire		0	0	64	64		
+LTigerw4			LCruiseWire		0	0	64	64		
+LTigerw5			LCruiseWire		0	0	64	64
+
+LLeopardw1			LLCruiseWire		0	0	64	64		
+LLeopardw2			LLCruiseWire		0	0	64	64		
+LLeopardw3			LLCruiseWire		0	0	64	64		
+LLeopardw4			LLCruiseWire		0	0	64	64		
+LLeopardw5			LLCruiseWire		0	0	64	64
+
+LCaracalw1			LDestroyWire		0	0	64	64		
+LCaracalw2			LDestroyWire		0	0	64	64		
+LCaracalw3			LDestroyWire		0	0	64	64		
+LCaracalw4			LDestroyWire		0	0	64	64		
+LCaracalw5			LDestroyWire		0	0	64	64
+
+LLynxw1				LFrigateWire		0	0	64	64		
+LLynxw2				LFrigateWire		0	0	64	64		
+LLynxw3				LFrigateWire		0	0	64	64		
+LLynxw4				LFrigateWire		0	0	64	64		
+LLynxw5				LFrigateWire		0	0	64	64
+
+LWildcatw1			LFrigateWire		0	0	64	64		
+LWildcatw2			LFrigateWire		0	0	64	64		
+LWildcatw3			LFrigateWire		0	0	64	64		
+LWildcatw4			LFrigateWire		0	0	64	64		
+LWildcatw5			LFrigateWire		0	0	64	64
+
+LBobcatw1			LFrigateWire		0	0	64	64		
+LBobcatw2			LFrigateWire		0	0	64	64		
+LBobcatw3			LFrigateWire		0	0	64	64		
+LBobcatw4			LFrigateWire		0	0	64	64		
+LBobcatw5			LFrigateWire		0	0	64	64
+
+LFelidaew1			LConstWire		0	0	64	64		
+LFelidaew2			LConstWire		0	0	64	64		
+LFelidaew3			LConstWire		0	0	64	64		
+LFelidaew4			LConstWire		0	0	64	64		
+LFelidaew5			LConstWire		0	0	64	64
+
+LQueenCatw1			LFreightWire		0	0	64	64		
+LQueenCatw2			LFreightWire		0	0	64	64		
+LQueenCatw3			LFreightWire		0	0	64	64		
+LQueenCatw4			LFreightWire		0	0	64	64		
+LQueenCatw5			LFreightWire		0	0	64	64
+
+LCougarw1			LFreightWire		0	0	64	64		
+LCougarw2			LFreightWire		0	0	64	64		
+LCougarw3			LFreightWire		0	0	64	64		
+LCougarw4			LFreightWire		0	0	64	64		
+LCougarw5			LFreightWire		0	0	64	64
+
+LFelinew1			LColonyWire		0	0	64	64		
+LFelinew2			LColonyWire		0	0	64	64		
+LFelinew3			LColonyWire		0	0	64	64		
+LFelinew4			LColonyWire		0	0	64	64		
+LFelinew5			LColonyWire		0	0	64	64
+
+LServalw1			LColonyWire		0	0	64	64		
+LServalw2			LColonyWire		0	0	64	64		
+LServalw3			LColonyWire		0	0	64	64		
+LServalw4			LColonyWire		0	0	64	64		
+LServalw5			LColonyWire		0	0	64	64
+
+LOccilotw1			LPFighterWire		0	0	64	64		
+LOccilotw2			LPFighterWire		0	0	64	64		
+LOccilotw3			LPFighterWire		0	0	64	64		
+LOccilotw4			LPFighterWire		0	0	64	64		
+LOccilotw5			LPFighterWire		0	0	64	64
+
+LOccicatw1			LPFighterWire		0	0	64	64		
+LOccicatw2			LPFighterWire		0	0	64	64		
+LOccicatw3			LPFighterWire		0	0	64	64		
+LOccicatw4			LPFighterWire		0	0	64	64		
+LOccicatw5			LPFighterWire		0	0	64	64
+
+LBasew1				LStarbaseWire		0	0	64	64		
+LBasew2				LStarbaseWire		0	0	64	64		
+LBasew3				LStarbaseWire		0	0	64	64		
+LBasew4				LStarbaseWire		0	0	64	64		
+LBasew5				LStarbaseWire		0	0	64	64
+
+LMiningw1			LMiningWire		0	0	64	64		
+LMiningw2			LMiningWire		0	0	64	64		
+LMiningw3			LMiningWire		0	0	64	64		
+LMiningw4			LMiningWire		0	0	64	64		
+LMiningw5			LMiningWire		0	0	64	64
+
+LOutpostw1			LOutpostWire		0	0	64	64		
+LOutpostw2			LOutpostWire		0	0	64	64		
+LOutpostw3			LOutpostWire		0	0	64	64		
+LOutpostw4			LOutpostWire		0	0	64	64		
+LOutpostw5			LOutpostWire		0	0	64	64
+
+LYardw1				LYardWire		0	0	64	64		
+LYardw2				LYardWire		0	0	64	64		
+LYardw3				LYardWire		0	0	64	64		
+LYardw4				LYardWire		0	0	64	64		
+LYardw5				LYardWire		0	0	64	64
+
+LYard2w1			LYard2Wire		0	0	64	64		
+LYard2w2			LYard2Wire		0	0	64	64		
+LYard2w3			LYard2Wire		0	0	64	64		
+LYard2w4			LYard2Wire		0	0	64	64		
+LYard2w5			LYard2Wire		0	0	64	64
+
+LSensorw1			LSensorWire		0	0	64	64		
+LSensorw2			LSensorWire		0	0	64	64		
+LSensorw3			LSensorWire		0	0	64	64		
+LSensorw4			LSensorWire		0	0	64	64		
+LSensorw5			LSensorWire		0	0	64	64
+
+LMinew1				LMineWire		0	0	64	64		
+LMinew2				LMineWire		0	0	64	64		
+LMinew3				LMineWire		0	0	64	64		
+LMinew4				LMineWire		0	0	64	64		
+LMinew5				LMineWire		0	0	64	64
+
+LResearchAw1			LResearchAWire		0	0	64	64		
+LResearchAw2			LResearchAWire		0	0	64	64		
+LResearchAw3			LResearchAWire		0	0	64	64		
+LResearchAw4			LResearchAWire		0	0	64	64		
+LResearchAw5			LResearchAWire		0	0	64	64
+
+LResearchBw1			LResearchBWire		0	0	64	64		
+LResearchBw2			LResearchBWire		0	0	64	64		
+LResearchBw3			LResearchBWire		0	0	64	64		
+LResearchBw4			LResearchBWire		0	0	64	64		
+LResearchBw5			LResearchBWire		0	0	64	64
+
+LResearchCw1			LResearchBWire		0	0	64	64		
+LResearchCw2			LResearchBWire		0	0	64	64		
+LResearchCw3			LResearchBWire		0	0	64	64		
+LResearchCw4			LResearchBWire		0	0	64	64		
+LResearchCw5			LResearchBWire		0	0	64	64
+
+LUpgradew1			LUpgradeWire		0	0	64	64		
+LUpgradew2			LUpgradeWire		0	0	64	64		
+LUpgradew3			LUpgradeWire		0	0	64	64		
+LUpgradew4			LUpgradeWire		0	0	64	64		
+LUpgradew5			LUpgradeWire		0	0	64	64
+
+LTradingw1			LTradingWire		0	0	64	64		
+LTradingw2			LTradingWire		0	0	64	64		
+LTradingw3			LTradingWire		0	0	64	64		
+LTradingw4			LTradingWire		0	0	64	64		
+LTradingw5			LTradingWire		0	0	64	64
+
+
+
+
+
+
+# Gorn build Buttons
+@reference=64
+@tmaterial=interface
+
+b_GBase				GStarbaseButton		0	0	64	64
+b_GMining			GMiningButton		0	0	64	64
+b_GOrbital			GOrbitalButton		0	0	64	64
+b_GOutpost			GOutpostButton		0	0	64	64
+b_GTrading			GTradingButton		0	0	64	64		
+b_GYard				GYardButton		0	0	64	64
+b_GYard2			GYard2Button		0	0	64	64
+b_GSensor			GSensorButton		0	0	64	64
+b_GMine				GMineButton			0	0	64	64
+b_GResearchA			GResearchaButton	0	0	64	64
+b_GResearchB			GResearchbButton	0	0	64	64
+b_GResearchC			GResearchcButton	0	0	64	64
+b_GUpgrade			GUpgradeButton		0	0	64	64
+b_GSuperbl			GSuperblButton		0	0	64	64
+	
+b_GorPod1			GorPod1Button		0	0	64	64		
+b_GorPod2			GorPod2Button		0	0	64	64	
+b_GorPod3			GorPod3Button		0	0	64	64
+b_GorPod4			GorPod4Button		0	0	64	64	
+b_GorPod11			GorPod11Button		0		0	64	64
+b_GorPod12			GorPod12Button		0	0	64	64
+b_GorPod13			GorPod13Button		0	0	64	64
+b_GorPod14			GorPod14Button		0	0	64	64
+b_GorPod15			GorPod15Button		0	0	64	64
+b_GorPod21			GorPod21Button		0		0		64		64
+b_GorPod22			GorPod22Button		0		0		64		64
+b_GorPod23			GorPod23Button		0		0		64		64
+b_GorPod24			GorPod24Button		0		0		64		64
+b_GorPod25			GorPod25Button		0		0		64		64
+b_GorEqu1			GorEqu1Button		0	0	64	64
+b_GorEqu2			GorEqu2Button		0	0	64	64
+b_GorEqu3			GorEqu3Button		0	0	64	64
+b_GorEqu4			GorEqu4Button		0	0	64	64
+b_GorEqu5			GorEqu5Button		0	0	64	64
+b_GorEqu6			GorEqu6Button		0	0	64	64
+b_GorMiscR1			GorMiscR1Button		0	0	64	64
+b_GorMiscR2			GorMiscR2Button		0	0	64	64
+b_GorMiscR3			GorMiscR3Button		0	0	64	64
+b_GorMiscR4			GorMiscR4Button		0	0	64	64
+b_GorHull1			GorHull1Button		0	0	64	64
+b_GorHull2			GorHull2Button		0	0	64	64
+b_GorHull3			GorHull3Button		0	0	64	64
+b_GorHull4			GorHull4Button		0	0	64	64
+b_GorHull5			GorHull5Button		0	0	64	64
+b_GorHull6			GorHull6Button		0	0	64	64
+b_GorMix1			GorFedMixButton		0	0	64	64
+b_GorMix2			GorKliMixButton		0	0	64	64
+b_GorMix3			GorRomMixButton		0	0	64	64
+b_GorMix4			GorISCMixButton		0	0	64	64
+b_GorMix5			GorHydMixButton		0	0	64	64
+b_GorMix6			GorLyrMixButton		0	0	64	64
+
+
+b_GKingGrendel		GBattleButton		0	0	64	64
+b_GHero				GHDreadButton		0	0	64	64
+b_GQueenD			GQueenDButton		0	0	64	64
+b_GGrendel			GDreadButton		0	0	64	64
+b_GAnaconda			GDestroyButton		0	0	64	64
+b_GGecko			GSRepairButton		0	0	64	64
+b_GReptilon			GTCruiseButton		0	0	64	64
+b_GSaurus			GSCruiseButton		0	0	64	64
+b_GBeowulf			GCCruiseButton		0	0	64	64
+b_GBasilisk			GBCruiseButton		0	0	64	64
+b_GKingSnake		GFrigateButton		0	0	64	64
+b_GKingSnakeS		GFrigateSButton		0	0	64	64
+b_GPython			GColonyButton		0	0	64	64
+b_GGlormaskt		GSuperButton		0	0	64	64
+b_GAsp				GAssaultButton		0	0	64	64
+b_GViper			gPFighterButton		0	0	64	64
+b_GCobra			GCargoButton		0	0	64	64
+b_GAdder			GFreightButton		0	0	64	64
+b_GLizard			GConstButton		0	0	64	64
+b_GEuromastyx		GCruiseButton		0	0	64	64
+b_GRattlesnake		GLCruiseButton		0	0	64	64		
+
+GBasew1				GStarbaseWire		0	0	64	64		
+GBasew2				GStarbaseWire		0	0	64	64		
+GBasew3				GStarbaseWire		0	0	64	64		
+GBasew4				GStarbaseWire		0	0	64	64		
+GBasew5				GStarbaseWire		0	0	64	64
+
+GOutpostw1			GOutpostWire		0	0	64	64		
+GOutpostw2			GOutpostWire		0	0	64	64		
+GOutpostw3			GOutpostWire		0	0	64	64		
+GOutpostw4			GOutpostWire		0	0	64	64		
+GOutpostw5			GOutpostWire		0	0	64	64
+
+GMiningw1			GMiningWire		0	0	64	64		
+GMiningw2			GMiningWire		0	0	64	64		
+GMiningw3			GMiningWire		0	0	64	64		
+GMiningw4			GMiningWire		0	0	64	64		
+GMiningw5			GMiningWire		0	0	64	64
+
+GOrbitalw1			GOrbitalWire		0	0	64	64		
+GOrbitalw2			GOrbitalWire		0	0	64	64		
+GOrbitalw3			GOrbitalWire		0	0	64	64		
+GOrbitalw4			GOrbitalWire		0	0	64	64		
+GOrbitalw5			GOrbitalWire		0	0	64	64
+
+GTradingw1			GTradingWire		0	0	64	64		
+GTradingw2			GTradingWire		0	0	64	64		
+GTradingw3			GTradingWire		0	0	64	64		
+GTradingw4			GTradingWire		0	0	64	64		
+GTradingw5			GTradingWire		0	0	64	64
+
+GYardw1				GYardWire		0	0	64	64		
+GYardw2				GYardWire		0	0	64	64		
+GYardw3				GYardWire		0	0	64	64		
+GYardw4				GYardWire		0	0	64	64		
+GYardw5				GYardWire		0	0	64	64
+
+GYard2w1			GYard2Wire		0	0	64	64		
+GYard2w2			GYard2Wire		0	0	64	64		
+GYard2w3			GYard2Wire		0	0	64	64		
+GYard2w4			GYard2Wire		0	0	64	64		
+GYard2w5			GYard2Wire		0	0	64	64
+
+GSensorw1			GSensorWire		0	0	64	64		
+GSensorw2			GSensorWire		0	0	64	64		
+GSensorw3			GSensorWire		0	0	64	64		
+GSensorw4			GSensorWire		0	0	64	64		
+GSensorw5			GSensorWire		0	0	64	64
+
+GMinew1				GMineWire		0	0	64	64		
+GMinew2				GMineWire		0	0	64	64		
+GMinew3				GMineWire		0	0	64	64		
+GMinew4				GMineWire		0	0	64	64		
+GMinew5				GMineWire		0	0	64	64
+
+GResearchaw1			GResearchWire		0	0	64	64		
+GResearchaw2			GResearchWire		0	0	64	64		
+GResearchaw3			GResearchWire		0	0	64	64		
+GResearchaw4			GResearchWire		0	0	64	64		
+GResearchaw5			GResearchWire		0	0	64	64
+
+GResearchbw1			GResearchWire		0	0	64	64		
+GResearchbw2			GResearchWire		0	0	64	64		
+GResearchbw3			GResearchWire		0	0	64	64		
+GResearchbw4			GResearchWire		0	0	64	64		
+GResearchbw5			GResearchWire		0	0	64	64
+
+GResearchcw1			GResearchWire		0	0	64	64		
+GResearchcw2			GResearchWire		0	0	64	64		
+GResearchcw3			GResearchWire		0	0	64	64		
+GResearchcw4			GResearchWire		0	0	64	64		
+GResearchaw5			GResearchWire		0	0	64	64
+
+GUpgradew1			GUpgradeWire		0	0	64	64		
+GUpgradew2			GUpgradeWire		0	0	64	64		
+GUpgradew3			GUpgradeWire		0	0	64	64		
+GUpgradew4			GUpgradeWire		0	0	64	64		
+GUpgradew5			GUpgradeWire		0	0	64	64
+
+GSuperblw1			GSuperblWire		0	0	64	64		
+GSuperblw2			GSuperblWire		0	0	64	64		
+GSuperblw3			GSuperblWire		0	0	64	64		
+GSuperblw4			GSuperblWire		0	0	64	64		
+GSuperblw5			GSuperblWire		0	0	64	64
+
+GGrendelw1			GDreadWire		0	0	64	64		
+GGrendelw2			GDreadWire		0	0	64	64		
+GGrendelw3			GDreadWire		0	0	64	64		
+GGrendelw4			GDreadWire		0	0	64	64		
+GGrendelw5			GDreadWire		0	0	64	64
+
+GKingGrendelw1			GBattleWire		0	0	64	64		
+GKingGrendelw2			GBattleWire		0	0	64	64		
+GKingGrendelw3			GBattleWire		0	0	64	64		
+GKingGrendelw4			GBattleWire		0	0	64	64		
+GKingGrendelw5			GBattleWire		0	0	64	64
+
+GHerow1				GBattleWire		0	0	64	64		
+GHerow2				GBattleWire		0	0	64	64		
+GHerow3				GBattleWire		0	0	64	64		
+GHerow4				GBattleWire		0	0	64	64		
+GHerow5				GBattleWire		0	0	64	64
+
+GQueenDw1			GQueenDWire		0	0	64	64		
+GQueenDw2			GQueenDWire		0	0	64	64		
+GQueenDw3			GQueenDWire		0	0	64	64		
+GQueenDw4			GQueenDWire		0	0	64	64		
+GQueenDw5			GQueenDWire		0	0	64	64
+
+GBasiliskw1			GCCruiseWire		0	0	64	64		
+GBasiliskw2			GCCruiseWire		0	0	64	64		
+GBasiliskw3			GCCruiseWire		0	0	64	64		
+GBasiliskw4			GCCruiseWire		0	0	64	64		
+GBasiliskw5			GCCruiseWire		0	0	64	64
+
+GBeowulfw1			GCCruiseWire		0	0	64	64		
+GBeowulfw2			GCCruiseWire		0	0	64	64		
+GBeowulfw3			GCCruiseWire		0	0	64	64		
+GBeowulfw4			GCCruiseWire		0	0	64	64		
+GBeowulfw5			GCCruiseWire		0	0	64	64
+
+GEuromastyxw1			GCruiseWire		0	0	64	64		
+GEuromastyxw2			GCruiseWire		0	0	64	64		
+GEuromastyxw3			GCruiseWire		0	0	64	64		
+GEuromastyxw4			GCruiseWire		0	0	64	64		
+GEuromastyxw5			GCruiseWire		0	0	64	64
+
+GRattlesnakew1			GLCruiseWire		0	0	64	64		
+GRattlesnakew2			GLCruiseWire		0	0	64	64		
+GRattlesnakew3			GLCruiseWire		0	0	64	64		
+GRattlesnakew4			GLCruiseWire		0	0	64	64		
+GRattlesnakew5			GLCruiseWire		0	0	64	64
+
+GAnacondaw1			GDestroyWire		0	0	64	64		
+GAnacondaw2			GDestroyWire		0	0	64	64		
+GAnacondaw3			GDestroyWire		0	0	64	64		
+GAnacondaw4			GDestroyWire		0	0	64	64		
+GAnacondaw5			GDestroyWire		0	0	64	64
+
+GGeckow1			GDestroyWire		0	0	64	64		
+GGeckow2			GDestroyWire		0	0	64	64		
+GGeckow3			GDestroyWire		0	0	64	64		
+GGeckow4			GDestroyWire		0	0	64	64		
+GGeckow5			GDestroyWire		0	0	64	64
+
+GKingSnakew1			GFrigateWire		0	0	64	64		
+GKingSnakew2			GFrigateWire		0	0	64	64		
+GKingSnakew3			GFrigateWire		0	0	64	64		
+GKingSnakew4			GFrigateWire		0	0	64	64		
+GKingSnakew5			GFrigateWire		0	0	64	64
+
+GKingSnakeSw1			GFrigateWire		0	0	64	64		
+GKingSnakeSw2			GFrigateWire		0	0	64	64		
+GKingSnakeSw3			GFrigateWire		0	0	64	64		
+GKingSnakeSw4			GFrigateWire		0	0	64	64		
+GKingSnakeSw5			GFrigateWire		0	0	64	64
+
+GReptilonw1			GTCruiseWire		0	0	64	64		
+GReptilonw2			GTCruiseWire		0	0	64	64		
+GReptilonw3			GTCruiseWire		0	0	64	64		
+GReptilonw4			GTCruiseWire		0	0	64	64		
+GReptilonw5			GTCruiseWire		0	0	64	64
+
+GSaurusw1			GSCruiseWire		0	0	64	64		
+GSaurusw2			GSCruiseWire		0	0	64	64		
+GSaurusw3			GSCruiseWire		0	0	64	64		
+GSaurusw4			GSCruiseWire		0	0	64	64		
+GSaurusw5			GSCruiseWire		0	0	64	64
+
+GAdderw1			GFreightWire		0	0	64	64		
+GAdderw2			GFreightWire		0	0	64	64		
+GAdderw3			GFreightWire		0	0	64	64		
+GAdderw4			GFreightWire		0	0	64	64		
+GAdderw5			GFreightWire		0	0	64	64
+
+GPythonw1			GColonyWire		0	0	64	64		
+GPythonw2			GColonyWire		0	0	64	64		
+GPythonw3			GColonyWire		0	0	64	64		
+GPythonw4			GColonyWire		0	0	64	64		
+GPythonw5			GColonyWire		0	0	64	64
+
+GGlormasktw1			GColonyWire		0	0	64	64		
+GGlormasktw2			GColonyWire		0	0	64	64		
+GGlormasktw3			GColonyWire		0	0	64	64		
+GGlormasktw4			GColonyWire		0	0	64	64		
+GGlormasktw5			GColonyWire		0	0	64	64
+
+GAspw1				GColonyWire		0	0	64	64		
+GAspw2				GColonyWire		0	0	64	64		
+GAspw3				GColonyWire		0	0	64	64		
+GAspw4				GColonyWire		0	0	64	64		
+GAspw5				GColonyWire		0	0	64	64
+
+GCobraw1			GCargoWire		0	0	64	64		
+GCobraw2			GCargoWire		0	0	64	64		
+GCobraw3			GCargoWire		0	0	64	64		
+GCobraw4			GCargoWire		0	0	64	64		
+GCobraw5			GCargoWire		0	0	64	64
+
+GLizardw1			GConstWire		0	0	64	64		
+GLizardw2			GConstWire		0	0	64	64		
+GLizardw3			GConstWire		0	0	64	64		
+GLizardw4			GConstWire		0	0	64	64		
+GLizardw5			GConstWire		0	0	64	64
+
+GViperw1			GPFighterWire		0	0	64	64		
+GViperw2			GPFighterWire		0	0	64	64		
+GViperw3			GPFighterWire		0	0	64	64		
+GViperw4			GPFighterWire		0	0	64	64		
+GViperw5			GPFighterWire		0	0	64	64
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Romulan build Buttons
+@reference=64
+@tmaterial=interface
+b_RBase				RStarbaseButton			0	0	64	64
+b_RMining			RMiningButton		0	0	64	64
+b_ROrbital			ROrbitalButton		0	0	64	64
+b_RTrading			RTradingButton		0	0	64	64		
+b_RYard				RYardButton			0	0	64	64
+b_RYard2			RYard2Button		0	0	64	64
+b_RSensor			RSensorButton		0	0	64	64
+b_RMine				RMineButton			0	0	64	64
+b_RResearchA			RResearchAButton	0	0	64	64
+b_RResearchB			RResearchBButton	0	0	64	64	
+b_RResearchC			RResearchCButton	0	0	64	64		
+b_RUpgrade			RUpgradeButton		0	0	64	64
+b_ROutpost			ROutpostButton		0	0	64	64
+
+b_RImperialHawk			RBattleButton		0	0	64	64
+b_RWarEagle			RDreadButton		0	0	64	64
+b_RCondor			RKDreadButton		0	0	64	64
+b_RImperium			RBCruiseButton		0	0	64	64
+b_RRaven			RKBCruiseButton		0	0	64	64
+b_RSenator			RCCruiseButton		0	0	64	64
+b_RHero				RHeroButton			0	0	64	64
+b_RPeregrine			RTCruiseButton		0	0	64	64
+b_RStormbird			RKCruiseButton		0	0	64	64
+b_RCenturion			RCruiseButton		0	0	64	64
+b_RLegion			RLCruiseButton		0	0	64	64
+b_RWarBird			RDestroyButton		0	0	64	64
+b_RGladius			RFrigateButton		0	0	64	64
+b_RGladiusS			RFrigateSButton		0	0	64	64
+b_RFinch			RKFrigateButton		0	0	64	64
+b_RFinchS			RKFrigateSButton	0	0	64	64
+b_RPreax			REscortButton		0	0	64	64
+b_RKite				RKEscortButton		0	0	64	64
+b_RBlade			RFighterButton		0	0	64	64
+b_RShadowblade			RFighterBButton		0	0	64	64
+
+b_RTribune			RCarrierButton		0	0	64	64
+b_RKestrel			RAssaultButton		0	0	64	64
+b_RTalon			RSRepairButton		0	0	64	64
+b_RSparrow			RColonyButton		0	0	64	64
+b_RPatrician			RCargoButton		0	0	64	64
+b_ROsprey			RFreightButton		0	0	64	64
+b_RMerlin			RConstButton		0	0	64	64
+
+b_RomPod1			RomPod1Button		0	0	64	64		
+b_RomPod2			RomPod2Button		0	0	64	64	
+b_RomPod3			RomPod3Button		0	0	64	64				
+b_RomPod11			RomPod11Button		0		0	64	64
+b_RomPod12			RomPod12Button		0	0	64	64
+b_RomPod13			RomPod13Button		0	0	64	64
+b_RomPod14			RomPod14Button		0	0	64	64
+b_RomPod15			RomPod15Button		0	0	64	64
+b_RomPod21			RomPod21Button		0		0		64		64
+b_RomPod22			RomPod22Button		0		0		64		64
+b_RomPod23			RomPod23Button		0		0		64		64
+b_RomPod24			RomPod24Button		0		0		64		64
+b_RomPod25			RomPod25Button		0		0		64		64
+b_RomEqu1					RomEqu1Button		0	0	64	64
+b_RomEqu2			RomEqu2Button		0	0	64	64	
+b_RomEqu3			RomEqu3Button		0	0	64	64
+b_RomEqu4			RomEqu4Button		0	0	64	64	
+b_RomHull1					RomHull1Button		0	0	64	64
+b_RomHull2			RomHull2Button		0	0	64	64
+b_RomHull3			RomHull3Button		0	0	64	64
+b_RomHull4			RomHull4Button		0	0	64	64
+b_RomHull5			RomHull5Button		0	0	64	64
+b_RomHull6			RomHull6Button		0	0	64	64
+b_RomHull7			RomHull7Button		0	0	64	64
+b_RomHull8			RomHull8Button		0	0	64	64
+b_RomHull9			RomHull9Button		0	0	64	64
+b_RomHull10			RomHull10Button		0	0	64	64
+b_RomHull11			RomHull11Button		0	0	64	64
+b_RomMiscR1			RomMiscR1Button		0	0	64	64
+b_RomMiscR2			RomMiscR2Button		0	0	64	64
+b_RomMiscR3			RomMiscR3Button		0	0	64	64
+b_RomMiscR4			RomMiscR4Button		0	0	64	64
+b_RomMiscR5			RomMiscR5Button		0	0	64	64
+b_RomMiscR6			RomMiscR6Button		0	0	64	64
+b_RomMiscR7			RomMiscR7Button		0	0	64	64
+b_RomMiscR8			RomMiscR8Button		0	0	64	64
+b_RomMix1			RomFedMixButton		0	0	64	64
+b_RomMix2			RomKliMixButton		0	0	64	64
+b_RomMix3			RomKliMix2Button	0	0	64	64
+b_RomMix4			RomGorMixButton		0	0	64	64
+b_RomMix5			RomISCMixButton		0	0	64	64
+b_RomMix6			RomHydMixButton		0	0	64	64
+b_RomMix7			RomLyrMixButton		0	0	64	64
+b_RomMix8			RomLyrMix2Button	0	0	64	64
+
+@tmaterial=interface	
+
+RBasew1				RStarbaseWire		0	0	64	64		
+RBasew2				RStarbaseWire		0	0	64	64		
+RBasew3				RStarbaseWire		0	0	64	64		
+RBasew4				RStarbaseWire		0	0	64	64		
+RBasew5				RStarbaseWire		0	0	64	64
+
+RMiningw1			RMiningWire		0	0	64	64		
+RMiningw2			RMiningWire		0	0	64	64		
+RMiningw3			RMiningWire		0	0	64	64		
+RMiningw4			RMiningWire		0	0	64	64		
+RMiningw5			RMiningWire		0	0	64	64
+
+ROrbitalw1			ROrbitalWire		0	0	64	64		
+ROrbitalw2			ROrbitalWire		0	0	64	64		
+ROrbitalw3			ROrbitalWire		0	0	64	64		
+ROrbitalw4			ROrbitalWire		0	0	64	64		
+ROrbitalw5			ROrbitalWire		0	0	64	64
+
+RTradingw1			RTradingWire		0	0	64	64		
+RTradingw2			RTradingWire		0	0	64	64		
+RTradingw3			RTradingWire		0	0	64	64		
+RTradingw4			RTradingWire		0	0	64	64		
+RTradingw5			RTradingWire		0	0	64	64
+
+ROutpostw1			ROutpostWire		0	0	64	64		
+ROutpostw2			ROutpostWire		0	0	64	64		
+ROutpostw3			ROutpostWire		0	0	64	64		
+ROutpostw4			ROutpostWire		0	0	64	64		
+ROutpostw5			ROutpostWire		0	0	64	64
+
+RYardw1				RYardWire		0	0	64	64		
+RYardw2				RYardWire		0	0	64	64		
+RYardw3				RYardWire		0	0	64	64		
+RYardw4				RYardWire		0	0	64	64		
+RYardw5				RYardWire		0	0	64	64
+
+RYard2w1			RYard2Wire		0	0	64	64		
+RYard2w2			RYard2Wire		0	0	64	64		
+RYard2w3			RYard2Wire		0	0	64	64		
+RYard2w4			RYard2Wire		0	0	64	64		
+RYard2w5			RYard2Wire		0	0	64	64
+
+RSensorw1			RSensorWire		0	0	64	64		
+RSensorw2			RSensorWire		0	0	64	64		
+RSensorw3			RSensorWire		0	0	64	64		
+RSensorw4			RSensorWire		0	0	64	64		
+RSensorw5			RSensorWire		0	0	64	64
+
+RMinew1				RMineWire		0	0	64	64		
+RMinew2				RMineWire		0	0	64	64		
+RMinew3				RMineWire		0	0	64	64		
+RMinew4				RMineWire		0	0	64	64		
+RMinew5				RMineWire		0	0	64	64
+
+RResearchAw1			RResearchWire		0	0	64	64		
+RResearchAw2			RResearchWire		0	0	64	64		
+RResearchAw3			RResearchWire		0	0	64	64		
+RResearchAw4			RResearchWire		0	0	64	64		
+RResearchAw5			RResearchWire		0	0	64	64
+
+RResearchBw1			RResearchWire		0	0	64	64		
+RResearchBw2			RResearchWire		0	0	64	64		
+RResearchBw3			RResearchWire		0	0	64	64		
+RResearchBw4			RResearchWire		0	0	64	64		
+RResearchBw5			RResearchWire		0	0	64	64
+
+RResearchCw1			RResearchCWire		0	0	64	64		
+RResearchCw2			RResearchCWire		0	0	64	64		
+RResearchCw3			RResearchCWire		0	0	64	64		
+RResearchCw4			RResearchCWire		0	0	64	64		
+RResearchCw5			RResearchCWire		0	0	64	64
+
+RUpgradew1			RUpgradeWire		0	0	64	64		
+RUpgradew2			RUpgradeWire		0	0	64	64		
+RUpgradew3			RUpgradeWire		0	0	64	64		
+RUpgradew4			RUpgradeWire		0	0	64	64		
+RUpgradew5			RUpgradeWire		0	0	64	64
+
+RImperialHawkw1			RBattleWire		0	0	64	64		
+RImperialHawkw2			RBattleWire		0	0	64	64		
+RImperialHawkw3			RBattleWire		0	0	64	64		
+RImperialHawkw4			RBattleWire		0	0	64	64		
+RImperialHawkw5			RBattleWire		0	0	64	64
+
+RWarEaglew1			RDreadWire		0	0	64	64		
+RWarEaglew2			RDreadWire		0	0	64	64		
+RWarEaglew3			RDreadWire		0	0	64	64		
+RWarEaglew4			RDreadWire		0	0	64	64		
+RWarEaglew5			RDreadWire		0	0	64	64
+
+RImperiumw1			RBCruiseWire		0	0	64	64		
+RImperiumw2			RBCruiseWire		0	0	64	64		
+RImperiumw3			RBCruiseWire		0	0	64	64		
+RImperiumw4			RBCruiseWire		0	0	64	64		
+RImperiumw5			RBCruiseWire		0	0	64	64
+
+RCondorw1			RKDreadWire		0	0	64	64		
+RCondorw2			RKDreadWire		0	0	64	64		
+RCondorw3			RKDreadWire		0	0	64	64		
+RCondorw4			RKDreadWire		0	0	64	64		
+RCondorw5			RKDreadWire		0	0	64	64
+
+RBladew1			RFighterWire		0	0	64	64		
+RBladew2			RFighterWire		0	0	64	64		
+RBladew3			RFighterWire		0	0	64	64		
+RBladew4			RFighterWire		0	0	64	64		
+RBladew5			RFighterWire		0	0	64	64
+
+RShadowbladew1			RFighterWire		0	0	64	64		
+RShadowbladew2			RFighterWire		0	0	64	64		
+RShadowbladew3			RFighterWire		0	0	64	64		
+RShadowbladew4			RFighterWire		0	0	64	64		
+RShadowbladew5			RFighterWire		0	0	64	64
+
+RRavenw1			RKBCruiseWire		0	0	64	64		
+RRavenw2			RKBCruiseWire		0	0	64	64		
+RRavenw3			RKBCruiseWire		0	0	64	64		
+RRavenw4			RKBCruiseWire		0	0	64	64		
+RRavenw5			RKBCruiseWire		0	0	64	64
+
+RPeregrinew1			RTCruiseWire		0	0	64	64		
+RPeregrinew2			RTCruiseWire		0	0	64	64		
+RPeregrinew3			RTCruiseWire		0	0	64	64		
+RPeregrinew4			RTCruiseWire		0	0	64	64		
+RPeregrinew5			RTCruiseWire		0	0	64	64
+
+RStormbirdw1			RKCruiseWire		0	0	64	64		
+RStormbirdw2			RKCruiseWire		0	0	64	64		
+RStormbirdw3			RKCruiseWire		0	0	64	64		
+RStormbirdw4			RKCruiseWire		0	0	64	64		
+RStormbirdw5			RKCruiseWire		0	0	64	64
+
+RCenturionw1			RCruiseWire		0	0	64	64		
+RCenturionw2			RCruiseWire		0	0	64	64		
+RCenturionw3			RCruiseWire		0	0	64	64		
+RCenturionw4			RCruiseWire		0	0	64	64		
+RCenturionw5			RCruiseWire		0	0	64	64
+
+RLegionw1			RLCruiseWire		0	0	64	64		
+RLegionw2			RLCruiseWire		0	0	64	64		
+RLegionw3			RLCruiseWire		0	0	64	64		
+RLegionw4			RLCruiseWire		0	0	64	64		
+RLegionw5			RLCruiseWire		0	0	64	64
+
+RWarBirdw1			RDestroyWire		0	0	64	64		
+RWarBirdw2			RDestroyWire		0	0	64	64		
+RWarBirdw3			RDestroyWire		0	0	64	64		
+RWarBirdw4			RDestroyWire		0	0	64	64		
+RWarBirdw5			RDestroyWire		0	0	64	64
+
+RFinchw1			RKFrigateWire		0	0	64	64		
+RFinchw2			RKFrigateWire		0	0	64	64		
+RFinchw3			RKFrigateWire		0	0	64	64		
+RFinchw4			RKFrigateWire		0	0	64	64		
+RFinchw5			RKFrigateWire		0	0	64	64
+
+RFinchSw1			RKFrigateWire		0	0	64	64		
+RFinchSw2			RKFrigateWire		0	0	64	64		
+RFinchSw3			RKFrigateWire		0	0	64	64		
+RFinchSw4			RKFrigateWire		0	0	64	64		
+RFinchSw5			RKFrigateWire		0	0	64	64
+
+RKitew1				RKEscortWire		0	0	64	64		
+RKitew2				RKEscortWire		0	0	64	64		
+RKitew3				RKEscortWire		0	0	64	64		
+RKitew4				RKEscortWire		0	0	64	64		
+RKitew5				RKEscortWire		0	0	64	64
+
+RPreaxw1			REscortWire		0	0	64	64		
+RPreaxw2			REscortWire		0	0	64	64		
+RPreaxw3			REscortWire		0	0	64	64		
+RPreaxw4			REscortWire		0	0	64	64		
+RPreaxw5			REscortWire		0	0	64	64
+
+RGladiusw1			RFrigateWire		0	0	64	64		
+RGladiusw2			RFrigateWire		0	0	64	64		
+RGladiusw3			RFrigateWire		0	0	64	64		
+RGladiusw4			RFrigateWire		0	0	64	64		
+RGladiusw5			RFrigateWire		0	0	64	64
+
+RGladiusSw1			RFrigateWire		0	0	64	64		
+RGladiusSw2			RFrigateWire		0	0	64	64		
+RGladiusSw3			RFrigateWire		0	0	64	64		
+RGladiusSw4			RFrigateWire		0	0	64	64		
+RGladiusSw5			RFrigateWire		0	0	64	64
+
+RSenatorw1			RCCruiseWire		0	0	64	64		
+RSenatorw2			RCCruiseWire		0	0	64	64		
+RSenatorw3			RCCruiseWire		0	0	64	64		
+RSenatorw4			RCCruiseWire		0	0	64	64		
+RSenatorw5			RCCruiseWire		0	0	64	64
+
+RHerow1				RCCruiseWire		0	0	64	64		
+RHerow2				RCCruiseWire		0	0	64	64		
+RHerow3				RCCruiseWire		0	0	64	64		
+RHerow4				RCCruiseWire		0	0	64	64		
+RHerow5				RCCruiseWire		0	0	64	64
+
+ROspreyw1			RFreightWire		0	0	64	64		
+ROspreyw2			RFreightWire		0	0	64	64		
+ROspreyw3			RFreightWire		0	0	64	64		
+ROspreyw4			RFreightWire		0	0	64	64		
+ROspreyw5			RFreightWire		0	0	64	64
+
+RPatricianw1			RCargoWire		0	0	64	64		
+RPatricianw2			RCargoWire		0	0	64	64		
+RPatricianw3			RCargoWire		0	0	64	64		
+RPatricianw4			RCargoWire		0	0	64	64		
+RPatricianw5			RCargoWire		0	0	64	64
+
+RKestrelw1			RAssaultWire		0	0	64	64		
+RKestrelw2			RAssaultWire		0	0	64	64		
+RKestrelw3			RAssaultWire		0	0	64	64		
+RKestrelw4			RAssaultWire		0	0	64	64		
+RKestrelw5			RAssaultWire		0	0	64	64
+
+RTribunew1			RAssaultWire		0	0	64	64		
+RTribunew2			RAssaultWire		0	0	64	64		
+RTribunew3			RAssaultWire		0	0	64	64		
+RTribunew4			RAssaultWire		0	0	64	64		
+RTribunew5			RAssaultWire		0	0	64	64
+
+RSparroww1			RColonyWire		0	0	64	64		
+RSparroww2			RColonyWire		0	0	64	64		
+RSparroww3			RColonyWire		0	0	64	64		
+RSparroww4			RColonyWire		0	0	64	64		
+RSparroww5			RColonyWire		0	0	64	64
+
+RMerlinw1			RConstWire		0	0	64	64		
+RMerlinw2			RConstWire		0	0	64	64		
+RMerlinw3			RConstWire		0	0	64	64		
+RMerlinw4			RConstWire		0	0	64	64		
+RMerlinw5			RConstWire		0	0	64	64
+
+RTalonw1			RSRepairWire		0	0	64	64
+RTalonw2			RSRepairWire		0	0	64	64
+RTalonw3			RSRepairWire		0	0	64	64
+RTalonw4			RSRepairWire		0	0	64	64
+RTalonw5			RSRepairWire		0	0	64	64
+
+
+
+
+
+
+
+
+
+
+# Tholian build Buttons
+@reference=64
+@tmaterial=interface
+
+b_TBase				TStarbaseButton		0	0	64	64
+b_TMining			TMiningButton		0	0	64	64
+b_TYard1			TYardButton			0	0	64	64
+b_TSensor			TSensorButton		0	0	64	64
+b_Tmine				TMineButton			0	0	64	64
+b_Tresearch			TResearchButton		0	0	64	64	
+b_TUpgrade			TUpgradeButton		0	0	64	64
+b_TTransmit			TTransmitButton		0	0	64	64
+b_TPod11			ThoPod11Button		0	0	64	64
+b_TPod12			ThoPod12Button		0	0	64	64
+b_TPod13			ThoPod13Button		0	0	64	64
+b_TPod14			ThoPod14Button		0	0	64	64
+b_TPod15			ThoPod15Button		0	0	64	64
+b_TPod21			ThoPod21Button		0	0	64	64
+b_TPod22			ThoPod22Button		0	0	64	64
+b_TPod23			ThoPod23Button		0	0	64	64
+b_TPod24			ThoPod24Button		0	0	64	64
+b_TPod25			ThoPod25Button		0	0	64	64
+b_TGateway			TGateButton			0	0	64	64
+b_TGateway2			TGate2Button		0	0	64	64
+
+b_ThoEqu1			ThoEqu1Button		0	0	64	64
+b_ThoEqu2			ThoEqu2Button		0	0	64	64
+b_ThoEqu3			ThoEqu3Button		0	0	64	64
+b_Thohull1			ThoHull1Button		0	0	64	64
+b_Thohull2			ThoHull2Button		0	0	64	64
+b_Thohull3			ThoHull3Button		0	0	64	64
+b_Thohull4			ThoHull4Button		0	0	64	64
+b_ThoMiscR1			ThoMiscR1Button		0	0	64	64
+b_ThoMiscR2			ThoMiscR2Button		0	0	64	64
+b_ThoMiscR3			ThoMiscR3Button		0	0	64	64
+b_ThoMiscR4			ThoMiscR4Button		0	0	64	64
+b_ThoMiscR5			ThoMiscR5Button		0	0	64	64
+b_ThoMiscR6			ThoMiscR6Button		0	0	64	64
+b_ThoMiscR7			ThoPod1Button		0	0	64	64
+
+b_TEmerald			TBattleButton		0	0	64	64
+b_TSapphire			TDreadButton		0	0	64	64
+b_TAmethyst			TBcruiseButton		0	0	64	64
+b_TQuartz			TDestroyButton		0	0	64	64
+b_TFeldspar			TEscortButton		0	0	64	64
+b_TFA				TFreightButton		0	0	64	64
+b_TConst			TConstButton		0	0	64	64
+b_TRuby				TCruiseButton		0	0	64	64
+b_TCitrine			TMonitorButton		0	0	64	64
+b_TGarnet			TLCruiseButton		0	0	64	64
+b_THero				THeroButton			0	0	64	64
+
+TTransmitw1			TTransmitWire		0	0	64	64		
+TTransmitw2			TTransmitWire		0	0	64	64		
+TTransmitw3			TTransmitWire		0	0	64	64		
+TTransmitw4			TTransmitWire		0	0	64	64		
+TTransmitw5			TTransmitWire		0	0	64	64
+
+TBasew1				TStarbaseWire		0	0	64	64
+TBasew2				TStarbaseWire		0	0	64	64
+TBasew3				TStarbaseWire		0	0	64	64
+TBasew4				TStarbaseWire		0	0	64	64
+TBasew5				TStarbaseWire		0	0	64	64
+
+TGatewayw1			TGateWire		0	0	64	64
+TGatewayw2			TGateWire		0	0	64	64
+TGatewayw3			TGateWire		0	0	64	64
+TGatewayw4			TGateWire		0	0	64	64
+TGatewayw5			TGateWire		0	0	64	64
+
+TGateway2w1			TGateWire		0	0	64	64
+TGateway2w2			TGateWire		0	0	64	64
+TGateway2w3			TGateWire		0	0	64	64
+TGateway2w4			TGateWire		0	0	64	64
+TGateway2w5			TGateWire		0	0	64	64
+
+TMiningw1			TMiningWire		0	0	64	64		
+TMiningw2			TMiningWire		0	0	64	64		
+TMiningw3			TMiningWire		0	0	64	64		
+TMiningw4			TMiningWire		0	0	64	64		
+TMiningw5			TMiningWire		0	0	64	64
+
+TYard1w1			TYardWire		0	0	64	64		
+TYard1w2			TYardWire		0	0	64	64		
+TYard1w3			TYardWire		0	0	64	64		
+TYard1w4			TYardWire		0	0	64	64		
+TYard1w5			TYardWire		0	0	64	64
+
+TSensorw1			TSensorWire		0	0	64	64		
+TSensorw2			TSensorWire		0	0	64	64		
+TSensorw3			TSensorWire		0	0	64	64		
+TSensorw4			TSensorWire		0	0	64	64		
+TSensorw5			TSensorWire		0	0	64	64
+
+TMinew1				TMineWire		0	0	64	64		
+TMinew2				TMineWire		0	0	64	64		
+TMinew3				TMineWire		0	0	64	64		
+TMinew4				TMineWire		0	0	64	64		
+TMinew5				TMineWire		0	0	64	64
+
+TResearchw1			TResearchWire		0	0	64	64		
+TResearchw2			TResearchWire		0	0	64	64		
+TResearchw3			TResearchWire		0	0	64	64		
+TResearchw4			TResearchWire		0	0	64	64		
+TResearchw5			TResearchWire		0	0	64	64
+
+TUpgradew1			TUpgradeWire		0	0	64	64		
+TUpgradew2			TUpgradeWire		0	0	64	64		
+TUpgradew3			TUpgradeWire		0	0	64	64		
+TUpgradew4			TUpgradeWire		0	0	64	64		
+TUpgradew5			TUpgradeWire		0	0	64	64
+
+
+
+
+
+
+
+
+
+TEmeraldw1			TBattleWire		0	0	64	64		
+TEmeraldw2			TBattleWire		0	0	64	64		
+TEmeraldw3			TBattleWire		0	0	64	64		
+TEmeraldw4			TBattleWire		0	0	64	64		
+TEmeraldw5			TBattleWire		0	0	64	64
+
+TSapphirew1			TDreadWire		0	0	64	64		
+TSapphirew2			TDreadWire		0	0	64	64		
+TSapphirew3			TDreadWire		0	0	64	64		
+TSapphirew4			TDreadWire		0	0	64	64		
+TSapphirew5			TDreadWire		0	0	64	64
+
+TAmethystw1			TBCruiseWire		0	0	64	64		
+TAmethystw2			TBCruiseWire		0	0	64	64			
+TAmethystw3			TBCruiseWire		0	0	64	64	
+TAmethystw4			TBCruiseWire		0	0	64	64	
+TAmethystw5			TBCruiseWire		0	0	64	64	
+
+TFeldsparw1			TEscortWire		0	0	64	64		
+TFeldsparw2			TEscortWire		0	0	64	64		
+TFeldsparw3			TEscortWire		0	0	64	64			
+TFeldsparw4			TEscortWire		0	0	64	64	
+TFeldsparw5			TEscortWire		0	0	64	64	
+
+TQuartzw1			TDestroyWire		0	0	64	64		
+TQuartzw2			TDestroyWire		0	0	64	64	
+TQuartzw3			TDestroyWire		0	0	64	64	
+TQuartzw4			TDestroyWire		0	0	64	64			
+TQuartzw5			TDestroyWire		0	0	64	64	
+
+TRubyw1				TCruiseWire		0	0	64	64		
+TRubyw2				TCruiseWire		0	0	64	64		
+TRubyw3				TCruiseWire		0	0	64	64
+TRubyw4				TCruiseWire		0	0	64	64
+TRubyw5				TCruiseWire		0	0	64	64
+
+THerow1				TCruiseWire		0	0	64	64		
+THerow2				TCruiseWire		0	0	64	64		
+THerow3				TCruiseWire		0	0	64	64
+THerow4				TCruiseWire		0	0	64	64
+THerow5				TCruiseWire		0	0	64	64
+
+TCitrinew1			TMonitorWire		0	0	64	64		
+TCitrinew2			TMonitorWire		0	0	64	64		
+TCitrinew3			TMonitorWire		0	0	64	64
+TCitrinew4			TMonitorWire		0	0	64	64
+TCitrinew5			TMonitorWire		0	0	64	64
+
+TGarnetw1			TLCruiseWire		0	0	64	64		
+TGarnetw2			TLCruiseWire		0	0	64	64
+TGarnetw3			TLCruiseWire		0	0	64	64
+TGarnetw4			TLCruiseWire		0	0	64	64
+TGarnetw5			TLCruiseWire		0	0	64	64
+
+TConstw1			TConstWire		0	0	64	64		
+TConstw2			TConstWire		0	0	64	64		
+TConstw3			TConstWire		0	0	64	64		
+TConstw4			TConstWire		0	0	64	64		
+TConstw5			TConstWire		0	0	64	64
+
+TFAw1				TFreightWire		0	0	64	64		
+TFAw2				TFreightWire		0	0	64	64			
+TFAw3				TFreightWire		0	0	64	64	
+TFAw4				TFreightWire		0	0	64	64			
+TFAw5				TFreightWire		0	0	64	64	
+
+# ISC build Buttons	
+@tmaterial=interface	
+@reference=64
+b_IBase				IStarbaseButton		0	0	64	64
+b_IMining			IMiningButton		0	0	64	64
+b_IDisassembly			IDisassemblyButton	0	0	64	64	
+b_IYard				IYardButton		0	0	64	64
+b_IYard2			IYard2Button		0	0	64	64
+b_IMine				IMineButton			0	0	64	64
+b_ISensor			ISensorButton		0	0	64	64
+b_IResearchA			IResearchAButton	0	0	64	64
+b_IResearchB			IResearchBButton	0	0	64	64
+b_IResearchC			IResearchCButton	0	0	64	64
+b_IUpgrade			IUpgradeButton		0	0	64	64
+b_ISuperbl			ISuperblButton		0	0	64	64
+			
+b_ISCPod1			IPod2Button		0	0	64	64		
+b_ISCPod2			IPod1Button		0	0	64	64	
+b_ISCPod11			ISCPod11Button		0	0	64	64
+b_ISCPod12			ISCPod12Button		0	0	64	64
+b_ISCPod13			ISCPod13Button		0	0	64	64
+b_ISCPod14			ISCPod14Button		0	0	64	64
+b_ISCPod15			ISCPod15Button		0	0	64	64
+b_ISCPod21			ISCPod21Button		0		0		64		64
+b_ISCPod22			ISCPod22Button		0		0		64		64
+b_ISCPod23			ISCPod23Button		0		0		64		64
+b_ISCPod24			ISCPod24Button		0		0		64		64
+b_ISCPod25			ISCPod25Button		0		0		64		64
+b_ISCEqu1			ISCEqu1Button		0	0	64	64
+b_ISCEqu2			ISCEqu2Button		0	0	64	64
+b_ISCEqu3			ISCEqu3Button		0	0	64	64
+b_ISCEqu4			ISCEqu4Button		0	0	64	64
+b_ISCEqu5			ISCEqu5Button		0	0	64	64
+b_ISCEqu6			ISCEqu6Button		0	0	64	64
+b_ISCEqu7			ISCEqu7Button		0	0	64	64
+b_ISCEqu8			ISCEqu8Button		0	0	64	64
+b_ISCEqu9			ISCEqu9Button		0	0	64	64
+b_ISCHull1			ISCHull1Button		0	0	64	64
+b_ISCHull2			ISCHull2Button		0	0	64	64
+b_ISCHull3			ISCHull3Button		0	0	64	64
+b_ISCHull4			ISCHull4Button		0	0	64	64
+b_ISCHull5			ISCHull5Button		0	0	64	64
+b_ISCHull6			ISCHull6Button		0	0	64	64
+b_ISCHull7			ISCHull7Button		0	0	64	64
+b_ISCMiscR1			ISCMiscR1Button		0	0	64	64
+b_ISCMiscR2			ISCMiscR2Button		0	0	64	64
+b_ISCMiscR3			ISCMiscR3Button		0	0	64	64
+b_ISCMiscR4			ISCMiscR4Button		0	0	64	64
+b_ISCMiscR5			ISCMiscR5Button		0	0	64	64
+b_ISCMiscR6			ISCMiscR6Button		0	0	64	64
+b_ISCMiscR7			ISCMiscR7Button		0	0	64	64
+b_ISCMiscR8			ISCMiscR8Button		0	0	64	64
+b_ISCMix1			ISCFedMixButton		0	0	64	64
+b_ISCMix2			ISCKliMixButton		0	0	64	64
+b_ISCMix3			ISCRomMixButton		0	0	64	64
+b_ISCMix4			ISCGorMixButton		0	0	64	64
+b_ISCMix5			ISCHydMixButton		0	0	64	64
+b_ISCMix6			ISCLyrMixButton		0	0	64	64
+
+b_ICV				ICarrierButton		0	0	64	64
+b_IDND				IDreadDButton		0	0	64	64
+b_IHero				IHeroButton			0	0	64	64
+b_IDN				IDreadButton		0	0	64	64
+b_ICSA				ISCruiseButton		0	0	64	64
+b_ICT				ITCruiseButton		0	0	64	64
+b_ICAD				ICruiseDButton		0	0	64	64
+b_ICA				ICruiseButton		0	0	64	64
+b_ICCL				ILCCruiseButton		0	0	64	64
+b_ICL				ILCruiseButton		0	0	64	64
+b_IDLD				IDestroyLDButton	0	0	64	64
+b_IDDD				IDestroyDButton		0	0	64	64
+b_IDL				IDestroyLButton		0	0	64	64
+b_IDD				IDestroyButton		0	0	64	64
+b_IFFD				IFrigateDButton		0	0	64	64	
+b_IFS				IFrigateSButton		0	0	64	64	
+b_IFF				IFrigateButton		0	0	64	64
+b_IFI				IFighterButton		0	0	64	64
+b_IFIB				IFighterBButton		0	0	64	64
+
+b_IAPA				IAssaultButton		0	0	64	64
+b_IAR				ISRepairButton		0	0	64	64
+b_IFB				IColonyButton		0	0	64	64
+b_IDF				IFreightButton		0	0	64	64
+b_IACS				IConstButton		0	0	64	64
+
+ibasew1			IStarbaseWire		0	0	64	64		
+ibasew2			IStarbaseWire		0	0	64	64	
+ibasew3			IStarbaseWire		0	0	64	64		
+ibasew4			IStarbaseWire		0	0	64	64		
+ibasew5			IStarbaseWire		0	0	64	64
+
+iminingw1		iminingWire		0	0	64	64		
+iminingw2		iminingWire		0	0	64	64	
+iminingw3		iminingWire		0	0	64	64		
+iminingw4		iminingWire		0	0	64	64		
+iminingw5		iminingWire		0	0	64	64
+
+idisassemblyw1		iminingWire		0	0	64	64		
+idisassemblyw2		iminingWire		0	0	64	64	
+idisassemblyw3		iminingWire		0	0	64	64		
+idisassemblyw4		iminingWire		0	0	64	64		
+idisassemblyw5		iminingWire		0	0	64	64
+
+iyardw1			iyardWire		0	0	64	64		
+iyardw2			iyardWire		0	0	64	64	
+iyardw3			iyardWire		0	0	64	64		
+iyardw4			iyardWire		0	0	64	64		
+iyardw5			iyardWire		0	0	64	64
+
+iyard2w1		iyard2Wire		0	0	64	64		
+iyard2w2		iyard2Wire		0	0	64	64	
+iyard2w3		iyard2Wire		0	0	64	64		
+iyard2w4		iyard2Wire		0	0	64	64		
+iyard2w5		iyard2Wire		0	0	64	64
+
+iminew1			imineWire		0	0	64	64		
+iminew2			imineWire		0	0	64	64	
+iminew3			imineWire		0	0	64	64		
+iminew4			imineWire		0	0	64	64		
+iminew5			imineWire		0	0	64	64
+
+isensorw1		isensorWire		0	0	64	64		
+isensorw2		isensorWire		0	0	64	64	
+isensorw3		isensorWire		0	0	64	64		
+isensorw4		isensorWire		0	0	64	64		
+isensorw5		isensorWire		0	0	64	64
+
+isuperblw1		isuperblWire		0	0	64	64		
+isuperblw2		isuperblWire		0	0	64	64	
+isuperblw3		isuperblWire		0	0	64	64		
+isuperblw4		isuperblWire		0	0	64	64		
+isuperblw5		isuperblWire		0	0	64	64
+
+iresearchaw1		iresearchWire		0	0	64	64		
+iresearchaw2		iresearchWire		0	0	64	64	
+iresearchaw3		iresearchWire		0	0	64	64		
+iresearchaw4		iresearchWire		0	0	64	64		
+iresearchaw5		iresearchWire		0	0	64	64
+
+iresearchbw1		iresearchWire		0	0	64	64		
+iresearchbw2		iresearchWire		0	0	64	64	
+iresearchbw3		iresearchWire		0	0	64	64		
+iresearchbw4		iresearchWire		0	0	64	64		
+iresearchbw5		iresearchWire		0	0	64	64
+
+iresearchcw1		iresearchWire		0	0	64	64		
+iresearchcw2		iresearchWire		0	0	64	64	
+iresearchcw3		iresearchWire		0	0	64	64		
+iresearchcw4		iresearchWire		0	0	64	64		
+iresearchcw5		iresearchWire		0	0	64	64
+
+iupgradew1		iresearchWire		0	0	64	64		
+iupgradew2		iresearchWire		0	0	64	64	
+iupgradew3		iresearchWire		0	0	64	64		
+iupgradew4		iresearchWire		0	0	64	64		
+iupgradew5		iresearchWire		0	0	64	64
+
+iacsw1			iconstWire		0	0	64	64		
+iacsw2			iconstWire		0	0	64	64	
+iacsw3			iconstWire		0	0	64	64		
+iacsw4			iconstWire		0	0	64	64		
+iacsw5			iconstWire		0	0	64	64
+
+ifbw1			iconstWire		0	0	64	64		
+ifbw2			iconstWire		0	0	64	64	
+ifbw3			iconstWire		0	0	64	64		
+ifbw4			iconstWire		0	0	64	64		
+ifbw5			iconstWire		0	0	64	64
+
+idfw1			iconstWire		0	0	64	64		
+idfw2			iconstWire		0	0	64	64	
+idfw3			iconstWire		0	0	64	64		
+idfw4			iconstWire		0	0	64	64		
+idfw5			iconstWire		0	0	64	64
+
+iapaw1			iconstWire		0	0	64	64		
+iapaw2			iconstWire		0	0	64	64	
+iapaw3			iconstWire		0	0	64	64		
+iapaw4			iconstWire		0	0	64	64		
+iapaw5			iconstWire		0	0	64	64
+
+iarw1			iconstWire		0	0	64	64		
+iarw2			iconstWire		0	0	64	64	
+iarw3			iconstWire		0	0	64	64		
+iarw4			iconstWire		0	0	64	64		
+iarw5			iconstWire		0	0	64	64
+
+iffw1				ifrigateWire		0	0	64	64		
+iffw2				ifrigateWire		0	0	64	64		
+iffw3			ifrigateWire		0	0	64	64		
+iffw4			ifrigateWire		0	0	64	64		
+iffw5			ifrigateWire		0	0	64	64
+
+ifsw1			ifrigateWire		0	0	64	64		
+ifsw2			ifrigateWire		0	0	64	64	
+ifsw3			ifrigateWire		0	0	64	64		
+ifsw4			ifrigateWire		0	0	64	64		
+ifsw5			ifrigateWire		0	0	64	64
+
+iffdw1			ifrigateWire		0	0	64	64		
+iffdw2			ifrigateWire		0	0	64	64			
+iffdw3			ifrigateWire		0	0	64	64			
+iffdw4			ifrigateWire		0	0	64	64			
+iffdw5			ifrigateWire		0	0	64	64
+
+iddw1			idestroyWire		0	0	64	64		
+iddw2			idestroyWire		0	0	64	64			
+iddw3			idestroyWire		0	0	64	64			
+iddw4			idestroyWire		0	0	64	64			
+iddw5			idestroyWire		0	0	64	64	
+
+idlw1			idestroylWire		0	0	64	64		
+idlw2			idestroylWire		0	0	64	64			
+idlw3			idestroylWire		0	0	64	64			
+idlw4			idestroylWire		0	0	64	64			
+idlw5			idestroylWire		0	0	64	64
+
+idldw1			idestroylWire		0	0	64	64		
+idldw2			idestroylWire		0	0	64	64			
+idldw3			idestroylWire		0	0	64	64			
+idldw4			idestroylWire		0	0	64	64			
+idldw5			idestroylWire		0	0	64	64	
+
+idddw1			idestroyWire		0	0	64	64			
+idddw2			idestroyWire		0	0	64	64			
+idddw3			idestroyWire		0	0	64	64			
+idddw4			idestroyWire		0	0	64	64			
+idddw5			idestroyWire		0	0	64	64
+
+ifiw1			ifighterWire		0	0	64	64			
+ifiw2			ifighterWire		0	0	64	64			
+ifiw3			ifighterWire		0	0	64	64			
+ifiw4			ifighterWire		0	0	64	64			
+ifiw5			ifighterWire		0	0	64	64	
+
+ifibw1			ifighterWire		0	0	64	64			
+ifibw2			ifighterWire		0	0	64	64			
+ifibw3			ifighterWire		0	0	64	64			
+ifibw4			ifighterWire		0	0	64	64			
+ifibw5			ifighterWire		0	0	64	64	
+
+iclw1			ilcruiseWire		0	0	64	64			
+iclw2			ilcruiseWire		0	0	64	64		
+iclw3			ilcruiseWire		0	0	64	64		
+iclw4			ilcruiseWire		0	0	64	64		
+iclw5			ilcruiseWire		0	0	64	64
+
+icclw1			ilcruiseWire		0	0	64	64			
+icclw2			ilcruiseWire		0	0	64	64		
+icclw3			ilcruiseWire		0	0	64	64		
+icclw4			ilcruiseWire		0	0	64	64		
+icclw5			ilcruiseWire		0	0	64	64
+
+icaw1			icruiseWire		0	0	64	64		
+icaw2			icruiseWire		0	0	64	64		
+icaw3			icruiseWire		0	0	64	64		
+icaw4			icruiseWire		0	0	64	64		
+icaw5			icruiseWire		0	0	64	64
+
+icadw1			icruiseWire		0	0	64	64		
+icadw2			icruiseWire		0	0	64	64		
+icadw3			icruiseWire		0	0	64	64		
+icadw4			icruiseWire		0	0	64	64		
+icadw5			icruiseWire		0	0	64	64
+
+ictw1			icruiseWire		0	0	64	64		
+ictw2			icruiseWire		0	0	64	64		
+ictw3			icruiseWire		0	0	64	64		
+ictw4			icruiseWire		0	0	64	64		
+ictw5			icruiseWire		0	0	64	64
+
+icsaw1			iscruiseWire		0	0	64	64		
+icsaw2			iscruiseWire		0	0	64	64		
+icsaw3			iscruiseWire		0	0	64	64		
+icsaw4			iscruiseWire		0	0	64	64		
+icsaw5			iscruiseWire		0	0	64	64	
+
+idnw1			idreadWire		0	0	64	64		
+idnw2			idreadWire		0	0	64	64		
+idnw3			idreadWire		0	0	64	64		
+idnw4			idreadWire		0	0	64	64		
+idnw5			idreadWire		0	0	64	64
+
+idndw1			idreadWire		0	0	64	64		
+idndw2			idreadWire		0	0	64	64		
+idndw3			idreadWire		0	0	64	64		
+idndw4			idreadWire		0	0	64	64		
+idndw5			idreadWire		0	0	64	64
+
+iherow1			idreadWire		0	0	64	64		
+iherow2			idreadWire		0	0	64	64		
+iherow3			idreadWire		0	0	64	64		
+iherow4			idreadWire		0	0	64	64		
+iherow5			idreadWire		0	0	64	64
+
+icvw1			icarrierWire		0	0	64	64		
+icvw2			icarrierWire		0	0	64	64		
+icvw3			icarrierWire		0	0	64	64		
+icvw4			icarrierWire		0	0	64	64		
+icvw5			icarrierWire		0	0	64	64
+
+# Orion Wireframes
+@reference=64
+@tmaterial=interface
+
+PKingPinw1		PDreadWire		0	0	64	64		
+PKingPinw2		PDreadWire		0	0	64	64		
+PKingPinw3		PDreadWire		0	0	64	64		
+PKingPinw4		PDreadWire		0	0	64	64		
+PKingPinw5		PDreadWire		0	0	64	64
+
+PBlackjackw1		PBCruiseWire		0	0	64	64		
+PBlackjackw2		PBCruiseWire		0	0	64	64		
+PBlackjackw3		PBCruiseWire		0	0	64	64		
+PBlackjackw4		PBCruiseWire		0	0	64	64		
+PBlackjackw5		PBCruiseWire		0	0	64	64
+
+PBuccaneerw1		PCruiseWire			0	0	64	64
+PBuccaneerw2		PCruiseWire			0	0	64	64
+PBuccaneerw3		PCruiseWire			0	0	64	64
+PBuccaneerw4		PCruiseWire			0	0	64	64
+PBuccaneerw5		PCruiseWire			0	0	64	64
+
+PCutlassw1		PLCruiseWire		0	0	64	64
+PCutlassw2		PLCruiseWire		0	0	64	64
+PCutlassw3		PLCruiseWire		0	0	64	64
+PCutlassw4		PLCruiseWire		0	0	64	64
+PCutlassw5		PLCruiseWire		0	0	64	64
+
+PPilfererw1		PDestroyWire		0	0	64	64
+PPilfererw2		PDestroyWire		0	0	64	64
+PPilfererw3		PDestroyWire		0	0	64	64
+PPilfererw4		PDestroyWire		0	0	64	64
+PPilfererw5		PDestroyWire		0	0	64	64
+
+PPrivateerw1		PFreightWire		0	0	64	64		
+PPrivateerw2		PFreightWire		0	0	64	64		
+PPrivateerw3		PFreightWire		0	0	64	64		
+PPrivateerw4		PFreightWire		0	0	64	64		
+PPrivateerw5		PFreightWire		0	0	64	64
+
+PDirkw1			PEscortWire		0	0	64	64		
+PDirkw2			PEscortWire		0	0	64	64		
+PDirkw3			PEscortWire		0	0	64	64		
+PDirkw4			PEscortWire		0	0	64	64		
+PDirkw5			PEscortWire		0	0	64	64
+
+PBasew1			PBaseWire		0	0	64	64		
+PBasew2			PBaseWire		0	0	64	64		
+PBasew3			PBaseWire		0	0	64	64		
+PBasew4			PBaseWire		0	0	64	64		
+PBasew5			PBaseWire		0	0	64	64
+
+PFlintlockw1		PFighterWire		0	0	64	64		
+PFlintlockw2		PFighterWire		0	0	64	64		
+PFlintlockw3		PFighterWire		0	0	64	64		
+PFlintlockw4		PFighterWire		0	0	64	64		
+PFlintlockw5		PFighterWire		0	0	64	64
+
+# Civilian Wireframes
+@reference=64
+@tmaterial=interface
+
+ZMerchantw1			merchantWire		0	0	64	64		
+ZMerchantw2			merchantWire		0	0	64	64		
+ZMerchantw3			merchantWire		0	0	64	64		
+ZMerchantw4			merchantWire		0	0	64	64		
+ZMerchantw5			merchantWire		0	0	64	64
+
+ZHumpbackw1			ZHumpWire		0	0	64	64		
+ZHumpbackw2			ZHumpWire		0	0	64	64		
+ZHumpbackw3			ZHumpWire		0	0	64	64		
+ZHumpbackw4			ZHumpWire		0	0	64	64		
+ZHumpbackw5			ZHumpWire		0	0	64	64
+
+ZDY6000w1			ZDY6000Wire		0	0	64	64		
+ZDY6000w2			ZDY6000Wire		0	0	64	64		
+ZDY6000w3			ZDY6000Wire		0	0	64	64		
+ZDY6000w4			ZDY6000Wire		0	0	64	64		
+ZDY6000w5			ZDY6000Wire		0	0	64	64
+
+ZAltairw1			ZAltairWire		0	0	64	64		
+ZAltairw2			ZAltairWire		0	0	64	64		
+ZAltairw3			ZAltairWire		0	0	64	64		
+ZAltairw4			ZAltairWire		0	0	64	64		
+ZAltairw5			ZAltairWire		0	0	64	64
+
+ZType400w1			ZType400Wire		0	0	64	64		
+ZType400w2			ZType400Wire		0	0	64	64		
+ZType400w3			ZType400Wire		0	0	64	64		
+ZType400w4			ZType400Wire		0	0	64	64		
+ZType400w5			ZType400Wire		0	0	64	64
+
+ZType800w1			ZType800Wire		0	0	64	64		
+ZType800w2			ZType800Wire		0	0	64	64		
+ZType800w3			ZType800Wire		0	0	64	64		
+ZType800w4			ZType800Wire		0	0	64	64		
+ZType800w5			ZType800Wire		0	0	64	64
+
+ZBulldogw1			ZBulldogWire		0	0	64	64		
+ZBulldogw2			ZBulldogWire		0	0	64	64		
+ZBulldogw3			ZBulldogWire		0	0	64	64		
+ZBulldogw4			ZBulldogWire		0	0	64	64		
+ZBulldogw5			ZBulldogWire		0	0	64	64
+
+ZPorterw1			ZPorterWire		0	0	64	64		
+ZPorterw2			ZPorterWire		0	0	64	64		
+ZPorterw3			ZPorterWire		0	0	64	64		
+ZPorterw4			ZPorterWire		0	0	64	64		
+ZPorterw5			ZPorterWire		0	0	64	64
+
+ZOcean1w1			ZOcean1Wire		0	0	64	64		
+ZOcean1w2			ZOcean1Wire		0	0	64	64		
+ZOcean1w3			ZOcean1Wire		0	0	64	64		
+ZOcean1w4			ZOcean1Wire		0	0	64	64		
+ZOcean1w5			ZOcean1Wire		0	0	64	64
+
+ZOcean2w1			ZOcean2Wire		0	0	64	64		
+ZOcean2w2			ZOcean2Wire		0	0	64	64		
+ZOcean2w3			ZOcean2Wire		0	0	64	64		
+ZOcean2w4			ZOcean2Wire		0	0	64	64		
+ZOcean2w5			ZOcean2Wire		0	0	64	64
+
+# Shakurian Wireframes
+@reference=64
+@tmaterial=interface
+
+SHunterw1			SHunterWire		0	0	64	64		
+SHunterw2			SHunterWire		0	0	64	64		
+SHunterw3			SHunterWire		0	0	64	64		
+SHunterw4			SHunterWire		0	0	64	64		
+SHunterw5			SHunterWire		0	0	64	64
+
+SLFangw1			SLFangWire		0	0	64	64		
+SLFangw2			SLFangWire		0	0	64	64		
+SLFangw3			SLFangWire		0	0	64	64		
+SLFangw4			SLFangWire		0	0	64	64		
+SLFangw5			SLFangWire		0	0	64	64
+
+SAlphaw1			SAlphaWire		0	0	64	64		
+SAlphaw2			SAlphaWire		0	0	64	64		
+SAlphaw3			SAlphaWire		0	0	64	64		
+SAlphaw4			SAlphaWire		0	0	64	64		
+SAlphaw5			SAlphaWire		0	0	64	64
+
+SClaww1				SClawWire		0	0	64	64		
+SClaww2				SClawWire		0	0	64	64		
+SClaww3				SClawWire		0	0	64	64		
+SClaww4				SClawWire		0	0	64	64		
+SClaww5				SClawWire		0	0	64	64
+
+SSharptoothw2			SSharptoothWire		0	0	64	64		
+SSharptoothw2			SSharptoothWire		0	0	64	64		
+SSharptoothw3			SSharptoothWire		0	0	64	64		
+SSharptoothw4			SSharptoothWire		0	0	64	64		
+SSharptoothw5			SSharptoothWire		0	0	64	64
+
+# Mirak and Borg Wireframes
+@reference=64
+@tmaterial=interface
+
+MVixenw1			MCarrierWire		0	0	64	64		
+MVixenw2			MCarrierWire		0	0	64	64		
+MVixenw3			MCarrierWire		0	0	64	64		
+MVixenw4			MCarrierWire		0	0	64	64		
+MVixenw5			MCarrierWire		0	0	64	64
+
+MWolverinew1			MDreadWire		0	0	64	64		
+MWolverinew2			MDreadWire		0	0	64	64		
+MWolverinew3			MDreadWire		0	0	64	64		
+MWolverinew4			MDreadWire		0	0	64	64		
+MWolverinew5			MDreadWire		0	0	64	64
+
+MWolfw1				MCruiseWire		0	0	64	64		
+MWolfw2				MCruiseWire		0	0	64	64		
+MWolfw3				MCruiseWire		0	0	64	64		
+MWolfw4				MCruiseWire		0	0	64	64		
+MWolfw5				MCruiseWire		0	0	64	64
+
+MJackalw1			MLCruiseWire		0	0	64	64		
+MJackalw2			MLCruiseWire		0	0	64	64		
+MJackalw3			MLCruiseWire		0	0	64	64		
+MJackalw4			MLCruiseWire		0	0	64	64		
+MJackalw5			MLCruiseWire		0	0	64	64
+
+MFoxw1				MDestroyWire		0	0	64	64		
+MFoxw2				MDestroyWire		0	0	64	64		
+MFoxw3				MDestroyWire		0	0	64	64		
+MFoxw4				MDestroyWire		0	0	64	64		
+MFoxw5				MDestroyWire		0	0	64	64
+
+MDingow1			MFrigateWire		0	0	64	64		
+MDingow2			MFrigateWire		0	0	64	64		
+MDingow3			MFrigateWire		0	0	64	64		
+MDingow4			MFrigateWire		0	0	64	64		
+MDingow5			MFrigateWire		0	0	64	64
+
+MDenMotherw1			MFreightWire		0	0	64	64		
+MDenMotherw2			MFreightWire		0	0	64	64		
+MDenMotherw3			MFreightWire		0	0	64	64		
+MDenMotherw4			MFreightWire		0	0	64	64		
+MDenMotherw5			MFreightWire		0	0	64	64
+
+MBasew1				MStarbaseWire		0	0	64	64		
+MBasew2				MStarbaseWire		0	0	64	64		
+MBasew3				MStarbaseWire		0	0	64	64		
+MBasew4				MStarbaseWire		0	0	64	64		
+MBasew5				MStarbaseWire		0	0	64	64
+
+MDaggerfangw1			MFighterWire		0	0	64	64		
+MDaggerfangw2			MFighterWire		0	0	64	64		
+MDaggerfangw3			MFighterWire		0	0	64	64		
+MDaggerfangw4			MFighterWire		0	0	64	64		
+MDaggerfangw5			MFighterWire		0	0	64	64
+
+BorgSpherew1			BorgSphereWire		0	0	64	64		
+BorgSpherew2			BorgSphereWire		0	0	64	64		
+BorgSpherew3			BorgSphereWire		0	0	64	64		
+BorgSpherew4			BorgSphereWire		0	0	64	64		
+BorgSpherew5			BorgSphereWire		0	0	64	64
+
+# Special weapon Buttons
+@reference=64
+
+@tmaterial=interface
+	
+# Federation Advanced Weapon Buttons
+
+# Klingon Advanced Weapon Buttons
+
+# Romulan Advanced Weapon Buttons
+
+# Gorn Advanced Weapon Buttons
+
+# ISC Advanced Weapon Buttons		
+
+# Tholian Advanced Weapon Buttons
+
+# Hydran Advanced Weapon Buttons
+
+# Lyran Advanced Weapon Buttons		
+
+# Shakurian Advanced Weapon Buttons
+
+# Other Race Advanced Weapon Buttons
+
+b_gtempor			gbTMPDis00			0	0	64	64
+
+@tmaterial=default
+
+# Wireframes
+# ----------
+
+## SPRITE DATA	##
+
+# Ship Wireframes
+@reference=128
+@tmaterial=interface
+
+#Pods_moon_asteroids_planets Wireframes
+@reference=256
+
+pb_clssa_s			podwireframe03	192	48	48	48
+pb_clssb_s			podwireframe03	192	48	48	48
+pb_clssc_s			podwireframe03	192	48	48	48
+pb_clssd_s			podwireframe03	144	48	48	48
+pb_clsse_s			podwireframe03	192	48	48	48
+pb_clssf_s			podwireframe03	192	48	48	48
+pb_clssg_s			podwireframe03	192	48	48	48
+pb_clssh_s			podwireframe03	192	48	48	48
+pb_clssi_s			podwireframe03	0	96	48	48
+pb_clssj_s			podwireframe03	0	96	48	48
+pb_clssjII_s			podwireframe03	0	96	48	48
+pb_clssjIII_s			podwireframe03	0	96	48	48
+pb_clssjIV_s			podwireframe03	0	96	48	48
+pb_clssjV_s				podwireframe03	0	96	48	48
+pb_clssk_s			podwireframe03	48	96	48	48
+pb_clssl_s			podwireframe03	96	96	48	48
+pb_clssm_s			podwireframe03	144	96	48	48
+pb_clssma_s			podwireframe03	144	96	48	48
+pb_clssmb_s			podwireframe03	144	96	48	48
+pb_clssmc_s			podwireframe03	144	96	48	48
+pb_clssmd_s			podwireframe03	144	96	48	48
+pb_clssme_s			podwireframe03	144	96	48	48
+pb_clssmf_s			podwireframe03	144	96	48	48
+pb_clssmg_s			podwireframe03	144	96	48	48
+pb_clssn_s			podwireframe03	48	96	48	48
+pb_clsso_s			podwireframe03	144	96	48	48
+pb_clssp_s			podwireframe03	144	96	48	48
+pb_clssq_s			podwireframe03	48	96	48	48
+pb_clssr_s			podwireframe03	48	96	48	48
+pb_clsss_s			podwireframe03	0	96	48	48
+pb_clsst_s			podwireframe03	0	96	48	48
+pb_clssv_s			podwireframe03	144	48	48	48
+pb_clssw_s			podwireframe03	144	48	48	48
+pb_clsswa_s			podwireframe03	144	48	48	48
+pb_clssy_s			podwireframe03	144	48	48	48
+
+
+latinum_s			podwireframe03	192	96	48	48
+mdmoon_s			podwireframe03	0	144	48	48
+mdmoon1_s			podwireframe03	0	144	48	48
+mdmoon2_s			podwireframe03	0	144	48	48
+mdmoon3_s			podwireframe03	0	144	48	48
+mmooninf_s			podwireframe03	0	144		48	48	
+
+# Icons for on wireframes
+@reference=32
+gravmine_icon			gminisys	1	21	10	10
+flag_icon			gminisys	12	21	10	10
+
+@referenceWidth=1024									
+@referenceHeight=256									
+@tmaterial=interface															
+romspy_icon	all_interface2	993	1	28	28	
+
+@tmaterial=additive
+@reference=256
+# sensors, shields, weapons, engines, life support
+#infosystem.0		fguib04		142	72	30	30		
+#infosystem.1		fguib04		142	40	30	30		
+#infosystem.2		fguib04		176	72	30	30		
+#infosystem.3		fguib04		176	40	30	30
+#infosystem.4		fguib04		210	40	30	30
+
+
+@tmaterial=interface
+# Race icons
+@reference=256
+realborg_icon			allrace		84	84	84	84
+fedTNG_icon				allrace		0	0	84	84
+
+
+@tmaterial=interface
+@reference=64
+federation_icon			gui_icon_fed	0	0	64	64
+cardassian_icon			gui_icon_kli	0	0	64	64
+romulan_icon			gui_icon_rom	0	0	64	64
+klingon_icon			gui_icon_gor	0	0	64	64
+species8472_icon		gui_icon_tho	0	0	64	64
+borg_icon				gui_icon_isc	0	0	64	64
+hydran_icon				gui_icon_hyd	0	0	64	64
+lyran_icon				gui_icon_lyr	0	0	64	64
+orion_icon				gui_icon_ori	0	0	64	64
+mirak_icon				gui_icon_mir	0	0	64	64
+ferengi_icon			gui_icon_civ	0	0	64	64
+shakurian_icon			gui_icon_sha	0	0	64	64
+terran_icon				gui_icon_ter	0	0	64	64
+monster_icon			gui_icon_mon	0	0	64	64	
+
+		
