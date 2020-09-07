@@ -164,7 +164,7 @@ float cfgPLANET_BASE_BUILD_BUFFER = 400.0;
 float cfg_MIN_MOVE_DISTANCE_FOR_CLOAK = 2000.0;
 
 // At what range will the AI try to warp?
-float cfg_MIN_MOVE_WARP_DISTANCE = 6000.0;
+float cfg_MIN_MOVE_WARP_DISTANCE = 1300.0;
 
 ///////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////
