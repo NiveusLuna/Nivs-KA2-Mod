@@ -1,6 +1,7 @@
 sprite_table
 
 @include gui_research-queue.spr
+@include gui_addon-allied-repair-halt.spr
 
 # Shared GUI sprites, a.k.a. non-race specific.
 

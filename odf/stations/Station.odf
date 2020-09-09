@@ -1,0 +1,154 @@
+//Generic Station ODF file
+
+//Default values for ALL stations (can be overriden in successive ODF files)
+
+//Delay before shield begins recharging once it has reached zero (secs)
+shieldDelay = 8.0f
+
+//maximum special energy (stations don't have any)
+maxSpecialEnergy = 0
+
+//special energy recharge rate
+specialEnergyRate = 0
+
+//scan range in meters
+rangeScan = 800.0f
+
+//scan range in meters when sensors are damaged
+damagedScan = 150.0f
+
+//Buffer around bounding box for laying station footprint
+//to block building.
+footprintBuffer = 100.0f
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//An abstract number that represents how much extra strength must be
+//used to attack this craft due to its weapons. By default, stations
+//have no weapons
+
+// (0.0=no weapons, 0.5 = average weapons, 1.0=many good weapons)
+attackPower = 0.00f
+
+//**********************************************************************
+//CREW STATUS MULTIPLIERS
+//The multiplier for the repair time while in yellow status
+repairYellow = 2.0f
+
+//The multiplier for the repair time while in red status
+repairRed = 4.0f
+
+//**********************************************************************
+
+
+
+//**********************************************************************
+//SYSTEM HITPOINTS
+shieldGeneratorHitPoints = 300
+enginesHitPoints = 0
+weaponsHitPoints = 0
+lifeSupportHitPoints = 300
+sensorsHitPoints = 300
+//**********************************************************************
+
+//**********************************************************************
+//SYSTEM DAMAGE DISTRIBUTION
+//The following section's values should add up to 100
+//Percent Chance out of 100 of engines being destroyed
+enginesHitPercent = 0.0f
+
+//Percent Chance out of 100 of life support being destroyed
+lifeSupportHitPercent = 5.0f
+
+//Percent Chance out of 100 of weapons being destroyed
+weaponsHitPercent = 0.0f
+
+//Percent Chance out of 100 of shields being destroyed
+shieldGeneratorHitPercent = 5.0f
+
+//Percent Chance out of 100 of sensors being destroyed
+sensorsHitPercent = 5.0f
+
+//Percent Chance out of 100 of hull being hit (crew dying)
+crewHitPercent = 5.0f
+
+//Percent Chance out of 100 of entire ship exploding
+hullHitPercent = 80.0f
+//**********************************************************************
+
+
+
+//**********************************************************************
+//SYSTEM REPAIR RATES
+//This is the amount of time in seconds to repair ONE hitpoint of damage
+//modified by race and crew status
+enginesRepairTime = 1.0f
+lifeSupportRepairTime = 0.1f
+weaponsRepairTime = 2.0f
+shieldGeneratorRepairTime = 2.0f
+sensorsRepairTime = 3.0f
+//**********************************************************************
+
+
+//**********************************************************************
+//CREW CASUALTY FOR SYSTEM DESTRUCTION
+//The percentage of crew killed when the engines are destroyed
+enginesCrewLoss = 0.0f
+
+//The percentage of crew killed when the lifesupport is destroyed
+lifeSupportCrewLoss = 10.0f
+
+//The percentage of crew killed when the weapons are destroyed
+weaponsCrewLoss = 0.0f
+
+//The percentage of crew killed when the shields are destroyed
+shieldGeneratorCrewLoss = 0.0f
+
+//The percentage of crew killed when the sensors are destroyed
+sensorsCrewLoss = 0.0f
+
+//The percentage of crew lost every second while life support is disabled
+lifeSupportLoss = 3.0f
+//**********************************************************************
+
+
+//PROGRAMMING INFO, DO NOT CHANGE
+
+//This tells the program that this object is a station and to ignore
+//collisions so that it does not move. DO NOT CHANGE
+is_starbase = 1
+
+//always avoid this object
+avoidanceClass = 1000
+
+// This is the size of the build animation sparks.
+weldingRadius = 1.0
+
+//AI Type DO NOT CHANGE
+aiName = "StarbaseProcess"
+
+//Explosion to use
+//fireball = "xfirebal"
+fireball = "x_building_explosion"
+
+
+saneCrewLossMethod = 1
+
+//************************************************************
+// Tara additions for context sensitive menus
+facility = 1
+has_crew = 1
+has_hitpoints = 1
+
+//************************************************************
+// how often should we check to see if we have a valid resource?
+checkValidResourceInterval = 10.0f
+
+//***************************
+// *** THERE BE MODS HERE ***
+//***************************
+
+#include "0halt-queue.odf"
+#include "0shipyard-allied-repair.odf"

@@ -33,8 +33,12 @@ classlabel = "shipyard"
 repairFacility = 0
 decommissionFacility = 0
 
+// Yes, this includes allied ships
+pushBuildItem0 = null
+
 // We build at our center
 buildHardpoint = "root"
 
 // Shipyard? Where?
 research = 1
+

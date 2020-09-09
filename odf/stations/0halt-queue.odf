@@ -1,0 +1,4 @@
+// This file is not meant to be used on its own, but to be included in a shipyard or starbase ODF
+
+// Pause the queue after the current build is finished
+buildItem30 = "all_halt"
