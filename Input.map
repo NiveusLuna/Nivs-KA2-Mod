@@ -85,6 +85,7 @@ chat {
 	- keyboard	Control
 	- keyboard	Shift
 	- keyboard	Alt
+	- keyboard	BackQuote
 }
 
 #Okay key, like hitting the okay button on popups
@@ -93,6 +94,7 @@ okay {
 	- keyboard	Control
 	- keyboard	Shift
 	- keyboard	Alt
+	- keyboard	BackQuote
 }
 
 # Skips cutscene
@@ -101,6 +103,7 @@ cineractiveCancel {
 	- keyboard	Control
 	- keyboard	Shift
 	- keyboard	Alt
+	- keyboard	BackQuote
 }
 
 ##########
@@ -113,6 +116,7 @@ chapter_save {
 	+ keyboard	Control
 	- keyboard	Shift
 	- keyboard	Alt
+	- keyboard	BackQuote
 }
 # multiplayer save
 multiplayer_save {
@@ -120,6 +124,7 @@ multiplayer_save {
 	+ keyboard	Control
 	- keyboard	Shift
 	- keyboard	Alt
+	- keyboard	BackQuote
 }
 
 # regular save
@@ -128,6 +133,7 @@ save_game {
 	+ keyboard	Control
 	- keyboard	Shift
 	- keyboard	Alt
+	- keyboard	BackQuote
 }
 
 # Place flag visible to allies
@@ -136,6 +142,7 @@ multiplayer_flag {
 	- keyboard	Control
 	- keyboard	Shift
 	- keyboard	Alt
+	- keyboard	BackQuote
 }
 
 ######################
@@ -147,6 +154,7 @@ tactical_shroud_toggle {
 	- keyboard	Control
 	- keyboard	Shift
 	+ keyboard	Alt
+	- keyboard	BackQuote
 }
 
 # Grid toggle
@@ -155,6 +163,7 @@ grid_toggle {
 	- keyboard	Control
 	- keyboard	Shift
 	+ keyboard	Alt
+	- keyboard	BackQuote
 }
 
 # Objectives Dialog
@@ -163,6 +172,7 @@ objectives_toggle {
 	- keyboard	Control
 	- keyboard	Shift
 	+ keyboard	Alt
+	- keyboard	BackQuote
 }
 
 # Interface toggle
@@ -171,6 +181,7 @@ toggle_interface {
 	+ keyboard	Control
 	- keyboard	Shift
 	- keyboard	Alt
+	- keyboard	BackQuote
 }
 
 #####################
@@ -184,6 +195,7 @@ camera_rotate_minus {
 	+ keyboard	Control
 	- keyboard	Shift
 	- keyboard	Alt
+	- keyboard	BackQuote
 }
 # Rotate camera counter-clockwise (in Cinematic View Mode)
 camera_rotate_plus {
@@ -191,6 +203,7 @@ camera_rotate_plus {
 	+ keyboard	Control
 	- keyboard	Shift
 	- keyboard	Alt
+	- keyboard	BackQuote
 }
 
 ### Zoom camera
@@ -200,6 +213,7 @@ zoom_factor_plus {
 	+ keyboard	Control
 	- keyboard	Shift
 	- keyboard	Alt
+	- keyboard	BackQuote
 }
 # Zoom camera out
 zoom_factor_minus {
@@ -207,6 +221,7 @@ zoom_factor_minus {
 	+ keyboard	Control
 	- keyboard	Shift
 	- keyboard	Alt
+	- keyboard	BackQuote
 }
 # Reset zoom
 zoom_factor_reset {
@@ -214,6 +229,7 @@ zoom_factor_reset {
 	- keyboard	Control
 	- keyboard	Shift
 	- keyboard	Alt
+	- keyboard	BackQuote
 }
 
 ### Pan (scroll) camera
@@ -223,6 +239,7 @@ scroll_right {
 	- keyboard	Control
 	- keyboard	Shift
 	- keyboard	Alt
+	- keyboard	BackQuote
 }
 # Pan (scroll) camera left
 scroll_left {
@@ -230,6 +247,7 @@ scroll_left {
 	- keyboard	Control
 	- keyboard	Shift
 	- keyboard	Alt
+	- keyboard	BackQuote
 }
 # Pan (scroll) camera up
 scroll_up {
@@ -237,6 +255,7 @@ scroll_up {
 	- keyboard	Control
 	- keyboard	Shift
 	- keyboard	Alt
+	- keyboard	BackQuote
 }
 # Pan (scroll) camera down
 scroll_down {
@@ -244,6 +263,7 @@ scroll_down {
 	- keyboard	Control
 	- keyboard	Shift
 	- keyboard	Alt
+	- keyboard	BackQuote
 }
 
 ### View mode
@@ -253,6 +273,7 @@ toggle_tactical {
 	- keyboard	Control
 	- keyboard	Shift
 	- keyboard	Alt
+	- keyboard	BackQuote
 }
 # Reset the view for the current camera
 reset_view {
@@ -260,6 +281,7 @@ reset_view {
 	+ keyboard	Control
 	- keyboard	Shift
 	- keyboard	Alt
+	- keyboard	BackQuote
 }
 
 ## Camera angles
@@ -270,6 +292,7 @@ switch_camera_shot {
 	- keyboard	Control
 	- keyboard	Shift
 	- keyboard	Alt
+	- keyboard	BackQuote
 }
 
 # Recenter camera on mission start
@@ -277,6 +300,7 @@ center_player {
 	+ keyboard	GreyHome
 	- keyboard	Control
 	- keyboard	Shift
+	- keyboard	BackQuote
 }
 
 # Keypad enter key
@@ -284,6 +308,7 @@ hitKeypadEnter {
 	+ keyboard KeypadEnter
 	- keyboard	Control
 	- keyboard	Shift
+	- keyboard	BackQuote
 }
 
 
@@ -293,6 +318,7 @@ snapshot {
 	- keyboard	Control
 	- keyboard	Shift
 	+ keyboard	Alt
+	- keyboard	BackQuote
 }
 
 #############
@@ -305,6 +331,7 @@ select_all {
 	+ keyboard	Control
 	- keyboard	Shift
 	- keyboard	Alt
+	- keyboard	BackQuote
 }
 # select next visible ship shortcut
 select_next_ship {
@@ -312,6 +339,7 @@ select_next_ship {
 	- keyboard	Control
 	- keyboard	Shift
 	- keyboard	Alt
+	- keyboard	BackQuote
 }
 # select next idle combat ship shortcut
 select_next_combat_ship {
@@ -319,6 +347,7 @@ select_next_combat_ship {
 	- keyboard	Control
 	- keyboard	Shift
 	- keyboard	Alt
+	- keyboard	BackQuote
 }
 # select next idle non-combat ship shortcut
 select_next_non_combat_ship {
@@ -326,6 +355,7 @@ select_next_non_combat_ship {
 	- keyboard	Control
 	- keyboard	Shift
 	- keyboard	Alt
+	- keyboard	BackQuote
 }
 
 # select next idle construction unit
@@ -334,6 +364,7 @@ select_next_construction_ship {
 	- keyboard	Control
 	- keyboard	Shift
 	- keyboard	Alt
+	- keyboard	BackQuote
 }
 
 # select next trade station
@@ -342,6 +373,7 @@ select_next_trade_station {
 	- keyboard	Control
 	- keyboard	Shift
 	- keyboard	Alt
+	- keyboard	BackQuote
 }
 # Put the focus on the next selected ship
 focus_next_selected {
@@ -349,46 +381,59 @@ focus_next_selected {
 	- keyboard	Control
 	- keyboard	Shift
 	- keyboard	Alt
+	- keyboard	BackQuote
 }
 
 # Command grouping (create each group by holding ctrl and the given key)
 group_select_0 {
 	+ keyboard	Zero
+	- keyboard	BackQuote
 }
 group_select_1 {
 	+ keyboard	One
+	- keyboard	BackQuote
 }
 group_select_2 {
 	+ keyboard	Two
+	- keyboard	BackQuote
 }
 group_select_3 {
 	+ keyboard	Three
+	- keyboard	BackQuote
 }
 group_select_4 {
 	+ keyboard	Four
+	- keyboard	BackQuote
 }
 group_select_5 {
 	+ keyboard	Five
+	- keyboard	BackQuote
 }
 group_select_6 {
 	+ keyboard	Six
+	- keyboard	BackQuote
 }
 group_select_7 {
 	+ keyboard	Seven
+	- keyboard	BackQuote
 }
 group_select_8 {
 	+ keyboard	Eight
+	- keyboard	BackQuote
 }
 group_select_9 {
 	+ keyboard	Nine
+	- keyboard	BackQuote
 }
 group_deselect {
 	+ keyboard Minus
 	+ keyboard Control
+	- keyboard	BackQuote
 }
 other_group_deselect {
 	+ keyboard GreyMinus
 	+ keyboard Control
+	- keyboard	BackQuote
 }
 
 #############################
@@ -403,6 +448,7 @@ toggle_popup {
 	- keyboard	Control
 	- keyboard	Shift
 	- keyboard	Alt
+	- keyboard	BackQuote
 }
 
 ### Show sub-menu shortcuts
@@ -416,6 +462,7 @@ toggle_orders {
 	- keyboard	Control
 	- keyboard	Shift
 	- keyboard	Alt
+	- keyboard	BackQuote
 }
 # Show the trade menu
 toggle_trade {
@@ -423,6 +470,7 @@ toggle_trade {
 	- keyboard	Control
 	- keyboard	Shift
 	- keyboard	Alt
+	- keyboard	BackQuote
 }
 # Show the build/evolve/research menu
 toggle_build {
@@ -430,6 +478,7 @@ toggle_build {
 	- keyboard	Control
 	- keyboard	Shift
 	- keyboard	Alt
+	- keyboard	BackQuote
 }
 
 #Show the AI menu token
@@ -438,6 +487,7 @@ toggle_AI {
 	- keyboard	Control
 	- keyboard	Shift
 	- keyboard	Alt
+	- keyboard	BackQuote
 }
 
 # Show the Formations menu
@@ -446,6 +496,7 @@ toggle_formations {
 	- keyboard	Control
 	- keyboard	Shift
 	- keyboard	Alt
+	- keyboard	BackQuote
 }
 ###########################################################
 # Action Menu Shortcuts (top level of Button Bar/Palette) #
@@ -457,6 +508,7 @@ recrew {
 	- keyboard	Control
 	- keyboard	Shift
 	- keyboard	Alt
+	- keyboard	BackQuote
 }
 
 # Transport
@@ -465,6 +517,7 @@ transport {
 	- keyboard	Control
 	- keyboard	Shift
 	- keyboard	Alt
+	- keyboard	BackQuote
 }
 # Comandeer
 capture {
@@ -472,6 +525,7 @@ capture {
 	- keyboard	Control
 	+ keyboard	Shift
 	- keyboard	Alt
+	- keyboard	BackQuote
 }
 
 # Set rally point
@@ -480,6 +534,7 @@ rally {
 	- keyboard	Control
 	- keyboard	Shift
 	- keyboard	Alt
+	- keyboard	BackQuote
 }
 
 # Harvest (dilithium/latinum)
@@ -488,6 +543,7 @@ harvest {
 	- keyboard	Control
 	- keyboard	Shift
 	- keyboard	Alt
+	- keyboard	BackQuote
 }
 
 # Colonize a planet
@@ -496,6 +552,7 @@ colonize {
 	- keyboard	Control
 	- keyboard	Shift
 	- keyboard	Alt
+	- keyboard	BackQuote
 }
 
 
@@ -505,6 +562,7 @@ enter_waypoint {
 	- keyboard	Control
 	- keyboard	Shift
 	- keyboard	Alt
+	- keyboard	BackQuote
 }
 
 ####################
