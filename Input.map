@@ -519,9 +519,9 @@ transport {
 	- keyboard	Alt
 	- keyboard	BackQuote
 }
-# Comandeer
+# Commandeer
 capture {
-	+ keyboard	T
+	+ keyboard	A
 	- keyboard	Control
 	+ keyboard	Shift
 	- keyboard	Alt
@@ -563,5008 +563,6 @@ enter_waypoint {
 	- keyboard	Shift
 	- keyboard	Alt
 	- keyboard	BackQuote
-}
-
-####################
-# Advanced Weapons #
-####################
-
-# ECM
-wc_gecm {
-	+ keyboard	BackQuote
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	E
-}
-
-# ECCM
-wc_geccm {
-	+ keyboard	BackQuote
-	- keyboard	Control
-	+ keyboard	Shift
-	+ keyboard	E
-}
-
-# Probes
-wc_probe {
-	+ keyboard	BackQuote
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	P
-}
-
-# Plasma Detecting Probes
-wc_probeC {
-	+ keyboard	BackQuote
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	P
-}
-
-# Tractor Beam
-wc_gtracbm {
-	+ keyboard	BackQuote
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	T
-}
-
-# Molecular Repair Beam
-wc_gRepairBeam {
-	+ keyboard	BackQuote
-	- keyboard	Control
-	+ keyboard	R
-	- keyboard	Alt
-}
-
-# Klingon Cloak
-wc_gkcloak {
-	+ keyboard	BackQuote
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	C
-}
-# Klingon Cloak (Sensor Array Cloak - Romulan Mix Tech Allied)
-wc_gkcloakr {
-	+ keyboard	BackQuote
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	C
-}
-# Klingon Cloak (Sensor Array Cloak - Romulan Mix Tech Capture)
-wc_gkcloakr2 {
-	+ keyboard	BackQuote
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	C
-}
-# Klingon Experimental Cloak
-wc_gkcloake {
-	+ keyboard	BackQuote
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	C
-}
-# Romulan Cloak
-wc_grcloak {
-	+ keyboard	BackQuote
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	C
-}
-# Romulan Cloak (Station Auto Cloak)
-wc_grcloakstat {
-	+ keyboard	BackQuote
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	C
-}
-# Gorn Cloak (Klingon Mix Tech)
-wc_ggcloak {
-	+ keyboard	BackQuote
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	C
-}
-# ISC Cloak (Romulan Mix Tech)
-wc_gicloak {
-	+ keyboard	BackQuote
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	C
-}
-# Hydran Cloak (Romulan Mix Tech)
-wc_ghcloak {
-	+ keyboard	BackQuote
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	C
-}
-# Lyran Cloak (Romulan Mix Tech Allied)
-wc_glcloak {
-	+ keyboard	BackQuote
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	C
-}
-# Lyran Cloak (Romulan Mix Tech Capture)
-wc_glcloak2 {
-	+ keyboard	BackQuote
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	C
-}
-
-# Self-Destruct
-wc_gselfdes {
-	+ keyboard	Backspace
-	- keyboard	Control
-	+ keyboard	Shift
-	- keyboard	Alt
-}
-
-# Assault Phaser (Klingon)
-wc_gkassault {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Dual Assault Phasers (Federation)
-wc_gfdassault {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Dual Assault Phasers (Romulan-Federation Mix Tech)
-wc_grdassault {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Web Cannon (Tholian)
-wc_gtweb {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Anti-Matter Field Projector (Klingon)
-wc_gkamfp {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Anti-Matter Field Projector (Romulan-Klingon Mix Tech Allied)
-wc_gramfp {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Anti-Matter Field Projector (Romulan-Klingon Mix Tech Capture)
-wc_gramfp {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Anti-Matter Field Projector (Hydran-Klingon Mix Tech)
-wc_ghamfp {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Quantum Carrier-Wave Beam (Federation)
-wc_gfqcb {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Quantum Carrier-Wave Beam (Gorn)
-wc_ggqcb {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Quantum Carrier-Wave Beam (Romulan-Gorn Mix Tech)
-wc_grqcb {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Gravimetric Harmonic Resonance Cannon (Klingon)
-wc_gkghrc {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Gravimetric Harmonic Resonance Cannon (Gorn)
-wc_ggghrc {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Gravimetric Harmonic Resonance Cannon (Romulan-Gorn Mix Tech)
-wc_grghrc {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Gravimetric Harmonic Resonance Cannon (ISC-Gorn Mix Tech)
-wc_gighrc {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Gravimetric Harmonic Resonance Cannon (ISC-Gorn Mix Tech)
-wc_gighrc2 {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Gravimetric Harmonic Resonance Cannon (Lyran-Gorn Mix Tech)
-wc_glghrc {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Graviton Density Distortion Sphere - Offensive Mode (Gorn)
-wc_gggdds {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Graviton Density Distortion Sphere - Offensive Mode (Gorn)
-wc_gggddscl {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Expanding Sphere Generator - Offensive Mode (Lyran)
-wc_glesg {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Expanding Sphere Generator - Offensive Mode (Lyran)
-wc_glesgbc {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Expanding Sphere Generator - Offensive Mode (Lyran)
-wc_glesgdn {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Expanding Sphere Generator - Offensive Mode (Lyran)
-wc_glesgbb {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Expanding Sphere Generator - Offensive Mode (Hydran-Lyran Mix Tech)
-wc_ghesg {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Graviton Density Distortion Sphere - Defensive Mode (Gorn)
-wc_gggdds2 {
-	+ keyboard	F6
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Graviton Density Distortion Sphere - Defensive Mode (Hydran-Gorn Mix Tech)
-wc_ghgdds2 {
-	+ keyboard	F6
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Graviton Density Distortion Sphere - Defensive Mode (Sha'Kurian)
-wc_gsgdds2 {
-	+ keyboard	F6
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Expanding Sphere Generator - Defensive Mode (Lyran)
-wc_glesg2 {
-	+ keyboard	F6
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Expanding Sphere Generator - Defensive Mode (Federation-Lyran Mix Tech)
-wc_gfesg2 {
-	+ keyboard	F6
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Expanding Sphere Generator - Defensive Mode (Klingon-Lyran Mix Tech)
-wc_gkesg2 {
-	+ keyboard	F6
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Expanding Sphere Generator - Defensive Mode (Romulan-Lyran Mix Tech Allied)
-wc_gresg2 {
-	+ keyboard	F6
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Expanding Sphere Generator - Defensive Mode (Romulan-Lyran Mix Tech Capture)
-wc_gresg2b {
-	+ keyboard	F6
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Plasmatic Pulsar Device - Light Variant (ISC)
-wc_gippdl {
-	+ keyboard	F7
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Plasmatic Pulsar Device - Light Variant (Hydran-ISC Mix Tech)
-wc_ghppdl {
-	+ keyboard	F7
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Plasmatic Pulsar Device - Medium Variant (ISC)
-wc_gippdm {
-	+ keyboard	F7
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Plasmatic Pulsar Device - Medium Variant (Romulan-ISC Mix Tech)
-wc_grppdm {
-	+ keyboard	F7
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Plasmatic Pulsar Device - Heavy Variant (ISC)
-wc_gippdh {
-	+ keyboard	F7
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Subspace Jump Drive (ISC)
-wc_gissjd {
-	+ keyboard	F8
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Subspace Jump Drive (Lyran-ISC Mix Tech)
-wc_glssjd {
-	+ keyboard	F8
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Subspace Distortion Generator (ISC)
-wc_gissdg {
-	+ keyboard	F8
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Subspace Distortion Generator (Federation-ISC Mix Tech)
-wc_gfssdg {
-	+ keyboard	F8
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Subspace Distortion Generator (Federation-ISC Mix Tech)
-wc_gfssdg2 {
-	+ keyboard	F8
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Grappler Beam (Klingon-ISC Mix Tech)
-wc_gkgrappler {
-	+ keyboard	F9
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Grappler Beam (ISC-Klingon Mix Tech)
-wc_gigrappler {
-	+ keyboard	F9
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Grappler Beam (Lyran-Klingon Mix Tech)
-wc_glgrappler {
-	+ keyboard	F9
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Sensor Jamming Equipment (Klingon)
-wc_gkjammer {
-	+ keyboard	F10
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Holographic Generator (Federation-Romulan Mix Tech)
-wc_gfhologen {
-	+ keyboard	F10
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Cohesive Fused Deuterium Irradiation Cannon (Romulan)
-wc_grcfdic {
-	+ keyboard	F11
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Dual Cohesive Fused Deuterium Irradiation Cannons (Romulan)
-wc_grdcfdic {
-	+ keyboard	F11
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Dual Cohesive Fused Deuterium Irradiation Cannons (Romulan)
-wc_grdcfdic2 {
-	+ keyboard	F11
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Extremely High Frequency Radiation Cannon (Romulan)
-wc_grehfrc {
-	+ keyboard	F12
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Extremely High Frequency Radiation Cannon (Gorn-Romulan Mix Tech)
-wc_ggehfrc {
-	+ keyboard	F12
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Extremely High Frequency Radiation Cannon (Gorn-Romulan Mix Tech)
-wc_ggehfrc2 {
-	+ keyboard	F12
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Subspace Portal (ISC)
-wc_gisubport {
-	+ keyboard	BackQuote
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	G
-}
-
-# Tholian Riftgate (Tholian)
-wc_gtrift {
-	+ keyboard	BackQuote
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	G
-}
-
-# Triparrallax Device (Gorn)
-wc_ggtrip {
-	+ keyboard	BackSpace
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	T
-}
-
-# Subspace Rift (ISC)
-wc_gisubrift {
-	+ keyboard	BackQuote
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	R
-}
-
-# Tal Shiar Agent (Romulan)
-wc_gromspy {
-	+ keyboard	BackQuote
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	S
-}
-
-# Burst Photon Torpedoes (Federation/Klingon/ISC)
-wc_faphoton {
-	+ keyboard	BackQuote
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	B
-}
-
-# Parallax Torpedoes (Romulan/Gorn)
-wc_raphoton {
-	+ keyboard	BackQuote
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	B
-}
-
-# Burst Photon Shells (Hydran)
-wc_hapcan {
-	+ keyboard	BackQuote
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	B
-}
-
-# Proximity Warhead Missiles (Lyran)
-wc_lproxmis {
-	+ keyboard	BackQuote
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	B
-}
-
-#Upgrades
-
-wc_fcarrierup {
-	+ keyboard	BackQuote
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	U
-}
-
-wc_kcarrierup {
-	+ keyboard	BackQuote
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	U
-}
-
-wc_rcarrierup {
-	+ keyboard	BackQuote
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	U
-}
-
-wc_gcarrierup {
-	+ keyboard	BackQuote
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	U
-}
-
-wc_gstationup {
-	+ keyboard	BackQuote
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	U
-}
-
-wc_icarrierup {
-	+ keyboard	BackQuote
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	U
-}
-
-wc_lcarrierup {
-	+ keyboard	BackQuote
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	U
-}
-
-wc_lstationup {
-	+ keyboard	BackQuote
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	U
-}
-
-#ISC Refits
-
-wc_iffrefit {
-	+ keyboard	BackQuote
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	U
-}
-
-wc_iddrefit {
-	+ keyboard	BackQuote
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	U
-}
-
-wc_idlrefit {
-	+ keyboard	BackQuote
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	U
-}
-
-wc_icarefit {
-	+ keyboard	BackQuote
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	U
-}
-
-wc_idnrefit {
-	+ keyboard	BackQuote
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	U
-}
-
-#Warp-Ins
-
-# Federation Reserve Fleet
-wc_ReserveFleetWarpIn {
-	+ keyboard	BackQuote
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	R
-}
-
-# Mirak Diaspora (Gorn)
-wc_GMirakWarpIn {
-	+ keyboard	BackQuote
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	M
-}
-
-# Mirak Diaspora (Hydran)
-wc_HMirakWarpIn {
-	+ keyboard	BackQuote
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	M
-}
-
-# Mirak Diaspora (Romulan)
-wc_RMirakWarpIn {
-	+ keyboard	BackQuote
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	M
-}
-
-# Sha'Kurian Mercenaries (Klingon)
-wc_KShakurianWarpIn {
-	+ keyboard	BackQuote
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	S
-}
-
-# Sha'Kurian Mercenaries (Gorn)
-wc_GShakurianWarpIn {
-	+ keyboard	BackQuote
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	S
-}
-
-# Sha'Kurian Mercenaries (Lyran)
-wc_LShakurianWarpIn {
-	+ keyboard	BackQuote
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	S
-}
-
-# Orion Pirate Privateers (Klingon)
-wc_KOrionWarpIn {
-	+ keyboard	BackQuote
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	P
-}
-
-# Orion Pirate Privateers (Romulan)
-wc_ROrionWarpIn {
-	+ keyboard	BackQuote
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	P
-}
-
-# Orion Pirate Privateers (Lyran)
-wc_LOrionWarpIn {
-	+ keyboard	BackQuote
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	P
-}
-
-#######################################
-# Orders menu, corresponds to buttons #
-#######################################
-# Attack
-attack {
-	+ keyboard	A
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Stop
-stop {
-	+ keyboard	S
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-guard {
-	+ keyboard	G
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-patrol {
-	+ keyboard	P
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Set to repair mode
-repair {
-	+ keyboard	R
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-#Priority repair
-priorityRepair {
-	+ keyboard	R
-	- keyboard	Control
-	+ keyboard	Shift
-	- keyboard	Alt
-}
-
-# Set to explore mode (formerly scout mode)
-scout {
-	+ keyboard	E
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Set search and destroy
-searchAndDestroy {
-	+ keyboard	K
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Decommision
-decomm {
-	+ keyboard	GreyDelete
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-###########
-# AI menu #
-###########
-# Set to green alert
-green {
-	+ keyboard	Home
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Set to yellow alert
-yellow {
-	+ keyboard	UpArrow
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Set to red alert
-red {
-	+ keyboard	PageUp
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Set to no movement autonomy
-move_low {
-	+ keyboard	LeftArrow
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Set to medium movement autonomy
-move_med {
-	+ keyboard	Keypad5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Set to high movement autonomy
-move_high {
-	+ keyboard	RightArrow
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Set to no advanced weapon autonomy
-special_weapon_autonomy_none {
-	+ keyboard	End
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Set to medium advanced weapon autonomy
-special_weapon_autonomy_med {
-	+ keyboard	DownArrow
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Set to high advanced weapon automony
-special_weapon_autonomy_high {
-	+ keyboard	PageDown
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-
-##############
-# Trade menu #
-##############
-### Cargo Ship
-start_trade {
-	+ keyboard	V
-	- keyboard	Control
-	+ keyboard	Shift
-	- keyboard	Alt
-}
-end_trade {
-	+ keyboard	V
-	+ keyboard	Control
-	+ keyboard	Shift
-	- keyboard	Alt
-}
-load_dilithium {
-	+ keyboard	D
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-load_latinum {
-	+ keyboard	L
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-load_metal {
-	+ keyboard	M
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-load_crew {
-	+ keyboard	O
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-### Trading Station
-buy_dilithium {
-	+ keyboard	D
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-buy_metal {
-	+ keyboard	M
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-sell_dilithium {
-	+ keyboard	D
-	- keyboard	Control
-	+ keyboard	Shift
-	- keyboard	Alt
-}
-sell_metal {
-	+ keyboard	M
-	- keyboard	Control
-	+ keyboard	Shift
-	- keyboard	Alt
-}
-
-# Recycler station
-recycle_metal {
-	+ keyboard	M
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-recycle_dilithium {
-	+ keyboard	D
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-##############
-# Build menu #
-##############
-### global keys
-### Cancel build/evolve/research
-cancel {
-	+ keyboard	C
-	+ keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-### Federation Starbase
-# Liberty Class ACS
-bc_fconst {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Freelancer Class DF
-bc_ffreight {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Independence Class FB
-bc_fcolony {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Unity Class AR
-bc_fsrepair {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Washington Class APA
-bc_fassault {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Clydesdale Class AK
-bc_fcargo {
-	+ keyboard	F6
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-### Federation Standard Shipyard
-# Oberth Class EC
-bc_fescort {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Okinawa Class FF
-bc_ffrigate {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Akula Class Refit DD
-bc_fdestroy {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Warsaw Class DL
-bc_fdestroyl {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Miranda Class CL
-bc_flcruise {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Soyuz Class CG
-bc_fgcruise {
-	+ keyboard	F6
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Constitution Class Refit CA
-bc_fcruise {
-	+ keyboard	F7
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Ranger Class GSC
-bc_fgscruise {
-	+ keyboard	F8
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Salazar Class CT
-bc_ftcruise {
-	+ keyboard	F9
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# USS Enterprise-A
-bc_fenta {
-	+ keyboard	F10
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# USS Cerberus
-bc_fenta {
-	+ keyboard	F11
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-### Federation Advanced Shipyard
-# Lexington Class CC
-bc_fccruise {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Richmond Class NCA
-bc_fncruise {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Excelsior Class BC
-bc_fbcruise {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Excelsior Class Refit BCH
-bc_fbcruiser {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Star Empire Class DN
-bc_fstarempire {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Ulysses Class DN
-bc_fdread {
-	+ keyboard	F6
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Belknap Class DNp
-bc_fdreadp {
-	+ keyboard	F7
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Missouri Class BB
-bc_fbattle {
-	+ keyboard	F8
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Ark Royal Class CVN
-bc_fcarrier {
-	+ keyboard	F9
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Ark Royal Class CVN
-bc_fcarrierb {
-	+ keyboard	F9
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Yamato Class BBX
-bc_fxbattle {
-	+ keyboard	F10
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-### Klingon Starbase
-# War Pig Class ACS
-bc_kconst {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Bloodline Class DF
-bc_kfreight {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Brave Settler Class FB
-bc_kcolony {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Suspicious-R Class FR
-bc_ksrepair {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Poisoned Barb Class APA
-bc_kassault {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Lifeblood Class AK
-bc_kcargo {
-	+ keyboard	F6
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-### Klingon Standard Shipyard
-# Bird of Prey Class EC
-bc_kescort {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Suspicious-B Class FF
-bc_kfrigate {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Suspicious-S Class FS
-bc_ksfrigate {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Suspicious-C Class FC
-bc_kcfrigate {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Insurrection Class DD
-bc_kdestroy {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Captain Class DL
-bc_kdestroyl {
-	+ keyboard	F6
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Relentless Class CL
-bc_klcruise {
-	+ keyboard	F7
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Conqueror Class CA
-bc_kcruise {
-	+ keyboard	F8
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# War Scout Class CS
-bc_kscruise {
-	+ keyboard	F9
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Shortsword Class CT
-bc_ktcruise {
-	+ keyboard	F10
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-### Klingon Imperial Shipyard
-# Warrior's Anger Class CC
-bc_kccruise {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Kronos Class BC
-bc_kqonos {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Emperor Class BCH
-bc_kbcruise {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Bird of Blood Class CB
-bc_kbertaa {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Accuser Class DN
-bc_kdread {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Sword of Kahless Class BB
-bc_kbattle {
-	+ keyboard	F6
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# IKS Cold Fury
-bc_kqehral {
-	+ keyboard	F7
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Mother of Death Class CVA
-bc_kcarrier {
-	+ keyboard	F8
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Mother of Death Class CVA
-bc_kcarrierb {
-	+ keyboard	F8
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# IKS Tegh Gah
-bc_kcarrierb {
-	+ keyboard	F9
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-### Hidden Dagger Station
-# Bird of Prey Class ECX
-bc_ksuper {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-### Romulan Starbase
-# Merlin Class ACS
-bc_rconst {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Osprey Class DF
-bc_rfreight {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Sparrow Class FB
-bc_rcolony {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Talon Class AR
-bc_rsrepair {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Kestrel Class APA
-bc_rassault {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Patrician Class AK
-bc_rcargo {
-	+ keyboard	F6
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Tribune Class CVE
-bc_rcve {
-	+ keyboard	F7
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Tribune Class CVE
-bc_rcveb {
-	+ keyboard	F7
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-### Romulan Standard Shipyard
-# Kite Class EKC
-bc_rkescort {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Preax Class EC
-bc_rescort {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Finch-S Class FKS
-bc_rkscout {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Gladius-S Class FS
-bc_rscout {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Finch Class FKF
-bc_rkfrigate {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Gladius Class FF
-bc_rfrigate {
-	+ keyboard	F6
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# War Bird Class DD
-bc_rdestroy {
-	+ keyboard	F7
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Legion Class CL
-bc_rlcruise {
-	+ keyboard	F8
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Stormbird Class CKA
-bc_rkcruise {
-	+ keyboard	F9
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Centurion Class CA
-bc_rcruise {
-	+ keyboard	F10
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Peregrine Class CT
-bc_rtcruise {
-	+ keyboard	F11
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-## Romulan Praetorial Shipyard
-# Senator Class CC
-bc_rccruise {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Raven Class BKC
-bc_rkbcruise {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Imperium Class BCH
-bc_rbcruise {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Condor Class DKN
-bc_rkdread {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# War Eagle Class DN
-bc_rdread {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Imperial Hawk Class BB
-bc_rbattle {
-	+ keyboard	F6
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# RSE D'Meredene
-bc_rhero {
-	+ keyboard	F7
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-### Gorn Starbase
-# Lizard Class ACS
-bc_gconst {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Adder Class DF
-bc_gfreight {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Python Class FB
-bc_gcolony {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Gecko Class AR
-bc_gsrepair {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Asp Class APA
-bc_gassault {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Cobra Class AK
-bc_gcargo {
-	+ keyboard	F6
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-### Gorn Standard Shipyard
-# King Snake-S Class FS
-bc_gscout {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# King Snake Class FF
-bc_gfrigate {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Anaconda Class DD
-bc_gdestroy {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Rattlesnake Class CL
-bc_glcruise {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Euromastyx Class CA
-bc_gcruise {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Saurus Class CS
-bc_gscruise {
-	+ keyboard	F6
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Reptillon Class CT
-bc_gtcruise {
-	+ keyboard	F7
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-### Gorn Royal Shipyard
-# Beowulf Class CC
-bc_gccruise {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Basilisk Class BC
-bc_gbcruise {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Grendel Class DN
-bc_gdread {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# King Grendel Class BB
-bc_gbattle {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# GNS Queen Derenesktta
-bc_gcarrier {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# GNS Queen Derenesktta
-bc_gcarrierb {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# GNS King Grendel
-bc_ghero {
-	+ keyboard	F6
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-### Project Glormaskt Station
-# Glormaskt Class XX
-bc_gsuper {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-### Tholian Starbase
-# Bismuth Class ACS
-bc_tconst {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Granite Class DF
-bc_tfreight {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Calcinite Class FB
-bc_tcolony {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Diamond Class AR
-bc_tsrepair {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-### Tholian Standard Shipyard
-# Feldspar Class EC
-bc_tescort {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Feldspar-S Class ES
-bc_tscout {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Garnet Class CL
-bc_tlcruise {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Ruby Class CA
-bc_tcruise {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Citrine Class DM
-bc_tmonitor {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Quartz Class DD
-bc_tdestroy {
-	+ keyboard	F6
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# TAS Rensekene
-bc_thero {
-	+ keyboard	F7
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-### Tholian Neo-Tholian Gate
-# Amethyst Class BC
-bc_tbcruise {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Sapphire Class DN
-bc_tdread {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Emerald Class BB
-bc_tbattle {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-### ISC Starbase
-# Type ACS-XIV
-bc_iconst {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Type DF-XX
-bc_ifreight {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Type FB-I
-bc_icolony {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Type AR-XII
-bc_isrepair {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Type APA-VII
-bc_iassault {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-### ISC Shipyard Type I
-# Type FF-IVsc
-bc_iscout {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Type FF-IV
-bc_ifrigate {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Type FF-IVd
-bc_ifrigater {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Type DD-III
-bc_idestroy {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Type DD-IIId
-bc_idestroyr {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Type DD-IIIFL
-bc_idestroyl {
-	+ keyboard	F6
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Type DD-IIIFLd
-bc_idestroylr {
-	+ keyboard	F7
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Type CL-V
-bc_ilcruise {
-	+ keyboard	F8
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Type CCL-II
-bc_ilccruise {
-	+ keyboard	F9
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Type CA-VIII
-bc_icruise {
-	+ keyboard	F10
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Type CA-VIIId
-bc_icruiser {
-	+ keyboard	F11
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Type CT-II
-bc_itcruise {
-	+ keyboard	F12
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-### ISC Shipyard Type II
-# Type CSA-III
-bc_iscruise {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Type DN-III
-bc_idread {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Type DN-IIId
-bc_idreadr {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Type CVN-VI
-bc_icarrier {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Type CVN-VI
-bc_icarrierb {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# DNd-01 Cmdr Nortene
-bc_ihero {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-### Hydran Starbase
-# Peasant Class ACS
-bc_hconst {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Serf Class DF
-bc_hfreight {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Autocrat Class FB
-bc_hcolony {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Squire Class FR
-bc_hsrepair {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Saracen Class APA
-bc_hassault {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Merchant Class AK
-bc_hcargo {
-	+ keyboard	F6
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-### Hydran Standard Shipyard
-# Archer Class FS
-bc_hscout {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Yeoman Class FF
-bc_hfrigate {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Knight Class DD
-bc_hdestroy {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Paladin Class DL
-bc_hdestroyl {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Regent Class CL
-bc_hlcruise {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Baron Class CA
-bc_hcruise {
-	+ keyboard	F6
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Pikeman Class MH
-bc_hmonitor {
-	+ keyboard	F7
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Duke Class CC
-bc_hccruise {
-	+ keyboard	F8
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-### Hydran Capital Ships are constructed by Peasant Class ACS
-### Lyran Starbase
-# Felidae Class ACS
-bc_lconst {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Queen Cat Class DF
-bc_lfreight {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Feline Class FB
-bc_lcolony {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Bobcat Class FR
-bc_lsrepair {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Serval Class APA
-bc_lassault {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Cougar Class AK
-bc_lcargo {
-	+ keyboard	F6
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-### Lyran Standard Shipyard
-# Wildcat Class FS
-bc_lscout {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Lynx Class FF
-bc_lfrigate {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Caracal Class DD
-bc_ldestroy {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Leopard Class CL
-bc_llcruise {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Tiger Class CA
-bc_lhcruise {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Puma Class MNG
-bc_lmonitor {
-	+ keyboard	F6
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-### Lyran Grand Shipyard
-# Panther Class BC
-bc_lbcruise {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Lion Class DN
-bc_ldread {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Royal Lion Class BB
-bc_lbattle {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Lioness Class PFT
-bc_lcarrier {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Lioness Class PFT
-bc_lcarrierb {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-### Construction Tender
-# Outpost
-# Federation Monitoring Station
-bc_fmonitoring {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Klingon Outpost
-bc_koutpost {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Romulan Outpost
-bc_routpost {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Gorn Pseudo-Fighter Station
-bc_goutpost {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Gorn Pseudo-Fighter Station
-bc_goutpostb {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Hydran Outpost
-bc_houtpost {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Lyran Outpost
-bc_loutpost {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Lyran Outpost
-bc_loutpostb {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Mining Station
-# Federation Dilithium Mining Station
-bc_fmining {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Klingon Dilithium Refinery
-bc_kmining {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Romulan Dilithium Processor
-bc_rmining {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Gorn Dilithium Emulsifier
-bc_gmining {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Tholian Crystalene Converter
-bc_tmining {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# ISC Resource Station
-bc_imining {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Hydran Dilithium Purifier
-bc_hmining {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Lyran Dilithium Grader
-bc_lmining {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Orbital Stations
-# Federation OPF
-bc_forbital {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Klingon OPF
-bc_korbital {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Romulan OPF
-bc_rorbital {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Gorn OPF
-bc_gorbital {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Tholian Transmitter
-bc_ttransmit {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Hydran OPF
-bc_horbital {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Lyran OPF
-bc_lorbital {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Trading Stations
-# Federation Trading Station
-bc_ftrading {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Klingon Trading Station
-bc_ktrading {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Romulan Trading Station
-bc_rtrading {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Gorn Trading Station
-bc_gtrading {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# ISC Disassembly Array
-bc_irecycle {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Hydran Trading Station
-bc_htrading {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Lyran Trading Station
-bc_ltrading {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Sensors
-# Federation Sensor Probe
-bc_fsensor {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Klingon Sensor Array
-bc_ksensor {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Romulan Spy Satellite
-bc_rsensor {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Gorn Sensor Emplacement
-bc_gsensor {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Tholian Crystalline Resonator
-bc_tsensor {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# ISC Sensor Buoy
-bc_isensor {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Hydran Sensor Drone
-bc_hsensor {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Lyran Sensor Post
-bc_lsensor {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Defensive Mines
-# Federation Type FA Mine
-bc_fmine {
-	+ keyboard	F6
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Klingon Type KA Mine
-bc_kmine {
-	+ keyboard	F6
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Romulan Type RA Mine
-bc_rmine {
-	+ keyboard	F6
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Gorn Type GA Mine
-bc_gmine {
-	+ keyboard	F6
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Tholian Type TA Mine
-bc_tmine {
-	+ keyboard	F6
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# ISC Type IA Mine
-bc_imine {
-	+ keyboard	F6
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Hydran Type HA Mine
-bc_hmine {
-	+ keyboard	F6
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Lyran Type LA Mine
-bc_lmine {
-	+ keyboard	F6
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Standard Shipyard
-# Federation Standard Shipyard
-bc_fyard {
-	+ keyboard	F7
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Klingon Standard Shipyard
-bc_kyard {
-	+ keyboard	F7
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Romulan Standard Shipyard
-bc_ryard {
-	+ keyboard	F7
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Gorn Standard Shipyard
-bc_gyard {
-	+ keyboard	F7
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Tholian Standard Shipyard
-bc_tyard {
-	+ keyboard	F7
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# ISC Type I Shipyard
-bc_iyard {
-	+ keyboard	F7
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Hydran Standard Shipyard
-bc_hyard {
-	+ keyboard	F7
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Lyran Standard Shipyard
-bc_lyard {
-	+ keyboard	F7
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Advanced Shipyards
-# Federation Advanced Shipyard
-bc_fyard2 {
-	+ keyboard	F8
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Klingon Imperial Shipyard
-bc_kyard2 {
-	+ keyboard	F8
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Romulan Praetorial Shipyard
-bc_ryard2 {
-	+ keyboard	F8
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Gorn Royal Shipyard
-bc_gyard2 {
-	+ keyboard	F8
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Neo-Tholian Gate
-bc_tyard2 {
-	+ keyboard	F8
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# ISC Type II Shipyard
-bc_iyard2 {
-	+ keyboard	F8
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Hydran Monarch Class DN
-bc_hdread {
-	+ keyboard	F8
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Lyran Grand Shipyard
-bc_lyard2 {
-	+ keyboard	F8
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Research Facilities
-# Hull Research
-# Federation Utopia Planitia Vessel Hull Research Centre
-bc_fresearcha {
-	+ keyboard	F9
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Klingon Defence Force Warship Research Laboratory
-bc_kresearcha {
-	+ keyboard	F9
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Romulan Star Navy Vessel Research Laboratory
-bc_rresearcha {
-	+ keyboard	F9
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Gorn Royal Navy Admiralty Office
-bc_gresearcha {
-	+ keyboard	F9
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Tholian Crystal Library
-bc_tresearb {
-	+ keyboard	F9
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# ISC Meskeen Research Station
-bc_iresearcha {
-	+ keyboard	F9
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Hydran Royal Navy Hull Development Centre
-bc_hresearcha {
-	+ keyboard	F9
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Imperial Lyran Navy Warship Research Laboratory
-bc_lresearcha {
-	+ keyboard	F9
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Conversion Research
-# Federation Utopia Planitia Vessel Hull Research Centre
-bc_fresearchb {
-	+ keyboard	F10
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Klingon Defence Force Warship Conversion Laboratory
-bc_kresearchb {
-	+ keyboard	F10
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Romulan Star Navy Vessel Conversion Laboratory
-bc_rresearchb {
-	+ keyboard	F10
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Gorn Royal Navy Specialist Lab
-bc_gresearchb {
-	+ keyboard	F10
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Tholian Crystal Pre-Former
-bc_tresearc {
-	+ keyboard	F10
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# ISC Veltressai Research Station
-bc_iresearchb {
-	+ keyboard	F10
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Hydran Royal Navy Modification Complex
-bc_hresearchb {
-	+ keyboard	F10
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Imperial Lyran Navy Warship Conversion Laboratory
-bc_lresearchb {
-	+ keyboard	F10
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Weaponry/Equipment Research
-# Federation Utopia Planitia Miscellaneous Systems Research Centre
-bc_fresearchc {
-	+ keyboard	F11
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Klingon Imperial Armoury
-bc_kresearchc {
-	+ keyboard	F11
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Romulan Praetorial Research Facility
-bc_rresearchc {
-	+ keyboard	F11
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Gorn Royal Naval Arsenal
-bc_gresearchc {
-	+ keyboard	F11
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Tholian Crystal Capacitor
-bc_treseard {
-	+ keyboard	F11
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# ISC Rovillian Research Station
-bc_iresearchc {
-	+ keyboard	F11
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Hydran Royal Armoury
-bc_hresearchc {
-	+ keyboard	F11
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Lyran Imperial Guard Station
-bc_lresearchc {
-	+ keyboard	F11
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Ship Upgrade Facility
-# Vulcan Research Institute
-bc_fupgrade {
-	+ keyboard	U
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Imperial Research Institute
-bc_kupgrade {
-	+ keyboard	U
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Praetorial Enhancement Institute
-bc_rupgrade {
-	+ keyboard	U
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Gorn Royal Naval Research Institute
-bc_gupgrade {
-	+ keyboard	U
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Tholian Research Assembly
-bc_tupgrade {
-	+ keyboard	U
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# ISC Joint Interstellar Research Station
-bc_iupgrade {
-	+ keyboard	U
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Hydran Royal Shipyard Committee
-bc_hupgrade {
-	+ keyboard	U
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Lyran Imperial Naval Commissariat
-bc_lupgrade {
-	+ keyboard	U
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Super Stations
-# Federation Utopia Planitia Experimental Research Laboratory
-bc_fsuperbl {
-	+ keyboard	F12
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Klingon Project pIH D'ktagh Station
-bc_ksuperbl {
-	+ keyboard	F12
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Gorn Project Glormaskt Station
-bc_gsuperbl {
-	+ keyboard	F12
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Tholian Rift Generator
-bc_tgate {
-	+ keyboard	F12
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# ISC Subspace Research Facility
-bc_isuperbl {
-	+ keyboard	F12
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Hydran Royal Sovereign Class CVN
-bc_hcarrier {
-	+ keyboard	F12
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-##################
-# Research menus #
-##################
-
-### Hulls
-# Federation Utopia Planitia Vessel Hull Research Centre
-# Federation Destroyer Hull
-bc_fedhull1 {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Federation Light Cruiser Hull
-bc_fedhull2 {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Federation Heavy Cruiser Hull
-bc_fedhull3 {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Federation Command Cruiser Hull
-bc_fedhull4 {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Federation Battlecruiser Hull
-bc_fedhull5 {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Federation Dreadnought Hull
-bc_fedhull6 {
-	+ keyboard	F6
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Federation Battleship Hull
-bc_fedhull7 {
-	+ keyboard	F7
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Federation Experimental Battleship Hulll
-bc_fedhull8 {
-	+ keyboard	F8
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Klingon Defence Force Warship Research Laboratory
-# Klingon E Series Hull
-bc_klihull5 {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Klingon F Series Hull
-bc_klihull1 {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Klingon D Series Hull
-bc_klihull2 {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Klingon C-I Series Hull
-bc_klihull3 {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Klingon B Series Hulll
-bc_klihull4 {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Romulan Star Navy Vessel Research Laboratory
-# Romulan Utility Craft Hulls
-bc_romhull11 {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Romulan Combat Utility Craft Hulls
-bc_romhull10 {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Romulan KR Series Frigate Refit
-bc_romhull7 {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Romulan KR Series Cruiser Refit
-bc_romhull8 {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Romulan KR Series Capital Ship Refit
-bc_romhull9 {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Romulan Ornith Series Screen Hull
-bc_romhull1 {
-	+ keyboard	F6
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Romulan Ornith Series Cruiser Hull
-bc_romhull2 {
-	+ keyboard	F7
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Romulan Ornith Series Dreadnought Hull
-bc_romhull3 {
-	+ keyboard	F8
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# New Series Escort Hull
-bc_romhull4 {
-	+ keyboard	F9
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# New Series Advanced Cruiser Hull
-bc_romhull5 {
-	+ keyboard	F10
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# New Series Battleship Hull
-bc_romhull6 {
-	+ keyboard	F11
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Gorn Royal Navy Admiralty Office
-# Gorn Utility Hull
-bc_gorhull1 {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Gorn Bulk Freighter Hull
-bc_gorhull2 {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Gorn Light Screen Hull
-bc_gorhull3 {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Gorn Cruiser Hull
-bc_gorhull4 {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Gorn Advanced Cruiser Hull
-bc_gorhull5 {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Gorn Command Ship Hull
-bc_gorhull6 {
-	+ keyboard	F6
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Tholian Crystal Library
-# Tholian Enlarged Basic Hull
-bc_thohull1 {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Tholian Neo-Tholian Prototype Hull
-bc_thohull2 {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Tholian Neo-Tholian Developmental Hull
-bc_thohull3 {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Tholian Complete Neo-Tholian Hull
-bc_thohull4 {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# ISC Meskeen Research Station
-# ISC Destroyer Hull
-bc_ischull1 {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# ISC Destroyer Leader Hull
-bc_ischull2 {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# ISC Light Cruiser Hull
-bc_ischull3 {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# ISC Heavy Cruiser Hull
-bc_ischull4 {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# ISC Star Cruiser Hull
-bc_ischull5 {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# ISC Dreadnought Hull
-bc_ischull6 {
-	+ keyboard	F6
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# ISC Fleet Carrier Hull
-bc_ischull7 {
-	+ keyboard	F7
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Hydran Royal Navy Hull Development Centre
-# Hydran Destroyer Hull
-bc_hydhull1 {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Hydran Light Cruiser Hulll
-bc_hydhull2 {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Hydran Heavy Cruiser Hull
-bc_hydhull3 {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Hydran Advanced Cruiser Hull
-bc_hydhull4 {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Hydran Capital Ship Hull
-bc_hydhull5 {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Imperial Lyran Navy Warship Research Laboratory
-# Lyran Destroyer Hull
-bc_lyrhull1 {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Lyran Light Cruiser Hull
-bc_lyrhull2 {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Lyran Heavy Cruiser Hull
-bc_lyrhull3 {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Lyran Battlecruiser Hull
-bc_lyrhull4 {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Lyran Capital Ship Hull
-bc_lyrhull5 {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-### Conversions
-# Federation Utopia Planitia Vessel Modification Centre
-# Federation Leader Conversion
-bc_fedequ2 {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Federation Gun Cruiser Conversion
-bc_fedequ3 {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Federation Galactic Survey Cruiser Conversion
-bc_fedequ4 {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Federation Torpedo Cruiser Conversion
-bc_fedequ5 {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Federation New Heavy Cruiser Conversion
-bc_fedequ6 {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Klingon Defence Force Warship Conversion Laboratory
-# Klingon Science Frigate Conversion
-bc_kliequ1 {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Klingon Cargo Frigate Conversion
-bc_kliequ2 {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Klingon Leader Conversion
-bc_kliequ3 {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Klingon Scout Cruiser Conversion
-bc_kliequ4 {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Klingon C-II Series Hull Modification
-bc_kliequ5 {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Romulan Star Navy Vessel Conversion Laboratory
-# Romulan Indigenous Scout Conversion
-bc_romequ1 {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Romulan KR series Scout Conversion
-bc_romequ2 {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Romulan Torpedo Cruiser Conversion
-bc_romequ3 {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Romulan Escort Carrier Conversion
-bc_romequ4 {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Gorn Royal Navy Specialist Lab
-# Gorn Scout Conversion
-bc_gorequ1 {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Gorn Light Cruiser Conversion
-bc_gorequ2 {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Gorn Scout Cruiser Conversion
-bc_gorequ3 {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Gorn Torpedo Cruiser Conversion
-bc_gorequ4 {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Gorn Battlecruiser Conversion
-bc_gorequ5 {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Gorn Battleship Conversion
-bc_gorequ6 {
-	+ keyboard	F6
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Tholian Crystal Pre-Former
-# Tholian Neo-Tholian Cruiser Upgrade
-bc_thoequ1 {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Tholian Monitor Conversion
-bc_thoequ2 {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Tholian Battleship Conversion
-bc_thoequ3 {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# ISC Veltressai Research Station
-# ISC Scout Conversion
-bc_iscequ1 {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# ISC Frigate-D Refit
-bc_iscequ2 {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# ISC Destroyer-D Refits
-bc_iscequ3 {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# ISC Light Command Cruiser Conversion
-bc_iscequ4 {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# ISC Torpedo Cruiser Conversion
-bc_iscequ5 {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# ISC Cruiser-D Refit
-bc_iscequ6 {
-	+ keyboard	F6
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# ISC Dreadnought-D Refit
-bc_iscequ7 {
-	+ keyboard	F7
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# ISC Colony Ship Conversion
-bc_iscequ8 {
-	+ keyboard	F8
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# ISC Troop Transport Conversion
-bc_iscequ9 {
-	+ keyboard	F9
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Hydran Royal Navy Modification Complex
-# Hydran Scout Conversion
-bc_hydequ1 {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Hydran Leader Conversion
-bc_hydequ2 {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Hydran Monitor Conversion
-bc_hydequ3 {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Hydran Fleet Carrier Conversion
-bc_hydequ4 {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Imperial Lyran Navy Warship Conversion Laboratory
-# Lyran Scout Conversion
-bc_lyrequ1 {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Lyran Guided Missile Monitor Conversion
-bc_lyrequ2 {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Lyran Battleship Conversion
-bc_lyrequ3 {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Lyran Psuedo-Fighter Tender Conversion
-bc_lyrequ4 {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-### Equipment/Weapons
-# Federation Utopia Planitia Miscellaneous Systems Research Centre
-# Federation Type II-U Warp Nacelles
-bc_fedmiscr1 {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Federation Megaphaser Emitters
-bc_fedmiscr2 {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Federation Dual Warp Core Relays
-bc_fedmiscr3 {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Federation Centreline Warp Nacelles
-bc_fedmiscr4 {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Federation Proximity Detonation Warheads
-bc_fedmiscr5 {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Federation Plasma Weaponry
-bc_fedmiscr6 {
-	+ keyboard	F6
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Federation Superconductive Power Coils
-bc_fedpod1 {
-	+ keyboard	F7
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Federation Reinforced Spinal Integrity Structures
-bc_fedpod2 {
-	+ keyboard	F8
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Federation Reiterative Tractor Beam Circuitry
-bc_fedpod3 {
-	+ keyboard	F9
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Federation Enhanced Sensor Plasma Detection
-bc_fedpod4 {
-	+ keyboard	F10
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Federation Enemy Ship Pattern Report
-bc_fedpod5 {
-	+ keyboard	F11
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Federation-Klingon Mix Tech (Capture)
-bc_fedmix1 {
-	+ keyboard	F12
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	K
-}
-# Federation-Romulan Mix Tech (Capture)
-bc_fedmix2 {
-	+ keyboard	F12
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	R
-}
-# Federation-Gorn Mix Tech (Allied)
-bc_fedmix3 {
-	+ keyboard	F12
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	G
-}
-# Federation-ISC Mix Tech (Capture)
-bc_fedmix4 {
-	+ keyboard	F12
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	I
-}
-# Federation-Hydran Mix Tech (Allied)
-bc_fedmix5 {
-	+ keyboard	F12
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	H
-}
-# Federation-Lyran Mix Tech (Capture)
-bc_fedmix6 {
-	+ keyboard	F12
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	L
-}
-
-# Klingon Imperial Armoury
-# Klingon Trilithium Depeleted Warheads
-bc_klimiscr1 {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Klingon Dual Forward Torpedo Tubes
-bc_klimiscr2 {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Klingon Centreform Non-Propulsive Nacelles
-bc_klimiscr3 {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Klingon Proximity Detonation Warheads
-bc_klimiscr4 {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Klingon Frequency Modulated Particle Weapons
-bc_klipod1 {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Klingon Dual Advanced Weapon Wing Mounts Research
-bc_klipod2 {
-	+ keyboard	F6
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Klingon Gravitic Harmonous Resonator Examination
-bc_klipod3 {
-	+ keyboard	F7
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Klingon Anti-Matter Field Technology
-bc_klipod4 {
-	+ keyboard	F8
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Klingon Enhanced Warp Cores
-bc_klipod5 {
-	+ keyboard	F9
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Klingon Modified Cloaking Fields
-bc_klipod6 {
-	+ keyboard	F10
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Klingon-Federation Mix Tech (Capture)
-bc_klimix1 {
-	+ keyboard	F12
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	F
-}
-# Klingon-Romulan Mix Tech (Allied)
-bc_klimix2 {
-	+ keyboard	F12
-	- keyboard	Control
-	+ keyboard	Shift
-	+ keyboard	R
-}
-# Klingon-Romulan Mix Tech (Capture)
-bc_klimix3 {
-	+ keyboard	F12
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	R
-}
-# Klingon-Gorn Mix Tech (Capture)
-bc_klimix4 {
-	+ keyboard	F12
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	G
-}
-# Klingon-ISC Mix Tech (Capture)
-bc_klimix5 {
-	+ keyboard	F12
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	I
-}
-# Klingon-Hydran Mix Tech (Capture)
-bc_klimix6 {
-	+ keyboard	F12
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	H
-}
-# Klingon-Lyran Mix Tech (Allied)
-bc_klimix7 {
-	+ keyboard	F12
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	L
-}
-
-# Romulan Praetorial Research Facility
-# Romulan Type L Light Plasma Torpedo
-bc_rommiscr1 {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Romulan Type M Medium Plasma Torpedo
-bc_rommiscr2 {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Romulan Twin Torpedo Tube Mountings
-bc_rommiscr3 {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Romulan Multiple Torpedo Tube Mountings
-bc_rommiscr4 {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Romulan Assault Phaser Examination
-bc_rommiscr5 {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Romulan Gravimetric Cannon Examination
-bc_rommiscr6 {
-	+ keyboard	F6
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Romulan Quantum Carrier-Wave Beam Examination
-bc_rommiscr7 {
-	+ keyboard	F7
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Romulan Extremely High Frequency Radiation Emitters
-bc_rommiscr8 {
-	+ keyboard	F8
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Romulan Dual Heavy Weapon Power Relays Research
-bc_rompod1 {
-	+ keyboard	F9
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Romulan Tal Shiar Agent Training
-bc_rompod2 {
-	+ keyboard	F10
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Romulan Tal Shiar Technology Aquisition Programme
-bc_rompod3 {
-	+ keyboard	F11
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Romulan-Federation Mix Tech (Capture)
-bc_rommix1 {
-	+ keyboard	F12
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	F
-}
-# Romulan-Klingon Mix Tech (Allied)
-bc_rommix2 {
-	+ keyboard	F12
-	- keyboard	Control
-	+ keyboard	Shift
-	+ keyboard	K
-}
-# Romulan-Klingon Mix Tech (Capture)
-bc_rommix3 {
-	+ keyboard	F12
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	K
-}
-# Romulan-Gorn Mix Tech (Capture)
-bc_rommix4 {
-	+ keyboard	F12
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	G
-}
-# Romulan-ISC Mix Tech (Capture)
-bc_rommix5 {
-	+ keyboard	F12
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	I
-}
-# Romulan-Hydran Mix Tech (Capture)
-bc_rommix6 {
-	+ keyboard	F12
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	H
-}
-# Romulan-Lyran Mix Tech (Allied)
-bc_rommix7 {
-	+ keyboard	F12
-	- keyboard	Control
-	+ keyboard	Shift
-	+ keyboard	L
-}
-# Romulan-Lyran Mix Tech (Capture)
-bc_rommix8 {
-	+ keyboard	F12
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	L
-}
-
-# Gorn Royal Naval Arsenal
-# Gorn Type G Plasma Torpedo
-bc_gormiscr1 {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Gorn Multiple Torpedo Tubes
-bc_gormiscr2 {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Gorn Ablative Armour Plating
-bc_gormiscr3 {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Gorn Parralax Generator
-bc_gormiscr4 {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Gorn GPC Conditioning
-bc_gorpod1 {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Gorn Graviton Distortion Circuitry
-bc_gorpod2 {
-	+ keyboard	F6
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Gorn Reiterative Tractor Beam Circuitry
-bc_gorpod3 {
-	+ keyboard	F7
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Gorn Gravitic Harmonous Resonators
-bc_gorpod4 {
-	+ keyboard	F8
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Gorn-Federation Mix Tech (Allied)
-bc_gormix1 {
-	+ keyboard	F12
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	F
-}
-# Gorn-Klingon Mix Tech (Capture)
-bc_gormix2 {
-	+ keyboard	F12
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	K
-}
-# Gorn-Romulan Mix Tech (Capture)
-bc_gormix3 {
-	+ keyboard	F12
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	R
-}
-# Gorn-ISC Mix Tech (Capture)
-bc_gormix4 {
-	+ keyboard	F12
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	I
-}
-# Gorn-Hydran Mix Tech (Allied)
-bc_gormix5 {
-	+ keyboard	F12
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	H
-}
-# Gorn-Lyran Mix Tech (Capture)
-bc_gormix6 {
-	+ keyboard	F12
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	L
-}
-
-# Tholian Crystal Capacitor
-# Tholian Multi-Barrelled Heavy Disruptor Batteries
-bc_thomiscr1 {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Tholian Composite Neo-Tholian/Tholian Designs
-bc_thomiscr2 {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Tholian Purebred Neo-Tholian Designs
-bc_thomiscr3 {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Tholian Neo-Tholian Contact Frequencies
-bc_thomiscr4 {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Tholian Destination Coordinates
-bc_thomiscr5 {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Tholian Instanteanous Travel
-bc_thomiscr6 {
-	+ keyboard	F6
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Tholian Web Cannon Research
-bc_thomiscr7 {
-	+ keyboard	F7
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# ISC Rovillian Research Station
-# ISC Plasmatic Pulsars
-bc_iscpod1 {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# ISC Subspace Rift Research
-bc_iscpod2 {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# ISC Subspace Portal Research
-bc_iscmiscr1 {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# ISC Heavy Disruptors
-bc_iscmiscr2 {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# ISC Cruiser Operations
-bc_iscmiscr3 {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# ISC Full Scale Pacification
-bc_iscmiscr4 {
-	+ keyboard	F6
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# ISC Light PPD Research
-bc_iscmiscr5 {
-	+ keyboard	F7
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# ISC Standard PPD Research
-bc_iscmiscr6 {
-	+ keyboard	F8
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# ISC Heavy PPD Research
-bc_iscmiscr7 {
-	+ keyboard	F9
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# ISC Burst Photon Torpedoes
-bc_iscmiscr8 {
-	+ keyboard	F10
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# ISC-Federation Mix Tech (Allied)
-bc_iscmix1 {
-	+ keyboard	F12
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	F
-}
-# ISC-Klingon Mix Tech (Capture)
-bc_iscmix2 {
-	+ keyboard	F12
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	K
-}
-# ISC-Romulan Mix Tech (Capture)
-bc_iscmix3 {
-	+ keyboard	F12
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	R
-}
-# ISC-Gorn Mix Tech (Capture)
-bc_iscmix4 {
-	+ keyboard	F12
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	G
-}
-# ISC-Hydran Mix Tech (Allied)
-bc_iscmix5 {
-	+ keyboard	F12
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	H
-}
-# ISC-Lyran Mix Tech (Capture)
-bc_iscmix6 {
-	+ keyboard	F12
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	L
-}
-
-# Hydran Royal Armoury
-# Hydran Multi-Nacelled Designs
-bc_hydmiscr1 {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Hydran Fusion Beams
-bc_hydmiscr2 {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Hydran Multiple Hellbore Mounts
-bc_hydmiscr3 {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Hydran Enlarged Hangar Bays
-bc_hydmiscr4 {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Hydran Photon Cannons
-bc_hydmiscr5 {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Hydran Proximity Shells
-bc_hydmiscr6 {
-	+ keyboard	F6
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Hydran-Federation Mix Tech (Allied)
-bc_hydmix1 {
-	+ keyboard	F12
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	F
-}
-# Hydran-Klingon Mix Tech (Capture)
-bc_hydmix2 {
-	+ keyboard	F12
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	K
-}
-# Hydran-Romulan Mix Tech (Capture)
-bc_hydmix3 {
-	+ keyboard	F12
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	R
-}
-# Hydran-Gorn Mix Tech (Allied)
-bc_hydmix4 {
-	+ keyboard	F12
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	G
-}
-# Hydran-ISC Mix Tech (Capture)
-bc_hydmix5 {
-	+ keyboard	F12
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	I
-}
-# Hydran-Lyran Mix Tech (Capture)
-bc_hydmix6 {
-	+ keyboard	F12
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	L
-}
-
-# Lyran Imperial Guard Station
-# Lyran Multi-Barrel Heavy Disruptors
-bc_lyrmiscr1 {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Lyran Heavy Phaser Cannons
-bc_lyrmiscr2 {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Lyran Underway Replenishment
-bc_lyrmiscr3 {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Lyran Energy Sphere Generation
-bc_lyrmiscr4 {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Lyran Mauler Cannons
-bc_lyrmiscr5 {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Lyran Cruise Missiles
-bc_lyrmiscr6 {
-	+ keyboard	F6
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-# Lyran-Federation Mix Tech (Capture)
-bc_lyrmix1 {
-	+ keyboard	F12
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	F
-}
-# Lyran-Klingon Mix Tech (Allied)
-bc_lyrmix2 {
-	+ keyboard	F12
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	K
-}
-# Lyran-Romulan Mix Tech (Allied)
-bc_lyrmix3 {
-	+ keyboard	F12
-	- keyboard	Control
-	+ keyboard	Shift
-	+ keyboard	R
-}
-# Lyran-Romulan Mix Tech (Capture)
-bc_lyrmix4 {
-	+ keyboard	F12
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	R
-}
-# Lyran-Gorn Mix Tech (Capture)
-bc_lyrmix5 {
-	+ keyboard	F12
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	G
-}
-# Lyran-ISC Mix Tech (Capture)
-bc_lyrmix6 {
-	+ keyboard	F12
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	I
-}
-# Lyran-Hydran Mix Tech (Capture)
-bc_lyrmix7 {
-	+ keyboard	F12
-	- keyboard	Control
-	- keyboard	Shift
-	+ keyboard	H
-}
-
-### Upgrade Stations
-# Weapon Upgrade 1 & 2
-bc_fedpod11 {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_fedpod21 {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_klipod11 {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_klipod21 {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_rompod11 {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_rompod21 {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_gorpod11 {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_gorpod21 {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_thopod11 {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_thopod21 {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_iscpod11 {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_iscpod21 {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_hydpod11 {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_hydpod21 {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_lyrpod11 {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_lyrpod21 {
-	+ keyboard	F1
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-
-# Shield Upgrade 1 & 2
-bc_fedpod12 {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_fedpod22 {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_klipod12 {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_klipod22 {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_rompod12 {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_rompod22 {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_gorpod12 {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_gorpod22 {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_thopod12 {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_thopod22 {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_iscpod12 {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_iscpod22 {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_hydpod12 {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_hydpod22 {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_lyrpod12 {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_lyrpod22 {
-	+ keyboard	F2
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-
-# Sensor Upgrade 1 & 2
-bc_fedpod13 {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_fedpod23 {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_klipod13 {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_klipod23 {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_rompod13 {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_rompod23 {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_gorpod13 {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_gorpod23 {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_thopod13 {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_thopod23 {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_iscpod13 {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_iscpod23 {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_hydpod13 {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_hydpod23 {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_lyrpod13 {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_lyrpod23 {
-	+ keyboard	F3
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-
-# Engine Upgrade 1 & 2
-bc_fedpod14 {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_fedpod24 {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_klipod14 {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_klipod24 {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_rompod14 {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_rompod24 {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_gorpod14 {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_gorpod24 {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_thopod14 {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_thopod24 {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_iscpod14 {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_iscpod24 {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_hydpod14 {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_hydpod24 {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_lyrpod14 {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_lyrpod24 {
-	+ keyboard	F4
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-
-# Life Support 1 & 2
-bc_fedpod15 {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_fedpod25 {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_klipod15 {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_klipod25 {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_rompod15 {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_rompod25 {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_gorpod15 {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_gorpod25 {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_thopod15 {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_thopod25 {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_iscpod15 {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_iscpod25 {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_hydpod15 {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_hydpod25 {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_lyrpod15 {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
-}
-bc_lyrpod25 {
-	+ keyboard	F5
-	- keyboard	Control
-	- keyboard	Shift
-	- keyboard	Alt
 }
 
 #############
@@ -5980,4 +978,5697 @@ cleanshot {
 	+ keyboard	Control
 	- keyboard	Shift
 	+ keyboard	Alt
+}
+
+####################
+# Advanced Weapons #
+####################
+
+# ECM
+wc_gecm {
+	+ keyboard	E
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	+ keyboard	BackQuote
+}
+
+# ECCM
+wc_geccm {
+	+ keyboard	E
+	- keyboard	Control
+	+ keyboard	Shift
+	- keyboard	Alt
+	+ keyboard	BackQuote
+}
+
+# Probes
+wc_probe {
+	+ keyboard	P
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	+ keyboard	BackQuote
+}
+
+# Plasma Detecting Probes
+wc_probeC {
+	+ keyboard	P
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	+ keyboard	BackQuote
+}
+
+# Tractor Beam
+wc_gtracbm {
+	+ keyboard	T
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	+ keyboard	BackQuote
+}
+
+# Molecular Repair Beam
+wc_gRepairBeam {
+	+ keyboard	R
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	+ keyboard	BackQuote
+}
+
+# Klingon Cloak
+wc_gkcloak {
+	+ keyboard	C
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	+ keyboard	BackQuote
+}
+# Klingon Cloak (Sensor Array Cloak - Romulan Mix Tech Allied)
+wc_gkcloakr {
+	+ keyboard	C
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	+ keyboard	BackQuote
+}
+# Klingon Cloak (Sensor Array Cloak - Romulan Mix Tech Capture)
+wc_gkcloakr2 {
+	+ keyboard	C
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	+ keyboard	BackQuote
+}
+# Klingon Experimental Cloak
+wc_gkcloake {
+	+ keyboard	C
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	+ keyboard	BackQuote
+}
+# Romulan Cloak
+wc_grcloak {
+	+ keyboard	C
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	+ keyboard	BackQuote
+}
+# Romulan Cloak (Station Auto Cloak)
+wc_grcloakstat {
+	+ keyboard	C
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	+ keyboard	BackQuote
+}
+# Gorn Cloak (Klingon Mix Tech)
+wc_ggcloak {
+	+ keyboard	C
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	+ keyboard	BackQuote
+}
+# ISC Cloak (Romulan Mix Tech)
+wc_gicloak {
+	+ keyboard	C
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	+ keyboard	BackQuote
+}
+# Hydran Cloak (Romulan Mix Tech)
+wc_ghcloak {
+	+ keyboard	C
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	+ keyboard	BackQuote
+}
+# Lyran Cloak (Romulan Mix Tech Allied)
+wc_glcloak {
+	+ keyboard	C
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	+ keyboard	BackQuote
+}
+# Lyran Cloak (Romulan Mix Tech Capture)
+wc_glcloak2 {
+	+ keyboard	C
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	+ keyboard	BackQuote
+}
+
+# Self-Destruct
+wc_gselfdes {
+	+ keyboard	Backspace
+	- keyboard	Control
+	+ keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Assault Phaser (Klingon)
+wc_gkassault {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Dual Assault Phasers (Federation)
+wc_gfdassault {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Dual Assault Phasers (Romulan-Federation Mix Tech)
+wc_grdassault {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Web Cannon (Tholian)
+wc_gtweb {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Anti-Matter Field Projector (Klingon)
+wc_gkamfp {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Anti-Matter Field Projector (Romulan-Klingon Mix Tech Allied)
+wc_gramfp {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Anti-Matter Field Projector (Romulan-Klingon Mix Tech Capture)
+wc_gramfp {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Anti-Matter Field Projector (Hydran-Klingon Mix Tech)
+wc_ghamfp {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Quantum Carrier-Wave Beam (Federation)
+wc_gfqcb {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Quantum Carrier-Wave Beam (Gorn)
+wc_ggqcb {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Quantum Carrier-Wave Beam (Romulan-Gorn Mix Tech)
+wc_grqcb {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Gravimetric Harmonic Resonance Cannon (Klingon)
+wc_gkghrc {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Gravimetric Harmonic Resonance Cannon (Gorn)
+wc_ggghrc {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Gravimetric Harmonic Resonance Cannon (Romulan-Gorn Mix Tech)
+wc_grghrc {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Gravimetric Harmonic Resonance Cannon (ISC-Gorn Mix Tech)
+wc_gighrc {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Gravimetric Harmonic Resonance Cannon (ISC-Gorn Mix Tech)
+wc_gighrc2 {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Gravimetric Harmonic Resonance Cannon (Lyran-Gorn Mix Tech)
+wc_glghrc {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Graviton Density Distortion Sphere - Offensive Mode (Gorn)
+wc_gggdds {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Graviton Density Distortion Sphere - Offensive Mode (Gorn)
+wc_gggddscl {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Expanding Sphere Generator - Offensive Mode (Lyran)
+wc_glesg {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Expanding Sphere Generator - Offensive Mode (Lyran)
+wc_glesgbc {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Expanding Sphere Generator - Offensive Mode (Lyran)
+wc_glesgdn {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Expanding Sphere Generator - Offensive Mode (Lyran)
+wc_glesgbb {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Expanding Sphere Generator - Offensive Mode (Hydran-Lyran Mix Tech)
+wc_ghesg {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Graviton Density Distortion Sphere - Defensive Mode (Gorn)
+wc_gggdds2 {
+	+ keyboard	F6
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Graviton Density Distortion Sphere - Defensive Mode (Hydran-Gorn Mix Tech)
+wc_ghgdds2 {
+	+ keyboard	F6
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Graviton Density Distortion Sphere - Defensive Mode (Sha'Kurian)
+wc_gsgdds2 {
+	+ keyboard	F6
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Expanding Sphere Generator - Defensive Mode (Lyran)
+wc_glesg2 {
+	+ keyboard	F6
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Expanding Sphere Generator - Defensive Mode (Federation-Lyran Mix Tech)
+wc_gfesg2 {
+	+ keyboard	F6
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Expanding Sphere Generator - Defensive Mode (Klingon-Lyran Mix Tech)
+wc_gkesg2 {
+	+ keyboard	F6
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Expanding Sphere Generator - Defensive Mode (Romulan-Lyran Mix Tech Allied)
+wc_gresg2 {
+	+ keyboard	F6
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Expanding Sphere Generator - Defensive Mode (Romulan-Lyran Mix Tech Capture)
+wc_gresg2b {
+	+ keyboard	F6
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Plasmatic Pulsar Device - Light Variant (ISC)
+wc_gippdl {
+	+ keyboard	F7
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Plasmatic Pulsar Device - Light Variant (Hydran-ISC Mix Tech)
+wc_ghppdl {
+	+ keyboard	F7
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Plasmatic Pulsar Device - Medium Variant (ISC)
+wc_gippdm {
+	+ keyboard	F7
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Plasmatic Pulsar Device - Medium Variant (Romulan-ISC Mix Tech)
+wc_grppdm {
+	+ keyboard	F7
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Plasmatic Pulsar Device - Heavy Variant (ISC)
+wc_gippdh {
+	+ keyboard	F7
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Subspace Jump Drive (ISC)
+wc_gissjd {
+	+ keyboard	F8
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Subspace Jump Drive (Lyran-ISC Mix Tech)
+wc_glssjd {
+	+ keyboard	F8
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Subspace Distortion Generator (ISC)
+wc_gissdg {
+	+ keyboard	F8
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Subspace Distortion Generator (Federation-ISC Mix Tech)
+wc_gfssdg {
+	+ keyboard	F8
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Subspace Distortion Generator (Federation-ISC Mix Tech)
+wc_gfssdg2 {
+	+ keyboard	F8
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Grappler Beam (Klingon-ISC Mix Tech)
+wc_gkgrappler {
+	+ keyboard	F9
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Grappler Beam (ISC-Klingon Mix Tech)
+wc_gigrappler {
+	+ keyboard	F9
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Grappler Beam (Lyran-Klingon Mix Tech)
+wc_glgrappler {
+	+ keyboard	F9
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Sensor Jamming Equipment (Klingon)
+wc_gkjammer {
+	+ keyboard	F10
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Holographic Generator (Federation-Romulan Mix Tech)
+wc_gfhologen {
+	+ keyboard	F10
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Cohesive Fused Deuterium Irradiation Cannon (Romulan)
+wc_grcfdic {
+	+ keyboard	F11
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Dual Cohesive Fused Deuterium Irradiation Cannons (Romulan)
+wc_grdcfdic {
+	+ keyboard	F11
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Dual Cohesive Fused Deuterium Irradiation Cannons (Romulan)
+wc_grdcfdic2 {
+	+ keyboard	F11
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Extremely High Frequency Radiation Cannon (Romulan)
+wc_grehfrc {
+	+ keyboard	F12
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Extremely High Frequency Radiation Cannon (Gorn-Romulan Mix Tech)
+wc_ggehfrc {
+	+ keyboard	F12
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Extremely High Frequency Radiation Cannon (Gorn-Romulan Mix Tech)
+wc_ggehfrc2 {
+	+ keyboard	F12
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Subspace Portal (ISC)
+wc_gisubport {
+	+ keyboard	G
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	+ keyboard	BackQuote
+}
+
+# Tholian Riftgate (Tholian)
+wc_gtrift {
+	+ keyboard	G
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	+ keyboard	BackQuote
+}
+
+# Triparrallax Device (Gorn)
+wc_ggtrip {
+	+ keyboard	BackSpace
+	+ keyboard	T
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Subspace Rift (ISC)
+wc_gisubrift {
+	+ keyboard	R
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	+ keyboard	BackQuote
+}
+
+# Tal Shiar Agent (Romulan)
+wc_gromspy {
+	+ keyboard	S
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	+ keyboard	BackQuote
+}
+
+# Burst Photon Torpedoes (Federation/Klingon/ISC)
+wc_faphoton {
+	+ keyboard	B
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	+ keyboard	BackQuote
+}
+
+# Parallax Torpedoes (Romulan/Gorn)
+wc_raphoton {
+	+ keyboard	B
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	+ keyboard	BackQuote
+}
+
+# Burst Photon Shells (Hydran)
+wc_hapcan {
+	+ keyboard	B
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	+ keyboard	BackQuote
+}
+
+# Proximity Warhead Missiles (Lyran)
+wc_lproxmis {
+	+ keyboard	B
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	+ keyboard	BackQuote
+}
+
+#Upgrades
+
+wc_fcarrierup {
+	+ keyboard	U
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	+ keyboard	BackQuote
+}
+
+wc_kcarrierup {
+	+ keyboard	U
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	+ keyboard	BackQuote
+}
+
+wc_rcarrierup {
+	+ keyboard	U
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	+ keyboard	BackQuote
+}
+
+wc_gcarrierup {
+	+ keyboard	U
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	+ keyboard	BackQuote
+}
+
+wc_gstationup {
+	+ keyboard	U
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	+ keyboard	BackQuote
+}
+
+wc_icarrierup {
+	+ keyboard	U
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	+ keyboard	BackQuote
+}
+
+wc_lcarrierup {
+	+ keyboard	U
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	+ keyboard	BackQuote
+}
+
+wc_lstationup {
+	+ keyboard	U
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	+ keyboard	BackQuote
+}
+
+#ISC Refits
+
+wc_iffrefit {
+	+ keyboard	U
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	+ keyboard	BackQuote
+}
+
+wc_iddrefit {
+	+ keyboard	U
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	+ keyboard	BackQuote
+}
+
+wc_idlrefit {
+	+ keyboard	U
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	+ keyboard	BackQuote
+}
+
+wc_icarefit {
+	+ keyboard	U
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	+ keyboard	BackQuote
+}
+
+wc_idnrefit {
+	+ keyboard	U
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	+ keyboard	BackQuote
+}
+
+#Warp-Ins
+
+# Federation Reserve Fleet
+wc_ReserveFleetWarpIn {
+	+ keyboard	R
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	+ keyboard	BackQuote
+}
+
+# Mirak Diaspora (Gorn)
+wc_GMirakWarpIn {
+	+ keyboard	M
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	+ keyboard	BackQuote
+}
+
+# Mirak Diaspora (Hydran)
+wc_HMirakWarpIn {
+	+ keyboard	M
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	+ keyboard	BackQuote
+}
+
+# Mirak Diaspora (Romulan)
+wc_RMirakWarpIn {
+	+ keyboard	M
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	+ keyboard	BackQuote
+}
+
+# Sha'Kurian Mercenaries (Klingon)
+wc_KShakurianWarpIn {
+	+ keyboard	S
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	+ keyboard	BackQuote
+}
+
+# Sha'Kurian Mercenaries (Gorn)
+wc_GShakurianWarpIn {
+	+ keyboard	S
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	+ keyboard	BackQuote
+}
+
+# Sha'Kurian Mercenaries (Lyran)
+wc_LShakurianWarpIn {
+	+ keyboard	S
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	+ keyboard	BackQuote
+}
+
+# Orion Pirate Privateers (Klingon)
+wc_KOrionWarpIn {
+	+ keyboard	P
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	+ keyboard	BackQuote
+}
+
+# Orion Pirate Privateers (Romulan)
+wc_ROrionWarpIn {
+	+ keyboard	P
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	+ keyboard	BackQuote
+}
+
+# Orion Pirate Privateers (Lyran)
+wc_LOrionWarpIn {
+	+ keyboard	P
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	+ keyboard	BackQuote
+}
+
+#######################################
+# Orders menu, corresponds to buttons #
+#######################################
+# Attack
+attack {
+	+ keyboard	A
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Stop
+stop {
+	+ keyboard	S
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+guard {
+	+ keyboard	G
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+patrol {
+	+ keyboard	P
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Set to repair mode
+repair {
+	+ keyboard	R
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+#Priority repair
+priorityRepair {
+	+ keyboard	R
+	- keyboard	Control
+	+ keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Set to explore mode (formerly scout mode)
+scout {
+	+ keyboard	E
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Set search and destroy
+searchAndDestroy {
+	+ keyboard	K
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Decommision
+decomm {
+	+ keyboard	GreyDelete
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+###########
+# AI menu #
+###########
+# Set to green alert
+green {
+	+ keyboard	Home
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Set to yellow alert
+yellow {
+	+ keyboard	UpArrow
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Set to red alert
+red {
+	+ keyboard	PageUp
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Set to no movement autonomy
+move_low {
+	+ keyboard	LeftArrow
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Set to medium movement autonomy
+move_med {
+	+ keyboard	Keypad5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Set to high movement autonomy
+move_high {
+	+ keyboard	RightArrow
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Set to no advanced weapon autonomy
+special_weapon_autonomy_none {
+	+ keyboard	End
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Set to medium advanced weapon autonomy
+special_weapon_autonomy_med {
+	+ keyboard	DownArrow
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Set to high advanced weapon automony
+special_weapon_autonomy_high {
+	+ keyboard	PageDown
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+
+##############
+# Trade menu #
+##############
+### Cargo Ship
+start_trade {
+	+ keyboard	V
+	- keyboard	Control
+	+ keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+end_trade {
+	+ keyboard	V
+	+ keyboard	Control
+	+ keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+load_dilithium {
+	+ keyboard	D
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+load_latinum {
+	+ keyboard	L
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+load_metal {
+	+ keyboard	M
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+load_crew {
+	+ keyboard	O
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+### Trading Station
+buy_dilithium {
+	+ keyboard	D
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+buy_metal {
+	+ keyboard	M
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+sell_dilithium {
+	+ keyboard	D
+	- keyboard	Control
+	+ keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+sell_metal {
+	+ keyboard	M
+	- keyboard	Control
+	+ keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Recycler station
+recycle_metal {
+	+ keyboard	M
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+recycle_dilithium {
+	+ keyboard	D
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+##############
+# Build menu #
+##############
+### global keys
+### Cancel build/evolve/research
+cancel {
+	+ keyboard	C
+	+ keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+### Federation Starbase
+# Liberty Class ACS
+bc_fconst {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Freelancer Class DF
+bc_ffreight {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Independence Class FB
+bc_fcolony {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Unity Class AR
+bc_fsrepair {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Washington Class APA
+bc_fassault {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Clydesdale Class AK
+bc_fcargo {
+	+ keyboard	F6
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+### Federation Standard Shipyard
+# Oberth Class EC
+bc_fescort {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Okinawa Class FF
+bc_ffrigate {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Akula Class Refit DD
+bc_fdestroy {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Warsaw Class DL
+bc_fdestroyl {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Miranda Class CL
+bc_flcruise {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Soyuz Class CG
+bc_fgcruise {
+	+ keyboard	F6
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Constitution Class Refit CA
+bc_fcruise {
+	+ keyboard	F7
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Ranger Class GSC
+bc_fgscruise {
+	+ keyboard	F8
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Salazar Class CT
+bc_ftcruise {
+	+ keyboard	F9
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# USS Enterprise-A
+bc_fenta {
+	+ keyboard	F10
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# USS Cerberus
+bc_fenta {
+	+ keyboard	F11
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+### Federation Advanced Shipyard
+# Lexington Class CC
+bc_fccruise {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Richmond Class NCA
+bc_fncruise {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Excelsior Class BC
+bc_fbcruise {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Excelsior Class Refit BCH
+bc_fbcruiser {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Star Empire Class DN
+bc_fstarempire {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Ulysses Class DN
+bc_fdread {
+	+ keyboard	F6
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Belknap Class DNp
+bc_fdreadp {
+	+ keyboard	F7
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Missouri Class BB
+bc_fbattle {
+	+ keyboard	F8
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Ark Royal Class CVN
+bc_fcarrier {
+	+ keyboard	F9
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Ark Royal Class CVN
+bc_fcarrierb {
+	+ keyboard	F9
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Yamato Class BBX
+bc_fxbattle {
+	+ keyboard	F10
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+### Klingon Starbase
+# War Pig Class ACS
+bc_kconst {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Bloodline Class DF
+bc_kfreight {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Brave Settler Class FB
+bc_kcolony {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Suspicious-R Class FR
+bc_ksrepair {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Poisoned Barb Class APA
+bc_kassault {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Lifeblood Class AK
+bc_kcargo {
+	+ keyboard	F6
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+### Klingon Standard Shipyard
+# Bird of Prey Class EC
+bc_kescort {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Suspicious-B Class FF
+bc_kfrigate {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Suspicious-S Class FS
+bc_ksfrigate {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Suspicious-C Class FC
+bc_kcfrigate {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Insurrection Class DD
+bc_kdestroy {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Captain Class DL
+bc_kdestroyl {
+	+ keyboard	F6
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Relentless Class CL
+bc_klcruise {
+	+ keyboard	F7
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Conqueror Class CA
+bc_kcruise {
+	+ keyboard	F8
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# War Scout Class CS
+bc_kscruise {
+	+ keyboard	F9
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Shortsword Class CT
+bc_ktcruise {
+	+ keyboard	F10
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+### Klingon Imperial Shipyard
+# Warrior's Anger Class CC
+bc_kccruise {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Kronos Class BC
+bc_kqonos {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Emperor Class BCH
+bc_kbcruise {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Bird of Blood Class CB
+bc_kbertaa {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Accuser Class DN
+bc_kdread {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Sword of Kahless Class BB
+bc_kbattle {
+	+ keyboard	F6
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# IKS Cold Fury
+bc_kqehral {
+	+ keyboard	F7
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Mother of Death Class CVA
+bc_kcarrier {
+	+ keyboard	F8
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Mother of Death Class CVA
+bc_kcarrierb {
+	+ keyboard	F8
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# IKS Tegh Gah
+bc_kcarrierb {
+	+ keyboard	F9
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+### Hidden Dagger Station
+# Bird of Prey Class ECX
+bc_ksuper {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+### Romulan Starbase
+# Merlin Class ACS
+bc_rconst {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Osprey Class DF
+bc_rfreight {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Sparrow Class FB
+bc_rcolony {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Talon Class AR
+bc_rsrepair {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Kestrel Class APA
+bc_rassault {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Patrician Class AK
+bc_rcargo {
+	+ keyboard	F6
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Tribune Class CVE
+bc_rcve {
+	+ keyboard	F7
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Tribune Class CVE
+bc_rcveb {
+	+ keyboard	F7
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+### Romulan Standard Shipyard
+# Kite Class EKC
+bc_rkescort {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Preax Class EC
+bc_rescort {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Finch-S Class FKS
+bc_rkscout {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Gladius-S Class FS
+bc_rscout {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Finch Class FKF
+bc_rkfrigate {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Gladius Class FF
+bc_rfrigate {
+	+ keyboard	F6
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# War Bird Class DD
+bc_rdestroy {
+	+ keyboard	F7
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Legion Class CL
+bc_rlcruise {
+	+ keyboard	F8
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Stormbird Class CKA
+bc_rkcruise {
+	+ keyboard	F9
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Centurion Class CA
+bc_rcruise {
+	+ keyboard	F10
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Peregrine Class CT
+bc_rtcruise {
+	+ keyboard	F11
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+## Romulan Praetorial Shipyard
+# Senator Class CC
+bc_rccruise {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Raven Class BKC
+bc_rkbcruise {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Imperium Class BCH
+bc_rbcruise {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Condor Class DKN
+bc_rkdread {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# War Eagle Class DN
+bc_rdread {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Imperial Hawk Class BB
+bc_rbattle {
+	+ keyboard	F6
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# RSE D'Meredene
+bc_rhero {
+	+ keyboard	F7
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+### Gorn Starbase
+# Lizard Class ACS
+bc_gconst {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Adder Class DF
+bc_gfreight {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Python Class FB
+bc_gcolony {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Gecko Class AR
+bc_gsrepair {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Asp Class APA
+bc_gassault {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Cobra Class AK
+bc_gcargo {
+	+ keyboard	F6
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+### Gorn Standard Shipyard
+# King Snake-S Class FS
+bc_gscout {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# King Snake Class FF
+bc_gfrigate {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Anaconda Class DD
+bc_gdestroy {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Rattlesnake Class CL
+bc_glcruise {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Euromastyx Class CA
+bc_gcruise {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Saurus Class CS
+bc_gscruise {
+	+ keyboard	F6
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Reptillon Class CT
+bc_gtcruise {
+	+ keyboard	F7
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+### Gorn Royal Shipyard
+# Beowulf Class CC
+bc_gccruise {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Basilisk Class BC
+bc_gbcruise {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Grendel Class DN
+bc_gdread {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# King Grendel Class BB
+bc_gbattle {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# GNS Queen Derenesktta
+bc_gcarrier {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# GNS Queen Derenesktta
+bc_gcarrierb {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# GNS King Grendel
+bc_ghero {
+	+ keyboard	F6
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+### Project Glormaskt Station
+# Glormaskt Class XX
+bc_gsuper {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+### Tholian Starbase
+# Bismuth Class ACS
+bc_tconst {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Granite Class DF
+bc_tfreight {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Calcinite Class FB
+bc_tcolony {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Diamond Class AR
+bc_tsrepair {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+### Tholian Standard Shipyard
+# Feldspar Class EC
+bc_tescort {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Feldspar-S Class ES
+bc_tscout {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Garnet Class CL
+bc_tlcruise {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Ruby Class CA
+bc_tcruise {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Citrine Class DM
+bc_tmonitor {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Quartz Class DD
+bc_tdestroy {
+	+ keyboard	F6
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# TAS Rensekene
+bc_thero {
+	+ keyboard	F7
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+### Tholian Neo-Tholian Gate
+# Amethyst Class BC
+bc_tbcruise {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Sapphire Class DN
+bc_tdread {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Emerald Class BB
+bc_tbattle {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+### ISC Starbase
+# Type ACS-XIV
+bc_iconst {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Type DF-XX
+bc_ifreight {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Type FB-I
+bc_icolony {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Type AR-XII
+bc_isrepair {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Type APA-VII
+bc_iassault {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+### ISC Shipyard Type I
+# Type FF-IVsc
+bc_iscout {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Type FF-IV
+bc_ifrigate {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Type FF-IVd
+bc_ifrigater {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Type DD-III
+bc_idestroy {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Type DD-IIId
+bc_idestroyr {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Type DD-IIIFL
+bc_idestroyl {
+	+ keyboard	F6
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Type DD-IIIFLd
+bc_idestroylr {
+	+ keyboard	F7
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Type CL-V
+bc_ilcruise {
+	+ keyboard	F8
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Type CCL-II
+bc_ilccruise {
+	+ keyboard	F9
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Type CA-VIII
+bc_icruise {
+	+ keyboard	F10
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Type CA-VIIId
+bc_icruiser {
+	+ keyboard	F11
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Type CT-II
+bc_itcruise {
+	+ keyboard	F12
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+### ISC Shipyard Type II
+# Type CSA-III
+bc_iscruise {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Type DN-III
+bc_idread {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Type DN-IIId
+bc_idreadr {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Type CVN-VI
+bc_icarrier {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Type CVN-VI
+bc_icarrierb {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# DNd-01 Cmdr Nortene
+bc_ihero {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+### Hydran Starbase
+# Peasant Class ACS
+bc_hconst {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Serf Class DF
+bc_hfreight {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Autocrat Class FB
+bc_hcolony {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Squire Class FR
+bc_hsrepair {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Saracen Class APA
+bc_hassault {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Merchant Class AK
+bc_hcargo {
+	+ keyboard	F6
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+### Hydran Standard Shipyard
+# Archer Class FS
+bc_hscout {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Yeoman Class FF
+bc_hfrigate {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Knight Class DD
+bc_hdestroy {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Paladin Class DL
+bc_hdestroyl {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Regent Class CL
+bc_hlcruise {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Baron Class CA
+bc_hcruise {
+	+ keyboard	F6
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Pikeman Class MH
+bc_hmonitor {
+	+ keyboard	F7
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Duke Class CC
+bc_hccruise {
+	+ keyboard	F8
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+### Hydran Capital Ships are constructed by Peasant Class ACS
+### Lyran Starbase
+# Felidae Class ACS
+bc_lconst {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Queen Cat Class DF
+bc_lfreight {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Feline Class FB
+bc_lcolony {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Bobcat Class FR
+bc_lsrepair {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Serval Class APA
+bc_lassault {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Cougar Class AK
+bc_lcargo {
+	+ keyboard	F6
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+### Lyran Standard Shipyard
+# Wildcat Class FS
+bc_lscout {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Lynx Class FF
+bc_lfrigate {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Caracal Class DD
+bc_ldestroy {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Leopard Class CL
+bc_llcruise {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Tiger Class CA
+bc_lhcruise {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Puma Class MNG
+bc_lmonitor {
+	+ keyboard	F6
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+### Lyran Grand Shipyard
+# Panther Class BC
+bc_lbcruise {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Lion Class DN
+bc_ldread {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Royal Lion Class BB
+bc_lbattle {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Lioness Class PFT
+bc_lcarrier {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Lioness Class PFT
+bc_lcarrierb {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+### Construction Tender
+# Outpost
+# Federation Monitoring Station
+bc_fmonitoring {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Klingon Outpost
+bc_koutpost {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Romulan Outpost
+bc_routpost {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Gorn Pseudo-Fighter Station
+bc_goutpost {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Gorn Pseudo-Fighter Station
+bc_goutpostb {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Hydran Outpost
+bc_houtpost {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Lyran Outpost
+bc_loutpost {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Lyran Outpost
+bc_loutpostb {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Mining Station
+# Federation Dilithium Mining Station
+bc_fmining {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Klingon Dilithium Refinery
+bc_kmining {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Romulan Dilithium Processor
+bc_rmining {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Gorn Dilithium Emulsifier
+bc_gmining {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Tholian Crystalene Converter
+bc_tmining {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# ISC Resource Station
+bc_imining {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Hydran Dilithium Purifier
+bc_hmining {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Lyran Dilithium Grader
+bc_lmining {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Orbital Stations
+# Federation OPF
+bc_forbital {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Klingon OPF
+bc_korbital {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Romulan OPF
+bc_rorbital {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Gorn OPF
+bc_gorbital {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Tholian Transmitter
+bc_ttransmit {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Hydran OPF
+bc_horbital {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Lyran OPF
+bc_lorbital {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Trading Stations
+# Federation Trading Station
+bc_ftrading {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Klingon Trading Station
+bc_ktrading {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Romulan Trading Station
+bc_rtrading {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Gorn Trading Station
+bc_gtrading {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# ISC Disassembly Array
+bc_irecycle {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Hydran Trading Station
+bc_htrading {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Lyran Trading Station
+bc_ltrading {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Sensors
+# Federation Sensor Probe
+bc_fsensor {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Klingon Sensor Array
+bc_ksensor {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Romulan Spy Satellite
+bc_rsensor {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Gorn Sensor Emplacement
+bc_gsensor {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Tholian Crystalline Resonator
+bc_tsensor {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# ISC Sensor Buoy
+bc_isensor {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Hydran Sensor Drone
+bc_hsensor {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Lyran Sensor Post
+bc_lsensor {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Defensive Mines
+# Federation Type FA Mine
+bc_fmine {
+	+ keyboard	F6
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Klingon Type KA Mine
+bc_kmine {
+	+ keyboard	F6
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Romulan Type RA Mine
+bc_rmine {
+	+ keyboard	F6
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Gorn Type GA Mine
+bc_gmine {
+	+ keyboard	F6
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Tholian Type TA Mine
+bc_tmine {
+	+ keyboard	F6
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# ISC Type IA Mine
+bc_imine {
+	+ keyboard	F6
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Hydran Type HA Mine
+bc_hmine {
+	+ keyboard	F6
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Lyran Type LA Mine
+bc_lmine {
+	+ keyboard	F6
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Standard Shipyard
+# Federation Standard Shipyard
+bc_fyard {
+	+ keyboard	F7
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Klingon Standard Shipyard
+bc_kyard {
+	+ keyboard	F7
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Romulan Standard Shipyard
+bc_ryard {
+	+ keyboard	F7
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Gorn Standard Shipyard
+bc_gyard {
+	+ keyboard	F7
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Tholian Standard Shipyard
+bc_tyard {
+	+ keyboard	F7
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# ISC Type I Shipyard
+bc_iyard {
+	+ keyboard	F7
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Hydran Standard Shipyard
+bc_hyard {
+	+ keyboard	F7
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Lyran Standard Shipyard
+bc_lyard {
+	+ keyboard	F7
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Advanced Shipyards
+# Federation Advanced Shipyard
+bc_fyard2 {
+	+ keyboard	F8
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Klingon Imperial Shipyard
+bc_kyard2 {
+	+ keyboard	F8
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Romulan Praetorial Shipyard
+bc_ryard2 {
+	+ keyboard	F8
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Gorn Royal Shipyard
+bc_gyard2 {
+	+ keyboard	F8
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Neo-Tholian Gate
+bc_tyard2 {
+	+ keyboard	F8
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# ISC Type II Shipyard
+bc_iyard2 {
+	+ keyboard	F8
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Hydran Monarch Class DN
+bc_hdread {
+	+ keyboard	F8
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Lyran Grand Shipyard
+bc_lyard2 {
+	+ keyboard	F8
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Research Facilities
+# Hull Research
+# Federation Utopia Planitia Vessel Hull Research Centre
+bc_fresearcha {
+	+ keyboard	F9
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Klingon Defence Force Warship Research Laboratory
+bc_kresearcha {
+	+ keyboard	F9
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Romulan Star Navy Vessel Research Laboratory
+bc_rresearcha {
+	+ keyboard	F9
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Gorn Royal Navy Admiralty Office
+bc_gresearcha {
+	+ keyboard	F9
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Tholian Crystal Library
+bc_tresearb {
+	+ keyboard	F9
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# ISC Meskeen Research Station
+bc_iresearcha {
+	+ keyboard	F9
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Hydran Royal Navy Hull Development Centre
+bc_hresearcha {
+	+ keyboard	F9
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Imperial Lyran Navy Warship Research Laboratory
+bc_lresearcha {
+	+ keyboard	F9
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Conversion Research
+# Federation Utopia Planitia Vessel Hull Research Centre
+bc_fresearchb {
+	+ keyboard	F10
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Klingon Defence Force Warship Conversion Laboratory
+bc_kresearchb {
+	+ keyboard	F10
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Romulan Star Navy Vessel Conversion Laboratory
+bc_rresearchb {
+	+ keyboard	F10
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Gorn Royal Navy Specialist Lab
+bc_gresearchb {
+	+ keyboard	F10
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Tholian Crystal Pre-Former
+bc_tresearc {
+	+ keyboard	F10
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# ISC Veltressai Research Station
+bc_iresearchb {
+	+ keyboard	F10
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Hydran Royal Navy Modification Complex
+bc_hresearchb {
+	+ keyboard	F10
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Imperial Lyran Navy Warship Conversion Laboratory
+bc_lresearchb {
+	+ keyboard	F10
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Weaponry/Equipment Research
+# Federation Utopia Planitia Miscellaneous Systems Research Centre
+bc_fresearchc {
+	+ keyboard	F11
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Klingon Imperial Armoury
+bc_kresearchc {
+	+ keyboard	F11
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Romulan Praetorial Research Facility
+bc_rresearchc {
+	+ keyboard	F11
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Gorn Royal Naval Arsenal
+bc_gresearchc {
+	+ keyboard	F11
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Tholian Crystal Capacitor
+bc_treseard {
+	+ keyboard	F11
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# ISC Rovillian Research Station
+bc_iresearchc {
+	+ keyboard	F11
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Hydran Royal Armoury
+bc_hresearchc {
+	+ keyboard	F11
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Lyran Imperial Guard Station
+bc_lresearchc {
+	+ keyboard	F11
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Ship Upgrade Facility
+# Vulcan Research Institute
+bc_fupgrade {
+	+ keyboard	U
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Imperial Research Institute
+bc_kupgrade {
+	+ keyboard	U
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Praetorial Enhancement Institute
+bc_rupgrade {
+	+ keyboard	U
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Gorn Royal Naval Research Institute
+bc_gupgrade {
+	+ keyboard	U
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Tholian Research Assembly
+bc_tupgrade {
+	+ keyboard	U
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# ISC Joint Interstellar Research Station
+bc_iupgrade {
+	+ keyboard	U
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Hydran Royal Shipyard Committee
+bc_hupgrade {
+	+ keyboard	U
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Lyran Imperial Naval Commissariat
+bc_lupgrade {
+	+ keyboard	U
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Super Stations
+# Federation Utopia Planitia Experimental Research Laboratory
+bc_fsuperbl {
+	+ keyboard	F12
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Klingon Project pIH D'ktagh Station
+bc_ksuperbl {
+	+ keyboard	F12
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Gorn Project Glormaskt Station
+bc_gsuperbl {
+	+ keyboard	F12
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Tholian Rift Generator
+bc_tgate {
+	+ keyboard	F12
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# ISC Subspace Research Facility
+bc_isuperbl {
+	+ keyboard	F12
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Hydran Royal Sovereign Class CVN
+bc_hcarrier {
+	+ keyboard	F12
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+##################
+# Research menus #
+##################
+
+### Hulls
+# Federation Utopia Planitia Vessel Hull Research Centre
+# Federation Destroyer Hull
+bc_fedhull1 {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Federation Light Cruiser Hull
+bc_fedhull2 {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Federation Heavy Cruiser Hull
+bc_fedhull3 {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Federation Command Cruiser Hull
+bc_fedhull4 {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Federation Battlecruiser Hull
+bc_fedhull5 {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Federation Dreadnought Hull
+bc_fedhull6 {
+	+ keyboard	F6
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Federation Battleship Hull
+bc_fedhull7 {
+	+ keyboard	F7
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Federation Experimental Battleship Hulll
+bc_fedhull8 {
+	+ keyboard	F8
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Klingon Defence Force Warship Research Laboratory
+# Klingon E Series Hull
+bc_klihull5 {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Klingon F Series Hull
+bc_klihull1 {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Klingon D Series Hull
+bc_klihull2 {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Klingon C-I Series Hull
+bc_klihull3 {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Klingon B Series Hulll
+bc_klihull4 {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Romulan Star Navy Vessel Research Laboratory
+# Romulan Utility Craft Hulls
+bc_romhull11 {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Romulan Combat Utility Craft Hulls
+bc_romhull10 {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Romulan KR Series Frigate Refit
+bc_romhull7 {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Romulan KR Series Cruiser Refit
+bc_romhull8 {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Romulan KR Series Capital Ship Refit
+bc_romhull9 {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Romulan Ornith Series Screen Hull
+bc_romhull1 {
+	+ keyboard	F6
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Romulan Ornith Series Cruiser Hull
+bc_romhull2 {
+	+ keyboard	F7
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Romulan Ornith Series Dreadnought Hull
+bc_romhull3 {
+	+ keyboard	F8
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# New Series Escort Hull
+bc_romhull4 {
+	+ keyboard	F9
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# New Series Advanced Cruiser Hull
+bc_romhull5 {
+	+ keyboard	F10
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# New Series Battleship Hull
+bc_romhull6 {
+	+ keyboard	F11
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Gorn Royal Navy Admiralty Office
+# Gorn Utility Hull
+bc_gorhull1 {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Gorn Bulk Freighter Hull
+bc_gorhull2 {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Gorn Light Screen Hull
+bc_gorhull3 {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Gorn Cruiser Hull
+bc_gorhull4 {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Gorn Advanced Cruiser Hull
+bc_gorhull5 {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Gorn Command Ship Hull
+bc_gorhull6 {
+	+ keyboard	F6
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Tholian Crystal Library
+# Tholian Enlarged Basic Hull
+bc_thohull1 {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Tholian Neo-Tholian Prototype Hull
+bc_thohull2 {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Tholian Neo-Tholian Developmental Hull
+bc_thohull3 {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Tholian Complete Neo-Tholian Hull
+bc_thohull4 {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# ISC Meskeen Research Station
+# ISC Destroyer Hull
+bc_ischull1 {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# ISC Destroyer Leader Hull
+bc_ischull2 {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# ISC Light Cruiser Hull
+bc_ischull3 {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# ISC Heavy Cruiser Hull
+bc_ischull4 {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# ISC Star Cruiser Hull
+bc_ischull5 {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# ISC Dreadnought Hull
+bc_ischull6 {
+	+ keyboard	F6
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# ISC Fleet Carrier Hull
+bc_ischull7 {
+	+ keyboard	F7
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Hydran Royal Navy Hull Development Centre
+# Hydran Destroyer Hull
+bc_hydhull1 {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Hydran Light Cruiser Hulll
+bc_hydhull2 {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Hydran Heavy Cruiser Hull
+bc_hydhull3 {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Hydran Advanced Cruiser Hull
+bc_hydhull4 {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Hydran Capital Ship Hull
+bc_hydhull5 {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Imperial Lyran Navy Warship Research Laboratory
+# Lyran Destroyer Hull
+bc_lyrhull1 {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Lyran Light Cruiser Hull
+bc_lyrhull2 {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Lyran Heavy Cruiser Hull
+bc_lyrhull3 {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Lyran Battlecruiser Hull
+bc_lyrhull4 {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Lyran Capital Ship Hull
+bc_lyrhull5 {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+### Conversions
+# Federation Utopia Planitia Vessel Modification Centre
+# Federation Leader Conversion
+bc_fedequ2 {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Federation Gun Cruiser Conversion
+bc_fedequ3 {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Federation Galactic Survey Cruiser Conversion
+bc_fedequ4 {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Federation Torpedo Cruiser Conversion
+bc_fedequ5 {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Federation New Heavy Cruiser Conversion
+bc_fedequ6 {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Klingon Defence Force Warship Conversion Laboratory
+# Klingon Science Frigate Conversion
+bc_kliequ1 {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Klingon Cargo Frigate Conversion
+bc_kliequ2 {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Klingon Leader Conversion
+bc_kliequ3 {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Klingon Scout Cruiser Conversion
+bc_kliequ4 {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Klingon C-II Series Hull Modification
+bc_kliequ5 {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Romulan Star Navy Vessel Conversion Laboratory
+# Romulan Indigenous Scout Conversion
+bc_romequ1 {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Romulan KR series Scout Conversion
+bc_romequ2 {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Romulan Torpedo Cruiser Conversion
+bc_romequ3 {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Romulan Escort Carrier Conversion
+bc_romequ4 {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Gorn Royal Navy Specialist Lab
+# Gorn Scout Conversion
+bc_gorequ1 {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Gorn Light Cruiser Conversion
+bc_gorequ2 {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Gorn Scout Cruiser Conversion
+bc_gorequ3 {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Gorn Torpedo Cruiser Conversion
+bc_gorequ4 {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Gorn Battlecruiser Conversion
+bc_gorequ5 {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Gorn Battleship Conversion
+bc_gorequ6 {
+	+ keyboard	F6
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Tholian Crystal Pre-Former
+# Tholian Neo-Tholian Cruiser Upgrade
+bc_thoequ1 {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Tholian Monitor Conversion
+bc_thoequ2 {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Tholian Battleship Conversion
+bc_thoequ3 {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# ISC Veltressai Research Station
+# ISC Scout Conversion
+bc_iscequ1 {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# ISC Frigate-D Refit
+bc_iscequ2 {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# ISC Destroyer-D Refits
+bc_iscequ3 {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# ISC Light Command Cruiser Conversion
+bc_iscequ4 {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# ISC Torpedo Cruiser Conversion
+bc_iscequ5 {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# ISC Cruiser-D Refit
+bc_iscequ6 {
+	+ keyboard	F6
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# ISC Dreadnought-D Refit
+bc_iscequ7 {
+	+ keyboard	F7
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# ISC Colony Ship Conversion
+bc_iscequ8 {
+	+ keyboard	F8
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# ISC Troop Transport Conversion
+bc_iscequ9 {
+	+ keyboard	F9
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Hydran Royal Navy Modification Complex
+# Hydran Scout Conversion
+bc_hydequ1 {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Hydran Leader Conversion
+bc_hydequ2 {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Hydran Monitor Conversion
+bc_hydequ3 {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Hydran Fleet Carrier Conversion
+bc_hydequ4 {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Imperial Lyran Navy Warship Conversion Laboratory
+# Lyran Scout Conversion
+bc_lyrequ1 {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Lyran Guided Missile Monitor Conversion
+bc_lyrequ2 {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Lyran Battleship Conversion
+bc_lyrequ3 {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Lyran Psuedo-Fighter Tender Conversion
+bc_lyrequ4 {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+### Equipment/Weapons
+# Federation Utopia Planitia Miscellaneous Systems Research Centre
+# Federation Type II-U Warp Nacelles
+bc_fedmiscr1 {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Federation Megaphaser Emitters
+bc_fedmiscr2 {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Federation Dual Warp Core Relays
+bc_fedmiscr3 {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Federation Centreline Warp Nacelles
+bc_fedmiscr4 {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Federation Proximity Detonation Warheads
+bc_fedmiscr5 {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Federation Plasma Weaponry
+bc_fedmiscr6 {
+	+ keyboard	F6
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Federation Superconductive Power Coils
+bc_fedpod1 {
+	+ keyboard	F7
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Federation Reinforced Spinal Integrity Structures
+bc_fedpod2 {
+	+ keyboard	F8
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Federation Reiterative Tractor Beam Circuitry
+bc_fedpod3 {
+	+ keyboard	F9
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Federation Enhanced Sensor Plasma Detection
+bc_fedpod4 {
+	+ keyboard	F10
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Federation Enemy Ship Pattern Report
+bc_fedpod5 {
+	+ keyboard	F11
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Federation-Klingon Mix Tech (Capture)
+bc_fedmix1 {
+	+ keyboard	K
+	+ keyboard	Control
+	+ keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Federation-Romulan Mix Tech (Capture)
+bc_fedmix2 {
+	+ keyboard	R
+	+ keyboard	Control
+	+ keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Federation-Gorn Mix Tech (Allied)
+bc_fedmix3 {
+	+ keyboard	G
+	+ keyboard	Control
+	+ keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Federation-ISC Mix Tech (Capture)
+bc_fedmix4 {
+	+ keyboard	I
+	+ keyboard	Control
+	+ keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Federation-Hydran Mix Tech (Allied)
+bc_fedmix5 {
+	+ keyboard	H
+	+ keyboard	Control
+	+ keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Federation-Lyran Mix Tech (Capture)
+bc_fedmix6 {
+	+ keyboard	L
+	+ keyboard	Control
+	+ keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Klingon Imperial Armoury
+# Klingon Trilithium Depeleted Warheads
+bc_klimiscr1 {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Klingon Dual Forward Torpedo Tubes
+bc_klimiscr2 {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Klingon Centreform Non-Propulsive Nacelles
+bc_klimiscr3 {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Klingon Proximity Detonation Warheads
+bc_klimiscr4 {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Klingon Frequency Modulated Particle Weapons
+bc_klipod1 {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Klingon Dual Advanced Weapon Wing Mounts Research
+bc_klipod2 {
+	+ keyboard	F6
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Klingon Gravitic Harmonous Resonator Examination
+bc_klipod3 {
+	+ keyboard	F7
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Klingon Anti-Matter Field Technology
+bc_klipod4 {
+	+ keyboard	F8
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Klingon Enhanced Warp Cores
+bc_klipod5 {
+	+ keyboard	F9
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Klingon Modified Cloaking Fields
+bc_klipod6 {
+	+ keyboard	F10
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Klingon-Federation Mix Tech (Capture)
+bc_klimix1 {
+	+ keyboard	F
+	+ keyboard	Control
+	+ keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Klingon-Romulan Mix Tech (Allied)
+bc_klimix2 {
+	+ keyboard	R
+	+ keyboard	Control
+	+ keyboard	Shift
+	+ keyboard	Alt
+	- keyboard	BackQuote
+}
+# Klingon-Romulan Mix Tech (Capture)
+bc_klimix3 {
+	+ keyboard	R
+	+ keyboard	Control
+	+ keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Klingon-Gorn Mix Tech (Capture)
+bc_klimix4 {
+	+ keyboard	G
+	+ keyboard	Control
+	+ keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Klingon-ISC Mix Tech (Capture)
+bc_klimix5 {
+	+ keyboard	I
+	+ keyboard	Control
+	+ keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Klingon-Hydran Mix Tech (Capture)
+bc_klimix6 {
+	+ keyboard	H
+	+ keyboard	Control
+	+ keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Klingon-Lyran Mix Tech (Allied)
+bc_klimix7 {
+	+ keyboard	L
+	+ keyboard	Control
+	+ keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Romulan Praetorial Research Facility
+# Romulan Type L Light Plasma Torpedo
+bc_rommiscr1 {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Romulan Type M Medium Plasma Torpedo
+bc_rommiscr2 {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Romulan Twin Torpedo Tube Mountings
+bc_rommiscr3 {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Romulan Multiple Torpedo Tube Mountings
+bc_rommiscr4 {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Romulan Assault Phaser Examination
+bc_rommiscr5 {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Romulan Gravimetric Cannon Examination
+bc_rommiscr6 {
+	+ keyboard	F6
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Romulan Quantum Carrier-Wave Beam Examination
+bc_rommiscr7 {
+	+ keyboard	F7
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Romulan Extremely High Frequency Radiation Emitters
+bc_rommiscr8 {
+	+ keyboard	F8
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Romulan Dual Heavy Weapon Power Relays Research
+bc_rompod1 {
+	+ keyboard	F9
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Romulan Tal Shiar Agent Training
+bc_rompod2 {
+	+ keyboard	F10
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Romulan Tal Shiar Technology Aquisition Programme
+bc_rompod3 {
+	+ keyboard	F11
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Romulan-Federation Mix Tech (Capture)
+bc_rommix1 {
+	+ keyboard	F
+	+ keyboard	Control
+	+ keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Romulan-Klingon Mix Tech (Allied)
+bc_rommix2 {
+	+ keyboard	K
+	+ keyboard	Control
+	+ keyboard	Shift
+	+ keyboard	Alt
+	- keyboard	BackQuote
+}
+# Romulan-Klingon Mix Tech (Capture)
+bc_rommix3 {
+	+ keyboard	K
+	+ keyboard	Control
+	+ keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Romulan-Gorn Mix Tech (Capture)
+bc_rommix4 {
+	+ keyboard	G
+	+ keyboard	Control
+	+ keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Romulan-ISC Mix Tech (Capture)
+bc_rommix5 {
+	+ keyboard	I
+	+ keyboard	Control
+	+ keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Romulan-Hydran Mix Tech (Capture)
+bc_rommix6 {
+	+ keyboard	H
+	+ keyboard	Control
+	+ keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Romulan-Lyran Mix Tech (Allied)
+bc_rommix7 {
+	+ keyboard	L
+	+ keyboard	Control
+	+ keyboard	Shift
+	+ keyboard	Alt
+	- keyboard	BackQuote
+}
+# Romulan-Lyran Mix Tech (Capture)
+bc_rommix8 {
+	+ keyboard	L
+	+ keyboard	Control
+	+ keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Gorn Royal Naval Arsenal
+# Gorn Type G Plasma Torpedo
+bc_gormiscr1 {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Gorn Multiple Torpedo Tubes
+bc_gormiscr2 {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Gorn Ablative Armour Plating
+bc_gormiscr3 {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Gorn Parralax Generator
+bc_gormiscr4 {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Gorn GPC Conditioning
+bc_gorpod1 {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Gorn Graviton Distortion Circuitry
+bc_gorpod2 {
+	+ keyboard	F6
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Gorn Reiterative Tractor Beam Circuitry
+bc_gorpod3 {
+	+ keyboard	F7
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Gorn Gravitic Harmonous Resonators
+bc_gorpod4 {
+	+ keyboard	F8
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Gorn-Federation Mix Tech (Allied)
+bc_gormix1 {
+	+ keyboard	F
+	+ keyboard	Control
+	+ keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Gorn-Klingon Mix Tech (Capture)
+bc_gormix2 {
+	+ keyboard	K
+	+ keyboard	Control
+	+ keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Gorn-Romulan Mix Tech (Capture)
+bc_gormix3 {
+	+ keyboard	R
+	+ keyboard	Control
+	+ keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Gorn-ISC Mix Tech (Capture)
+bc_gormix4 {
+	+ keyboard	I
+	+ keyboard	Control
+	+ keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Gorn-Hydran Mix Tech (Allied)
+bc_gormix5 {
+	+ keyboard	H
+	+ keyboard	Control
+	+ keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Gorn-Lyran Mix Tech (Capture)
+bc_gormix6 {
+	+ keyboard	L
+	+ keyboard	Control
+	+ keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Tholian Crystal Capacitor
+# Tholian Multi-Barrelled Heavy Disruptor Batteries
+bc_thomiscr1 {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Tholian Composite Neo-Tholian/Tholian Designs
+bc_thomiscr2 {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Tholian Purebred Neo-Tholian Designs
+bc_thomiscr3 {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Tholian Neo-Tholian Contact Frequencies
+bc_thomiscr4 {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Tholian Destination Coordinates
+bc_thomiscr5 {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Tholian Instanteanous Travel
+bc_thomiscr6 {
+	+ keyboard	F6
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Tholian Web Cannon Research
+bc_thomiscr7 {
+	+ keyboard	F7
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# ISC Rovillian Research Station
+# ISC Plasmatic Pulsars
+bc_iscpod1 {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# ISC Subspace Rift Research
+bc_iscpod2 {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# ISC Subspace Portal Research
+bc_iscmiscr1 {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# ISC Heavy Disruptors
+bc_iscmiscr2 {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# ISC Cruiser Operations
+bc_iscmiscr3 {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# ISC Full Scale Pacification
+bc_iscmiscr4 {
+	+ keyboard	F6
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# ISC Light PPD Research
+bc_iscmiscr5 {
+	+ keyboard	F7
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# ISC Standard PPD Research
+bc_iscmiscr6 {
+	+ keyboard	F8
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# ISC Heavy PPD Research
+bc_iscmiscr7 {
+	+ keyboard	F9
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# ISC Burst Photon Torpedoes
+bc_iscmiscr8 {
+	+ keyboard	F10
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# ISC-Federation Mix Tech (Allied)
+bc_iscmix1 {
+	+ keyboard	F
+	+ keyboard	Control
+	+ keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# ISC-Klingon Mix Tech (Capture)
+bc_iscmix2 {
+	+ keyboard	K
+	+ keyboard	Control
+	+ keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# ISC-Romulan Mix Tech (Capture)
+bc_iscmix3 {
+	+ keyboard	R
+	+ keyboard	Control
+	+ keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# ISC-Gorn Mix Tech (Capture)
+bc_iscmix4 {
+	+ keyboard	G
+	+ keyboard	Control
+	+ keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# ISC-Hydran Mix Tech (Allied)
+bc_iscmix5 {
+	+ keyboard	H
+	+ keyboard	Control
+	+ keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# ISC-Lyran Mix Tech (Capture)
+bc_iscmix6 {
+	+ keyboard	L
+	+ keyboard	Control
+	+ keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Hydran Royal Armoury
+# Hydran Multi-Nacelled Designs
+bc_hydmiscr1 {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Hydran Fusion Beams
+bc_hydmiscr2 {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Hydran Multiple Hellbore Mounts
+bc_hydmiscr3 {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Hydran Enlarged Hangar Bays
+bc_hydmiscr4 {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Hydran Photon Cannons
+bc_hydmiscr5 {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Hydran Proximity Shells
+bc_hydmiscr6 {
+	+ keyboard	F6
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Hydran-Federation Mix Tech (Allied)
+bc_hydmix1 {
+	+ keyboard	F
+	+ keyboard	Control
+	+ keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Hydran-Klingon Mix Tech (Capture)
+bc_hydmix2 {
+	+ keyboard	K
+	+ keyboard	Control
+	+ keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Hydran-Romulan Mix Tech (Capture)
+bc_hydmix3 {
+	+ keyboard	R
+	+ keyboard	Control
+	+ keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Hydran-Gorn Mix Tech (Allied)
+bc_hydmix4 {
+	+ keyboard	G
+	+ keyboard	Control
+	+ keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Hydran-ISC Mix Tech (Capture)
+bc_hydmix5 {
+	+ keyboard	I
+	+ keyboard	Control
+	+ keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Hydran-Lyran Mix Tech (Capture)
+bc_hydmix6 {
+	+ keyboard	L
+	+ keyboard	Control
+	+ keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Lyran Imperial Guard Station
+# Lyran Multi-Barrel Heavy Disruptors
+bc_lyrmiscr1 {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Lyran Heavy Phaser Cannons
+bc_lyrmiscr2 {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Lyran Underway Replenishment
+bc_lyrmiscr3 {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Lyran Energy Sphere Generation
+bc_lyrmiscr4 {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Lyran Mauler Cannons
+bc_lyrmiscr5 {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Lyran Cruise Missiles
+bc_lyrmiscr6 {
+	+ keyboard	F6
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Lyran-Federation Mix Tech (Capture)
+bc_lyrmix1 {
+	+ keyboard	F
+	+ keyboard	Control
+	+ keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Lyran-Klingon Mix Tech (Allied)
+bc_lyrmix2 {
+	+ keyboard	K
+	+ keyboard	Control
+	+ keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Lyran-Romulan Mix Tech (Allied)
+bc_lyrmix3 {
+	+ keyboard	R
+	+ keyboard	Control
+	+ keyboard	Shift
+	+ keyboard	Alt
+	- keyboard	BackQuote
+}
+# Lyran-Romulan Mix Tech (Capture)
+bc_lyrmix4 {
+	+ keyboard	R
+	+ keyboard	Control
+	+ keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Lyran-Gorn Mix Tech (Capture)
+bc_lyrmix5 {
+	+ keyboard	G
+	+ keyboard	Control
+	+ keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Lyran-ISC Mix Tech (Capture)
+bc_lyrmix6 {
+	+ keyboard	I
+	+ keyboard	Control
+	+ keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+# Lyran-Hydran Mix Tech (Capture)
+bc_lyrmix7 {
+	+ keyboard	H
+	+ keyboard	Control
+	+ keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+### Upgrade Stations
+# Weapon Upgrade 1 & 2
+bc_fedpod11 {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_fedpod21 {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_klipod11 {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_klipod21 {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_rompod11 {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_rompod21 {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_gorpod11 {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_gorpod21 {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_thopod11 {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_thopod21 {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_iscpod11 {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_iscpod21 {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_hydpod11 {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_hydpod21 {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_lyrpod11 {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_lyrpod21 {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+
+# Shield Upgrade 1 & 2
+bc_fedpod12 {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_fedpod22 {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_klipod12 {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_klipod22 {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_rompod12 {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_rompod22 {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_gorpod12 {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_gorpod22 {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_thopod12 {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_thopod22 {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_iscpod12 {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_iscpod22 {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_hydpod12 {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_hydpod22 {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_lyrpod12 {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_lyrpod22 {
+	+ keyboard	F2
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+
+# Sensor Upgrade 1 & 2
+bc_fedpod13 {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_fedpod23 {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_klipod13 {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_klipod23 {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_rompod13 {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_rompod23 {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_gorpod13 {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_gorpod23 {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_thopod13 {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_thopod23 {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_iscpod13 {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_iscpod23 {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_hydpod13 {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_hydpod23 {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_lyrpod13 {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_lyrpod23 {
+	+ keyboard	F3
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+
+# Engine Upgrade 1 & 2
+bc_fedpod14 {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_fedpod24 {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_klipod14 {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_klipod24 {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_rompod14 {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_rompod24 {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_gorpod14 {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_gorpod24 {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_thopod14 {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_thopod24 {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_iscpod14 {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_iscpod24 {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_hydpod14 {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_hydpod24 {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_lyrpod14 {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_lyrpod24 {
+	+ keyboard	F4
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+# Life Support 1 & 2
+bc_fedpod15 {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_fedpod25 {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_klipod15 {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_klipod25 {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_rompod15 {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_rompod25 {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_gorpod15 {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_gorpod25 {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_thopod15 {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_thopod25 {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_iscpod15 {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_iscpod25 {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_hydpod15 {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_hydpod25 {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_lyrpod15 {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+bc_lyrpod25 {
+	+ keyboard	F5
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
 }
