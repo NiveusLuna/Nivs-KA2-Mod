@@ -22,31 +22,36 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	//
 
 	"hbase",		1,0, -1,  1,	// Starbase - HQ
-	"hconst",		2,0, -1,  0,	// HACS - Construction Tender - Peasant Class (1)
-	"hconst",		2,0, -1,  0,	// HACS - Construction Tender - Peasant Class (2)
+	"hconst",		1,0, -1,  0,	// HACS - Construction Tender - Peasant Class (1)
 	"hmining", 		1,0, -1,  0,    // Mining Station (1)
-	"hfreight",		3,0, -1,  0,    // HDF - Mining Freighter - Serf Class (1,2,3)
-	"hresearcha",	1,0, -1,  0,    // Research Station - Hulls
+	"hconst",		1,0, -1,  0,	// HACS - Construction Tender - Peasant Class (2)
 	"horbital",		1,0, -1,  0,	// Orbital Processing Facility (1)
-	"hyard",		1,0, -1,  0, 	// Standard Shipyard (1st)	
+	"hconst",		1,0, -1,  0,	// HACS - Construction Tender - Peasant Class (3)
+	"hresearcha",	1,0, -1,  0,    // Research Station - Hulls
+	"hconst",		1,0, -1,  0,	// HACS - Construction Tender - Peasant Class (4)
 	"hresearchc",	1,0, -1,  0,    // Research Station - Equipment
-	"hfrigate",		3,0,  4, -3,	// HFF - Frigate - Yeoman Class - 1st Patrol
+	"htrading",		1,0, -1,  0,	// Trading Station (1st)
+	"hconst",		1,0, -1,  0,	// HACS - Construction Tender - Peasant Class (5)
+	"hyard",		1,0, -1,  0, 	// Standard Shipyard (1st)
+	"hfreight",		1,0, -1,  0,    // HDF - Mining Freighter - Serf Class (1)
 	"hsensor",		2,0, -1,  0,	// Sensor Probe Net (1)
+	"horbital",		1,1, -1,  0,	// Orbital Processing Facility (2)
+	"hfreight",		1,0, -1,  0,    // HDF - Mining Freighter - Serf Class (2)
+	"hfreight",		1,0, -1,  0,    // HDF - Mining Freighter - Serf Class (3)
+	"hfrigate",		3,0,  4, -3,	// HFF - Frigate - Yeoman Class - 1st Patrol
+	
 	
 	//
 	// Phase II. Development Stage (Additional FF, new FS, new DD, new DL)
 	//
 	
 	"hresearchb",	1,0, -1,  2,	// Research Station - Conversions
-	"horbital",		1,1, -1,  0,	// Orbital Processing Facility (2)	
+	"hydhull1",		1,1, -1,  0, 	// Research - Destroyer Hull
+	"hydmiscr2", 	1,0, -1,  0, 	// Research - Fusion Beam
 	"hfrigate",		3,0,  4, -3,	// HFF - Frigate - Yeoman Class - 2nd Patrol
 	"hcolony",		3,0,  4,  0, 	// HFB - Colony Ship - Autocrat Class (1,2,3)
 	"hmining", 		1,1, -1,  0,    // Mining Station (2)
-	"hydhull1",		1,1, -1,  0, 	// Research - Destroyer Hull
-	"htrading",		1,0, -1,  0,	// Trading Station (1st)
 	"hfrigate",		3,0,  8,  0,	// HFF - Frigate - Yeoman Class - 3rd Patrol
-	"hydmiscr2", 	1,0, -1,  0, 	// Research - Fusion Beam
-	"hconst",		1,0, -1,  0,	// HACS - Construction Tender - Peasant Class (3)
 	"hydequ1", 		1,0, -1,  0, 	// Research - Scout Frigate Conversion
 	"hmine", 		2,1, -1,  0, 	// Type HA Mines (for Mining Station 1)
 	"hdestroy",		3,0, -1,  0, 	// HDD - Destroyer - Knight Class - 1st Flotilla 
