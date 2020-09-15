@@ -51,15 +51,13 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	//
 	
 	"fresearchb",	1,0, -1,  2,	// Research Station - Conversions
+	"fresearchc",	1,1, -1,  0,	// Research Station - Equipment
 	"ffrigate",		2,0,  4, -3,	// FFF - Frigate - Okinawa Class - 2nd Patrol
 	"fdestroy",		3,0, -1,  0, 	// FDD - Destroyer - Akula Class Refit - 1st Flotilla 
 	"fcolony",		3,0,  4,  0, 	// FFB - Colony Ship - Independance Class (1,2,3)
 	"fmining", 		1,1, -1,  0,    // Mining Station (2)
 	"fedhull2",		1,1, -1,  0, 	// Research - Light Cruiser Hull
-
-	"fconst",		1,0, -1,  0,	// FACS - Construction Tender - Liberty Class (3)
 	"fmine", 		2,1, -1,  0, 	// Type FA Mines (for Mining Station 1)
-	"fresearchc",	1,1, -1,  0,	// Research Station - Equipment
 	"flcruise",		1,0, -1, -2,    // FCL - Light Cruiser - Miranda Class - Prototype
 	"fsensor",		2,1, -1,  0,	// Sensor Probe Net (2)
 	"ffreight",     3,0, -1,  0,    // FDF - Mining Freighter - Freelancer Class (4,5,6)
