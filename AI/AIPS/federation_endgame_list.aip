@@ -22,19 +22,30 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	//
 
 	"fbase",		1,0, -1,  1,	// Starbase - HQ
-	"fconst",		2,0, -1,  0,	// FACS - Construction Tender - Liberty Class (1)
-	"fconst",		2,0, -1,  0,	// FACS - Construction Tender - Liberty Class (2)
-	"fmining", 		1,0, -1,  0,    // Mining Station (1)
-   	"fmonitoring",	1,0, -1,  0,    // Monitoring Station
-	"ffreight",		3,0, -1,  0,    // FDF - Mining Freighter - Freelancer Class (1,2,3)
+	"fconst",		1,0, -1,  0,	// FACS - Construction Tender - Liberty Class (1)
 	"forbital",		1,0, -1,  0,	// Orbital Processing Facility (1)
-	"fyard",		1,0, -1,  0, 	// Standard Shipyard (1st)	
-	"fmine", 		2,0, -1,  0, 	// Type FA Mines (for Mining Station 1)
-	"fescort",		3,0,  4, -3,	// FEC - Escort - Oberth Class - 1st Patrol
+	"fconst",		1,0, -1,  0,	// FACS - Construction Tender - Liberty Class (2)
+	"fmining", 		1,0, -1,  0,    // Mining Station (1)
+	"fconst",		1,0, -1,  0,	// FACS - Construction Tender - Liberty Class (3)
+	"ftrading",		1,0, -1,  0,	// Trading Station 1
+	"fconst",		1,0, -1,  0,	// FACS - Construction Tender - Liberty Class (4)
+	"fmonitoring",	1,0, -1,  0,    // Monitoring Station
 	"fresearcha",	1,0, -1,  0,    // Research Station - Hulls
-	"ffrigate",		2,0,  4, -3,	// FFF - Frigate - Okinawa Class - 1st Patrol
-	"fsensor",		2,0, -1,  0,	// Sensor Probe Net (1)
+	"fconst",		1,0, -1,  0,	// FACS - Construction Tender - Liberty Class (5)
 	"fedhull1", 	1,0, -1,  0, 	// Research - Destroyer Hull 
+   	"fyard",		1,0, -1,  0, 	// Standard Shipyard (1st)	
+	"ffreight",		1,0, -1,  0,    // FDF - Mining Freighter - Freelancer Class (1)
+	"fmine", 		1,0, -1,  0, 	// Type FA Mines (for Mining Station 1)
+	"ffreight",		1,0, -1,  0,    // FDF - Mining Freighter - Freelancer Class (2)
+	"fescort",		1,0,  4, -3,	// FEC - Escort - Oberth Class - 1st Patrol
+	"fsensor",		1,0, -1,  0,	// Sensor Probe Net (1)
+	"ffreight",		1,0, -1,  0,    // FDF - Mining Freighter - Freelancer Class (3)
+	"fescort",		1,0,  4, -3,	// FEC - Escort - Oberth Class - 1st Patrol
+	"fmine", 		1,0, -1,  0, 	// Type FA Mines (for Mining Station 1)
+	"ffrigate",		1,0,  4, -3,	// FFF - Frigate - Okinawa Class - 1st Patrol
+	"fsensor",		1,0, -1,  0,	// Sensor Probe Net (1)
+	"ffrigate",		1,0,  4, -3,	// FFF - Frigate - Okinawa Class - 1st Patrol
+	"fescort",		1,0,  4, -3,	// FEC - Escort - Oberth Class - 1st Patrol
 
 	//
 	// Phase II. Development Stage (Additional FF, new FS, new DD, new DL and prototype CL)
