@@ -1,0 +1,149 @@
+//
+// federation_instant_action_build_List.aip
+//
+// KA2:EAW Federation AI
+//
+// edited by Squire James
+
+// Load up the basic structures...
+#include "aipdef.h"
+
+// This aip needs to play by the rules
+// This aip is a cheating fuck, but it might be able to keep up with the player
+int checkTechnologyAvailable = 0;
+
+Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] = 
+{
+//--------------------------------------------------------------------  
+
+	
+	//
+	// Phase I. Establishment Stage (New EC and new FF)
+	//
+
+	"fbase",		1,0, -1,  1,	// Starbase - HQ
+	"fconst",		2,0, -1,  0,	// FACS - Construction Tender - Liberty Class (1)
+	"fconst",		2,0, -1,  0,	// FACS - Construction Tender - Liberty Class (2)
+	"fmining", 		1,0, -1,  0,    // Mining Station (1)
+   	"fmonitoring",	1,0, -1,  0,    // Monitoring Station
+	"ffreight",		3,0, -1,  0,    // FDF - Mining Freighter - Freelancer Class (1,2,3)
+	"forbital",		1,0, -1,  0,	// Orbital Processing Facility (1)
+	"fyard",		1,0, -1,  0, 	// Standard Shipyard (1st)	
+	"fmine", 		2,0, -1,  0, 	// Type FA Mines (for Mining Station 1)
+	"fescort",		3,0,  4, -3,	// FEC - Escort - Oberth Class - 1st Patrol
+	"fresearcha",	1,0, -1,  0,    // Research Station - Hulls
+	"ffrigate",		2,0,  4, -3,	// FFF - Frigate - Okinawa Class - 1st Patrol
+	"fsensor",		2,0, -1,  0,	// Sensor Probe Net (1)
+	"fedhull1", 	1,0, -1,  0, 	// Research - Destroyer Hull 
+
+	//
+	// Phase II. Development Stage (Additional FF, new FS, new DD, new DL and prototype CL)
+	//
+	
+	"fresearchb",	1,0, -1,  2,	// Research Station - Conversions
+	"ffrigate",		2,0,  4, -3,	// FFF - Frigate - Okinawa Class - 2nd Patrol
+	"forbital",		1,1, -1,  0,	// Orbital Processing Facility (2)	
+	"fdestroy",		3,0, -1,  0, 	// FDD - Destroyer - Akula Class Refit - 1st Flotilla 
+	"fcolony",		3,0,  4,  0, 	// FFB - Colony Ship - Independance Class (1,2,3)
+	"fmining", 		1,1, -1,  0,    // Mining Station (2)
+	"fedhull2",		1,1, -1,  0, 	// Research - Light Cruiser Hull
+	"ftrading",		1,0, -1,  0,	// Trading Station (1st)
+	"fconst",		1,0, -1,  0,	// FACS - Construction Tender - Liberty Class (3)
+	"fmine", 		2,1, -1,  0, 	// Type FA Mines (for Mining Station 1)
+	"fresearchc",	1,1, -1,  0,	// Research Station - Equipment
+	"flcruise",		1,0, -1, -2,    // FCL - Light Cruiser - Miranda Class - Prototype
+	"fsensor",		2,1, -1,  0,	// Sensor Probe Net (2)
+	"ffreight",     3,0, -1,  0,    // FDF - Mining Freighter - Freelancer Class (4,5,6)
+	"fedmiscR2",	1,0, -1,  0,	// Research - Megaphaser Emitters
+	"fdestroy",		3,0, -1,  0, 	// FDD - Destroyer - Akula Class Refit - 2nd Flotilla 
+	"fedequ2",		1,0, -1,  0, 	// Research - Leader Conversion
+	"fyard",		1,0, -1,  0, 	// Standard Shipyard (2nd)
+	"fedequ3",		1,0, -1,  0,	// Research - Gun Cruiser Conversion
+	"fdestroyl", 	2,0, -1,  0, 	// FDL - Destroyer Leader - Warsaw Class - Leaders for Flotillas
+
+	//
+	// Phase III. Interim Stage (Additional DD, new CL, prototype CA, new CA, prototype CC)
+	//
+
+	"fedhull3",		1,0, -1,  3,	// Research - Heavy Cruiser Hull
+	"forbital",		1,2, -1,  0,	// Orbital Processing Facility (4)
+	"flcruise",		3,0, -1,  0,	// FCL - Light Cruiser - Miranda Class - 1st CL/CG Squadron
+	"ftrading",		1,2, -1,  0,	// Trading Station (2nd)
+	"fgcruise",		2,0, -1,  0,    // FCG - Gun Cruiser - Soyuz Class - 1st CL/CG Squadron
+	"fmining",		1,2, -1,  0,	// Mining Station (3)
+	"fcargo",		2,0, -1,  0, 	// FAK - Cargo Freighter - Clydesdale Class (1,2)
+	"fcruise",		1,0, -1, -3,	// FCA - Heavy Cruiser - Constitution Class Refit - Prototype
+	"fyard2", 		1,0, -1,  0,	// Advanced Shipyard (1st)
+	"fconst",		1,0, -1,  0,	// FACS - Construction Tender - Liberty Class (4)
+	"fdestroy",		3,0, -1,  0, 	// FDD - Destroyer - Akula Class Refit - 3rd Flotilla 
+	"fedhull4",		1,0, -1,  9,	// Research - Command Cruiser Hull
+	"fdestroyl", 	1,0, -1,  0, 	// FDL - Destroyer Leader - Warsaw Class - Leaders for 3rd Flotilla 
+	"fsensor",		2,2, -1,  0,	// Sensor Probe Net (3)
+	"fccruise",		1,0, -1, -3,	// FCC - Command Cruiser - Lexington Class - Prototype
+	"fcruise",		3,0, -1, -4,	// FCA - Heavy Cruiser - Constitution Class Refit - 1st CA Squadron
+
+	//
+	// Phase IV. Heavy Ship Stage (Additional CL, additional CA, new CC, prototype BC, new BC, prototype DN)
+	//
+	
+	"fupgrade",		1,0, -1,  4,	// Research Station (Upgrades)
+	"fccruise", 	2,0, -1,  0,	// FCC - Command Cruiser - Lexington Class - Command Cruisers for CL/GC and CA Squadrons
+	"fedhull5",		1,0, -1,  0,	// Research - Battlecruiser Hull
+	"flcruise",		3,0, -1,  0,	// FCL - Light Cruiser - Miranda Class - 2nd CL/CG Squadron	
+	"fedpod3",		1,0, -1,  0,	// Research - Quantum Wave-Carrier Beam
+	"fsrepair",		3,0, -1,  0,	// FAR - Fleet Repair Tender - Unity Class - Repair Tenders for Cruiser Squadrons etc
+	"fedpod13",		1,0, -1,  0,	// Research - Sensor System Upgrade I
+	"fgcruise",		2,0, -1,  0,    // FCG - Gun Cruiser - Soyuz Class - 2nd CL/CG Squadron
+	"fedhull6",		1,0, -1,  0,	// Research - Dreadnought Hull
+	"fbcruise",		1,0, -1, -4,	// FBC - Battlecruiser - Excelsior Class - Prototype
+	"fconst",		1,0, -1,  0,	// FACS - Construction Tender - Liberty Class (5)
+	"fedpod12",		1,0, -1,  0,	// Research - Shield System Upgrade I
+	"fcruise",		3,0, -1,  0,	// FCA - Heavy Cruiser - Constitution Class Refit - 2nd CA Squadron
+	"fedmiscR1",	1,0, -1,  0,	// Research - Type II-U Warp Nacelles 
+	"fbcruise",		3,0, -1,  0,	// FBC - Battlecruiser - Excelsior Class - 1st BC Squadron
+	"fedmiscR4",	1,0, -1,  0,	// Research - Single Centreline Warp Nacelles
+	"fassault",		3,0, -1,  0, 	// FAPA - Troop Transport - Washington Class - 1st Transport Squadron
+	"fedmiscR5",	1,0, -1,  0,	// Research - Burst Torpedoes
+	"fedpod14",		1,0, -1,  0,	// Research - Propulsion System Upgrade I
+	"fdread",		1,0, -1, -4,    // FDN - Dreadnought - Ulysses Class - Prototype
+
+	//
+	// Phase V. Capital Ship Stage (Additional CA, additional BC, prototype BB, new DN, prototype BBX, and everything else!) 
+	//
+
+	"fedpod5",		1,0, -1,  5,	// Research - Enemy Ship Pattern Report
+	"fcruise",		3,0, -1,  0,	// FCA - Heavy Cruiser - Constitution Class Refit - 3rd CA Squadron
+	"fedpod23",		1,0, -1,  0,    // Research - Sensor System Upgrade II
+	"fedequ5",		1,0, -1,  0,	// Research - Torpedo Cruiser Conversion
+	"fedpod4",		1,0, -1,  0, 	// Research - Enhanced Sensor Plasma Detection Techniques  
+	"fsuperbl",		1,0, -1,  0,	// Research Station (Super Weapon)
+	"fconst",		1,0, -1,  0,	// FACS - Construction Tender - Liberty Class (6)
+	"fedequ6",		1,0, -1,  0,	// Research - New Heavy Cruiser Conversion
+	"fbcruise",		3,0, -1,  0,	// FBC - Battlecruiser - Excelsior Class - 2nd BC Squadron
+	"fedpod24",		1,0, -1,  0,	// Research - Propulsion System Upgrade II
+	"fedmiscR3",	1,0, -1,  0,	// Research - Dual Warp Cores
+	"fedpod11",		1,0, -1,  0,	// Research - Weapon System Upgrade I
+	"ftcruise",		3,0, -1,  0,	// FCT - Torpedo Cruiser - Salazar Class - 1st CT Battery
+	"fedequ4",		1,0, -1,  0,	// Research - Galactic Survey Cruiser Conversion
+	"fncruise",		3,0, -1,  0,	// FNCA - New Heavy Cruiser - Richmond Class - 1st CA Squadron (Replacements for oldest Constitutions)
+	"fedhull7",		1,0, -1,  0, 	// Research - Battleship Hull
+	"fassault",		3,0, -1,  0, 	// FAPA - Troop Transport - Washington Class - 2nd Transport Squadron
+	"fdread",		3,0, -1,  0,    // FDN - Dreadnought - Ulysses Class - 1st Task Force
+	"fedpod15",		1,0, -1,  0, 	// Research - Life Support Systems Upgrade I
+	"fedhull8",		1,0, -1,  0, 	// Research - Experimental Battleship Hull
+	"fbattle",		1,0, -1,  0, 	// FBB - Battleship - Missouri Class - Prototype/1st Task Force
+	"fedpod22",		1,0, -1,  0,	// Research - Shield System Upgrade II
+	"fgscruise",	4,0, -1,  0, 	// FGSC - Galactic Survey Cruiser - Ranger Class - Replacements for Okinawa-S
+	"fedpod2",		1,0, -1,  0,	// Research - Reinforced Spinal Integrity Fields 
+	"fedpod21",		1,0, -1,  0,	// Research - Weapon System Upgrade II
+	"fcarrier",		1,0, -1,  0, 	// FCVN - Fleet Carrier - Ark Royal Class - Prototype/1st Task Force
+	"fedmiscR6",	1,0, -1,  0,	// Research - Plasma Torpedoes
+	"fedpod1",		1,0, -1,  0,	// Research - Superconductive Power Coils 
+	"fdreadp",		2,0, -1,  0,    // FDNp - Plasma Dreadnought - Belknap Class - 1st Task Force
+	"fxbattle",		1,0, -1,  0, 	// FBBX -  Experimental Battleship - Yamato Class - Prototype/1st Task Force
+	"fedpod25",		1,0, -1,  0, 	// Research - Life Support Systems Upgrade II
+	"fbattle",		1,0, -1,  0, 	// FBB - Battleship - Missouri Class - 1st Task Force
+	
+		
+
+}; 
