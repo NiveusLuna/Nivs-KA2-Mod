@@ -6672,3 +6672,15 @@ bc_lyrpod25 {
 	- keyboard	Alt
 	- keyboard	BackQuote
 }
+
+##########################
+### There be mods here ###
+##########################
+
+wc_uniRW-sell-di {
+	+ keyboard	D
+	+ keyboard	Control
+	+ keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
