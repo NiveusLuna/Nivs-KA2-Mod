@@ -17,45 +17,51 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 
 
 	
-//
+	//
 	// Phase I. Establishment Stage (Early Series Refit DDs Only!)
 	//
 
 	"rbase",		1,0, -1,  1,	// Starbase - HQ
-	"rconst",		2,0, -1,  0,	// RACS - Construction Tender - Merlin Class (1)
-	"rconst",		2,0, -1,  0,	// RACS - Construction Tender - Merlin Class (2)
-	"rmining", 		1,0, -1,  0,    // Mining Station (1)
-	"rfreight",		3,0, -1,  0,    // RDF - Mining Freighter - Osprey Class (1,2,3)
-	"rorbital",		1,0, -1,  0,	// Orbital Processing Facility (1)
-	"ryard",		1,0, -1,  0, 	// Standard Shipyard (1st)	
-	"rmine", 		2,0, -1,  0, 	// Type RA Mines (for Mining Station 1)
-	"rdestroy",		1,0, -1,  0,	// RDD - Destroyer - War Bird Class - 1st Patrol
+	"rconst",		1,0, -1,  0,	// RACS - Construction Tender - Merlin Class (1)
 	"rresearcha",	1,0, -1,  0,    // Research Station - Hulls
-	"rdestroy",		1,0, -1,  0,	// RDD - Destroyer - War Bird Class - 1st Patrol
-	"rsensor",		2,1, -1,  0,	// Sensor Probe Net (1)
 	"romHull7", 	1,0, -1,  0, 	// Research - KR Frigate Hull
+	"rconst",		1,0, -1,  0,	// RACS - Construction Tender - Merlin Class (2)
+	"rmining", 		1,0, -1,  0,    // Mining Station (1)
+	"rconst",		1,0, -1,  0,	// RACS - Construction Tender - Merlin Class (3)
+	"rorbital",		1,0, -1,  0,	// Orbital Processing Facility (1)
+	"rconst",		1,0, -1,  0,	// RACS - Construction Tender - Merlin Class (4)
+	"rtrading",		1,0, -1,  0,	// Trading Station (1st)
+	"rconst",		1,0, -1,  0,	// RACS - Construction Tender - Merlin Class (5)
+	"ryard",		1,0, -1,  0, 	// Standard Shipyard (1st)
+	"rfreight",		1,0, -1,  0,    // RDF - Mining Freighter - Osprey Class (1)
+	"rmine", 		2,0, -1,  0, 	// Type RA Mines (for Mining Station 1)
+	"rsensor",		2,1, -1,  0,	// Sensor Probe Net (1)
+	"rfreight",		1,0, -1,  0,    // RDF - Mining Freighter - Osprey Class (1)
+	"rdestroy",		1,0, -1,  0,	// RDD - Destroyer - War Bird Class - 1st Patrol
+	"rorbital",		1,1, -1,  0,	// Orbital Processing Facility (2)
+	"rfreight",		1,0, -1,  0,    // RDF - Mining Freighter - Osprey Class (1)
+	"rdestroy",		1,0, -1,  0,	// RDD - Destroyer - War Bird Class - 1st Patrol
+	
 
 	//
 	// Phase II. Development Stage (Mainly KR Series, slowly introducing Ornith Series)
 	//
 	
 	"rresearchb",	1,0, -1,  2,	// Research Station - Conversions
+	"rresearchc",	1,0, -1,  0,	// Research Station - Equipment
 	"rkfrigate",	2,0,  4, -3,	// RFKF - Frigate - Finch Class - 1st Patrol
-	"rorbital",		1,1, -1,  0,	// Orbital Processing Facility (2)
 	"rkfrigate",	3,0, -1,  0, 	// RFKF - Frigate - Finch Class - 1st Patrol
 	"romhull1",		1,1, -1,  0, 	// Research - Ornith Frigate Hull
 	"rdestroy",		3,0, -1,  0,	// RDD - Destroyer - War Bird Class - 1st Flotilla
-	"rresearchc",	1,0, -1,  0,	// Research Station - Equipment
 	"romEqu2", 		1,0, -1,  0, 	// Research - KR Science Frigate Conversion 
 	"rmining", 		1,1, -1,  0,    // Mining Station (2)
 	"rkfrigate",	3,0, -1,  0, 	// RFKF - Frigate - Finch Class - 1st Patrol
 	"romMiscR1",	1,1, -1,  0, 	// Research - Light Plasma Torpedo
 	"rconst",		1,0, -1,  0,	// RACS - Construction Tender - Merlin Class (3)
 	"rdestroy",		3,0, -1,  0,	// RDD - Destroyer - War Bird Class - 2nd Flotilla
-	"rtrading",		1,0, -1,  0,	// Trading Station (1st)
 	"rfrigate",		2,0, -1, -5, 	// RFF - Frigate - Gladius Class - 1st Patrol
 	"romhull8",		1,1, -1,  0, 	// Research - KR Cruiser Hull
-	"rmine", 		2,2, -1,  0, 	// Type RA Mines (for Mining Station 1)
+	"rmine", 		2,2, -1,  0, 	// Type RA Mines (for Mining Station 2)
 	"romEqu1", 		1,0, -1,  0, 	// Research - KR Science Frigate Conversion 
 	"rkscout",		2,0, -1, -5, 	// RFKS - KR Science Frigate - 1st Patrol
 	"routpost",		1,1, -1,  0,    // Outpost
