@@ -12,11 +12,11 @@
 // This aip is a cheating fuck, but it might be able to keep up with the player
 int checkTechnologyAvailable = 0;
 
-Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] = 
+Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 {
-//--------------------------------------------------------------------  
+//--------------------------------------------------------------------
 
-	
+
 	//
 	// Phase I. Establishment Stage (Research and Infrastructure. New FF)
 	//
@@ -39,12 +39,12 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"hfreight",		1,0, -1,  0,    // HDF - Mining Freighter - Serf Class (2)
 	"hfreight",		1,0, -1,  0,    // HDF - Mining Freighter - Serf Class (3)
 	"hfrigate",		3,0,  4, -3,	// HFF - Frigate - Yeoman Class - 1st Patrol
-	
-	
+
+
 	//
 	// Phase II. Development Stage (Additional FF, new FS, new DD, new DL)
 	//
-	
+
 	"hresearchb",	1,0, -1,  2,	// Research Station - Conversions
 	"hydhull1",		1,1, -1,  0, 	// Research - Destroyer Hull
 	"hydmiscr2", 	1,0, -1,  0, 	// Research - Fusion Beam
@@ -54,13 +54,13 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"hfrigate",		3,0,  8,  0,	// HFF - Frigate - Yeoman Class - 3rd Patrol
 	"hydequ1", 		1,0, -1,  0, 	// Research - Scout Frigate Conversion
 	"hmine", 		2,1, -1,  0, 	// Type HA Mines (for Mining Station 1)
-	"hdestroy",		3,0, -1,  0, 	// HDD - Destroyer - Knight Class - 1st Flotilla 
+	"hdestroy",		3,0, -1,  0, 	// HDD - Destroyer - Knight Class - 1st Flotilla
 	"hsensor",		2,1, -1,  0,	// Sensor Probe Net (2)
 	"hfreight",     3,0, -1,  0,    // HDF - Mining Freighter - Serf Class (4,5,6)
 	"houtpost",		1,1, -1,  0,    // Outpost - Defence for Research Stations
 	"hscout",		3,0, -1,  0, 	// HFS - Scout Frigate - Archer Class
 	"hydequ2",		1,0, -1,  0, 	// Research - Leader Conversion
-	"hdestroy",		3,0, -1,  0, 	// HDD - Destroyer - Knight Class - 2nd Flotilla 
+	"hdestroy",		3,0, -1,  0, 	// HDD - Destroyer - Knight Class - 2nd Flotilla
 	"hyard",		1,0, -1,  0, 	// Standard Shipyard (2nd)
 	"hydhull2",		1,0, -1,  0,	// Research - Light Cruiser Hull
 	"hdestroyl", 	2,0, -1,  0, 	// HDL - Destroyer Leader - Paladin Class - Leaders for Flotillas
@@ -73,8 +73,8 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"horbital",		1,2, -1,  0,	// Orbital Processing Facility (4)
 	"hlcruise",		1,0, -1, -3,	// HCA - Light Cruiser - Regent Class - Prototype
 	"htrading",		1,2, -1,  0,	// Trading Station (2nd)
-	"hydmiscr3", 	1,0, -1,  0, 	// Research - Hellbore Cannon 
-	"hdestroy",		3,0, -1,  0,    // HDD - Destroyer - Knight Class - 3rd Flotilla 
+	"hydmiscr3", 	1,0, -1,  0, 	// Research - Hellbore Cannon
+	"hdestroy",		3,0, -1,  0,    // HDD - Destroyer - Knight Class - 3rd Flotilla
 	"hmining",		1,2, -1,  0,	// Mining Station (3)
 	"hcargo",		2,0, -1,  0, 	// HAK - Cargo Freighter - Merchant Class (1,2)
 	"houtpost",		1,2, -1,  0,    // Outpost - Defence for Mining Stations
@@ -82,17 +82,17 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"hconst",		1,0, -1,  0,	// HACS - Construction Tender - Peasant Class (4)
 	"hlcruise",		3,0, -1,  0, 	// HCL - Light Cruiser - Regent Class - 1st CL Squadron
 	"hsensor",		2,2, -1,  0,	// Sensor Probe Net (3)
-	"hdestroyl", 	1,0, -1,  0, 	// HDL - Destroyer Leader - Paladin Class - Leaders for 3rd Flotilla 
+	"hdestroyl", 	1,0, -1,  0, 	// HDL - Destroyer Leader - Paladin Class - Leaders for 3rd Flotilla
 	"hcruise",		3,0, -1, -4,	// HCA - Heavy Cruiser - Baron Class - 1st CA Squadron
 
 	//
 	// Phase IV. Heavy Ship Stage (Additional CL, additional CA, prototype CC, prototype DN)
 	//
-	
+
 	"hupgrade",		1,0, -1,  4,	// Research Station (Upgrades)
-	"hdestroy", 	3,0, -1,  0,	// HDD - Destroyer - Knight Class - 4th Flotilla 
+	"hdestroy", 	3,0, -1,  0,	// HDD - Destroyer - Knight Class - 4th Flotilla
 	"hydpod11",		1,0, -1,  0,	// Research - Weapon System Upgrade I
-	"hlcruise",		3,0, -1,  0,	// HCL - Light Cruiser - Regent Class - 2nd CL Squadron	
+	"hlcruise",		3,0, -1,  0,	// HCL - Light Cruiser - Regent Class - 2nd CL Squadron
 	"hydpod14",		1,0, -1,  0,	// Research - Propulsion System Upgrade I
 	"hsrepair",		3,0, -1,  0,	// HAR - Fleet Repair Tender - Squire Class - Repair Tenders for Cruiser Squadrons etc
 	"hydmiscr5", 	1,0, -1,  0, 	// Research - Photon Cannon
@@ -112,7 +112,7 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"hdread",		1,0, -1, -4,    // HDN - Dreadnought - Monarch Class - Prototype
 
 	//
-	// Phase V. Capital Ship Stage (Additional CA, additional CC, prototype CV and everything else!) 
+	// Phase V. Capital Ship Stage (Additional CA, additional CC, prototype CV and everything else!)
 	//
 
 	"hydequ4",		1,0, -1,  5,	// Research - Carrier Conversion
@@ -134,6 +134,6 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"hdread",		3,0, -1,  0,    // HDN - Dreadnought - Monarch Class - 2nd Task Force
 	"hccruise",		3,0, -1,  0,	// HCC - Command Cruiser - Duke Class - Command Cruisers for Cruiser Squadrons
 	"hydpod25",		1,0, -1,  0, 	// Research - Life Support Systems Upgrade II
-		
 
-}; 
+
+};
