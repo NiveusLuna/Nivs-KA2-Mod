@@ -53,7 +53,6 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"gsensor",		2,2, -1,  0,	// Sensor Probe Net (2)
 	"glcruise", 	1,0, -1,  0, 	// GCL - Light Cruiser - Rattlesnake Class - Prototype
 	"gormiscR1", 	1,0, -1,  0, 	// Research - Type G Plasma Torpedo
-	"gconst",		1,0, -1,  0,	// GACS - Construction Tender - Lizard Class (3)
 	"gorpod4",		1,1, -1,  0, 	// Research - GHR Cannon
 	"gfreight",     3,0, -1,  0,    // GDF - Mining Freighter - Adder Class (4,5,6)
 	"goutpost",		1,2, -1,  0,    // Outpost
@@ -79,7 +78,6 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"gyard2", 		1,1, -1,  0,	// Advanced Shipyard (1st)
 	"gsrepair",		3,0, -1,  0,	// GAR - Fleet Repair Tender - Gecko Class
 	"gorhull5",		1,1, -1,  0, 	// Research - Advanced Cruiser Hull
-	"gconst",		1,0, -1,  0,	// GACS - Construction Tender - Lizard Class (3)
 	"gormiscR2",	1,0, -1,  9,	// Research - Multiple Torpedo Tubes
 	"gfrigate",		3,0, -1,  0, 	// GFF - Frigate - King Snake Class - 3rd Patrol
 	"gccruise",		1,0, -1, -3,	// GCC - Command Cruiser - Beowuulf Class - Prototype
@@ -100,7 +98,6 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"gorequ4",		1,0, -1,  0,	// Research - Torpedo Cruiser Conversion
 	"gcruise",		3,0, -1,  0,	// GCA - Heavy Cruiser - Euromastyx Class - 2nd CA Squadron
 	"gorpod3",		1,0, -1,  0,	// Research - Reiterative Tractor Beam Circuitry
-	"gconst",		1,0, -1,  0,	// GACS - Construction Tender - Lizard Class (4)
 	"gccruise", 	2,0, -1,  0,    // GCC - Command Cruiser - Beowuulf Class - Command Cruisers for CA Squadrons
 	"gorpod13",		1,0, -1,  0,	// Research - Sensor System Upgrade I
 	"gcruise",		3,0, -1,  0,	// GCA - Heavy Cruiser - Euromastyx Class - 3rd CA Squadron
@@ -113,7 +110,6 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"gsuperbl",		1,1, -1,  0,    // Project Glormaskt Station
 	"gorequ3",		1,0, -1,  0,	// Research - Scout Cruiser Conversion
 	"gdread",		1,0, -1,  0,	// GDN - Dreadnought - Grendel Class - 1st Grand Fleet
-	"gconst",		1,0, -1,  0,	// GACS - Construction Tender - Lizard Class (5)
 	"glcruise",		3,0, -1,  0,	// GCL - Light Cruiser - Rattlesnake Class - 1st CL Squadron
 	"gormiscR4",	1,0, -1,  0,	// Research - Parralax Generator
 	"gscruise", 	3,0, -1,  0,    // GCS - Command Cruiser - Warrior's Anger Class - CC's for Command Duties
@@ -130,7 +126,6 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"gorpod23",		1,0, -1,  0,    // Research - Sensor System Upgrade II
 	"gbcruise",		3,0, -1,  0,	// GBC - Battlecruiser - Basilisk Class - 2nd BC Squadron
 	"gscruise",		3,0, -1,  0, 	// GCS - Scout Cruiser - Saurus Class - Replacements for King Snake-S
-	"gconst",		1,0, -1,  0,	// GACS - Construction Tender - Lizard Class (6)
 	"gorpod24",		1,0, -1,  0,	// Research - Propulsion System Upgrade II
 	"gdread",		3,0, -1,  0,	// GDN - Dreadnought - Grendel Class - Extra Dreadnoughts for Grand Fleets
 	"gorequ6", 		1,0, -1,  0, 	// Research - Battleship Conversion
