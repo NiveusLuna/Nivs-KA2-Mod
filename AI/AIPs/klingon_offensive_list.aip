@@ -20,8 +20,16 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	//
 
 	"gbase",		1,0, -1,  1,	// Starbase - HQ
-	"gconst",		2,0, -1,  0,	// GACS - Construction Tender - Lizard Class (1)
-	"gconst",		2,0, -1,  0,	// GACS - Construction Tender - Lizard Class (2)
+	"gconst",		1,0, -1,  0,	// GACS - Construction Tender - Lizard Class (1)
+	
+	"gconst",		1,0, -1,  0,	// GACS - Construction Tender - Lizard Class (2)
+	
+	"gconst",		1,0, -1,  0,	// GACS - Construction Tender - Lizard Class (3)
+	
+	"gconst",		1,0, -1,  0,	// GACS - Construction Tender - Lizard Class (4)
+	
+	"gconst",		1,0, -1,  0,	// GACS - Construction Tender - Lizard Class (5)
+	
 	"gmining", 		1,0, -1,  0,    // Mining Station (1)
 	"gfreight",		3,0, -1,  0,    // GDF - Mining Freighter - Adder Class (1,2,3)
 	"gorbital",		1,0, -1,  0,	// Orbital Processing Facility (1)
