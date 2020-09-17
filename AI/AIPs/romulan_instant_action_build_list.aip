@@ -36,10 +36,10 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"rfreight",		1,0, -1,  0,    // RDF - Mining Freighter - Osprey Class (1)
 	"rmine", 		2,0, -1,  0, 	// Type RA Mines (for Mining Station 1)
 	"rsensor",		2,1, -1,  0,	// Sensor Probe Net (1)
-	"rfreight",		1,0, -1,  0,    // RDF - Mining Freighter - Osprey Class (1)
+	"rfreight",		1,0, -1,  0,    // RDF - Mining Freighter - Osprey Class (2)
 	"rdestroy",		1,0, -1,  0,	// RDD - Destroyer - War Bird Class - 1st Patrol
 	"rorbital",		1,1, -1,  0,	// Orbital Processing Facility (2)
-	"rfreight",		1,0, -1,  0,    // RDF - Mining Freighter - Osprey Class (1)
+	"rfreight",		1,0, -1,  0,    // RDF - Mining Freighter - Osprey Class (3)
 	"rdestroy",		1,0, -1,  0,	// RDD - Destroyer - War Bird Class - 1st Patrol
 	
 
@@ -57,7 +57,6 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"rmining", 		1,1, -1,  0,    // Mining Station (2)
 	"rkfrigate",	3,0, -1,  0, 	// RFKF - Frigate - Finch Class - 1st Patrol
 	"romMiscR1",	1,1, -1,  0, 	// Research - Light Plasma Torpedo
-	"rconst",		1,0, -1,  0,	// RACS - Construction Tender - Merlin Class (3)
 	"rdestroy",		3,0, -1,  0,	// RDD - Destroyer - War Bird Class - 2nd Flotilla
 	"rfrigate",		2,0, -1, -5, 	// RFF - Frigate - Gladius Class - 1st Patrol
 	"romhull8",		1,1, -1,  0, 	// Research - KR Cruiser Hull
