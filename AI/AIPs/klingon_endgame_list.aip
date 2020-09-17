@@ -11,9 +11,9 @@
 // This aip needs to play by the rules
 int checkTechnologyAvailable = 0;
 
-Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] = 
+Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 {
-//--------------------------------------------------------------------  
+//--------------------------------------------------------------------
 
 //
 	// Phase I. Establishment Stage (Early DDs)
@@ -25,7 +25,7 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"gmining", 		1,0, -1,  0,    // Mining Station (1)
 	"gfreight",		3,0, -1,  0,    // GDF - Mining Freighter - Adder Class (1,2,3)
 	"gorbital",		1,0, -1,  0,	// Orbital Processing Facility (1)
-	"gyard",		1,0, -1,  0, 	// Standard Shipyard (1st)	
+	"gyard",		1,0, -1,  0, 	// Standard Shipyard (1st)
 	"gmine", 		2,0, -1,  0, 	// Type GA Mines (for Mining Station 1)
 	"gdestroy",		2,0,  4, -3,	// GDD - Destroyer - Anaconda Class - 1st Patrol
 	"gresearcha",	1,0, -1,  0,    // Research Station - Hulls
@@ -36,11 +36,11 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	//
 	// Phase II. Development Stage (More DD, Early FFs, Some FS, Prototype CL)
 	//
-	
+
 	"gresearchb",	1,0, -1,  2,	// Research Station - Conversions
 	"gdestroy",		2,0,  4, -3,	// GDD - Destroyer - Anaconda Class - 1st Patrol
-	"gorbital",		1,1, -1,  0,	// Orbital Processing Facility (2)	
-	"gorequ1", 		1,0, -1,  0, 	// Research - Scout Frigate Conversion 
+	"gorbital",		1,1, -1,  0,	// Orbital Processing Facility (2)
+	"gorequ1", 		1,0, -1,  0, 	// Research - Scout Frigate Conversion
 	"gmining", 		1,1, -1,  0,    // Mining Station (2)
 	"gorhull4",		1,1, -1,  0, 	// Research - Cruiser Hull
 	"gtrading",		1,0, -1,  0,	// Trading Station (1st)
@@ -57,9 +57,9 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"gorpod4",		1,1, -1,  0, 	// Research - GHR Cannon
 	"gfreight",     3,0, -1,  0,    // GDF - Mining Freighter - Adder Class (4,5,6)
 	"goutpost",		1,2, -1,  0,    // Outpost
-	"gfrigate",		3,0, -1,  0, 	// GFF - Frigate - King Snake Class - 1st Patrol 
+	"gfrigate",		3,0, -1,  0, 	// GFF - Frigate - King Snake Class - 1st Patrol
 	"gyard",		1,0, -1,  0, 	// Standard Shipyard (2nd)
-	"gorpod2",		1,1, -1,  0, 	// Research - GDDS 
+	"gorpod2",		1,1, -1,  0, 	// Research - GDDS
 
 	//
 	// Phase III. Interim Stage (Mix of DD and FF, new CLs and CAs, Prototype CC, Prototype BC)
@@ -71,17 +71,17 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"gtrading",		1,2, -1,  0,	// Trading Station (2nd)
 	"gcolony",		3,0,  4,  0, 	// GFB - Colony Ship - Python Class (1,2,3)
 	"gormiscR3",	1,0, -1,  9,	// Research - Ablative Armour Plate
-	"gfrigate",		3,0, -1,  0,    // GFF - Frigate - King Snake Class - 3rd Patrol 
+	"gfrigate",		3,0, -1,  0,    // GFF - Frigate - King Snake Class - 3rd Patrol
 	"gmining",		1,2, -1,  0,	// Mining Station (3)
 	"gcargo",		2,0, -1,  0, 	// GAK - Cargo Freighter - Cobra Class (1,2)
 	"gcruise",		1,0, -1, -3,	// GCA - Heavy Cruiser - Euromastyx Class - Prototype
 	"goutpost",		1,4, -1,  0,    // Outpost
 	"gyard2", 		1,1, -1,  0,	// Advanced Shipyard (1st)
-	"gsrepair",		3,0, -1,  0,	// GAR - Fleet Repair Tender - Gecko Class 
+	"gsrepair",		3,0, -1,  0,	// GAR - Fleet Repair Tender - Gecko Class
 	"gorhull5",		1,1, -1,  0, 	// Research - Advanced Cruiser Hull
 	"gconst",		1,0, -1,  0,	// GACS - Construction Tender - Lizard Class (3)
 	"gormiscR2",	1,0, -1,  9,	// Research - Multiple Torpedo Tubes
-	"gfrigate",		3,0, -1,  0, 	// GFF - Frigate - King Snake Class - 3rd Patrol 
+	"gfrigate",		3,0, -1,  0, 	// GFF - Frigate - King Snake Class - 3rd Patrol
 	"gccruise",		1,0, -1, -3,	// GCC - Command Cruiser - Beowuulf Class - Prototype
 	"gassault",		3,0, -1,  0, 	// GAPA - Assault Transport - Asp Class - 1st Assault Squadron
 	"glcruise", 	3,0, -1,  0, 	// GCL - Light Cruiser - Rattlesnake Class - 2nd CL Squadron
@@ -94,9 +94,9 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	//
 	// Phase IV. Heavy Ship Stage (Additional CL, CA, First run CCs and BCs, Prototype CT, Prototype DN)
 	//
-	
+
 	"gupgrade",		1,0, -1,  4,	// Research Station (Upgrades)
-	"gbcruise", 	3,0, -1,  0,	// GBC - Battlecruiser - Basilisk Class - 1st BC Squadron 
+	"gbcruise", 	3,0, -1,  0,	// GBC - Battlecruiser - Basilisk Class - 1st BC Squadron
 	"gorequ4",		1,0, -1,  0,	// Research - Torpedo Cruiser Conversion
 	"gcruise",		3,0, -1,  0,	// GCA - Heavy Cruiser - Euromastyx Class - 2nd CA Squadron
 	"gorpod3",		1,0, -1,  0,	// Research - Reiterative Tractor Beam Circuitry
@@ -109,7 +109,7 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"goutpost",		1,2, -1,  0,    // Outpost
 	"gtcruise",		1,0, -1, -4,	// GCT - Torpedo Cruiser - Reptillon Class - Prototype
 	"gorpod12",		1,0, -1,  0,	// Research - Shield System Upgrade I
-	"gfrigate",		3,0, -1,  0,	// GFF - Frigate - King Snake Class - 4th Patrol 
+	"gfrigate",		3,0, -1,  0,	// GFF - Frigate - King Snake Class - 4th Patrol
 	"gsuperbl",		1,1, -1,  0,    // Project Glormaskt Station
 	"gorequ3",		1,0, -1,  0,	// Research - Scout Cruiser Conversion
 	"gdread",		1,0, -1,  0,	// GDN - Dreadnought - Grendel Class - 1st Grand Fleet
@@ -121,24 +121,24 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"gdread",		1,0, -1,  0,	// GDN - Dreadnought - Grendel Class - 2nd Grand Fleet
 
 	//
-	// Phase V. Capital Ship Stage (Additional CA, additional BC, prototype BB, new DN, and everything else!) 
+	// Phase V. Capital Ship Stage (Additional CA, additional BC, prototype BB, new DN, and everything else!)
 	//
 
 	"gtcruise",		3,0, -1,  5,	// GCT - Torpedo Cruiser - Reptillon Class - 1st CT Battery
-	"gorpod1",		1,0, -1,  0,    // Research - Crew Conditioning 
+	"gorpod1",		1,0, -1,  0,    // Research - Crew Conditioning
 	"gcruise",		3,0, -1,  0,	// GCA - Heavy Cruiser - Euromastyx Class - 3rd CA Squadron
 	"gorpod23",		1,0, -1,  0,    // Research - Sensor System Upgrade II
 	"gbcruise",		3,0, -1,  0,	// GBC - Battlecruiser - Basilisk Class - 2nd BC Squadron
-	"gscruise",		3,0, -1,  0, 	// GCS - Scout Cruiser - Saurus Class - Replacements for King Snake-S 
+	"gscruise",		3,0, -1,  0, 	// GCS - Scout Cruiser - Saurus Class - Replacements for King Snake-S
 	"gconst",		1,0, -1,  0,	// GACS - Construction Tender - Lizard Class (6)
 	"gorpod24",		1,0, -1,  0,	// Research - Propulsion System Upgrade II
 	"gdread",		3,0, -1,  0,	// GDN - Dreadnought - Grendel Class - Extra Dreadnoughts for Grand Fleets
-	"gorequ6", 		1,0, -1,  0, 	// Research - Battleship Conversion 
+	"gorequ6", 		1,0, -1,  0, 	// Research - Battleship Conversion
 	"gtcruise",		3,0, -1,  0,	// GCT - Torpedo Cruiser - Reptillon Class - 2nd CT Battery
 	"gbattle",		1,0, -1,  0,	// GBB - Battleship - King Grendel Class - Prototype/1st Grand Fleet
 	"gcruise",		3,0, -1,  0,	// GCA - Heavy Cruiser - Euromastyx Class - 4th CA Squadron
 	"gassault",		3,0, -1,  0, 	// GAPA - Assault Transport - Asp Class - 2nd Assault Squadron
-	"gccruise",		3,0, -1,  0,    // GCC - Command Cruiser - Beowuulf Class - CCs for Grand Fleets 
+	"gccruise",		3,0, -1,  0,    // GCC - Command Cruiser - Beowuulf Class - CCs for Grand Fleets
 	"gorpod15",		1,0, -1,  0, 	// Research - Life Support Systems Upgrade I
 	"gsuper",		1,0, -1,  0, 	// GXX - Experimental - Glormaskt Class - Prototype
 	"gorpod22",		1,0, -1,  0,	// Research - Shield System Upgrade II
@@ -147,7 +147,7 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"gccruise",		3,0, -1,  0,	// GBC - Battlecruiser - Basilisk Class - 3rd BC Squadron
 	"gsuper",		1,0, -1,  0, 	// GXX - Experimental - Glormaskt Class - Additional Special Ships
 	"gbattle",		1,0, -1,  0,	// GBB - Battleship - King Grendel Class - 2nd Task Force
-	
-		
 
-}; 
+
+
+};
