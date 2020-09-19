@@ -1,0 +1,43 @@
+// Say my name
+wpnname = "Sell More Metal"
+
+// my description
+tooltip = "Sell More Metal"
+verboseTooltip = "Sell 1000 Metal"
+
+// My true purpose in life: MONEY
+metalCost = 1000
+latinumCost = -700
+
+// I spawn things
+classlabel = "replaceweapon"
+
+// I'm a snowflake!
+special = 1
+
+// Where do you want me?
+buttonslot = 10
+
+// I spawn an empty thing
+replacement0class0 = "borR_futileA"
+
+// Don't get rid of my spawner!
+replacementKeepOwner = 1
+replacementdontremovefootprint = 1
+
+// I never autofire
+replacementinstantplayer = 0
+replacementinstantderelict = 0
+replacementinstantai = 0
+
+// My children don't exist
+replacementmaintainorders = 0
+replacementregisterasnew = 0
+replacementcreationtype = 1
+
+// I work without weapon systems
+overridesubsystem = 1
+
+// I also don't make people talk
+speakonattack = 0
+attackspeech = 0

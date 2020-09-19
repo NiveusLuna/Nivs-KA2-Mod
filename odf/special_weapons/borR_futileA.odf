@@ -1,0 +1,12 @@
+classlabel = "u_ball_obj"
+basename = "effect_empty"
+lifetimer = 0.01
+avoidme = 0
+avoidanceclass = 0
+animation = 1
+ignoreinterface = 1
+hidden = 1
+invincible = 1
+invalidastarget = 1
+clearsfog = 0
+perceivedneutral = 1

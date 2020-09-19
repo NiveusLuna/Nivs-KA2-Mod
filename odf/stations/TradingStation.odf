@@ -1,0 +1,10 @@
+#include "station.odf"
+
+// these stations don't build, so no special weapons or movement buttons
+SHOW_MOVEMENT_AUTONOMY = 0;
+SHOW_SW_AUTONOMY = 0;
+
+weapon3 = "uniRW-buy-di"
+weapon4 = "uniRW-buy-metal"
+weapon5 = "uniRW-sell-di"
+weapon6 = "uniRW-sell-metal"

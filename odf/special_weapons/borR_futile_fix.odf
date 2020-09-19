@@ -1,0 +1,15 @@
+wpnname = "Futile Auto Fix"
+buttonslot = 0
+replacement0class0 = "borR_futileA"
+replacementdontremovefootprint = 1
+replacementinstantplayer = 1
+replacementinstantderelict = 1
+replacementinstantai = 1
+replacementmaintainorders = 0
+classlabel = "replaceweapon"
+special = 1
+replacementregisterasnew = 0
+replacementcreationtype = 1
+overridesubsystem = 1
+speakonattack = 0
+attackspeech = 0
