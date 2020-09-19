@@ -6709,3 +6709,10 @@ wc_uniRW-buy-metal {
 	- keyboard	BackQuote
 }
 
+bc_all_halt {
+	+ keyboard	H
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
