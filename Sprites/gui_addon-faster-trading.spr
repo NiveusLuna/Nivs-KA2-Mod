@@ -4,6 +4,6 @@ sprite_table
 @tmaterial=interface
 
 b_uniRW-buy-di			all_trade_buttons	416	104	96	96		#	5	2
-b_uniRW-buy-met			all_trade_buttons	104	208	96	96		#	2	3
+b_uniRW-buy-metal		all_trade_buttons	104	208	96	96		#	2	3
 b_uniRW-sell-di			all_trade_buttons	0	208	96	96		#	1	3
-b_uniRW-sell-met		all_trade_buttons	208	208	96	96		#	3	3
+b_uniRW-sell-metal		all_trade_buttons	208	208	96	96		#	3	3
