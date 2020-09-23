@@ -16,14 +16,14 @@ classlabel = "replaceweapon"
 special = 1
 
 // Where do you want me?
-buttonslot = 13
+buttonslot = 10
 
 // I spawn an empty thing
 replacement0class0 = "borR_futileA"
 
 // Don't get rid of my spawner!
 replacementKeepOwner = 1
-replacementdontremovefootprint = 1
+replacementdontremovefootprint = 0
 
 // I never autofire
 replacementinstantplayer = 0
@@ -35,9 +35,15 @@ replacementmaintainorders = 0
 replacementregisterasnew = 0
 replacementcreationtype = 1
 
+// My children let me keep my spot
+replacementFindOpenSpot = 1
+
 // I work without weapon systems
 overridesubsystem = 1
 
 // I also don't make people talk
 speakonattack = 0
 attackspeech = 0
+
+// You bad man, using people is bad!
+hotkeyLabel = "GAME-HOTKEY-CONTROL_D"
