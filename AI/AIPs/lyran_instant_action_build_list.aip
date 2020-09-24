@@ -1,0 +1,152 @@
+//
+// Lyran_Instant_Action_Build_List.aip
+//
+// KA2:EAW Lyran AI
+//
+// edited by Squire James
+
+// Load up the basic structures...
+#include "aipdef.h"
+
+// This aip needs to play by the rules
+// This aip is a cheating fuck, but it might be able to keep up with the player
+int checkTechnologyAvailable = 0;
+
+Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] = 
+{
+//--------------------------------------------------------------------  
+
+
+	  	
+	//
+	// Phase I. Establishment Stage (New FF)
+	//
+
+	"lbase",		1,0, -1,  1,	// Starbase - HQ
+	"lconst",		2,0, -1,  0,	// LACS - Construction Tender - Felidae Class (1)
+	"lconst",		2,0, -1,  0,	// LACS - Construction Tender - Felidae Class (2)
+	"lmining", 		1,0, -1,  0,    // Mining Station (1)
+	"lfreight",		3,0, -1,  0,    // LDF - Mining Freighter - Queen Cat Class (1,2,3)
+	"lorbital",		1,0, -1,  0,	// Orbital Processing Facility (1)
+	"lyard",		1,0, -1,  0, 	// Standard Shipyard (1st)	
+	"lmine", 		2,0, -1,  0, 	// Type LA Mines (for Mining Station 1)
+	"lfrigate",		2,0,  4, -3,	// LFF - Frigate - Lynx Class - 1st Patrol
+	"lresearcha",	1,0, -1,  0,    // Research Station - Hulls
+	"lfrigate",		2,0,  4, -3,	// LFF - Frigate - Lynx Class - 1st Patrol
+	"lsensor",		2,1, -1,  0,	// Sensor Probe Net (1)
+	"lyrHull1", 	1,0, -1,  0, 	// Research - Destroyer Hull
+
+	//
+	// Phase II. Development Stage (Additional FF, new FS, new EC, DD, new DL and prototype CL)
+	//
+	
+	"lresearchb",	1,0, -1,  2,	// Research Station - Conversions
+	"lfrigate",		2,0,  4, -3,	// LFF - Frigate - Lynx Class - 1st Patrol
+	"lorbital",		1,1, -1,  0,	// Orbital Processing Facility (2)	
+	"lfrigate",		3,0, -1,  0, 	// LFF - Frigate - Lynx Class - 2nd Patrol
+	"lyrequ1", 		1,0, -1,  0, 	// Research - Scout Frigate Conversion 
+	"lmining", 		1,1, -1,  0,    // Mining Station (2)
+	"lyrhull2",		1,1, -1,  0, 	// Research - Light Cruiser Hull
+	"ltrading",		1,0, -1,  0,	// Trading Station (1st)
+	"lscout",		2,0, -1, -5, 	// LFS - Scout Frigate - Wildcat Class - 1st Patrol
+	"lmine", 		2,1, -1,  0, 	// Type LA Mines (for Mining Station 1)
+	"lresearchc",	1,0, -1,  0,	// Research Station - Equipment
+	"llcruise",		1,0, -1, -2,    // LCL - Light Cruiser - Leopard Class - Prototype
+	"lsensor",		2,0, -1,  0,	// Sensor Probe Net (2)
+	"lconst",		1,0, -1,  0,	// LACS - Construction Tender - Felidae Class (3)
+	"lyrmiscR2",	1,0, -1,  3,	// Research - Heavy Phaser Cannon
+	"lfreight",     3,0, -1,  0,    // LDF - Mining Freighter - Queen Cat Class (4,5,6)
+	"ldestroy",		3,0, -1,  0, 	// LDD - Destroyer - Caracal Class - 1st Flotilla 
+	"loutpost",		1,0, -1,  0,    // Outpost
+	"lyard",		1,0, -1,  0, 	// Standard Shipyard (2nd)
+	"llcruise", 	1,0, -1,  0, 	// LCL - Light Cruiser - Leopard Class - Leader for Flotilla
+
+	//
+	// Phase III. Interim Stage (Additional DD, new CL, prototype CA, new CA)
+	//
+
+	"lyrmiscR3",	1,0, -1,  3,	// Research - Underway Replenishment
+	"lfrigate",		3,0,  4, -3,	// LFF - Frigate - Lynx Class - 3rd Patrol
+	"lorbital",		1,2, -1,  0,	// Orbital Processing Facility (4)
+	"llcruise",		3,0, -1,  0,	// LCL - Light Cruiser - Leopard Class - 1st CL Squadron
+	"lyrhull3",		1,1, -1,  0, 	// Research - Heavy Cruiser Hull
+	"loutpost",		1,3, -1,  0,    // Outpost
+	"lcolony",		3,0,  4,  0, 	// LFB - Colony Ship - Feline Class (1,2,3)
+	"ltrading",		1,2, -1,  0,	// Trading Station (2nd)
+	"ldestroy",		2,0, -1,  0,    // LDD - Destroyer - Caracal Class - 2nd Flotilla 
+	"lmining",		1,2, -1,  0,	// Mining Station (3)
+	"lcargo",		2,0, -1,  0, 	// LAK - Cargo Freighter - Cougar Class (1,2)
+	"lhcruise",		1,0, -1, -3,	// LCA - Heavy Cruiser - Tiger Class - Prototype
+	"lyard2", 		1,0, -1,  0,	// Advanced Shipyard (1st)
+	"lsrepair",		3,0, -1,  0,	// LAR - Fleet Repair Frigate - Bobcat Class - Repair Frigates for Cruiser Squadrons etc
+	"lyrhull4",		1,1, -1,  0, 	// Research - Battlecruiser Hull
+	"lconst",		1,0, -1,  0,	// LACS - Construction Tender - Felidae Class (3)
+	"lfrigate",		3,0, -1,  0, 	// LFF - Frigate - Lynx Class - 4th Patrol
+	"lassault",		3,0, -1,  0, 	// LAPA - Troop Transport - Serval Class - 1st Assault Squadron
+	"llcruise", 	1,0, -1,  0, 	// LCL - Light Cruiser - Leopard Class - Leader for 2nd Flotilla 
+	"lsensor",		2,3, -1,  0,	// Sensor Probe Net (3)
+	"lhcruise",		3,0, -1, -4,	// LCA - Heavy Cruiser - Tiger Class - 1st CA Squadron
+
+	//
+	// Phase IV. Heavy Ship Stage (Additional CL, additional CA, prototype CC, new CC, prototype BC, new BC, prototype DN)
+	//
+	
+	"lupgrade",		1,0, -1,  4,	// Research Station (Upgrades)
+	"llcruise", 	3,0, -1,  0,	// LCL - Light Cruiser - Leopard Class - 2nd CL Squadron
+	"lyrhull5",		1,0, -1,  0,	// Research - Capital Hull	
+	"lconst",		1,0, -1,  0,	// LACS - Construction Tender - Felidae Class (4)
+	"llcruise",		3,0, -1,  0,	// LCL - Light Cruiser - Leopard Class - 3rd CL Squadron
+	"lyrpod14",		1,0, -1,  0,	// Research - Propulsion System Upgrade I
+	"lhcruise",		3,0, -1,  0,    // LCA - Heavy Cruiser - Tiger Class - 2nd CA Squadron
+	"lyrmiscR1",	1,0, -1,  0,	// Research - Multi-Barrel Heavy Disruptors
+	"loutpost",		1,4, -1,  0,    // Outpost
+	"lyrpod11",		1,0, -1,  0,	// Research - Weapon System Upgrade I
+	"lbcruise",		1,0, -1, -3,	// LBC - Battlecruiser - Panther Class - Prototype
+	"lyrequ2", 		1,0, -1,  0, 	// Research - Guided Missile Monitor Conversion 
+	"lyrpod12",		1,0, -1,  0,	// Research - Shield System Upgrade I
+	"lhcruise",		3,0, -1,  0,    // LCA - Heavy Cruiser - Tiger Class - 3rd CA Squadron
+	"lyrmiscR5",	1,0, -1,  0,	// Research - Mauler Cannons
+	"lbcruise",		3,0, -1,  0,	// LBC - Battlecruiser - Panther Class - 1st BC Squadron
+	"lfrigate",		3,0, -1,  0,	// LFF - Frigate - Lynx Class - 5th Patrol
+	"lconst",		1,0, -1,  0,	// LACS - Construction Tender - Felidae Class (5)
+	"llcruise",		3,0, -1,  0,	// LCL - Light Cruiser - Leopard Class - 4th CL Squadron
+	"lyrmiscR6",	1,0, -1,  0,	// Research - Cruise Missiles
+	"lyrpod13",		1,0, -1,  0,	// Research - Sensor System Upgrade I
+	"ldread",		1,0, -1, -4,    // LDN - Dreadnought - Lion Class - Prototype
+
+	//
+	// Phase V. Capital Ship Stage (Additional CA, additional BC, prototype BB, new DN, and everything else!) 
+	//
+
+	"lmonitor",		3,0, -1,  5,	// LMNG - Guided Missile Monitor - Puma Class - 1st MNG Battery
+	"lyrmiscR4",	1,0, -1,  0,    // Research - Expanding Sphere Generation
+	"lhcruise",		3,0, -1,  0,	// LCA - Heavy Cruiser - Tiger - 4th CA Squadron
+	"lyrpod23",		1,0, -1,  0,    // Research - Sensor System Upgrade II
+	"lbcruise",		3,0, -1,  0,	// LBC - Battlecruiser - Panther Class - 2nd BC Squadron
+	"lyrequ3",		1,0, -1,  0,	// Research - Battleship Conversion
+	"lconst",		1,0, -1,  0,	// LACS - Construction Tender - Felidae Class (6)
+	"lyrpod24",		1,0, -1,  0,	// Research - Propulsion System Upgrade II
+	"lbcruise",		3,0, -1,  0,	// LBC - Battlecruiser - Panther Class - 3rd BC Squadron
+	"lyrequ3", 		1,0, -1,  0, 	// Research - Pseudo-Fighter Tender Conversion
+	"lmonitor",		3,0, -1,  0,	// LMNG - Guided Missile Monitor - Puma Class - 2nd MNG Battery
+	"lbattle",		1,0, -1,  0,	// LBB - Battleship - Royal Lion Class - Prototype/1st Task Force
+	"lhcruise",		3,0, -1,  0,	// LCA - Heavy Cruiser - Tiger - 5th CA Squadron
+	"lassault",		3,0, -1,  0, 	// LAPA - Troop Transport - Serval Class - 2nd Assault Squadron
+	"ldread",		3,0, -1,  0,    // LDN - Dreadnought - Lion Class - 1st Task Force
+	"lyrpod15",		1,0, -1,  0, 	// Research - Life Support Systems Upgrade I
+	"lbattle",		1,0, -1,  0, 	// LBB - Battleship - Royal Lion Class - 1st Task Force
+	"lyrpod22",		1,0, -1,  0,	// Research - Shield System Upgrade II
+	"lbcruise",		3,0, -1,  0,	// LBC - Battlecruiser - Panther Class - 4th BC Squadron
+	"lyrpod21",		1,0, -1,  0,	// Research - Weapon System Upgrade II
+	"lcarrier",		1,0, -1,  0, 	// LTPF - Psuedo-Fighter Tender - Lioness Class - Prototype/1st Task Force
+	"lbcruise",		3,0, -1,  0,	// KBC - Battlecruiser - Panther Class - 3rd BC Squadron
+	"ldread",		2,0, -1,  0,	// LDN - Dreadnought - Lion Class - 2nd Task Force
+	"lbattle",		1,0, -1,  0,	// LBB - Battleship - Royal Lion Class - 2nd Task Force
+
+		
+
+}; 
+ 
+
+
+
