@@ -4,6 +4,7 @@
 // KA2:EAW Romulan AI
 //
 // edited by Squire James
+// Phase 1 optimization by NiveusLuna
 
 // Load up the basic structures...
 #include "aipdef.h"
