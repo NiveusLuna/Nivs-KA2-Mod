@@ -4,6 +4,7 @@
 // KA2:EAW Klingon AI
 //
 // edited by Squire James
+// Phase 1 optimization by NiveusLuna
 
 // Load up the basic structures...
 #include "aipdef.h"
@@ -13,54 +14,63 @@
 int checkTechnologyAvailable = 0;
 
 
-Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] = 
+Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 {
-//--------------------------------------------------------------------  
+//--------------------------------------------------------------------
 
 
-	  	
+
 	//
 	// Phase I. Establishment Stage (New FF)
 	//
 
 	"kbase",		1,0, -1,  1,	// Starbase - HQ
-	"kconst",		2,0, -1,  0,	// KACS - Construction Tender - Warpig Class (1)
-	"kconst",		2,0, -1,  0,	// KACS - Construction Tender - Warpig Class (2)
-	"kmining", 		1,0, -1,  0,    // Mining Station (1)
-	"koutpost",		1,0, -1,  0,    // Outpost
-	"kfreight",		3,0, -1,  0,    // KDF - Mining Freighter - Bloodline Class (1,2,3)
-	"korbital",		1,0, -1,  0,	// Orbital Processing Facility (1)
-	"kyard",		1,0, -1,  0, 	// Standard Shipyard (1st)	
-	"kmine", 		2,0, -1,  0, 	// Type KA Mines (for Mining Station 1)
-	"kfrigate",		2,0,  4, -3,	// KFF - Battle Frigate - Suspicious Class - 1st Patrol
+	"kconst",		1,0, -1,  0,	// KACS - Construction Tender - Warpig Class (1)
 	"kresearcha",	1,0, -1,  0,    // Research Station - Hulls
+	"kconst",		1,0, -1,  0,	// KACS - Construction Tender - Warpig Class (2)
+	"kmining", 		1,0, -1,  0,    // Mining Station (1)
+	"kconst",		1,0, -1,  0,	// KACS - Construction Tender - Warpig Class (3)
+	"korbital",		1,0, -1,  0,	// Orbital Processing Facility (1)
+	"kconst",		1,0, -1,  0,	// KACS - Construction Tender - Warpig Class (4)
+	"ktrading",		1,0, -1,  0,	// Trading Station (1st)
+	"kconst",		1,0, -1,  0,	// KACS - Construction Tender - Warpig Class (5)
+	"kyard",		1,0, -1,  0, 	// Standard Shipyard (1st)
+	"klihull5", 	1,0, -1,  0, 	// Research - E Series Hull
+
+	// While we wait on the yard...
+	"koutpost",		1,0, -1,  0,    // Outpost
+	"korbital",		1,2, -1,  0,	// Orbital Processing Facility (2)
+	"kfreight",		1,0, -1,  0,    // KDF - Mining Freighter - Bloodline Class (1)
+	"kmine", 		1,0, -1,  0, 	// Type KA Mines (for Mining Station 1)
+	"ksensor",		1,1, -1,  0,	// Sensor Probe Net (1)
+	"kmine", 		1,0, -1,  0, 	// Type KA Mines (for Mining Station 1)
+	"ksensor",		1,1, -1,  0,	// Sensor Probe Net (1)
+	"kfrigate",		1,0,  4, -3,	// KFF - Battle Frigate - Suspicious Class - 1st Patrol
+	"kfreight",		1,0, -1,  0,    // KDF - Mining Freighter - Bloodline Class (2)
+	"kfrigate",		1,0,  4, -3,	// KFF - Battle Frigate - Suspicious Class - 1st Patrol
+	"kfreight",		1,0, -1,  0,    // KDF - Mining Freighter - Bloodline Class (3)
 	"kfrigate",		2,0,  4, -3,	// KFF - Battle Frigate - Suspicious Class - 1st Patrol
-	"ksensor",		2,1, -1,  0,	// Sensor Probe Net (1)
-	"klihull5", 	1,0, -1,  0, 	// Research - E Series Hull 
 
 	//
 	// Phase II. Development Stage (Additional FF, new FS, new EC, DD, new DL and prototype CL)
 	//
-	
+
 	"kresearchb",	1,0, -1,  2,	// Research Station - Conversions
 	"kfrigate",		2,0,  4, -3,	// KFF - Frigate - Suspicious Class - 1st Patrol
-	"korbital",		1,2, -1,  0,	// Orbital Processing Facility (2)	
 	"kescort",		3,0, -1,  0, 	// KEC - Escort - Bird of Prey Class - 1st Patrol
-	"kliequ1", 		1,0, -1,  0, 	// Research - Science Frigate Conversion 
+	"kliequ1", 		1,0, -1,  0, 	// Research - Science Frigate Conversion
 	"kmining", 		1,1, -1,  0,    // Mining Station (2)
 	"klihull2",		1,1, -1,  0, 	// Research - D Series Hull
-	"ktrading",		1,0, -1,  0,	// Trading Station (1st)
 	"ksfrigate",	2,0, -1, -5, 	// KFS - Science Frigate - 1st Patrol
-	"klihull1", 	1,0, -1,  0, 	// Research - F Series Hull 
+	"klihull1", 	1,0, -1,  0, 	// Research - F Series Hull
 	"kmine", 		2,1, -1,  0, 	// Type KA Mines (for Mining Station 1)
 	"kresearchc",	1,0, -1,  0,	// Research Station - Equipment
 	"klcruise",		1,0, -1, -2,    // KCL - Light Cruiser - Relentless Class - Prototype
 	"ksensor",		2,0, -1,  0,	// Sensor Probe Net (2)
-	"kconst",		1,0, -1,  0,	// KACS - Construction Tender - Warpig Class (3)
 	"klipod1",		1,1, -1,  0, 	// Research - FMPA Cannon
 	"kfreight",     3,0, -1,  0,    // KDF - Mining Freighter - Bloodline Class (4,5,6)
 	"kliequ3",		1,0, -1,  0,	// Research - Leader Conversion
-	"kdestroy",		3,0, -1,  0, 	// KDD - Destroyer - Insurrection - 1st Flotilla 
+	"kdestroy",		3,0, -1,  0, 	// KDD - Destroyer - Insurrection - 1st Flotilla
 	"kliequ2",		1,0, -1,  0, 	// Research - Cargo Frigate Conversion
 	"kyard",		1,0, -1,  0, 	// Standard Shipyard (2nd)
 	"kdestroyl", 	1,0, -1,  0, 	// KDL - Destroyer Leader - Captain Class - Leader for Flotilla
@@ -76,17 +86,16 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"koutpost",		1,4, -1,  0,    // Outpost
 	"kcolony",		3,0,  4,  0, 	// KFB - Colony Ship - Brave Settler Class (1,2,3)
 	"ktrading",		1,2, -1,  0,	// Trading Station (2nd)
-	"kdestroy",		2,0, -1,  0,    // KDD - Destroyer - Insurrection - 2nd Flotilla 
+	"kdestroy",		2,0, -1,  0,    // KDD - Destroyer - Insurrection - 2nd Flotilla
 	"kmining",		1,3, -1,  0,	// Mining Station (3)
 	"kcargo",		2,0, -1,  0, 	// KAK - Cargo Freighter - Lifeblood Class (1,2)
 	"kcruise",		1,0, -1, -3,	// KCA - Heavy Cruiser - Great Powerful Conqueror Class - Prototype
 	"kyard2", 		1,0, -1,  0,	// Advanced Shipyard (1st)
 	"ksrepair",		3,0, -1,  0,	// KAR - Fleet Repair Frigate - Suspicious-R Class - Repair Frigates for Cruiser Squadrons etc
-	"kconst",		1,0, -1,  0,	// KACS - Construction Tender - Warpig Class (3)
 	"kescort",		3,0, -1,  0, 	// KEC - Escort - Bird of Prey Class - 2nd Patrol
 	"klimiscR2",	1,0, -1,  9,	// Research - Dual Forward Torpedo Tubes
 	"kassault",		3,0, -1,  0, 	// KAPA - Troop Transport - Poisoned Barb Class - 1st Assault Squadron
-	"kdestroyl", 	1,0, -1,  0, 	// KDL - Destroyer Leader - Captain Class - Leader for 2nd Flotilla 
+	"kdestroyl", 	1,0, -1,  0, 	// KDL - Destroyer Leader - Captain Class - Leader for 2nd Flotilla
 	"ksensor",		2,4, -1,  0,	// Sensor Probe Net (3)
 	"kqonos",		1,0, -1, -3,	// KBC - Battlecruiser - Kronos Class - Prototype
 	"kcruise",		3,0, -1, -4,	// KCA - Heavy Cruiser - Great Powerful Conqueror Class - 1st CA Squadron
@@ -94,13 +103,12 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	//
 	// Phase IV. Heavy Ship Stage (Additional CL, additional CA, prototype CC, new CC, prototype BC, new BC, prototype DN)
 	//
-	
+
 	"kupgrade",		1,0, -1,  4,	// Research Station (Upgrades)
 	"kqonos", 		2,0, -1,  0,	// KBC - Battlecruiser - Kronos Class - Battlecruisers for CL and CA Squadrons
 	"kliequ5",		1,0, -1,  0,	// Research - C-II Series Conversion
-	"klcruise",		3,0, -1,  0,	// KCL - Light Cruiser - Relentless Class - 2nd CL Squadron	
+	"klcruise",		3,0, -1,  0,	// KCL - Light Cruiser - Relentless Class - 2nd CL Squadron
 	"klipod2",		1,0, -1,  0,	// Research - Dual Wing Mounts
-	"kconst",		1,0, -1,  0,	// KACS - Construction Tender - Warpig Class (4)
 	"kccruise", 	1,0, -1, -4,    // KCC - Command Cruiser - Warrior's Anger Class - Prototype
 	"klipod13",		1,0, -1,  0,	// Research - Sensor System Upgrade I
 	"kbertaa",		1,0, -1, -4,    // KCB - Supercruiser - Bird of Blood Class - Prototype
@@ -113,14 +121,13 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"kescort",		3,0, -1,  0,	// KEC - Escort - Bird of Prey Class - 3rd Patrol
 	"klihull3",		1,0, -1,  0,	// Research - C-I Series Hull
 	"kbcruise",		3,0, -1,  0,	// KBC - Battlecruiser - Emperor Class - 1st BC Squadron
-	"kconst",		1,0, -1,  0,	// KACS - Construction Tender - Warpig Class (5)
 	"klimiscR4",	1,0, -1,  0,	// Research - Burst Torpedoes
 	"kccruise", 	3,0, -1,  0,    // KCC - Command Cruiser - Warrior's Anger Class - CC's for Command Duties
 	"klipod14",		1,0, -1,  0,	// Research - Propulsion System Upgrade I
 	"kdread",		1,0, -1, -4,    // KDN - Dreadnought - Accuser Class - Prototype
 
 	//
-	// Phase V. Capital Ship Stage (Additional CA, additional BC, prototype BB, new DN, and everything else!) 
+	// Phase V. Capital Ship Stage (Additional CA, additional BC, prototype BB, new DN, and everything else!)
 	//
 
 	"ktcruise",		3,0, -1,  5,	// KCT - Torpedo Cruiser - Shortsword Class - 1st CT Battery
@@ -129,15 +136,14 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"klipod23",		1,0, -1,  0,    // Research - Sensor System Upgrade II
 	"kbertaa",		3,0, -1,  0,	// KCB - Supercruiser - Bird of Blood Class - 1st CB Squadron
 	"kliequ4",		1,0, -1,  0,	// Research - Scout Cruiser Conversion
-	"kscruise",		3,0, -1,  0, 	// KCS - Scout Cruiser - War Scout Class - Replacements for Suspicious-S 
-	"kconst",		1,0, -1,  0,	// KACS - Construction Tender - Warpig Class (6)
+	"kscruise",		3,0, -1,  0, 	// KCS - Scout Cruiser - War Scout Class - Replacements for Suspicious-S
 	"klipod24",		1,0, -1,  0,	// Research - Propulsion System Upgrade II
 	"kbcruise",		3,0, -1,  0,	// KBC - Battlecruiser - Emperor Class - 2nd BC Squadron
-	"klihull4", 	1,0, -1,  0, 	// Research - B Series Hull 
+	"klihull4", 	1,0, -1,  0, 	// Research - B Series Hull
 	"ktcruise",		3,0, -1,  0,	// KCT - Torpedo Cruiser - Shortsword Class - 2nd CT Battery
 	"klipod4",		1,0, -1,  0,	// Research - Anti-Matter Fields
 	"kbattle",		1,0, -1,  0,	// KBB - Battleship - Sword of Kahless Class - Prototype/1st Task Force
-	"ksuperbl", 	1,0, -1,  0, 	// Shipyard (Super Station)  
+	"ksuperbl", 	1,0, -1,  0, 	// Shipyard (Super Station)
 	"kcruise",		3,0, -1,  0,	// KCA - Heavy Cruiser - Great Powerful Conqueror - 4th CA Squadron
 	"kassault",		3,0, -1,  0, 	// KAPA - Troop Transport - Poison Barb Class - 2nd Assault Squadron
 	"klipod6",		1,0, -1,  0,    // Research - Modified Cloaking Fields
@@ -153,11 +159,5 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"kdread",		2,0, -1,  0,	// KDN - Dreadnought - Accuser Class - 2nd Task Force
 	"ksuper",		1,0, -1,  0, 	// KECX - Experimental Bird of Prey
 	"kbattle",		1,0, -1,  0,	// KBB - Battleship - Sword of Kahless Class - 2nd Task Force
-	
-		
 
-}; 
- 
-
-
-
+};
