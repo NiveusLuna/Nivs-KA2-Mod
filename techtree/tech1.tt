@@ -2,4 +2,3 @@
 #include "tech1-orig.tt"
 #include "allied-repair-halt.tt"
 #include "faster-trading.tt"
-#include "tech1-bugfix.tt"
