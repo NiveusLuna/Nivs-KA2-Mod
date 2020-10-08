@@ -152,3 +152,4 @@ checkValidResourceInterval = 10.0f
 
 #include "0halt-queue.odf"
 #include "0shipyard-allied-repair.odf"
+footprintAligned = 1

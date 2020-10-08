@@ -1,0 +1,453 @@
+<techtree>
+	<!--***[ FEDERATION RESEARCH PROJECTS ]*********************-->
+	<!--Hull Research (Destroyer DD)-->
+	<object ODF="FedHull1.odf">
+		<requirement race="federation">
+			<obj>fbase.odf</obj>
+			<obj>fresearcha.odf</obj>
+			<cap maxCapValue="1" />
+		</requirement>
+	</object>
+	<!--Hull Research (Light Cruiser CL)-->
+	<object ODF="FedHull2.odf">
+		<requirement race="federation">
+			<obj>fbase.odf</obj>
+			<obj>fresearcha.odf</obj>
+			<obj>fedHull1.odf</obj>
+			<cap maxCapValue="1" />
+		</requirement>
+	</object>
+	<!--Hull Research (Heavy Cruiser CA)-->
+	<object ODF="FedHull3.odf">
+		<requirement race="federation">
+			<obj>fbase.odf</obj>
+			<obj>fresearcha.odf</obj>
+			<obj>fedhull2.odf</obj>
+			<cap maxCapValue="1" />
+		</requirement>
+	</object>
+	<!--Hull Research (Command Cruiser CC)-->
+	<object ODF="FedHull4.odf">
+		<requirement race="federation">
+			<obj>fbase.odf</obj>
+			<obj>fresearcha.odf</obj>
+			<obj>fedhull3.odf</obj>
+			<cap maxCapValue="1" />
+		</requirement>
+	</object>
+	<!--Hull Research (Battlecruiser BC)-->
+	<object ODF="FedHull5.odf">
+		<requirement race="federation">
+			<obj>fbase.odf</obj>
+			<obj>fresearcha.odf</obj>
+			<obj>fedhull4.odf</obj>
+			<cap maxCapValue="1" />
+		</requirement>
+	</object>
+	<!--Hull Research (Dreadnought Modern DN)-->
+	<object ODF="FedHull6.odf">
+		<requirement race="federation">
+			<obj>fbase.odf</obj>
+			<obj>fresearcha.odf</obj>
+			<obj>fedhull5.odf</obj>
+			<cap maxCapValue="1" />
+		</requirement>
+	</object>
+	<!--Hull Research (Battleship BB)-->
+	<object ODF="FedHull7.odf">
+		<requirement race="federation">
+			<obj>fbase.odf</obj>
+			<obj>fresearcha.odf</obj>
+			<obj>fedhull6.odf</obj>
+			<obj>fedpod5.odf</obj>
+			<cap maxCapValue="1" />
+		</requirement>
+	</object>
+	<!--Hull Research (Battleship Experimental BBX)-->
+	<object ODF="FedHull8.odf">
+		<requirement race="federation">
+			<obj>fbase.odf</obj>
+			<obj>fresearcha.odf</obj>
+			<obj>fedhull7.odf</obj>
+			<obj>fedpod5.odf</obj>
+			<cap maxCapValue="1" />
+		</requirement>
+	</object>
+	<!--Conversion Kit (Destroyer Leader DL)-->
+	<object ODF="FedEqu2.odf">
+		<requirement race="federation">
+			<obj>fbase.odf</obj>
+			<obj>fresearchb.odf</obj>
+			<obj>fedhull1.odf</obj>
+			<obj>FedMiscR2.odf</obj>
+			<cap maxCapValue="1" />
+		</requirement>
+	</object>
+	<!--Conversion Kit (Gun Cruiser CG)-->
+	<object ODF="FedEqu3.odf">
+		<requirement race="federation">
+			<obj>fbase.odf</obj>
+			<obj>fresearchb.odf</obj>
+			<obj>fedhull2.odf</obj>
+			<obj>FedMiscR2.odf</obj>
+			<cap maxCapValue="1" />
+		</requirement>
+	</object>
+	<!--Conversion Kit (Galactic Survey Cruiser GSC)-->
+	<object ODF="FedEqu4.odf">
+		<requirement race="federation">
+			<obj>fbase.odf</obj>
+			<obj>fresearchb.odf</obj>
+			<obj>fedhull3.odf</obj>
+			<obj>fedpod4.odf</obj>
+			<cap maxCapValue="1" />
+		</requirement>
+	</object>
+	<!--Conversion Kit (Torpedo Cruiser CT)-->
+	<object ODF="FedEqu5.odf">
+		<requirement race="federation">
+			<obj>fbase.odf</obj>
+			<obj>fresearchb.odf</obj>
+			<obj>fedhull3.odf</obj>
+			<obj>FedMiscR5.odf</obj>
+			<obj>Fedpod5.odf</obj>
+			<cap maxCapValue="1" />
+		</requirement>
+	</object>
+	<!--Conversion Kit (New Heavy Cruiser NCA)-->
+	<object ODF="FedEqu6.odf">
+		<requirement race="federation">
+			<obj>fbase.odf</obj>
+			<obj>fresearchb.odf</obj>
+			<obj>fedhull4.odf</obj>
+			<obj>fedpod5.odf</obj>
+			<cap maxCapValue="1" />
+		</requirement>
+	</object>
+	<!--Research Pod (Type II-U Warp Nacelles - Capital Ships)-->
+	<object ODF="FedMiscR1.odf">
+		<requirement race="federation">
+			<obj>fbase.odf</obj>
+			<obj>fresearchc.odf</obj>
+			<obj>FedHull6.odf</obj>
+			<cap maxCapValue="1" />
+		</requirement>
+	</object>
+	<!--Research Pod (Type H Phaser Emitters - Megaphasers)-->
+	<object ODF="FedMiscR2.odf">
+		<requirement race="federation">
+			<obj>fbase.odf</obj>
+			<obj>fresearchc.odf</obj>
+			<obj>FedHull1.odf</obj>
+			<cap maxCapValue="1" />
+		</requirement>
+	</object>
+	<!--Research Pod (Dual Warp Plasma Relays - Dual Warp Cores)-->
+	<object ODF="FedMiscR3.odf">
+		<requirement race="federation">
+			<obj>fbase.odf</obj>
+			<obj>fresearchc.odf</obj>
+			<obj>fedpod24.odf</obj>
+			<cap maxCapValue="1" />
+		</requirement>
+	</object>
+	<!--Research Pod (Single Centreline Nacelles - Odd-Numbers of Warp Nacelles)-->
+	<object ODF="FedMiscR4.odf">
+		<requirement race="federation">
+			<obj>fbase.odf</obj>
+			<obj>fresearchc.odf</obj>
+			<obj>FedHull6.odf</obj>
+			<cap maxCapValue="1" />
+		</requirement>
+	</object>
+	<!--Research Pod (Proximity Detonation Fuses - Proximity Torpedoes)-->
+	<object ODF="FedMiscR5.odf">
+		<requirement race="federation">
+			<obj>fbase.odf</obj>
+			<obj>fresearchc.odf</obj>
+			<obj>FedHull3.odf</obj>
+			<cap maxCapValue="1" />
+		</requirement>
+	</object>
+	<!--Research Pod (Plasma Torpedo Weaponry - Federation Plasma Torpedoes)-->
+	<object ODF="FedMiscR6.odf">
+		<requirement race="federation">
+			<obj>fbase.odf</obj>
+			<obj>fresearchc.odf</obj>
+			<obj>fedpod21.odf</obj>
+			<cap maxCapValue="1" />
+		</requirement>
+	</object>
+	<!--Research Pod (Superconductive Power Coils - Assault Phaser)-->
+	<object ODF="fedpod1.odf">
+		<requirement race="federation">
+			<obj>fbase.odf</obj>
+			<obj>fresearchc.odf</obj>
+			<obj>fedpod5.odf</obj>
+			<obj>fsuperbl.odf</obj>
+			<obj>FedMiscR3.odf</obj>
+			<obj>fedpod21.odf</obj>
+			<cap maxCapValue="1" />
+		</requirement>
+	</object>
+	<!--Research Pod (Reinforced Spinal Integrity Fields - Assault Phaser)-->
+	<object ODF="fedpod2.odf">
+		<requirement race="federation">
+			<obj>fbase.odf</obj>
+			<obj>fresearchc.odf</obj>
+			<obj>fedpod5.odf</obj>
+			<obj>fsuperbl.odf</obj>
+			<obj>fedpod22.odf</obj>
+			<cap maxCapValue="1" />
+		</requirement>
+	</object>
+	<!--Research Pod (Reiterative Tractor Neam Circuitry - Quantum Wave-Carrier Beam)-->
+	<object ODF="fedpod3.odf">
+		<requirement race="federation">
+			<obj>fbase.odf</obj>
+			<obj>fresearchc.odf</obj>
+			<obj>FedHull4.odf</obj>
+			<cap maxCapValue="1" />
+		</requirement>
+	</object>
+	<!--Research Pod (Enhanced Sensor Plasma Detection Techniques - Cloak Detection)-->
+	<object ODF="fedpod4.odf">
+		<requirement race="federation">
+			<obj>fbase.odf</obj>
+			<obj>fresearchc.odf</obj>
+			<obj>fmonitoring.odf</obj>
+			<obj>fedpod23.odf</obj>
+			<cap maxCapValue="1" />
+		</requirement>
+	</object>
+	<!--Research Pod (Enemy Vessel Report - Battleship Requisition)-->
+	<object ODF="fedpod5.odf">
+		<requirement race="federation">
+			<obj>fbase.odf</obj>
+			<obj>fresearchc.odf</obj>
+			<obj>FedHull6.odf</obj>
+			<cap maxCapValue="1" />
+		</requirement>
+	</object>
+	<!--Research Pod (Weapon Systems Recyclic Energy Circuitry - Weapon Systems Upgrade I)-->
+	<object ODF="fedpod11.odf">
+		<requirement race="federation">
+			<obj>fbase.odf</obj>
+			<obj>fupgrade.odf</obj>
+			<cap maxCapValue="1" />
+		</requirement>
+	</object>
+	<!--Research Pod (Remodulating Shield Harmonics Booster - Shield Systems Upgrade I)-->
+	<object ODF="fedpod12.odf">
+		<requirement race="federation">
+			<obj>fbase.odf</obj>
+			<obj>fupgrade.odf</obj>
+			<cap maxCapValue="1" />
+		</requirement>
+	</object>
+	<!--Research Pod (Sensor Package Plasma Detection Subroutines - Sensor Package Upgrade I)-->
+	<object ODF="fedpod13.odf">
+		<requirement race="federation">
+			<obj>fbase.odf</obj>
+			<obj>fupgrade.odf</obj>
+			<cap maxCapValue="1" />
+		</requirement>
+	</object>
+	<!--Research Pod (Warp Field Streamlining &amp; Impulse Drive Superconductors - Propulsion Systems Upgrade I)-->
+	<object ODF="fedpod14.odf">
+		<requirement race="federation">
+			<obj>fbase.odf</obj>
+			<obj>fupgrade.odf</obj>
+			<cap maxCapValue="1" />
+		</requirement>
+	</object>
+	<!--Research Pod (Life Support Redundancy Circuitry - Life Support Systems Upgrade I)-->
+	<object ODF="fedpod15.odf">
+		<requirement race="federation">
+			<obj>fbase.odf</obj>
+			<obj>fupgrade.odf</obj>
+			<cap maxCapValue="1" />
+		</requirement>
+	</object>
+	<!--Research Pod (Hyperrelay Weapon Capacitor - Weapon Systems Upgrade II)-->
+	<object ODF="fedpod21.odf">
+		<requirement race="federation">
+			<obj>fbase.odf</obj>
+			<obj>fedpod11.odf</obj>
+			<obj>fedpod5.odf</obj>
+			<cap maxCapValue="1" />
+		</requirement>
+	</object>
+	<!--Research Pod (Auxilliary Shielding Generation Systems - Shield Systems Upgrade II)-->
+	<object ODF="fedpod22.odf">
+		<requirement race="federation">
+			<obj>fbase.odf</obj>
+			<obj>fedpod12.odf</obj>
+			<obj>fedpod5.odf</obj>
+			<cap maxCapValue="1" />
+		</requirement>
+	</object>
+	<!--Research Pod (Unique Plasma Signature Detection Computer - Sensor Package Upgrade II)-->
+	<object ODF="fedpod23.odf">
+		<requirement race="federation">
+			<obj>fbase.odf</obj>
+			<obj>fedpod13.odf</obj>
+			<obj>fedpod5.odf</obj>
+			<cap maxCapValue="1" />
+		</requirement>
+	</object>
+	<!--Research Pod (Engine System Additive Shielding - Propulsion Systems Upgrade II)-->
+	<object ODF="fedpod24.odf">
+		<requirement race="federation">
+			<obj>fbase.odf</obj>
+			<obj>fedpod14.odf</obj>
+			<obj>fedpod5.odf</obj>
+			<cap maxCapValue="1" />
+		</requirement>
+	</object>
+	<!--Research Pod (Emergency Anti-Depressurisation Array - Life Support Systems Upgrade II)-->
+	<object ODF="fedpod25.odf">
+		<requirement race="federation">
+			<obj>fbase.odf</obj>
+			<obj>fedpod15.odf</obj>
+			<obj>fedpod5.odf</obj>
+			<cap maxCapValue="1" />
+		</requirement>
+	</object>
+	<!--Planetary Shield (Federation)-->
+	<object ODF="shieldFederation.odf">
+		<requirement race="federation">
+			<obj>fedpod22.odf</obj>
+			<cap maxCapValue="1" />
+		</requirement>
+	</object>
+	<!--***[ FEDERATION MIXED TECH ]*********************-->
+	<!--Klingon Tech (Star Empire) - Capture-->
+	<object ODF="FedMix1.odf">
+		<requirement race="federation" buttonHideUnavailable="true">
+			<obj>fbase.odf</obj>
+			<obj>fresearchc.odf</obj>
+			<obj>kconst.odf</obj>
+			<cap maxCapValue="1" />
+		</requirement>
+	</object>
+	<!--Romulan Tech (Cerberus) - Capture-->
+	<object ODF="FedMix2.odf">
+		<requirement race="federation" buttonHideUnavailable="true">
+			<obj>fbase.odf</obj>
+			<obj>fresearchc.odf</obj>
+			<obj>rconst.odf</obj>
+			<cap maxCapValue="1" />
+		</requirement>
+	</object>
+	<!--Gorn Tech (Excelsior-R) - Allied-->
+	<object ODF="FedMix3.odf">
+		<requirement race="federation" buttonHideUnavailable="true">
+			<ally race="klingon" />
+			<obj>fbase.odf</obj>
+			<obj>fresearchc.odf</obj>
+			<cap maxCapValue="1" />
+		</requirement>
+	</object>
+	<!--ISC Tech (Jump Drives) - Capture-->
+	<object ODF="FedMix4.odf">
+		<requirement race="federation" buttonHideUnavailable="true">
+			<obj>fbase.odf</obj>
+			<obj>fresearchc.odf</obj>
+			<obj>iconst.odf</obj>
+			<cap maxCapValue="1" />
+		</requirement>
+	</object>
+	<!--Hydran Tech (Hornet-B) - Allied-->
+	<object ODF="FedMix5.odf">
+		<requirement race="federation" buttonHideUnavailable="true">
+			<ally race="hydran" />
+			<obj>fbase.odf</obj>
+			<obj>fresearchc.odf</obj>
+			<cap maxCapValue="1" />
+		</requirement>
+	</object>
+	<!--Lyran Tech (ESGs) - Capture-->
+	<object ODF="FedMix6.odf">
+		<requirement race="federation" buttonHideUnavailable="true">
+			<obj>fbase.odf</obj>
+			<obj>fresearchc.odf</obj>
+			<obj>lconst.odf</obj>
+			<cap maxCapValue="1" />
+		</requirement>
+	</object>
+	<!--Unique Dreadnought (USS Star Empire)-->
+	<object ODF="FStarEmpire.odf">
+		<requirement race="federation" buttonHideUnavailable="true">
+			<cap maxCapValue="1" tooltip="Ship available" tooltipOver="Already built"
+			tooltipReached="Already built" countConstructions="true"/>
+			<obj>fbase.odf</obj>
+			<obj>FedHull6.odf</obj>
+			<obj>FedMix1.odf</obj>
+		</requirement>
+	</object>
+	<!--Special Ops Cruiser (USS Cerberus)-->
+	<object ODF="FCerberus.odf">
+		<requirement race="federation" buttonHideUnavailable="true">
+			<cap maxCapValue="1" tooltip="Ship available" tooltipOver="Already built"
+			tooltipReached="Already built" countConstructions="true"/>
+			<obj>fbase.odf</obj>
+			<obj>FedHull2.odf</obj>
+			<obj>FedMix2.odf</obj>
+		</requirement>
+	</object>
+	<!--Heavy Battlecruiser (Excelsior Class Refit FBCH)-->
+	<object ODF="FBCruiseR.odf">
+		<requirement race="federation" buttonHideUnavailable="true">
+			<obj>fbase.odf</obj>
+			<obj>FedHull5.odf</obj>
+			<obj>FedMix3.odf</obj>
+		</requirement>
+	</object>
+	<!--Fighter (Hornet-B FFA)-->
+	<object ODF="FFighterB.odf">
+		<requirement race="federation" buttonHideUnavailable="true">
+			<obj>fbase.odf</obj>
+			<obj>fmonitoring.odf</obj>
+			<obj>fcarrierb.odf</obj>
+			<obj>FedMix5.odf</obj>
+		</requirement>
+	</object>
+	<!--Upgraded Carrier-->
+	<object ODF="FCarrierB.odf">
+		<requirement race="federation" buttonHideUnavailable="true">
+			<obj>FedMix5.odf</obj>
+		</requirement>
+	</object>
+	<!--Holographic Generator-->
+	<object ODF="GFHoloGen.odf">
+		<requirement race="federation" buttonHideUnavailable="true">
+			<obj>FedMix2.odf</obj>
+			<cap maxCapValue="1" />
+		</requirement>
+	</object>
+	<!--Jump Drives (Excelsior)-->
+	<object ODF="gFSSDG.odf">
+		<requirement race="federation" buttonHideUnavailable="true">
+			<obj>FedMix4.odf</obj>
+		</requirement>
+	</object>
+	<!--Jump Drives (Excelsior-R)-->
+	<object ODF="gFSSDG2.odf">
+		<requirement race="federation" buttonHideUnavailable="true">
+			<obj>FedMix4.odf</obj>
+		</requirement>
+	</object>
+	<!--Expanding Sphere Generator (Mirandas and USS Cerberus)-->
+	<object ODF="gFESG2.odf">
+		<requirement race="federation" buttonHideUnavailable="true">
+			<obj>FedMix6.odf</obj>
+		</requirement>
+	</object>
+	<!--Carrier Upgrade-->
+	<object ODF="FCarrierUp.odf">
+		<requirement race="federation" buttonHideUnavailable="true">
+			<obj>FedMix5.odf</obj>
+		</requirement>
+	</object>
+</techtree>

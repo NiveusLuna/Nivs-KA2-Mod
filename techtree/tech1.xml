@@ -1,0 +1,5 @@
+<techtree>
+	<parentinclude/>
+	<include File="faster-trading.tt"/>
+	<include File="allied-repair-halt.tt"/>
+</techtree>
