@@ -13,3 +13,4 @@
 // Decom values; less than "station - freighter"
 recycleDilithium = 594
 // Don't get any metal; freighter metal > station metal
+recycleMetal = 0

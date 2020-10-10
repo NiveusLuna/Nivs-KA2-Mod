@@ -11,5 +11,5 @@
 // metalCost = 780
 
 // Decom values; less than "station - freighter"
-recycleDilithium = 408
 // Don't get any metal; freighter metal > station metal
+recycleMetal = 0
