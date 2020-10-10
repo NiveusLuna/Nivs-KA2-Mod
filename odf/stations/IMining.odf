@@ -1,0 +1,15 @@
+#include "IMining.odf"
+
+//Dilithium Cost to build
+// dilithiumCost = 1000
+
+//Metal cost to build
+// metalCost = 500
+
+// Freighter costs
+// dilithiumCost = 320
+// metalCost = 780
+
+// Decom values; less than "station - freighter"
+recycleDilithium = 408
+// Don't get any metal; freighter metal > station metal
