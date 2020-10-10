@@ -12,4 +12,4 @@
 
 // Decom values; less than "station - freighter"
 // Don't get any dilithium; freighter di = station di
-recycleMetal = 320
+recycleDilithium = 0
