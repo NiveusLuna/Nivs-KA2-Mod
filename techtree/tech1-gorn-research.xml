@@ -281,6 +281,7 @@
 			<obj>gbase.odf</obj>
 			<obj>gresearchc.odf</obj>
 			<cap maxCapValue="1" />
+			<ally race="federation"/>
 		</requirement>
 	</object>
 	<!--Klingon Tech (Cloak) - Capture-->
@@ -316,6 +317,7 @@
 			<obj>gbase.odf</obj>
 			<obj>gresearchc.odf</obj>
 			<cap maxCapValue="1" />
+			<ally race="hydran"/>
 		</requirement>
 	</object>
 	<!--Lyran Tech (GNS Queen Derenesktta) - Capture-->
