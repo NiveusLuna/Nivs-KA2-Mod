@@ -392,6 +392,12 @@
 			<obj>GorMix5.odf</obj>
 		</requirement>
 	</object>
+	<!--Upgraded Outpost-->
+	<object ODF="GOutpostB.odf">
+		<requirement race="klingon" buttonHideUnavailable="true">
+			<obj>GorMix5.odf</obj>
+		</requirement>
+	</object>
 	
 	<capacitylist name="GornCarrierLimit" maxCapValue="1"
 	tooltip="Ship available" tooltipOver="Already built"
