@@ -271,7 +271,6 @@
 	<object ODF="shieldGorn.odf">
 		<requirement race="klingon">
 			<obj>gorpod22.odf</obj>
-			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--***[ GORN MIXED TECH ]*********************-->

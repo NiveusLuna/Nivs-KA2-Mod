@@ -318,7 +318,6 @@
 	<object ODF="shieldFederation.odf">
 		<requirement race="federation">
 			<obj>fedpod22.odf</obj>
-			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--***[ FEDERATION MIXED TECH ]*********************-->
