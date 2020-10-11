@@ -398,6 +398,8 @@
 			<obj>GorMix5.odf</obj>
 		</requirement>
 	</object>
+	<!-- Upgraded fighter hangar -->
+	<object ODF="GHangarB.odf" />
 	
 	<capacitylist name="GornCarrierLimit" maxCapValue="1"
 	tooltip="Ship available" tooltipOver="Already built"
