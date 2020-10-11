@@ -1,0 +1,363 @@
+<techtree>
+	<!--***[ GORN RESEARCH PROJECTS ]*********************-->
+	<!--Hull Research (Utility Hull FB APA)-->
+	<object ODF="gorHull1.odf">
+		<requirement race="klingon">
+			<obj>gbase.odf</obj>
+			<obj>gresearcha.odf</obj>
+		</requirement>
+	</object>
+	<!--Hull Research (Bulk Freighter Hull AK)-->
+	<object ODF="gorHull2.odf">
+		<requirement race="klingon">
+			<obj>gbase.odf</obj>
+			<obj>gresearcha.odf</obj>
+		</requirement>
+	</object>
+	<!--Hull Research (Light Screen Hull FF)-->
+	<object ODF="gorHull3.odf">
+		<requirement race="klingon">
+			<obj>gbase.odf</obj>
+			<obj>gresearcha.odf</obj>
+		</requirement>
+	</object>
+	<!--Hull Research (Cruiser hull CA)-->
+	<object ODF="gorHull4.odf">
+		<requirement race="klingon">
+			<obj>gbase.odf</obj>
+			<obj>gresearcha.odf</obj>
+			<obj>gorHull3.odf</obj>
+		</requirement>
+	</object>
+	<!--Hull Research (Advanced Cruiser Hull CC)-->
+	<object ODF="gorHull5.odf">
+		<requirement race="klingon">
+			<obj>gbase.odf</obj>
+			<obj>gresearcha.odf</obj>
+			<obj>gorHull4.odf</obj>
+		</requirement>
+	</object>
+	<!--Hull Research (Command Ship Hull DN)-->
+	<object ODF="gorHull6.odf">
+		<requirement race="klingon">
+			<obj>gbase.odf</obj>
+			<obj>gresearcha.odf</obj>
+			<obj>gorHull5.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Glormaskt Project Crew Conditioning)-->
+	<object ODF="gorpod1.odf">
+		<requirement race="klingon">
+			<obj>gbase.odf</obj>
+			<obj>gresearchc.odf</obj>
+			<obj>gupgrade.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Graviton Distortion Circuitry)-->
+	<object ODF="gorpod2.odf">
+		<requirement race="klingon">
+			<obj>gbase.odf</obj>
+			<obj>gresearchc.odf</obj>
+			<obj>gorHull4.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Reiterative Tractor Beam Circuitry)-->
+	<object ODF="gorpod3.odf">
+		<requirement race="klingon">
+			<obj>gbase.odf</obj>
+			<obj>gresearchc.odf</obj>
+			<obj>gorHull5.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Gravitic Harmonous Resonators)-->
+	<object ODF="gorpod4.odf">
+		<requirement race="klingon">
+			<obj>gbase.odf</obj>
+			<obj>gresearchc.odf</obj>
+		</requirement>
+	</object>
+	<!--Conversion Kit (Scout Frigate FS)-->
+	<object ODF="gorEqu1.odf">
+		<requirement race="klingon">
+			<obj>gbase.odf</obj>
+			<obj>gresearchb.odf</obj>
+			<obj>gorHull3.odf</obj>
+		</requirement>
+	</object>
+	<!--Conversion Kit (Light Cruiser CL)-->
+	<object ODF="gorEqu2.odf">
+		<requirement race="klingon">
+			<obj>gbase.odf</obj>
+			<obj>gresearchb.odf</obj>
+			<obj>gorHull4.odf</obj>
+		</requirement>
+	</object>
+	<!--Conversion Kit (Scout Cruiser CS)-->
+	<object ODF="gorEqu3.odf">
+		<requirement race="klingon">
+			<obj>gbase.odf</obj>
+			<obj>gresearchb.odf</obj>
+			<obj>gorHull4.odf</obj>
+			<obj>gorMiscR1.odf</obj>
+			<obj>gorEqu1.odf</obj>
+		</requirement>
+	</object>
+	<!--Conversion Kit (Torpedo Cruiser CT)-->
+	<object ODF="gorEqu4.odf">
+		<requirement race="klingon">
+			<obj>gbase.odf</obj>
+			<obj>gresearchb.odf</obj>
+			<obj>gorHull4.odf</obj>
+			<obj>gorMiscR1.odf</obj>
+			<obj>gorMiscR2.odf</obj>
+		</requirement>
+	</object>
+	<!--Conversion Kit (Battlecruiser BC)-->
+	<object ODF="gorEqu5.odf">
+		<requirement race="klingon">
+			<obj>gbase.odf</obj>
+			<obj>gresearchb.odf</obj>
+			<obj>gorHull5.odf</obj>
+			<obj>gorMiscR1.odf</obj>
+			<obj>gorMiscR2.odf</obj>
+			<obj>gorMiscR3.odf</obj>
+		</requirement>
+	</object>
+	<!--Conversion Kit (Battleship BB)-->
+	<object ODF="gorEqu6.odf">
+		<requirement race="klingon">
+			<obj>gbase.odf</obj>
+			<obj>gresearchb.odf</obj>
+			<obj>gorHull6.odf</obj>
+			<obj>gorMiscR1.odf</obj>
+			<obj>gorMiscR2.odf</obj>
+			<obj>gorMiscR3.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Type G Plasma Torpedo)-->
+	<object ODF="gorMiscR1.odf">
+		<requirement race="klingon">
+			<obj>gbase.odf</obj>
+			<obj>gresearchc.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Multiple Torpedo Tubes)-->
+	<object ODF="gorMiscR2.odf">
+		<requirement race="klingon">
+			<obj>gbase.odf</obj>
+			<obj>gresearchc.odf</obj>
+			<obj>gorMiscR1.odf</obj>
+			<obj>gorHull4.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Ablative Armour Plating)-->
+	<object ODF="gorMiscR3.odf">
+		<requirement race="klingon">
+			<obj>gbase.odf</obj>
+			<obj>gresearchc.odf</obj>
+			<obj>gorHull4.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Parralax Generator)-->
+	<object ODF="gorMiscR4.odf">
+		<requirement race="klingon">
+			<obj>gbase.odf</obj>
+			<obj>gresearchc.odf</obj>
+			<obj>gorEqu4.odf</obj>
+			<obj>gsuperbl.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Weapon Systems Recyclic Energy Circuitry - Weapon Systems Upgrade I)-->
+	<object ODF="gorpod11.odf">
+		<requirement race="klingon">
+			<obj>gbase.odf</obj>
+			<obj>gupgrade.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Remodulating Shield Harmonics Booster - Shield Systems Upgrade I)-->
+	<object ODF="gorpod12.odf">
+		<requirement race="klingon">
+			<obj>gbase.odf</obj>
+			<obj>gupgrade.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Sensor Package Plasma Detection Subroutines - Sensor Package Upgrade I)-->
+	<object ODF="gorpod13.odf">
+		<requirement race="klingon">
+			<obj>gbase.odf</obj>
+			<obj>gupgrade.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Warp Field Streamlining &amp; Impulse Drive Superconductors - Propulsion Systems Upgrade I)-->
+	<object ODF="gorpod14.odf">
+		<requirement race="klingon">
+			<obj>gbase.odf</obj>
+			<obj>gupgrade.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Life Support Redundancy Circuitry - Life Support Systems Upgrade I)-->
+	<object ODF="gorpod15.odf">
+		<requirement race="klingon">
+			<obj>gbase.odf</obj>
+			<obj>gupgrade.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Hyperrelay Weapon Capacitor - Weapon Systems Upgrade II)-->
+	<object ODF="gorpod21.odf">
+		<requirement race="klingon">
+			<obj>gbase.odf</obj>
+			<obj>gorpod11.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Auxilliary Shielding Generation Systems - Shield Systems Upgrade II)-->
+	<object ODF="gorpod22.odf">
+		<requirement race="klingon">
+			<obj>gbase.odf</obj>
+			<obj>gorpod12.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Unique Plasma Signature Detection Computer - Sensor Package Upgrade II)-->
+	<object ODF="gorpod23.odf">
+		<requirement race="klingon">
+			<obj>gbase.odf</obj>
+			<obj>gorpod13.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Engine System Additive Shielding - Propulsion Systems Upgrade II)-->
+	<object ODF="gorpod24.odf">
+		<requirement race="klingon">
+			<obj>gbase.odf</obj>
+			<obj>gorpod14.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Emergency Anti-Depressurisation Array - Life Support Systems Upgrade II)-->
+	<object ODF="gorpod25.odf">
+		<requirement race="klingon">
+			<obj>gbase.odf</obj>
+			<obj>gorpod15.odf</obj>
+		</requirement>
+	</object>
+	<!--Planetary Shield (Gorn)-->
+	<object ODF="shieldGorn.odf">
+		<requirement race="klingon">
+			<obj>gorpod22.odf</obj>
+		</requirement>
+	</object>
+	<!--***[ GORN MIXED TECH ]*********************-->
+	<!--Federation Tech (Esplads) - Allied-->
+	<object ODF="GorMix1.odf">
+		<requirement race="klingon" buttonHideUnavailable="true">
+			<obj>gbase.odf</obj>
+			<obj>gresearchc.odf</obj>
+		</requirement>
+	</object>
+	<!--Klingon Tech (Cloak) - Capture-->
+	<object ODF="GorMix2.odf">
+		<requirement race="klingon" buttonHideUnavailable="true">
+			<obj>gbase.odf</obj>
+			<obj>gresearchc.odf</obj>
+			<obj>kconst.odf</obj>
+		</requirement>
+	</object>
+	<!--Romulan Tech (EHFRC) - Capture-->
+	<object ODF="GorMix3.odf">
+		<requirement race="klingon" buttonHideUnavailable="true">
+			<obj>gbase.odf</obj>
+			<obj>gresearchc.odf</obj>
+			<obj>rconst.odf</obj>
+		</requirement>
+	</object>
+	<!--ISC Tech (PPD) - Capture-->
+	<object ODF="GorMix4.odf">
+		<requirement race="klingon" buttonHideUnavailable="true">
+			<obj>gbase.odf</obj>
+			<obj>gresearchc.odf</obj>
+			<obj>iconst.odf</obj>
+		</requirement>
+	</object>
+	<!--Hydran Tech (GHRC for Viper) - Allied-->
+	<object ODF="GorMix5.odf">
+		<requirement race="klingon" buttonHideUnavailable="true">
+			<obj>gbase.odf</obj>
+			<obj>gresearchc.odf</obj>
+		</requirement>
+	</object>
+	<!--Lyran Tech (GNS Queen Derenesktta) - Capture-->
+	<object ODF="GorMix6.odf">
+		<requirement race="klingon" buttonHideUnavailable="true">
+			<obj>gbase.odf</obj>
+			<obj>gresearchc.odf</obj>
+			<obj>lconst.odf</obj>
+		</requirement>
+	</object>
+	<!--Psuedo-Fighter Tender (GNS Queen Derenesktta)-->
+	<object ODF="GCarrier.odf">
+		<requirement race="klingon" buttonHideUnavailable="true">
+			<obj>gbase.odf</obj>
+			<obj>GorHull5.odf</obj>
+			<obj>GorEqu5.odf</obj>
+			<obj>gormix6.odf</obj>
+			<capList>GornCarrierLimit</capList>
+		</requirement>
+	</object>
+	<!--Psuedo-Fighter Tender (GNS Queen Derenesktta) (Upgraded)-->
+	<object ODF="GCarrierB.odf">
+		<requirement race="klingon" buttonHideUnavailable="true">
+			<obj>gbase.odf</obj>
+			<obj>GorHull5.odf</obj>
+			<obj>GorEqu5.odf</obj>
+			<obj>gormix6.odf</obj>
+			<obj>gormix5.odf</obj>
+			<capList>GornCarrierLimit</capList>
+		</requirement>
+	</object>
+	<!--Esplads (Sensor Emplacement)-->
+	<object ODF="gDetectG.odf">
+		<requirement race="klingon">
+			<obj>gormix1.odf</obj>
+		</requirement>
+	</object>
+	<!--Cloak (King Snake Class GFF/King Snake GFS)-->
+	<object ODF="gGCloak.odf">
+		<requirement race="klingon" buttonHideUnavailable="true">
+			<obj>gormix2.odf</obj>
+		</requirement>
+	</object>
+	<!--EHFRC (Grendel Class GDN)-->
+	<object ODF="gGEHFRC.odf">
+		<requirement race="klingon" buttonHideUnavailable="true">
+			<obj>gormix3.odf</obj>
+		</requirement>
+	</object>
+	<!--EHFRC (King Grendel Class GBB)-->
+	<object ODF="gGEHFRC2.odf">
+		<requirement race="klingon" buttonHideUnavailable="true">
+			<obj>gormix3.odf</obj>
+		</requirement>
+	</object>
+	<!--PPD (Basilisk Class GBC)-->
+	<object ODF="gGPPDM.odf">
+		<requirement race="klingon" buttonHideUnavailable="true">
+			<obj>gormix4.odf</obj>
+		</requirement>
+	</object>
+	<!--Carrier Upgrade-->
+	<object ODF="GCarrierUp.odf">
+		<requirement race="klingon" buttonHideUnavailable="true">
+			<obj>GorMix5.odf</obj>
+		</requirement>
+	</object>
+	<!--Outpost Upgrade-->
+	<object ODF="GStationUp.odf">
+		<requirement race="klingon" buttonHideUnavailable="true">
+			<obj>GorMix5.odf</obj>
+		</requirement>
+	</object>
+	
+	<capacitylist name="GornCarrierLimit" maxCapValue="1"
+	tooltip="Ship available" tooltipOver="Already built"
+	tooltipReached="Already built" countConstructions="true">
+		<obj>GCarrier.odf</obj>
+		<obj>GCarrierB.odf</obj>
+	</capacitylist>
+</techtree>
