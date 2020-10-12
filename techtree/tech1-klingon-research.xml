@@ -1,0 +1,376 @@
+<techtree>
+	<!--***[ KLINGON RESEARCH PROJECTS ]*********************-->
+	<!--Hull Research (F Series)-->
+	<object ODF="kliHull1.odf">
+		<requirement race="cardassian">
+			<obj>kbase.odf</obj>
+			<obj>kresearcha.odf</obj>
+			<obj>klihull5.odf</obj>
+		</requirement>
+	</object>
+	<!--Hull Research (D Series)-->
+	<object ODF="kliHull2.odf">
+		<requirement race="cardassian">
+			<obj>kbase.odf</obj>
+			<obj>kresearcha.odf</obj>
+			<obj>kliHull5.odf</obj>
+		</requirement>
+	</object>
+	<!--Hull Research (C-I Series)-->
+	<object ODF="kliHull3.odf">
+		<requirement race="cardassian">
+			<obj>kbase.odf</obj>
+			<obj>kresearcha.odf</obj>
+			<obj>klihull2.odf</obj>
+		</requirement>
+	</object>
+	<!--Hull Research (B Series)-->
+	<object ODF="kliHull4.odf">
+		<requirement race="cardassian">
+			<obj>kbase.odf</obj>
+			<obj>kresearcha.odf</obj>
+			<obj>kliHull3.odf</obj>
+		</requirement>
+	</object>
+	<!--Hull Research (E Series)-->
+	<object ODF="kliHull5.odf">
+		<requirement race="cardassian">
+			<obj>kbase.odf</obj>
+			<obj>kresearcha.odf</obj>
+		</requirement>
+	</object>
+	<!--Conversion Kit (Science Frigate FS)-->
+	<object ODF="kliequ1.odf">
+		<requirement race="cardassian">
+			<obj>kbase.odf</obj>
+			<obj>kresearchb.odf</obj>
+		</requirement>
+	</object>
+	<!--Conversion Kit (Cargo Frigate FC)-->
+	<object ODF="kliequ2.odf">
+		<requirement race="cardassian">
+			<obj>kbase.odf</obj>
+			<obj>kresearchb.odf</obj>
+		</requirement>
+	</object>
+	<!--Conversion Kit (Destroyer Leader DL)-->
+	<object ODF="kliequ3.odf">
+		<requirement race="cardassian">
+			<obj>kbase.odf</obj>
+			<obj>kresearchb.odf</obj>
+			<obj>klihull1.odf</obj>
+			<obj>klipod1.odf</obj>
+		</requirement>
+	</object>
+	<!--Conversion Kit (Scout Cruiser CS)-->
+	<object ODF="kliequ4.odf">
+		<requirement race="cardassian">
+			<obj>kbase.odf</obj>
+			<obj>kresearchb.odf</obj>
+			<obj>klihull2.odf</obj>
+			<obj>klipod23.odf</obj>
+		</requirement>
+	</object>
+	<!--Conversion Kit (C-II Series Conversion)-->
+	<object ODF="kliequ5.odf">
+		<requirement race="cardassian">
+			<obj>kbase.odf</obj>
+			<obj>kresearchb.odf</obj>
+			<obj>klihull2.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Trilithium Depeleted Pellets - Heavy Photon Torpedoes)-->
+	<object ODF="klimiscR1.odf">
+		<requirement race="cardassian">
+			<obj>kbase.odf</obj>
+			<obj>kresearchc.odf</obj>
+			<obj>kliequ5.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Dual Forward Torpedo Tubes - Capital Ships and Cruisers)-->
+	<object ODF="klimiscR2.odf">
+		<requirement race="cardassian">
+			<obj>kbase.odf</obj>
+			<obj>kresearchc.odf</obj>
+			<obj>kliHull2.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Centreform Non-Propulsive Nacelles - Specialised Cruisers)-->
+	<object ODF="klimiscR3.odf">
+		<requirement race="cardassian">
+			<obj>kbase.odf</obj>
+			<obj>kresearchc.odf</obj>
+			<obj>kliHull2.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Proximity Detonation Fuses - Proximity Torpedoes)-->
+	<object ODF="klimiscR4.odf">
+		<requirement race="cardassian">
+			<obj>kbase.odf</obj>
+			<obj>kresearchc.odf</obj>
+			<obj>kliHull2.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Frequency Modulated Particle Weapons - FMPA Cannons)-->
+	<object ODF="klipod1.odf">
+		<requirement race="cardassian">
+			<obj>kbase.odf</obj>
+			<obj>kresearchc.odf</obj>
+			<obj>kliHull5.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Dual Advanced Weapon Wing Mounts - Dual FMPA Cannons)-->
+	<object ODF="klipod2.odf">
+		<requirement race="cardassian">
+			<obj>kbase.odf</obj>
+			<obj>kresearchc.odf</obj>
+			<obj>klipod1.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Gravitic Harmonous Resonator Examination - Captured Gorn Weapon)-->
+	<object ODF="klipod3.odf">
+		<requirement race="cardassian">
+			<obj>kbase.odf</obj>
+			<obj>kresearchc.odf</obj>
+			<obj>kliequ5.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Anti-Matter Field Projection Technology - Heavy Weaponry)-->
+	<object ODF="klipod4.odf">
+		<requirement race="cardassian">
+			<obj>kbase.odf</obj>
+			<obj>kresearchc.odf</obj>
+			<obj>klimiscR3.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Enhanced Warp Cores - Assault Phaser Power Capacitor)-->
+	<object ODF="klipod5.odf">
+		<requirement race="cardassian">
+			<obj>kbase.odf</obj>
+			<obj>kresearchc.odf</obj>
+			<obj>klimiscR3.odf</obj>
+			<obj>klipod24.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Modified Cloaking Fields - Project pIH D&apos;ktagh)-->
+	<object ODF="klipod6.odf">
+		<requirement race="cardassian">
+			<obj>kbase.odf</obj>
+			<obj>kresearchc.odf</obj>
+			<obj>ksuperbl.odf</obj>
+			<obj>klipod23.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Weapon Overload Systems - Weapon Systems Upgrade I)-->
+	<object ODF="klipod11.odf">
+		<requirement race="cardassian">
+			<obj>kbase.odf</obj>
+			<obj>kupgrade.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Rephased Shield Systems - Shield Systems Upgrade I)-->
+	<object ODF="klipod12.odf">
+		<requirement race="cardassian">
+			<obj>kbase.odf</obj>
+			<obj>kupgrade.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Sensor Reallignment - Sensor Package Upgrade I)-->
+	<object ODF="klipod13.odf">
+		<requirement race="cardassian">
+			<obj>kbase.odf</obj>
+			<obj>kupgrade.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Warp Field Manipulation - Propulsion Systems Upgrade I)-->
+	<object ODF="klipod14.odf">
+		<requirement race="cardassian">
+			<obj>kbase.odf</obj>
+			<obj>kupgrade.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Life Support Redundancy Systems - Life Support Systems Upgrade I)-->
+	<object ODF="klipod15.odf">
+		<requirement race="cardassian">
+			<obj>kbase.odf</obj>
+			<obj>kupgrade.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Disruptor Packet Power Booster - Weapon Systems Upgrade II)-->
+	<object ODF="klipod21.odf">
+		<requirement race="cardassian">
+			<obj>kbase.odf</obj>
+			<obj>klipod11.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Hyperphased Shield Modulation - Shield Systems Upgrade II)-->
+	<object ODF="klipod22.odf">
+		<requirement race="cardassian">
+			<obj>kbase.odf</obj>
+			<obj>klipod12.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Additive Sensor Power Relays - Sensor Package Upgrade II)-->
+	<object ODF="klipod23.odf">
+		<requirement race="cardassian">
+			<obj>kbase.odf</obj>
+			<obj>klipod13.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Hydrogen Injection Nozzles - Propulsion Systems Upgrade II)-->
+	<object ODF="klipod24.odf">
+		<requirement race="cardassian">
+			<obj>kbase.odf</obj>
+			<obj>klipod14.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Auxilliary Gravitational Field Generator - Life Support Systems Upgrade II)-->
+	<object ODF="klipod25.odf">
+		<requirement race="cardassian">
+			<obj>kbase.odf</obj>
+			<obj>klipod15.odf</obj>
+		</requirement>
+	</object>
+	<!-- Planetary Shield -->
+	<object ODF="shieldKlingon.odf">
+		<requirement race="cardassian" buttonHideUnavailable="true">
+			<obj>klipod22.odf</obj>
+		</requirement>
+	</object>
+	<!--***[ KLINGON MIXED TECH ]*********************-->
+	<!--Federation Tech (EsPlaD) - Capture-->
+	<object ODF="KliMix1.odf">
+		<requirement race="cardassian" buttonHideUnavailable="true">
+			<obj>kbase.odf</obj>
+			<obj>kresearchc.odf</obj>
+			<obj>fconst.odf</obj>
+		</requirement>
+	</object>
+	<!--Romulan Tech (Sensor Cloaking) - Allied-->
+	<object ODF="KliMix2.odf">
+		<requirement race="cardassian" buttonHideUnavailable="true">
+			<obj>kbase.odf</obj>
+			<obj>kresearchc.odf</obj>
+			<obj mustNotHave="true">KliMix3.odf</obj>
+			<ally race="romulan"/>
+		</requirement>
+	</object>
+	<!--Romulan Tech (Sensor Cloaking) - Capture-->
+	<object ODF="KliMix3.odf">
+		<requirement race="cardassian" buttonHideUnavailable="true">
+			<obj>kbase.odf</obj>
+			<obj>kresearchc.odf</obj>
+			<obj>rconst.odf</obj>
+			<obj mustNotHave="true">KliMix2.odf</obj>
+		</requirement>
+	</object>
+	<!--Gorn Tech (Qeh&apos;Ral) - Capture-->
+	<object ODF="KliMix4.odf">
+		<requirement race="cardassian" buttonHideUnavailable="true">
+			<obj>kbase.odf</obj>
+			<obj>kresearchc.odf</obj>
+			<obj>gconst.odf</obj>
+		</requirement>
+	</object>
+	<!--ISC Tech (Grappler Beam) - Capture-->
+	<object ODF="KliMix5.odf">
+		<requirement race="cardassian" buttonHideUnavailable="true">
+			<obj>kbase.odf</obj>
+			<obj>kresearchc.odf</obj>
+			<obj>iconst.odf</obj>
+		</requirement>
+	</object>
+	<!--Hydran Tech (Steelfist) - Capture-->
+	<object ODF="KliMix6.odf">
+		<requirement race="cardassian" buttonHideUnavailable="true">
+			<obj>kbase.odf</obj>
+			<obj>kresearchc.odf</obj>
+			<obj>hconst.odf</obj>
+		</requirement>
+	</object>
+	<!--Lyran Tech (ESGs) - Allied-->
+	<object ODF="KliMix7.odf">
+		<requirement race="cardassian" buttonHideUnavailable="true">
+			<obj>kbase.odf</obj>
+			<obj>kresearchc.odf</obj>
+			<ally race="lyran"/>
+		</requirement>
+	</object>
+	<!--Unique Battleship (IKS Qeh&apos;ral)-->
+	<object ODF="KQehral.odf">
+		<requirement race="cardassian" buttonHideUnavailable="true">
+			<obj>kbase.odf</obj>
+			<obj>klihull4.odf</obj>
+			<obj>kliMiscR1.odf</obj>
+			<obj>kliMiscR2.odf</obj>
+			<obj>klipod2.odf</obj>
+			<obj>KliMix4.odf</obj>
+			<cap maxCapValue="1" tooltip="Ship available" tooltipOver="Already built"
+			tooltipReached="Already built" countConstructions="true"/>
+		</requirement>
+	</object>
+	<!--Cloak Detection (Suspicious-S Class KFS)-->
+	<object ODF="gDetectK.odf">
+		<requirement>
+			<obj>KliMix1.odf</obj>
+		</requirement>
+	</object>
+	<!--Sensor Array Cloak (Frenemy)-->
+	<object ODF="gKCloakR.odf">
+		<requirement>
+			<obj>KliMix2.odf</obj>
+		</requirement>
+		<requirement>
+			<obj>KliMix3.odf</obj>
+		</requirement>
+	</object>
+	<!--Grappler (Suspicious-C Class KFC)-->
+	<object ODF="gHoldBm.odf">
+		<requirement race="cardassian" buttonHideUnavailable="true">
+			<obj>KliMix5.odf</obj>
+		</requirement>
+	</object>
+	<!--Expanding Sphere Generator (Poisoned Barb)-->
+	<object ODF="gKESG2.odf">
+		<requirement race="cardassian" buttonHideUnavailable="true">
+			<obj>KliMix7.odf</obj>
+		</requirement>
+	</object>
+	<!-- Upgrade Battlecarrier -->
+	<object ODF="kcarrierup.odf">
+		<requirement race="cardassian" buttonHideUnavailable="true">
+			<obj>KliMix6.odf</obj>
+		</requirement>
+	</object>
+	<!--Upgraded Fighter (Steelfist FFA)-->
+	<object ODF="KFighterB.odf">
+		<requirement race="cardassian">
+			<obj>kbase.odf</obj>
+			<obj>koutpost.odf</obj>
+			<obj>kcarrierB.odf</obj>
+			<obj>KliMix6.odf</obj>
+		</requirement>
+	</object>
+	<!-- Upgraded Battlecarrier (Mother of Death Class KCVB)-->
+	<object ODF="kcarrierb.odf">
+		<requirement race="cardassian">
+			<obj>KliMix6.odf</obj>
+		</requirement>
+	</object>
+	<!--Orion Pirate Warp-In Ability-->
+	<object ODF="KOrionWarpIn.odf">
+		<requirement race="cardassian">
+			<obj>kbase.odf</obj>
+			<obj>kyard.odf</obj>
+			<cap>OrionCap</cap>
+		</requirement>
+	</object>
+	<!--ShaKurian Mercenary Warp-In Ability-->
+	<object ODF="KShakurianWarpIn.odf">
+		<requirement race="cardassian">
+			<obj>kbase.odf</obj>
+			<obj>kyard.odf</obj>
+			<cap>ShakurianCap</cap>
+		</requirement>
+	</object>
+</techtree>
