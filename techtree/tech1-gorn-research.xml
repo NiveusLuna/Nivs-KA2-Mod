@@ -5,7 +5,7 @@
 		<requirement race="klingon">
 			<obj>gbase.odf</obj>
 			<obj>gresearcha.odf</obj>
-			<cap maxCapValue="1" countConstructions="true"/>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Hull Research (Bulk Freighter Hull AK)-->
@@ -13,7 +13,7 @@
 		<requirement race="klingon">
 			<obj>gbase.odf</obj>
 			<obj>gresearcha.odf</obj>
-			<cap maxCapValue="1" countConstructions="true"/>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Hull Research (Light Screen Hull FF)-->
@@ -21,7 +21,7 @@
 		<requirement race="klingon">
 			<obj>gbase.odf</obj>
 			<obj>gresearcha.odf</obj>
-			<cap maxCapValue="1" countConstructions="true"/>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Hull Research (Cruiser hull CA)-->
@@ -30,7 +30,7 @@
 			<obj>gbase.odf</obj>
 			<obj>gresearcha.odf</obj>
 			<obj>gorHull3.odf</obj>
-			<cap maxCapValue="1" countConstructions="true"/>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Hull Research (Advanced Cruiser Hull CC)-->
@@ -39,7 +39,7 @@
 			<obj>gbase.odf</obj>
 			<obj>gresearcha.odf</obj>
 			<obj>gorHull4.odf</obj>
-			<cap maxCapValue="1" countConstructions="true"/>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Hull Research (Command Ship Hull DN)-->
@@ -48,7 +48,7 @@
 			<obj>gbase.odf</obj>
 			<obj>gresearcha.odf</obj>
 			<obj>gorHull5.odf</obj>
-			<cap maxCapValue="1" countConstructions="true"/>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Glormaskt Project Crew Conditioning)-->
@@ -57,7 +57,7 @@
 			<obj>gbase.odf</obj>
 			<obj>gresearchc.odf</obj>
 			<obj>gupgrade.odf</obj>
-			<cap maxCapValue="1" countConstructions="true"/>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Graviton Distortion Circuitry)-->
@@ -66,7 +66,7 @@
 			<obj>gbase.odf</obj>
 			<obj>gresearchc.odf</obj>
 			<obj>gorHull4.odf</obj>
-			<cap maxCapValue="1" countConstructions="true"/>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Reiterative Tractor Beam Circuitry)-->
@@ -75,7 +75,7 @@
 			<obj>gbase.odf</obj>
 			<obj>gresearchc.odf</obj>
 			<obj>gorHull5.odf</obj>
-			<cap maxCapValue="1" countConstructions="true"/>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Gravitic Harmonous Resonators)-->
@@ -83,7 +83,7 @@
 		<requirement race="klingon">
 			<obj>gbase.odf</obj>
 			<obj>gresearchc.odf</obj>
-			<cap maxCapValue="1" countConstructions="true"/>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Conversion Kit (Scout Frigate FS)-->
@@ -92,7 +92,7 @@
 			<obj>gbase.odf</obj>
 			<obj>gresearchb.odf</obj>
 			<obj>gorHull3.odf</obj>
-			<cap maxCapValue="1" countConstructions="true"/>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Conversion Kit (Light Cruiser CL)-->
@@ -101,7 +101,7 @@
 			<obj>gbase.odf</obj>
 			<obj>gresearchb.odf</obj>
 			<obj>gorHull4.odf</obj>
-			<cap maxCapValue="1" countConstructions="true"/>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Conversion Kit (Scout Cruiser CS)-->
@@ -112,7 +112,7 @@
 			<obj>gorHull4.odf</obj>
 			<obj>gorMiscR1.odf</obj>
 			<obj>gorEqu1.odf</obj>
-			<cap maxCapValue="1" countConstructions="true"/>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Conversion Kit (Torpedo Cruiser CT)-->
@@ -123,7 +123,7 @@
 			<obj>gorHull4.odf</obj>
 			<obj>gorMiscR1.odf</obj>
 			<obj>gorMiscR2.odf</obj>
-			<cap maxCapValue="1" countConstructions="true"/>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Conversion Kit (Battlecruiser BC)-->
@@ -135,7 +135,7 @@
 			<obj>gorMiscR1.odf</obj>
 			<obj>gorMiscR2.odf</obj>
 			<obj>gorMiscR3.odf</obj>
-			<cap maxCapValue="1" countConstructions="true"/>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Conversion Kit (Battleship BB)-->
@@ -147,7 +147,7 @@
 			<obj>gorMiscR1.odf</obj>
 			<obj>gorMiscR2.odf</obj>
 			<obj>gorMiscR3.odf</obj>
-			<cap maxCapValue="1" countConstructions="true"/>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Type G Plasma Torpedo)-->
@@ -155,7 +155,7 @@
 		<requirement race="klingon">
 			<obj>gbase.odf</obj>
 			<obj>gresearchc.odf</obj>
-			<cap maxCapValue="1" countConstructions="true"/>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Multiple Torpedo Tubes)-->
@@ -165,7 +165,7 @@
 			<obj>gresearchc.odf</obj>
 			<obj>gorMiscR1.odf</obj>
 			<obj>gorHull4.odf</obj>
-			<cap maxCapValue="1" countConstructions="true"/>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Ablative Armour Plating)-->
@@ -174,7 +174,7 @@
 			<obj>gbase.odf</obj>
 			<obj>gresearchc.odf</obj>
 			<obj>gorHull4.odf</obj>
-			<cap maxCapValue="1" countConstructions="true"/>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Parralax Generator)-->
@@ -184,7 +184,7 @@
 			<obj>gresearchc.odf</obj>
 			<obj>gorEqu4.odf</obj>
 			<obj>gsuperbl.odf</obj>
-			<cap maxCapValue="1" countConstructions="true"/>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Weapon Systems Recyclic Energy Circuitry - Weapon Systems Upgrade I)-->
@@ -192,7 +192,7 @@
 		<requirement race="klingon">
 			<obj>gbase.odf</obj>
 			<obj>gupgrade.odf</obj>
-			<cap maxCapValue="1" countConstructions="true"/>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Remodulating Shield Harmonics Booster - Shield Systems Upgrade I)-->
@@ -200,7 +200,7 @@
 		<requirement race="klingon">
 			<obj>gbase.odf</obj>
 			<obj>gupgrade.odf</obj>
-			<cap maxCapValue="1" countConstructions="true"/>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Sensor Package Plasma Detection Subroutines - Sensor Package Upgrade I)-->
@@ -208,7 +208,7 @@
 		<requirement race="klingon">
 			<obj>gbase.odf</obj>
 			<obj>gupgrade.odf</obj>
-			<cap maxCapValue="1" countConstructions="true"/>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Warp Field Streamlining &amp; Impulse Drive Superconductors - Propulsion Systems Upgrade I)-->
@@ -216,7 +216,7 @@
 		<requirement race="klingon">
 			<obj>gbase.odf</obj>
 			<obj>gupgrade.odf</obj>
-			<cap maxCapValue="1" countConstructions="true"/>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Life Support Redundancy Circuitry - Life Support Systems Upgrade I)-->
@@ -224,7 +224,7 @@
 		<requirement race="klingon">
 			<obj>gbase.odf</obj>
 			<obj>gupgrade.odf</obj>
-			<cap maxCapValue="1" countConstructions="true"/>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Hyperrelay Weapon Capacitor - Weapon Systems Upgrade II)-->
@@ -232,7 +232,7 @@
 		<requirement race="klingon">
 			<obj>gbase.odf</obj>
 			<obj>gorpod11.odf</obj>
-			<cap maxCapValue="1" countConstructions="true"/>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Auxilliary Shielding Generation Systems - Shield Systems Upgrade II)-->
@@ -240,7 +240,7 @@
 		<requirement race="klingon">
 			<obj>gbase.odf</obj>
 			<obj>gorpod12.odf</obj>
-			<cap maxCapValue="1" countConstructions="true"/>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Unique Plasma Signature Detection Computer - Sensor Package Upgrade II)-->
@@ -248,7 +248,7 @@
 		<requirement race="klingon">
 			<obj>gbase.odf</obj>
 			<obj>gorpod13.odf</obj>
-			<cap maxCapValue="1" countConstructions="true"/>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Engine System Additive Shielding - Propulsion Systems Upgrade II)-->
@@ -256,7 +256,7 @@
 		<requirement race="klingon">
 			<obj>gbase.odf</obj>
 			<obj>gorpod14.odf</obj>
-			<cap maxCapValue="1" countConstructions="true"/>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Emergency Anti-Depressurisation Array - Life Support Systems Upgrade II)-->
@@ -264,7 +264,7 @@
 		<requirement race="klingon">
 			<obj>gbase.odf</obj>
 			<obj>gorpod15.odf</obj>
-			<cap maxCapValue="1" countConstructions="true"/>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Planetary Shield (Gorn)-->
@@ -279,7 +279,7 @@
 		<requirement race="klingon" buttonHideUnavailable="true">
 			<obj>gbase.odf</obj>
 			<obj>gresearchc.odf</obj>
-			<cap maxCapValue="1" countConstructions="true"/>
+			<cap maxCapValue="1" />
 			<ally race="federation"/>
 		</requirement>
 	</object>
@@ -289,7 +289,7 @@
 			<obj>gbase.odf</obj>
 			<obj>gresearchc.odf</obj>
 			<obj>kconst.odf</obj>
-			<cap maxCapValue="1" countConstructions="true"/>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Romulan Tech (EHFRC) - Capture-->
@@ -298,7 +298,7 @@
 			<obj>gbase.odf</obj>
 			<obj>gresearchc.odf</obj>
 			<obj>rconst.odf</obj>
-			<cap maxCapValue="1" countConstructions="true"/>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--ISC Tech (PPD) - Capture-->
@@ -307,7 +307,7 @@
 			<obj>gbase.odf</obj>
 			<obj>gresearchc.odf</obj>
 			<obj>iconst.odf</obj>
-			<cap maxCapValue="1" countConstructions="true"/>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Hydran Tech (GHRC for Viper) - Allied-->
@@ -315,7 +315,7 @@
 		<requirement race="klingon" buttonHideUnavailable="true">
 			<obj>gbase.odf</obj>
 			<obj>gresearchc.odf</obj>
-			<cap maxCapValue="1" countConstructions="true"/>
+			<cap maxCapValue="1" />
 			<ally race="hydran"/>
 		</requirement>
 	</object>
@@ -325,7 +325,7 @@
 			<obj>gbase.odf</obj>
 			<obj>gresearchc.odf</obj>
 			<obj>lconst.odf</obj>
-			<cap maxCapValue="1" countConstructions="true"/>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Psuedo-Fighter Tender (GNS Queen Derenesktta)-->
