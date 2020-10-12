@@ -287,31 +287,31 @@
 	</object>
 	<!--AMFP (Monarch Class HDN)-->
 	<object ODF="gHAMFP.odf">
-		<requirement race="hydran">
+		<requirement race="hydran" buttonHideUnavailable="true">
 			<obj>hydmix2.odf</obj>
 		</requirement>
 	</object>
 	<!--Cloak (Archer Class HFS)-->
 	<object ODF="gHCloak.odf">
-		<requirement race="hydran">
+		<requirement race="hydran" buttonHideUnavailable="true">
 			<obj>hydmix3.odf</obj>
 		</requirement>
 	</object>
 	<!--Defensive GDDS (Royal Sovereign Class HCV)-->
 	<object ODF="gHGDDS2.odf">
-		<requirement race="hydran">
+		<requirement race="hydran" buttonHideUnavailable="true">
 			<obj>hydmix4.odf</obj>
 		</requirement>
 	</object>
 	<!--Light PPD (Regent Class HCL)-->
 	<object ODF="gHPPDL.odf">
-		<requirement race="hydran">
+		<requirement race="hydran" buttonHideUnavailable="true">
 			<obj>hydmix5.odf</obj>
 		</requirement>
 	</object>
 	<!--Offensive ESG (Knight Class HDD)-->
 	<object ODF="gHESG.odf">
-		<requirement race="hydran">
+		<requirement race="hydran" buttonHideUnavailable="true">
 			<obj>hydmix6.odf</obj>
 		</requirement>
 	</object>
