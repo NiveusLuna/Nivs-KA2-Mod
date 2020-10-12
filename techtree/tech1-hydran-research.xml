@@ -1,0 +1,303 @@
+<techtree>
+	<!--***[ HYDRAN RESEARCH PROJECTS ]*********************-->
+	<!--Hull Research (Destroyer DD)-->
+	<object ODF="HydHull1.odf">
+		<requirement race="hydran">
+			<obj>hbase.odf</obj>
+			<obj>hresearcha.odf</obj>
+		</requirement>
+	</object>
+	<!--Hull Research (Light Cruiser CL)-->
+	<object ODF="HydHull2.odf">
+		<requirement race="hydran">
+			<obj>hbase.odf</obj>
+			<obj>hresearcha.odf</obj>
+			<obj>HydHull1.odf</obj>
+		</requirement>
+	</object>
+	<!--Hull Research (Heavy Cruiser CA)-->
+	<object ODF="HydHull3.odf">
+		<requirement race="hydran">
+			<obj>hbase.odf</obj>
+			<obj>hresearcha.odf</obj>
+			<obj>HydHull2.odf</obj>
+		</requirement>
+	</object>
+	<!--Hull Research (Advanced Cruiser CC/MH)-->
+	<object ODF="HydHull4.odf">
+		<requirement race="hydran">
+			<obj>hbase.odf</obj>
+			<obj>hresearcha.odf</obj>
+			<obj>HydHull3.odf</obj>
+		</requirement>
+	</object>
+	<!--Hull Research (Capital DN/CV)-->
+	<object ODF="HydHull5.odf">
+		<requirement race="hydran">
+			<obj>hbase.odf</obj>
+			<obj>hresearcha.odf</obj>
+			<obj>HydHull4.odf</obj>
+		</requirement>
+	</object>
+	<!--Conversion Kit (Scout Frigate FS)-->
+	<object ODF="HydEqu1.odf">
+		<requirement race="hydran">
+			<obj>hbase.odf</obj>
+			<obj>hresearchb.odf</obj>
+		</requirement>
+	</object>
+	<!--Conversion Kit (Destroyer Leader DL)-->
+	<object ODF="HydEqu2.odf">
+		<requirement race="hydran">
+			<obj>hbase.odf</obj>
+			<obj>hresearchb.odf</obj>
+			<obj>HydHull1.odf</obj>
+			<obj>HydMiscR2.odf</obj>
+		</requirement>
+	</object>
+	<!--Conversion Kit (Hellbore Monitor MH)-->
+	<object ODF="HydEqu3.odf">
+		<requirement race="hydran">
+			<obj>hbase.odf</obj>
+			<obj>hresearchb.odf</obj>
+			<obj>HydHull4.odf</obj>
+			<obj>HydMiscR3.odf</obj>
+		</requirement>
+	</object>
+	<!--Conversion Kit (Fleet Carrier CV)-->
+	<object ODF="HydEqu4.odf">
+		<requirement race="hydran">
+			<obj>hbase.odf</obj>
+			<obj>hresearchb.odf</obj>
+			<obj>HydHull5.odf</obj>
+			<obj>HydMiscR2.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Multi-Nacelled Designs - Advanced Cruisers &amp; Capitals)-->
+	<object ODF="HydMiscR1.odf">
+		<requirement race="hydran">
+			<obj>hbase.odf</obj>
+			<obj>hresearchc.odf</obj>
+			<obj>HydHull4.odf</obj>
+			<obj>hydpod24.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Fusion Beam Emitters)-->
+	<object ODF="HydMiscR2.odf">
+		<requirement race="hydran">
+			<obj>hbase.odf</obj>
+			<obj>hresearchc.odf</obj>
+			<obj>HydHull1.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Multiple Hellbore Mounts)-->
+	<object ODF="HydMiscR3.odf">
+		<requirement race="hydran">
+			<obj>hbase.odf</obj>
+			<obj>hresearchc.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Fighter Miniaturisation)-->
+	<object ODF="HydMiscR4.odf">
+		<requirement race="hydran">
+			<obj>hbase.odf</obj>
+			<obj>hresearchc.odf</obj>
+			<obj>hydpod24.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Photon Cannon)-->
+	<object ODF="HydMiscR5.odf">
+		<requirement race="hydran">
+			<obj>hbase.odf</obj>
+			<obj>hresearchc.odf</obj>
+			<obj>HydMiscR2.odf</obj>
+			<obj>HydMiscR3.odf</obj>
+			<obj>hydpod21.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Proximity Photon Shells)-->
+	<object ODF="HydMiscR6.odf">
+		<requirement race="hydran">
+			<obj>hbase.odf</obj>
+			<obj>hresearchc.odf</obj>
+			<obj>HydMiscR5.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Weapon Systems Recyclic Energy Circuitry - Weapon Systems Upgrade I)-->
+	<object ODF="hydpod11.odf">
+		<requirement race="hydran">
+			<obj>hbase.odf</obj>
+			<obj>hupgrade.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Remodulating Shield Harmonics Booster - Shield Systems Upgrade I)-->
+	<object ODF="hydpod12.odf">
+		<requirement race="hydran">
+			<obj>hbase.odf</obj>
+			<obj>hupgrade.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Sensor Package Plasma Detection Subroutines - Sensor Package Upgrade I)-->
+	<object ODF="hydpod13.odf">
+		<requirement race="hydran">
+			<obj>hbase.odf</obj>
+			<obj>hupgrade.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Warp Field Streamlining &amp; Impulse Drive Superconductors - Propulsion Systems Upgrade I)-->
+	<object ODF="hydpod14.odf">
+		<requirement race="hydran">
+			<obj>hbase.odf</obj>
+			<obj>hupgrade.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Life Support Redundancy Circuitry - Life Support Systems Upgrade I)-->
+	<object ODF="hydpod15.odf">
+		<requirement race="hydran">
+			<obj>hbase.odf</obj>
+			<obj>hupgrade.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Hyperrelay Weapon Capacitor - Weapon Systems Upgrade II)-->
+	<object ODF="hydpod21.odf">
+		<requirement race="hydran">
+			<obj>hbase.odf</obj>
+			<obj>hydpod11.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Auxilliary Shielding Generation Systems - Shield Systems Upgrade II)-->
+	<object ODF="hydpod22.odf">
+		<requirement race="hydran">
+			<obj>hbase.odf</obj>
+			<obj>hydpod12.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Unique Plasma Signature Detection Computer - Sensor Package Upgrade II)-->
+	<object ODF="hydpod23.odf">
+		<requirement race="hydran">
+			<obj>hbase.odf</obj>
+			<obj>hydpod13.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Engine System Additive Shielding - Propulsion Systems Upgrade II)-->
+	<object ODF="hydpod24.odf">
+		<requirement race="hydran">
+			<obj>hbase.odf</obj>
+			<obj>hydpod14.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Emergency Anti-Depressurisation Array - Life Support Systems Upgrade II)-->
+	<object ODF="hydpod25.odf">
+		<requirement race="hydran">
+			<obj>hbase.odf</obj>
+			<obj>hydpod15.odf</obj>
+		</requirement>
+	</object>
+	<!--Planetary Shield (Hydran)-->
+	<object ODF="shieldHydran.odf">
+		<requirement race="hydran">
+			<obj>hydpod22.odf</obj>
+		</requirement>
+	</object>
+	<!--***[ HYDRAN MIXED TECH ]*********************-->
+	<!--Federation Tech (Esplads) - Allied-->
+	<object ODF="HydMix1.odf">
+		<requirement race="hydran">
+			<ally race="federation" />
+			<obj>hbase.odf</obj>
+			<obj>hresearchc.odf</obj>
+		</requirement>
+	</object>
+	<!--Klingon Tech (AMFP) - Capture-->
+	<object ODF="HydMix2.odf">
+		<requirement race="hydran">
+			<obj>hbase.odf</obj>
+			<obj>hresearchc.odf</obj>
+			<obj>kconst.odf</obj>
+		</requirement>
+	</object>
+	<!--Romulan Tech (Cloak) - Capture-->
+	<object ODF="HydMix3.odf">
+		<requirement race="hydran">
+			<obj>hbase.odf</obj>
+			<obj>hresearchc.odf</obj>
+			<obj>rconst.odf</obj>
+		</requirement>
+	</object>
+	<!--Gorn Tech (GDDS) - Allied-->
+	<object ODF="HydMix4.odf">
+		<requirement race="hydran">
+			<ally race="klingon" />
+			<obj>hbase.odf</obj>
+			<obj>hresearchc.odf</obj>
+		</requirement>
+	</object>
+	<!--ISC Tech (PPD) - Capture-->
+	<object ODF="HydMix5.odf">
+		<requirement race="hydran">
+			<obj>hbase.odf</obj>
+			<obj>hresearchc.odf</obj>
+			<obj>iconst.odf</obj>
+		</requirement>
+	</object>
+	<!--Lyran Tech (Offensive ESG) - Capture-->
+	<object ODF="HydMix6.odf">
+		<requirement race="hydran">
+			<obj>hbase.odf</obj>
+			<obj>hresearchc.odf</obj>
+			<obj>lconst.odf</obj>
+		</requirement>
+	</object>
+	<!--Esplads (Sensor Post)-->
+	<object ODF="gDetectH.odf">
+		<requirement race="hydran">
+			<obj>hydmix1.odf</obj>
+		</requirement>
+	</object>
+	<!--AMFP (Monarch Class HDN)-->
+	<object ODF="gHAMFP.odf">
+		<requirement race="hydran">
+			<obj>hydmix2.odf</obj>
+		</requirement>
+	</object>
+	<!--Cloak (Archer Class HFS)-->
+	<object ODF="gHCloak.odf">
+		<requirement race="hydran">
+			<obj>hydmix3.odf</obj>
+		</requirement>
+	</object>
+	<!--Defensive GDDS (Royal Sovereign Class HCV)-->
+	<object ODF="gHGDDS2.odf">
+		<requirement race="hydran">
+			<obj>hydmix4.odf</obj>
+		</requirement>
+	</object>
+	<!--Light PPD (Regent Class HCL)-->
+	<object ODF="gHPPDL.odf">
+		<requirement race="hydran">
+			<obj>hydmix5.odf</obj>
+		</requirement>
+	</object>
+	<!--Offensive ESG (Knight Class HDD)-->
+	<object ODF="gHESG.odf">
+		<requirement race="hydran">
+			<obj>hydmix6.odf</obj>
+		</requirement>
+	</object>
+	<!--Mirak Diaspora Warp-In Ability-->
+	<object ODF="HMirakWarpIn.odf">
+		<requirement race="hydran">
+			<obj>hbase.odf</obj>
+			<obj>hyard.odf</obj>
+			<cap>MirakCap</cap>
+		</requirement>
+	</object>
+	<!--ShaKurian Mercenary Warp-In Ability-->
+	<object ODF="HShakurianWarpIn.odf">
+		<requirement race="hydran">
+			<obj>hbase.odf</obj>
+			<obj>hyard.odf</obj>
+			<cap>ShakurianCap</cap>
+		</requirement>
+	</object>
+</techtree>
