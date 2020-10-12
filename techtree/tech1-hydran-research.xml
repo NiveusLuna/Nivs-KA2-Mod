@@ -5,6 +5,7 @@
 		<requirement race="hydran">
 			<obj>hbase.odf</obj>
 			<obj>hresearcha.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Hull Research (Light Cruiser CL)-->
@@ -13,6 +14,7 @@
 			<obj>hbase.odf</obj>
 			<obj>hresearcha.odf</obj>
 			<obj>HydHull1.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Hull Research (Heavy Cruiser CA)-->
@@ -21,6 +23,7 @@
 			<obj>hbase.odf</obj>
 			<obj>hresearcha.odf</obj>
 			<obj>HydHull2.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Hull Research (Advanced Cruiser CC/MH)-->
@@ -29,6 +32,7 @@
 			<obj>hbase.odf</obj>
 			<obj>hresearcha.odf</obj>
 			<obj>HydHull3.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Hull Research (Capital DN/CV)-->
@@ -37,6 +41,7 @@
 			<obj>hbase.odf</obj>
 			<obj>hresearcha.odf</obj>
 			<obj>HydHull4.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Conversion Kit (Scout Frigate FS)-->
@@ -44,6 +49,7 @@
 		<requirement race="hydran">
 			<obj>hbase.odf</obj>
 			<obj>hresearchb.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Conversion Kit (Destroyer Leader DL)-->
@@ -53,6 +59,7 @@
 			<obj>hresearchb.odf</obj>
 			<obj>HydHull1.odf</obj>
 			<obj>HydMiscR2.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Conversion Kit (Hellbore Monitor MH)-->
@@ -62,6 +69,7 @@
 			<obj>hresearchb.odf</obj>
 			<obj>HydHull4.odf</obj>
 			<obj>HydMiscR3.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Conversion Kit (Fleet Carrier CV)-->
@@ -71,6 +79,7 @@
 			<obj>hresearchb.odf</obj>
 			<obj>HydHull5.odf</obj>
 			<obj>HydMiscR2.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Multi-Nacelled Designs - Advanced Cruisers &amp; Capitals)-->
@@ -80,6 +89,7 @@
 			<obj>hresearchc.odf</obj>
 			<obj>HydHull4.odf</obj>
 			<obj>hydpod24.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Fusion Beam Emitters)-->
@@ -88,6 +98,7 @@
 			<obj>hbase.odf</obj>
 			<obj>hresearchc.odf</obj>
 			<obj>HydHull1.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Multiple Hellbore Mounts)-->
@@ -95,6 +106,7 @@
 		<requirement race="hydran">
 			<obj>hbase.odf</obj>
 			<obj>hresearchc.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Fighter Miniaturisation)-->
@@ -103,6 +115,7 @@
 			<obj>hbase.odf</obj>
 			<obj>hresearchc.odf</obj>
 			<obj>hydpod24.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Photon Cannon)-->
@@ -113,6 +126,7 @@
 			<obj>HydMiscR2.odf</obj>
 			<obj>HydMiscR3.odf</obj>
 			<obj>hydpod21.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Proximity Photon Shells)-->
@@ -121,6 +135,7 @@
 			<obj>hbase.odf</obj>
 			<obj>hresearchc.odf</obj>
 			<obj>HydMiscR5.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Weapon Systems Recyclic Energy Circuitry - Weapon Systems Upgrade I)-->
@@ -128,6 +143,7 @@
 		<requirement race="hydran">
 			<obj>hbase.odf</obj>
 			<obj>hupgrade.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Remodulating Shield Harmonics Booster - Shield Systems Upgrade I)-->
@@ -135,6 +151,7 @@
 		<requirement race="hydran">
 			<obj>hbase.odf</obj>
 			<obj>hupgrade.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Sensor Package Plasma Detection Subroutines - Sensor Package Upgrade I)-->
@@ -142,6 +159,7 @@
 		<requirement race="hydran">
 			<obj>hbase.odf</obj>
 			<obj>hupgrade.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Warp Field Streamlining &amp; Impulse Drive Superconductors - Propulsion Systems Upgrade I)-->
@@ -149,6 +167,7 @@
 		<requirement race="hydran">
 			<obj>hbase.odf</obj>
 			<obj>hupgrade.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Life Support Redundancy Circuitry - Life Support Systems Upgrade I)-->
@@ -156,6 +175,7 @@
 		<requirement race="hydran">
 			<obj>hbase.odf</obj>
 			<obj>hupgrade.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Hyperrelay Weapon Capacitor - Weapon Systems Upgrade II)-->
@@ -163,6 +183,7 @@
 		<requirement race="hydran">
 			<obj>hbase.odf</obj>
 			<obj>hydpod11.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Auxilliary Shielding Generation Systems - Shield Systems Upgrade II)-->
@@ -170,6 +191,7 @@
 		<requirement race="hydran">
 			<obj>hbase.odf</obj>
 			<obj>hydpod12.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Unique Plasma Signature Detection Computer - Sensor Package Upgrade II)-->
@@ -177,6 +199,7 @@
 		<requirement race="hydran">
 			<obj>hbase.odf</obj>
 			<obj>hydpod13.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Engine System Additive Shielding - Propulsion Systems Upgrade II)-->
@@ -184,6 +207,7 @@
 		<requirement race="hydran">
 			<obj>hbase.odf</obj>
 			<obj>hydpod14.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Emergency Anti-Depressurisation Array - Life Support Systems Upgrade II)-->
@@ -191,6 +215,7 @@
 		<requirement race="hydran">
 			<obj>hbase.odf</obj>
 			<obj>hydpod15.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Planetary Shield (Hydran)-->
@@ -201,51 +226,57 @@
 	</object>
 	<!--***[ HYDRAN MIXED TECH ]*********************-->
 	<!--Federation Tech (Esplads) - Allied-->
-	<object ODF="HydMix1.odf">
+	<object ODF="HydMix1.odf" buttonHideUnavailable="true">
 		<requirement race="hydran">
 			<ally race="federation" />
 			<obj>hbase.odf</obj>
 			<obj>hresearchc.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Klingon Tech (AMFP) - Capture-->
 	<object ODF="HydMix2.odf">
-		<requirement race="hydran">
+		<requirement race="hydran" buttonHideUnavailable="true">
 			<obj>hbase.odf</obj>
 			<obj>hresearchc.odf</obj>
 			<obj>kconst.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Romulan Tech (Cloak) - Capture-->
 	<object ODF="HydMix3.odf">
-		<requirement race="hydran">
+		<requirement race="hydran" buttonHideUnavailable="true">
 			<obj>hbase.odf</obj>
 			<obj>hresearchc.odf</obj>
 			<obj>rconst.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Gorn Tech (GDDS) - Allied-->
 	<object ODF="HydMix4.odf">
-		<requirement race="hydran">
+		<requirement race="hydran" buttonHideUnavailable="true">
 			<ally race="klingon" />
 			<obj>hbase.odf</obj>
 			<obj>hresearchc.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--ISC Tech (PPD) - Capture-->
 	<object ODF="HydMix5.odf">
-		<requirement race="hydran">
+		<requirement race="hydran" buttonHideUnavailable="true">
 			<obj>hbase.odf</obj>
 			<obj>hresearchc.odf</obj>
 			<obj>iconst.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Lyran Tech (Offensive ESG) - Capture-->
 	<object ODF="HydMix6.odf">
-		<requirement race="hydran">
+		<requirement race="hydran" buttonHideUnavailable="true">
 			<obj>hbase.odf</obj>
 			<obj>hresearchc.odf</obj>
 			<obj>lconst.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Esplads (Sensor Post)-->
