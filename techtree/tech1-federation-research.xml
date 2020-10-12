@@ -316,7 +316,7 @@
 	</object>
 	<!--Planetary Shield (Federation)-->
 	<object ODF="shieldFederation.odf">
-		<requirement race="federation">
+		<requirement race="federation" buttonHideUnavailable="true">
 			<obj>fedpod22.odf</obj>
 		</requirement>
 	</object>

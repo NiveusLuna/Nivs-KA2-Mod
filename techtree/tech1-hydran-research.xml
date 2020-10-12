@@ -220,14 +220,14 @@
 	</object>
 	<!--Planetary Shield (Hydran)-->
 	<object ODF="shieldHydran.odf">
-		<requirement race="hydran">
+		<requirement race="hydran" buttonHideUnavailable="true">
 			<obj>hydpod22.odf</obj>
 		</requirement>
 	</object>
 	<!--***[ HYDRAN MIXED TECH ]*********************-->
 	<!--Federation Tech (Esplads) - Allied-->
-	<object ODF="HydMix1.odf" buttonHideUnavailable="true">
-		<requirement race="hydran">
+	<object ODF="HydMix1.odf">
+		<requirement race="hydran" buttonHideUnavailable="true">
 			<ally race="federation" />
 			<obj>hbase.odf</obj>
 			<obj>hresearchc.odf</obj>

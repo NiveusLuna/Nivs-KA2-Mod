@@ -269,7 +269,7 @@
 	</object>
 	<!--Planetary Shield (Gorn)-->
 	<object ODF="shieldGorn.odf">
-		<requirement race="klingon">
+		<requirement race="klingon" buttonHideUnavailable="true">
 			<obj>gorpod22.odf</obj>
 		</requirement>
 	</object>
