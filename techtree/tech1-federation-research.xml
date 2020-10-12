@@ -5,7 +5,7 @@
 		<requirement race="federation">
 			<obj>fbase.odf</obj>
 			<obj>fresearcha.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Hull Research (Light Cruiser CL)-->
@@ -14,7 +14,7 @@
 			<obj>fbase.odf</obj>
 			<obj>fresearcha.odf</obj>
 			<obj>fedHull1.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Hull Research (Heavy Cruiser CA)-->
@@ -23,7 +23,7 @@
 			<obj>fbase.odf</obj>
 			<obj>fresearcha.odf</obj>
 			<obj>fedhull2.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Hull Research (Command Cruiser CC)-->
@@ -32,7 +32,7 @@
 			<obj>fbase.odf</obj>
 			<obj>fresearcha.odf</obj>
 			<obj>fedhull3.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Hull Research (Battlecruiser BC)-->
@@ -41,7 +41,7 @@
 			<obj>fbase.odf</obj>
 			<obj>fresearcha.odf</obj>
 			<obj>fedhull4.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Hull Research (Dreadnought Modern DN)-->
@@ -50,7 +50,7 @@
 			<obj>fbase.odf</obj>
 			<obj>fresearcha.odf</obj>
 			<obj>fedhull5.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Hull Research (Battleship BB)-->
@@ -60,7 +60,7 @@
 			<obj>fresearcha.odf</obj>
 			<obj>fedhull6.odf</obj>
 			<obj>fedpod5.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Hull Research (Battleship Experimental BBX)-->
@@ -70,7 +70,7 @@
 			<obj>fresearcha.odf</obj>
 			<obj>fedhull7.odf</obj>
 			<obj>fedpod5.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Conversion Kit (Destroyer Leader DL)-->
@@ -80,7 +80,7 @@
 			<obj>fresearchb.odf</obj>
 			<obj>fedhull1.odf</obj>
 			<obj>FedMiscR2.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Conversion Kit (Gun Cruiser CG)-->
@@ -90,7 +90,7 @@
 			<obj>fresearchb.odf</obj>
 			<obj>fedhull2.odf</obj>
 			<obj>FedMiscR2.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Conversion Kit (Galactic Survey Cruiser GSC)-->
@@ -100,7 +100,7 @@
 			<obj>fresearchb.odf</obj>
 			<obj>fedhull3.odf</obj>
 			<obj>fedpod4.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Conversion Kit (Torpedo Cruiser CT)-->
@@ -111,7 +111,7 @@
 			<obj>fedhull3.odf</obj>
 			<obj>FedMiscR5.odf</obj>
 			<obj>Fedpod5.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Conversion Kit (New Heavy Cruiser NCA)-->
@@ -121,7 +121,7 @@
 			<obj>fresearchb.odf</obj>
 			<obj>fedhull4.odf</obj>
 			<obj>fedpod5.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Research Pod (Type II-U Warp Nacelles - Capital Ships)-->
@@ -130,7 +130,7 @@
 			<obj>fbase.odf</obj>
 			<obj>fresearchc.odf</obj>
 			<obj>FedHull6.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Research Pod (Type H Phaser Emitters - Megaphasers)-->
@@ -139,7 +139,7 @@
 			<obj>fbase.odf</obj>
 			<obj>fresearchc.odf</obj>
 			<obj>FedHull1.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Research Pod (Dual Warp Plasma Relays - Dual Warp Cores)-->
@@ -148,7 +148,7 @@
 			<obj>fbase.odf</obj>
 			<obj>fresearchc.odf</obj>
 			<obj>fedpod24.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Research Pod (Single Centreline Nacelles - Odd-Numbers of Warp Nacelles)-->
@@ -157,7 +157,7 @@
 			<obj>fbase.odf</obj>
 			<obj>fresearchc.odf</obj>
 			<obj>FedHull6.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Research Pod (Proximity Detonation Fuses - Proximity Torpedoes)-->
@@ -166,7 +166,7 @@
 			<obj>fbase.odf</obj>
 			<obj>fresearchc.odf</obj>
 			<obj>FedHull3.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Research Pod (Plasma Torpedo Weaponry - Federation Plasma Torpedoes)-->
@@ -175,7 +175,7 @@
 			<obj>fbase.odf</obj>
 			<obj>fresearchc.odf</obj>
 			<obj>fedpod21.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Research Pod (Superconductive Power Coils - Assault Phaser)-->
@@ -187,7 +187,7 @@
 			<obj>fsuperbl.odf</obj>
 			<obj>FedMiscR3.odf</obj>
 			<obj>fedpod21.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Research Pod (Reinforced Spinal Integrity Fields - Assault Phaser)-->
@@ -198,7 +198,7 @@
 			<obj>fedpod5.odf</obj>
 			<obj>fsuperbl.odf</obj>
 			<obj>fedpod22.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Research Pod (Reiterative Tractor Neam Circuitry - Quantum Wave-Carrier Beam)-->
@@ -207,7 +207,7 @@
 			<obj>fbase.odf</obj>
 			<obj>fresearchc.odf</obj>
 			<obj>FedHull4.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Research Pod (Enhanced Sensor Plasma Detection Techniques - Cloak Detection)-->
@@ -217,7 +217,7 @@
 			<obj>fresearchc.odf</obj>
 			<obj>fmonitoring.odf</obj>
 			<obj>fedpod23.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Research Pod (Enemy Vessel Report - Battleship Requisition)-->
@@ -226,7 +226,7 @@
 			<obj>fbase.odf</obj>
 			<obj>fresearchc.odf</obj>
 			<obj>FedHull6.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Research Pod (Weapon Systems Recyclic Energy Circuitry - Weapon Systems Upgrade I)-->
@@ -234,7 +234,7 @@
 		<requirement race="federation">
 			<obj>fbase.odf</obj>
 			<obj>fupgrade.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Research Pod (Remodulating Shield Harmonics Booster - Shield Systems Upgrade I)-->
@@ -242,7 +242,7 @@
 		<requirement race="federation">
 			<obj>fbase.odf</obj>
 			<obj>fupgrade.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Research Pod (Sensor Package Plasma Detection Subroutines - Sensor Package Upgrade I)-->
@@ -250,7 +250,7 @@
 		<requirement race="federation">
 			<obj>fbase.odf</obj>
 			<obj>fupgrade.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Research Pod (Warp Field Streamlining &amp; Impulse Drive Superconductors - Propulsion Systems Upgrade I)-->
@@ -258,7 +258,7 @@
 		<requirement race="federation">
 			<obj>fbase.odf</obj>
 			<obj>fupgrade.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Research Pod (Life Support Redundancy Circuitry - Life Support Systems Upgrade I)-->
@@ -266,7 +266,7 @@
 		<requirement race="federation">
 			<obj>fbase.odf</obj>
 			<obj>fupgrade.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Research Pod (Hyperrelay Weapon Capacitor - Weapon Systems Upgrade II)-->
@@ -275,7 +275,7 @@
 			<obj>fbase.odf</obj>
 			<obj>fedpod11.odf</obj>
 			<obj>fedpod5.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Research Pod (Auxilliary Shielding Generation Systems - Shield Systems Upgrade II)-->
@@ -284,7 +284,7 @@
 			<obj>fbase.odf</obj>
 			<obj>fedpod12.odf</obj>
 			<obj>fedpod5.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Research Pod (Unique Plasma Signature Detection Computer - Sensor Package Upgrade II)-->
@@ -293,7 +293,7 @@
 			<obj>fbase.odf</obj>
 			<obj>fedpod13.odf</obj>
 			<obj>fedpod5.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Research Pod (Engine System Additive Shielding - Propulsion Systems Upgrade II)-->
@@ -302,7 +302,7 @@
 			<obj>fbase.odf</obj>
 			<obj>fedpod14.odf</obj>
 			<obj>fedpod5.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Research Pod (Emergency Anti-Depressurisation Array - Life Support Systems Upgrade II)-->
@@ -311,7 +311,7 @@
 			<obj>fbase.odf</obj>
 			<obj>fedpod15.odf</obj>
 			<obj>fedpod5.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Planetary Shield (Federation)-->
@@ -327,7 +327,7 @@
 			<obj>fbase.odf</obj>
 			<obj>fresearchc.odf</obj>
 			<obj>kconst.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Romulan Tech (Cerberus) - Capture-->
@@ -336,7 +336,7 @@
 			<obj>fbase.odf</obj>
 			<obj>fresearchc.odf</obj>
 			<obj>rconst.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Gorn Tech (Excelsior-R) - Allied-->
@@ -345,7 +345,7 @@
 			<ally race="klingon" />
 			<obj>fbase.odf</obj>
 			<obj>fresearchc.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--ISC Tech (Jump Drives) - Capture-->
@@ -354,7 +354,7 @@
 			<obj>fbase.odf</obj>
 			<obj>fresearchc.odf</obj>
 			<obj>iconst.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Hydran Tech (Hornet-B) - Allied-->
@@ -363,7 +363,7 @@
 			<ally race="hydran" />
 			<obj>fbase.odf</obj>
 			<obj>fresearchc.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Lyran Tech (ESGs) - Capture-->
@@ -372,7 +372,7 @@
 			<obj>fbase.odf</obj>
 			<obj>fresearchc.odf</obj>
 			<obj>lconst.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Unique Dreadnought (USS Star Empire)-->
@@ -422,7 +422,7 @@
 	<object ODF="GFHoloGen.odf">
 		<requirement race="federation" buttonHideUnavailable="true">
 			<obj>FedMix2.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Jump Drives (Excelsior)-->

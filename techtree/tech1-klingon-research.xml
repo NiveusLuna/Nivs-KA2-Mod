@@ -6,7 +6,7 @@
 			<obj>kbase.odf</obj>
 			<obj>kresearcha.odf</obj>
 			<obj>klihull5.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Hull Research (D Series)-->
@@ -15,7 +15,7 @@
 			<obj>kbase.odf</obj>
 			<obj>kresearcha.odf</obj>
 			<obj>kliHull5.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Hull Research (C-I Series)-->
@@ -24,7 +24,7 @@
 			<obj>kbase.odf</obj>
 			<obj>kresearcha.odf</obj>
 			<obj>klihull2.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Hull Research (B Series)-->
@@ -33,7 +33,7 @@
 			<obj>kbase.odf</obj>
 			<obj>kresearcha.odf</obj>
 			<obj>kliHull3.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Hull Research (E Series)-->
@@ -41,7 +41,7 @@
 		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>kresearcha.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Conversion Kit (Science Frigate FS)-->
@@ -49,7 +49,7 @@
 		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>kresearchb.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Conversion Kit (Cargo Frigate FC)-->
@@ -57,7 +57,7 @@
 		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>kresearchb.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Conversion Kit (Destroyer Leader DL)-->
@@ -67,7 +67,7 @@
 			<obj>kresearchb.odf</obj>
 			<obj>klihull1.odf</obj>
 			<obj>klipod1.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Conversion Kit (Scout Cruiser CS)-->
@@ -77,7 +77,7 @@
 			<obj>kresearchb.odf</obj>
 			<obj>klihull2.odf</obj>
 			<obj>klipod23.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Conversion Kit (C-II Series Conversion)-->
@@ -86,7 +86,7 @@
 			<obj>kbase.odf</obj>
 			<obj>kresearchb.odf</obj>
 			<obj>klihull2.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Research Pod (Trilithium Depeleted Pellets - Heavy Photon Torpedoes)-->
@@ -95,7 +95,7 @@
 			<obj>kbase.odf</obj>
 			<obj>kresearchc.odf</obj>
 			<obj>kliequ5.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Research Pod (Dual Forward Torpedo Tubes - Capital Ships and Cruisers)-->
@@ -104,7 +104,7 @@
 			<obj>kbase.odf</obj>
 			<obj>kresearchc.odf</obj>
 			<obj>kliHull2.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Research Pod (Centreform Non-Propulsive Nacelles - Specialised Cruisers)-->
@@ -113,7 +113,7 @@
 			<obj>kbase.odf</obj>
 			<obj>kresearchc.odf</obj>
 			<obj>kliHull2.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Research Pod (Proximity Detonation Fuses - Proximity Torpedoes)-->
@@ -122,7 +122,7 @@
 			<obj>kbase.odf</obj>
 			<obj>kresearchc.odf</obj>
 			<obj>kliHull2.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Research Pod (Frequency Modulated Particle Weapons - FMPA Cannons)-->
@@ -131,7 +131,7 @@
 			<obj>kbase.odf</obj>
 			<obj>kresearchc.odf</obj>
 			<obj>kliHull5.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Research Pod (Dual Advanced Weapon Wing Mounts - Dual FMPA Cannons)-->
@@ -140,7 +140,7 @@
 			<obj>kbase.odf</obj>
 			<obj>kresearchc.odf</obj>
 			<obj>klipod1.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Research Pod (Gravitic Harmonous Resonator Examination - Captured Gorn Weapon)-->
@@ -149,7 +149,7 @@
 			<obj>kbase.odf</obj>
 			<obj>kresearchc.odf</obj>
 			<obj>kliequ5.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Research Pod (Anti-Matter Field Projection Technology - Heavy Weaponry)-->
@@ -158,7 +158,7 @@
 			<obj>kbase.odf</obj>
 			<obj>kresearchc.odf</obj>
 			<obj>klimiscR3.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Research Pod (Enhanced Warp Cores - Assault Phaser Power Capacitor)-->
@@ -168,7 +168,7 @@
 			<obj>kresearchc.odf</obj>
 			<obj>klimiscR3.odf</obj>
 			<obj>klipod24.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Research Pod (Modified Cloaking Fields - Project pIH D&apos;ktagh)-->
@@ -178,7 +178,7 @@
 			<obj>kresearchc.odf</obj>
 			<obj>ksuperbl.odf</obj>
 			<obj>klipod23.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Research Pod (Weapon Overload Systems - Weapon Systems Upgrade I)-->
@@ -186,7 +186,7 @@
 		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>kupgrade.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Research Pod (Rephased Shield Systems - Shield Systems Upgrade I)-->
@@ -194,7 +194,7 @@
 		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>kupgrade.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Research Pod (Sensor Reallignment - Sensor Package Upgrade I)-->
@@ -202,7 +202,7 @@
 		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>kupgrade.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Research Pod (Warp Field Manipulation - Propulsion Systems Upgrade I)-->
@@ -210,7 +210,7 @@
 		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>kupgrade.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Research Pod (Life Support Redundancy Systems - Life Support Systems Upgrade I)-->
@@ -218,7 +218,7 @@
 		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>kupgrade.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Research Pod (Disruptor Packet Power Booster - Weapon Systems Upgrade II)-->
@@ -226,7 +226,7 @@
 		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>klipod11.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Research Pod (Hyperphased Shield Modulation - Shield Systems Upgrade II)-->
@@ -234,7 +234,7 @@
 		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>klipod12.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Research Pod (Additive Sensor Power Relays - Sensor Package Upgrade II)-->
@@ -242,7 +242,7 @@
 		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>klipod13.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Research Pod (Hydrogen Injection Nozzles - Propulsion Systems Upgrade II)-->
@@ -250,7 +250,7 @@
 		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>klipod14.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Research Pod (Auxilliary Gravitational Field Generator - Life Support Systems Upgrade II)-->
@@ -258,7 +258,7 @@
 		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>klipod15.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!-- Planetary Shield -->
@@ -274,7 +274,7 @@
 			<obj>kbase.odf</obj>
 			<obj>kresearchc.odf</obj>
 			<obj>fconst.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Romulan Tech (Sensor Cloaking) - Allied-->
@@ -284,7 +284,7 @@
 			<obj>kresearchc.odf</obj>
 			<obj mustNotHave="true">KliMix3.odf</obj>
 			<ally race="romulan"/>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Romulan Tech (Sensor Cloaking) - Capture-->
@@ -294,7 +294,7 @@
 			<obj>kresearchc.odf</obj>
 			<obj>rconst.odf</obj>
 			<obj mustNotHave="true">KliMix2.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Gorn Tech (Qeh&apos;Ral) - Capture-->
@@ -303,7 +303,7 @@
 			<obj>kbase.odf</obj>
 			<obj>kresearchc.odf</obj>
 			<obj>gconst.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--ISC Tech (Grappler Beam) - Capture-->
@@ -312,7 +312,7 @@
 			<obj>kbase.odf</obj>
 			<obj>kresearchc.odf</obj>
 			<obj>iconst.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Hydran Tech (Steelfist) - Capture-->
@@ -321,7 +321,7 @@
 			<obj>kbase.odf</obj>
 			<obj>kresearchc.odf</obj>
 			<obj>hconst.odf</obj>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Lyran Tech (ESGs) - Allied-->
@@ -330,7 +330,7 @@
 			<obj>kbase.odf</obj>
 			<obj>kresearchc.odf</obj>
 			<ally race="lyran"/>
-			<cap maxCapValue="1" />
+			<cap maxCapValue="1" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Unique Battleship (IKS Qeh&apos;ral)-->
