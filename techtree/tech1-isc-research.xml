@@ -5,6 +5,7 @@
 		<requirement race="borg">
 			<obj>ibase.odf</obj>
 			<obj>iresearcha.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Destroyer Leader Hull)-->
@@ -13,6 +14,7 @@
 			<obj>ibase.odf</obj>
 			<obj>iresearcha.odf</obj>
 			<obj>ISCHull1.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Light Cruiser Hull)-->
@@ -21,6 +23,7 @@
 			<obj>ibase.odf</obj>
 			<obj>iresearcha.odf</obj>
 			<obj>ISCHull2.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Heavy Cruiser Hull)-->
@@ -29,6 +32,7 @@
 			<obj>ibase.odf</obj>
 			<obj>iresearcha.odf</obj>
 			<obj>ISCHull3.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Star Cruiser Hull)-->
@@ -37,6 +41,7 @@
 			<obj>ibase.odf</obj>
 			<obj>iresearcha.odf</obj>
 			<obj>ISCHull4.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Dreadnought Hull)-->
@@ -45,6 +50,7 @@
 			<obj>ibase.odf</obj>
 			<obj>iresearcha.odf</obj>
 			<obj>ISCHull5.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Fleet Carrier Hull)-->
@@ -53,6 +59,7 @@
 			<obj>ibase.odf</obj>
 			<obj>iresearcha.odf</obj>
 			<obj>ISCHull6.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Scout Conversion)-->
@@ -60,6 +67,7 @@
 		<requirement race="borg">
 			<obj>ibase.odf</obj>
 			<obj>iresearchb.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Frigate Refit)-->
@@ -69,6 +77,7 @@
 			<obj>iresearchb.odf</obj>
 			<obj>ISCMiscR2.odf</obj>
 			<obj>ISCMiscR3.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Destroyer Refits)-->
@@ -81,6 +90,7 @@
 			<obj>ISCMiscR2.odf</obj>
 			<obj>ISCMiscR3.odf</obj>
 			<obj>ISCEqu2.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Light Command Cruiser Conversion)-->
@@ -91,6 +101,7 @@
 			<obj>ISCHull3.odf</obj>
 			<obj>ISCMiscR5.odf</obj>
 			<obj>ISCMiscR3.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Torpedo Cruiser Conversion)-->
@@ -102,6 +113,7 @@
 			<obj>ISCMiscR8.odf</obj>
 			<obj>ISCMiscR4.odf</obj>
 			<obj>ISCPod21.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Heavy Cruiser Refit)-->
@@ -113,6 +125,7 @@
 			<obj>ISCMiscR2.odf</obj>
 			<obj>ISCMiscR4.odf</obj>
 			<obj>ISCEqu3.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Dreadnought Refit)-->
@@ -125,6 +138,7 @@
 			<obj>ISCMiscR4.odf</obj>
 			<obj>ISCEqu6.odf</obj>
 			<obj>ISCPod21.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Colony Ship Conversion)-->
@@ -133,6 +147,7 @@
 			<obj>ibase.odf</obj>
 			<obj>iresearchb.odf</obj>
 			<obj>ISCMiscR3.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Troop Transport Conversion)-->
@@ -141,6 +156,7 @@
 			<obj>ibase.odf</obj>
 			<obj>iresearchb.odf</obj>
 			<obj>ISCMiscR4.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Plasmatic Pulsars)-->
@@ -148,6 +164,7 @@
 		<requirement race="borg">
 			<obj>ibase.odf</obj>
 			<obj>iresearchc.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Subspace Rifts)-->
@@ -155,6 +172,7 @@
 		<requirement race="borg">
 			<obj>ibase.odf</obj>
 			<obj>iresearchc.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Subspace Portals)-->
@@ -164,6 +182,7 @@
 			<obj>iresearchc.odf</obj>
 			<obj>ISCPod2.odf</obj>
 			<obj>ISCPod23.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Heavy Disruptors)-->
@@ -171,6 +190,7 @@
 		<requirement race="borg">
 			<obj>ibase.odf</obj>
 			<obj>iresearchc.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Cruiser Operations)-->
@@ -180,6 +200,7 @@
 			<obj>iresearchc.odf</obj>
 			<obj>iresearchb.odf</obj>
 			<obj>iresearcha.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Full Scale Pacification)-->
@@ -189,6 +210,7 @@
 			<obj>iresearchc.odf</obj>
 			<obj>ISCMiscR3.odf</obj>
 			<obj>iupgrade.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Light Plasmatic Pulsar Device)-->
@@ -197,6 +219,7 @@
 			<obj>ibase.odf</obj>
 			<obj>iresearchc.odf</obj>
 			<obj>ISCPod1.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Standard Plasmatic Pulsar Device)-->
@@ -205,6 +228,7 @@
 			<obj>ibase.odf</obj>
 			<obj>iresearchc.odf</obj>
 			<obj>ISCMiscR5.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Heavy Plasmatic Pulsar Device)-->
@@ -214,6 +238,7 @@
 			<obj>iresearchc.odf</obj>
 			<obj>ISCMiscR6.odf</obj>
 			<obj>ISCMiscR4.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Burst Photon Torpedoes)-->
@@ -222,6 +247,7 @@
 			<obj>ibase.odf</obj>
 			<obj>iresearchc.odf</obj>
 			<obj>ISCMiscR4.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Weapon Systems Recyclic Energy Circuitry - Weapon Systems Upgrade I)-->
@@ -229,6 +255,7 @@
 		<requirement race="borg">
 			<obj>ibase.odf</obj>
 			<obj>iupgrade.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Remodulating Shield Harmonics Booster - Shield Systems Upgrade I)-->
@@ -236,6 +263,7 @@
 		<requirement race="borg">
 			<obj>ibase.odf</obj>
 			<obj>iupgrade.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Sensor Package Plasma Detection Subroutines - Sensor Package Upgrade I)-->
@@ -243,6 +271,7 @@
 		<requirement race="borg">
 			<obj>ibase.odf</obj>
 			<obj>iupgrade.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Warp Field Streamlining &amp; Impulse Drive Superconductors - Propulsion Systems Upgrade I)-->
@@ -250,6 +279,7 @@
 		<requirement race="borg">
 			<obj>ibase.odf</obj>
 			<obj>iupgrade.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Life Support Redundancy Circuitry - Life Support Systems Upgrade I)-->
@@ -257,6 +287,7 @@
 		<requirement race="borg">
 			<obj>ibase.odf</obj>
 			<obj>iupgrade.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Hyperrelay Weapon Capacitor - Weapon Systems Upgrade II)-->
@@ -264,6 +295,7 @@
 		<requirement race="borg">
 			<obj>ibase.odf</obj>
 			<obj>ISCPod11.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Auxilliary Shielding Generation Systems - Shield Systems Upgrade II)-->
@@ -271,6 +303,7 @@
 		<requirement race="borg">
 			<obj>ibase.odf</obj>
 			<obj>ISCPod12.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Unique Plasma Signature Detection Computer - Sensor Package Upgrade II)-->
@@ -278,6 +311,7 @@
 		<requirement race="borg">
 			<obj>ibase.odf</obj>
 			<obj>ISCPod13.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Engine System Additive Shielding - Propulsion Systems Upgrade II)-->
@@ -285,6 +319,7 @@
 		<requirement race="borg">
 			<obj>ibase.odf</obj>
 			<obj>ISCPod14.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Emergency Anti-Depressurisation Array - Life Support Systems Upgrade II)-->
@@ -292,6 +327,7 @@
 		<requirement race="borg">
 			<obj>ibase.odf</obj>
 			<obj>ISCPod15.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Planetary Shield (ISC)-->
@@ -307,6 +343,7 @@
 			<obj>ibase.odf</obj>
 			<obj>iresearchc.odf</obj>
 			<obj>fconst.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Klingon Tech (Grappler) - Capture-->
@@ -315,6 +352,7 @@
 			<obj>ibase.odf</obj>
 			<obj>iresearchc.odf</obj>
 			<obj>kconst.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Romulan Tech (Cloak) - Capture-->
@@ -323,6 +361,7 @@
 			<obj>ibase.odf</obj>
 			<obj>iresearchc.odf</obj>
 			<obj>rconst.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Gorn Tech (GHRC) - Capture-->
@@ -331,6 +370,7 @@
 			<obj>ibase.odf</obj>
 			<obj>iresearchc.odf</obj>
 			<obj>gconst.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Hydran Tech (FA-IX Fighter) - Capture-->
@@ -339,6 +379,7 @@
 			<obj>ibase.odf</obj>
 			<obj>iresearchc.odf</obj>
 			<obj>hconst.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Lyran Tech (Defensive ESG) - Capture-->
@@ -347,6 +388,7 @@
 			<obj>ibase.odf</obj>
 			<obj>iresearchc.odf</obj>
 			<obj>lconst.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Fighter (Type FA-IX)-->
