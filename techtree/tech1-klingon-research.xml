@@ -362,7 +362,7 @@
 		</requirement>
 	</object>
 	<!--Grappler (Suspicious-C Class KFC)-->
-	<object ODF="gHoldBm.odf">
+	<object ODF="gkgrappler.odf">
 		<requirement race="cardassian" buttonHideUnavailable="true">
 			<obj>KliMix5.odf</obj>
 		</requirement>
