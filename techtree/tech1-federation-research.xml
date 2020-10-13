@@ -418,8 +418,6 @@
 			<obj>FedMix5.odf</obj>
 		</requirement>
 	</object>
-	<!-- Upgraded Hangar -->
-	<object ODF="FHangarB.odf" />
 	<!--Holographic Generator-->
 	<object ODF="GFHoloGen.odf">
 		<requirement race="federation" buttonHideUnavailable="true">
