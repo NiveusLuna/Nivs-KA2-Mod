@@ -1,0 +1,342 @@
+<techtree>
+	<!--***[ LYRAN RESEARCH PROJECTS ]*********************-->
+	<!--Hull Research (Destroyer DD)-->
+	<object ODF="LyrHull1.odf">
+		<requirement race="lyran">
+			<obj>lbase.odf</obj>
+			<obj>lresearcha.odf</obj>
+		</requirement>
+	</object>
+	<!--Hull Research (Light Cruiser CL)-->
+	<object ODF="LyrHull2.odf">
+		<requirement race="lyran">
+			<obj>lbase.odf</obj>
+			<obj>lresearcha.odf</obj>
+			<obj>LyrHull1.odf</obj>
+		</requirement>
+	</object>
+	<!--Hull Research (Heavy Cruiser CA)-->
+	<object ODF="LyrHull3.odf">
+		<requirement race="lyran">
+			<obj>lbase.odf</obj>
+			<obj>lresearcha.odf</obj>
+			<obj>LyrHull2.odf</obj>
+		</requirement>
+	</object>
+	<!--Hull Research (Battlecruiser BC/MH)-->
+	<object ODF="LyrHull4.odf">
+		<requirement race="lyran">
+			<obj>lbase.odf</obj>
+			<obj>lresearcha.odf</obj>
+			<obj>LyrHull3.odf</obj>
+		</requirement>
+	</object>
+	<!--Hull Research (Capital DN/CV)-->
+	<object ODF="LyrHull5.odf">
+		<requirement race="lyran">
+			<obj>lbase.odf</obj>
+			<obj>lresearcha.odf</obj>
+			<obj>LyrHull4.odf</obj>
+		</requirement>
+	</object>
+	<!--Conversion Kit (Scout Frigate FS)-->
+	<object ODF="LyrEqu1.odf">
+		<requirement race="lyran">
+			<obj>lbase.odf</obj>
+			<obj>lresearchb.odf</obj>
+		</requirement>
+	</object>
+	<!--Conversion Kit (Guided Missile Monitor MNG)-->
+	<object ODF="LyrEqu2.odf">
+		<requirement race="lyran">
+			<obj>lbase.odf</obj>
+			<obj>lresearchb.odf</obj>
+			<obj>LyrHull3.odf</obj>
+		</requirement>
+	</object>
+	<!--Conversion Kit (Battleship BB)-->
+	<object ODF="LyrEqu3.odf">
+		<requirement race="lyran">
+			<obj>lbase.odf</obj>
+			<obj>lresearchb.odf</obj>
+			<obj>LyrHull4.odf</obj>
+			<obj>LyrHull5.odf</obj>
+		</requirement>
+	</object>
+	<!--Conversion Kit (Pseudo-Fighter Tender)-->
+	<object ODF="LyrEqu4.odf">
+		<requirement race="lyran">
+			<obj>lbase.odf</obj>
+			<obj>lresearchb.odf</obj>
+			<obj>LyrHull3.odf</obj>
+			<obj>LyrHull5.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Multi-Barrel Heavy Disruptors)-->
+	<object ODF="LyrMiscR1.odf">
+		<requirement race="lyran">
+			<obj>lbase.odf</obj>
+			<obj>lresearchc.odf</obj>
+			<obj>LyrHull4.odf</obj>
+			<obj>lyrpod24.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Heavy Phaser Cannon)-->
+	<object ODF="LyrMiscR2.odf">
+		<requirement race="lyran">
+			<obj>lbase.odf</obj>
+			<obj>lresearchc.odf</obj>
+			<obj>LyrHull1.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Underway Replenishment)-->
+	<object ODF="LyrMiscR3.odf">
+		<requirement race="lyran">
+			<obj>lbase.odf</obj>
+			<obj>lresearchc.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Energy Sphere Generation)-->
+	<object ODF="LyrMiscR4.odf">
+		<requirement race="lyran">
+			<obj>lbase.odf</obj>
+			<obj>lresearchc.odf</obj>
+			<obj>lyrpod24.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Mauler Cannon)-->
+	<object ODF="LyrMiscR5.odf">
+		<requirement race="lyran">
+			<obj>lbase.odf</obj>
+			<obj>lresearchc.odf</obj>
+			<obj>LyrMiscR2.odf</obj>
+			<obj>LyrMiscR3.odf</obj>
+			<obj>lyrpod21.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Cruise Missile)-->
+	<object ODF="LyrMiscR6.odf">
+		<requirement race="lyran">
+			<obj>lbase.odf</obj>
+			<obj>lresearchc.odf</obj>
+			<obj>LyrMiscR5.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Weapon Overload Systems - Weapon Systems Upgrade I)-->
+	<object ODF="lyrpod11.odf">
+		<requirement race="lyran">
+			<obj>lbase.odf</obj>
+			<obj>lupgrade.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Rephased Shield Systems - Shield Systems Upgrade I)-->
+	<object ODF="lyrpod12.odf">
+		<requirement race="lyran">
+			<obj>lbase.odf</obj>
+			<obj>lupgrade.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Sensor Reallignment - Sensor Package Upgrade I)-->
+	<object ODF="lyrpod13.odf">
+		<requirement race="lyran">
+			<obj>lbase.odf</obj>
+			<obj>lupgrade.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Warp Field Manipulation - Propulsion Systems Upgrade I)-->
+	<object ODF="lyrpod14.odf">
+		<requirement race="lyran">
+			<obj>lbase.odf</obj>
+			<obj>lupgrade.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Life Support Redundancy Systems - Life Support Systems Upgrade I)-->
+	<object ODF="lyrpod15.odf">
+		<requirement race="lyran">
+			<obj>lbase.odf</obj>
+			<obj>lupgrade.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Disruptor Packet Power Booster - Weapon Systems Upgrade II)-->
+	<object ODF="lyrpod21.odf">
+		<requirement race="lyran">
+			<obj>lbase.odf</obj>
+			<obj>lyrpod11.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Hyperphased Shield Modulation - Shield Systems Upgrade II)-->
+	<object ODF="lyrpod22.odf">
+		<requirement race="lyran">
+			<obj>lbase.odf</obj>
+			<obj>lyrpod12.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Additive Sensor Power Relays - Sensor Package Upgrade II)-->
+	<object ODF="lyrpod23.odf">
+		<requirement race="lyran">
+			<obj>lbase.odf</obj>
+			<obj>lyrpod13.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Hydrogen Injection Nozzles - Propulsion Systems Upgrade II)-->
+	<object ODF="lyrpod24.odf">
+		<requirement race="lyran">
+			<obj>lbase.odf</obj>
+			<obj>lyrpod14.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Auxilliary Gravitational Field Generator - Life Support Systems Upgrade II)-->
+	<object ODF="lyrpod25.odf">
+		<requirement race="lyran">
+			<obj>lbase.odf</obj>
+			<obj>lyrpod15.odf</obj>
+		</requirement>
+	</object>
+	<!--Planetary Shield (Lyran)-->
+	<object ODF="shieldLyran.odf">
+		<requirement race="lyran" buttonHideUnavailable="true">
+			<obj>lyrpod22.odf</obj>
+		</requirement>
+	</object>
+	<!--***[ LYRAN MIXED TECH ]*********************-->
+	<!--Federation Tech (EsPlaD) - Capture-->
+	<object ODF="LyrMix1.odf">
+		<requirement race="lyran" buttonHideUnavailable="true">
+			<obj>lbase.odf</obj>
+			<obj>lresearchc.odf</obj>
+			<obj>fconst.odf</obj>
+		</requirement>
+	</object>
+	<!--Klingon Tech (Grappler Beam) - Allied-->
+	<object ODF="LyrMix2.odf">
+		<requirement race="lyran" buttonHideUnavailable="true">
+			<obj>lbase.odf</obj>
+			<obj>lresearchc.odf</obj>
+		</requirement>
+	</object>
+	<!--Romulan Tech (Scout Cloaking) - Allied-->
+	<object ODF="LyrMix3.odf">
+		<requirement race="lyran" buttonHideUnavailable="true">
+			<obj>lbase.odf</obj>
+			<obj>lresearchc.odf</obj>
+			<ally race="romulan" />
+			<obj mustNotHave="true">LyrMix4.odf</obj>
+		</requirement>
+	</object>
+	<!--Romulan Tech (Scout Cloaking) - Capture-->
+	<object ODF="LyrMix4.odf">
+		<requirement race="lyran" buttonHideUnavailable="true">
+			<obj>lbase.odf</obj>
+			<obj>lresearchc.odf</obj>
+			<obj>rconst.odf</obj>
+			<obj mustNotHave="true">LyrMix3.odf</obj>
+		</requirement>
+	</object>
+	<!--Gorn Tech (GHRC) - Capture-->
+	<object ODF="LyrMix5.odf">
+		<requirement race="lyran" buttonHideUnavailable="true">
+			<obj>lbase.odf</obj>
+			<obj>lresearchc.odf</obj>
+			<obj>gconst.odf</obj>
+		</requirement>
+	</object>
+	<!--ISC Tech (Jump Drive) - Capture-->
+	<object ODF="LyrMix6.odf">
+		<requirement race="lyran" buttonHideUnavailable="true">
+			<obj>lbase.odf</obj>
+			<obj>lresearchc.odf</obj>
+			<obj>iconst.odf</obj>
+		</requirement>
+	</object>
+	<!--Hydran Tech (Occilot LPF) - Capture-->
+	<object ODF="LyrMix7.odf">
+		<requirement race="lyran" buttonHideUnavailable="true">
+			<obj>lbase.odf</obj>
+			<obj>lresearchc.odf</obj>
+			<obj>hconst.odf</obj>
+		</requirement>
+	</object>
+	<!--Pseudo-Fighter (Occilot LPF)-->
+	<object ODF="lpfighterb.odf">
+		<requirement race="lyran">
+			<obj>lbase.odf</obj>
+			<obj>loutpost.odf</obj>
+			<obj>LyrMiscR2.odf</obj>
+			<obj>LyrMiscR3.odf</obj>
+			<obj>LyrMix7.odf</obj>
+		</requirement>
+	</object>
+	<!--Cloak Detection (Sensor Post)-->
+	<object ODF="gDetectL.odf">
+		<requirement race="lyran">
+			<obj>LyrMix1.odf</obj>
+		</requirement>
+	</object>
+	<!--Grappler (Serval Class LAPA)-->
+	<object ODF="gLGrappler.odf">
+		<requirement race="lyran" buttonHideUnavailable="true">
+			<obj>LyrMix2.odf</obj>
+		</requirement>
+	</object>
+	<!--Cloak (Wildcat Class LFS - Frenemy)-->
+	<object ODF="gLCloak.odf">
+		<requirement race="lyran" buttonHideUnavailable="true">
+			<obj>LyrMix3.odf</obj>
+		</requirement>
+		<requirement race="lyran" buttonHideUnavailable="true">
+			<obj>LyrMix4.odf</obj>
+		</requirement>
+	</object>
+	<!--GHRC (Caracal Class LDD)-->
+	<object ODF="gLGHRC.odf">
+		<requirement race="lyran" buttonHideUnavailable="true">
+			<obj>LyrMix5.odf</obj>
+		</requirement>
+	</object>
+	<!--Subspace Jump Drive (Wildcat Class LFS)-->
+	<object ODF="gLSSJD.odf">
+		<requirement race="lyran" buttonHideUnavailable="true">
+			<obj>LyrMix6.odf</obj>
+		</requirement>
+	</object>
+	<!--Carrier Upgrade-->
+	<object ODF="LCarrierUp.odf">
+		<requirement race="lyran" buttonHideUnavailable="true">
+			<obj>LyrMix7.odf</obj>
+		</requirement>
+	</object>
+	<!--Upgraded Carrier-->
+	<object ODF="lcarrierb.odf">
+		<requirement race="lyran">
+			<obj>LyrMix7.odf</obj>
+		</requirement>
+	</object>
+	<!--Outpost Upgrade-->
+	<object ODF="LStationUp.odf" buttonHideUnavailable="true">
+		<requirement race="lyran">
+			<obj>LyrMix7.odf</obj>
+		</requirement>
+	</object>
+	<!--Upgraded Outpost-->
+	<object ODF="LOutpostB.odf">
+		<requirement race="lyran">
+			<obj>LyrMix7.odf</obj>
+		</requirement>
+	</object>
+	<!--Orion Pirate Warp-In Ability-->
+	<object ODF="LOrionWarpIn.odf">
+		<requirement race="lyran">
+			<obj>lbase.odf</obj>
+			<obj>lyard.odf</obj>
+			<cap>OrionCap</cap>
+		</requirement>
+	</object>
+	<!--ShaKurian Mercenary Warp-In Ability-->
+	<object ODF="LShakurianWarpIn.odf">
+		<requirement race="lyran">
+			<obj>lbase.odf</obj>
+			<obj>lyard.odf</obj>
+			<cap>ShakurianCap</cap>
+		</requirement>
+	</object>
+</techtree>
