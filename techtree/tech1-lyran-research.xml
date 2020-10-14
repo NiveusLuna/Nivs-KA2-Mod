@@ -5,6 +5,7 @@
 		<requirement race="lyran">
 			<obj>lbase.odf</obj>
 			<obj>lresearcha.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Hull Research (Light Cruiser CL)-->
@@ -13,6 +14,7 @@
 			<obj>lbase.odf</obj>
 			<obj>lresearcha.odf</obj>
 			<obj>LyrHull1.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Hull Research (Heavy Cruiser CA)-->
@@ -21,6 +23,7 @@
 			<obj>lbase.odf</obj>
 			<obj>lresearcha.odf</obj>
 			<obj>LyrHull2.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Hull Research (Battlecruiser BC/MH)-->
@@ -29,6 +32,7 @@
 			<obj>lbase.odf</obj>
 			<obj>lresearcha.odf</obj>
 			<obj>LyrHull3.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Hull Research (Capital DN/CV)-->
@@ -37,6 +41,7 @@
 			<obj>lbase.odf</obj>
 			<obj>lresearcha.odf</obj>
 			<obj>LyrHull4.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Conversion Kit (Scout Frigate FS)-->
@@ -44,6 +49,7 @@
 		<requirement race="lyran">
 			<obj>lbase.odf</obj>
 			<obj>lresearchb.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Conversion Kit (Guided Missile Monitor MNG)-->
@@ -52,6 +58,7 @@
 			<obj>lbase.odf</obj>
 			<obj>lresearchb.odf</obj>
 			<obj>LyrHull3.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Conversion Kit (Battleship BB)-->
@@ -61,6 +68,7 @@
 			<obj>lresearchb.odf</obj>
 			<obj>LyrHull4.odf</obj>
 			<obj>LyrHull5.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Conversion Kit (Pseudo-Fighter Tender)-->
@@ -70,6 +78,7 @@
 			<obj>lresearchb.odf</obj>
 			<obj>LyrHull3.odf</obj>
 			<obj>LyrHull5.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Multi-Barrel Heavy Disruptors)-->
@@ -79,6 +88,7 @@
 			<obj>lresearchc.odf</obj>
 			<obj>LyrHull4.odf</obj>
 			<obj>lyrpod24.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Heavy Phaser Cannon)-->
@@ -87,6 +97,7 @@
 			<obj>lbase.odf</obj>
 			<obj>lresearchc.odf</obj>
 			<obj>LyrHull1.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Underway Replenishment)-->
@@ -94,6 +105,7 @@
 		<requirement race="lyran">
 			<obj>lbase.odf</obj>
 			<obj>lresearchc.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Energy Sphere Generation)-->
@@ -102,6 +114,7 @@
 			<obj>lbase.odf</obj>
 			<obj>lresearchc.odf</obj>
 			<obj>lyrpod24.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Mauler Cannon)-->
@@ -112,6 +125,7 @@
 			<obj>LyrMiscR2.odf</obj>
 			<obj>LyrMiscR3.odf</obj>
 			<obj>lyrpod21.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Cruise Missile)-->
@@ -120,6 +134,7 @@
 			<obj>lbase.odf</obj>
 			<obj>lresearchc.odf</obj>
 			<obj>LyrMiscR5.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Weapon Overload Systems - Weapon Systems Upgrade I)-->
@@ -127,6 +142,7 @@
 		<requirement race="lyran">
 			<obj>lbase.odf</obj>
 			<obj>lupgrade.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Rephased Shield Systems - Shield Systems Upgrade I)-->
@@ -134,6 +150,7 @@
 		<requirement race="lyran">
 			<obj>lbase.odf</obj>
 			<obj>lupgrade.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Sensor Reallignment - Sensor Package Upgrade I)-->
@@ -141,6 +158,7 @@
 		<requirement race="lyran">
 			<obj>lbase.odf</obj>
 			<obj>lupgrade.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Warp Field Manipulation - Propulsion Systems Upgrade I)-->
@@ -148,6 +166,7 @@
 		<requirement race="lyran">
 			<obj>lbase.odf</obj>
 			<obj>lupgrade.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Life Support Redundancy Systems - Life Support Systems Upgrade I)-->
@@ -155,6 +174,7 @@
 		<requirement race="lyran">
 			<obj>lbase.odf</obj>
 			<obj>lupgrade.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Disruptor Packet Power Booster - Weapon Systems Upgrade II)-->
@@ -162,6 +182,7 @@
 		<requirement race="lyran">
 			<obj>lbase.odf</obj>
 			<obj>lyrpod11.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Hyperphased Shield Modulation - Shield Systems Upgrade II)-->
@@ -169,6 +190,7 @@
 		<requirement race="lyran">
 			<obj>lbase.odf</obj>
 			<obj>lyrpod12.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Additive Sensor Power Relays - Sensor Package Upgrade II)-->
@@ -176,6 +198,7 @@
 		<requirement race="lyran">
 			<obj>lbase.odf</obj>
 			<obj>lyrpod13.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Hydrogen Injection Nozzles - Propulsion Systems Upgrade II)-->
@@ -183,6 +206,7 @@
 		<requirement race="lyran">
 			<obj>lbase.odf</obj>
 			<obj>lyrpod14.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Auxilliary Gravitational Field Generator - Life Support Systems Upgrade II)-->
@@ -190,6 +214,7 @@
 		<requirement race="lyran">
 			<obj>lbase.odf</obj>
 			<obj>lyrpod15.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Planetary Shield (Lyran)-->
@@ -205,6 +230,7 @@
 			<obj>lbase.odf</obj>
 			<obj>lresearchc.odf</obj>
 			<obj>fconst.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Klingon Tech (Grappler Beam) - Allied-->
@@ -212,6 +238,7 @@
 		<requirement race="lyran" buttonHideUnavailable="true">
 			<obj>lbase.odf</obj>
 			<obj>lresearchc.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Romulan Tech (Scout Cloaking) - Allied-->
@@ -221,6 +248,7 @@
 			<obj>lresearchc.odf</obj>
 			<ally race="romulan" />
 			<obj mustNotHave="true">LyrMix4.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Romulan Tech (Scout Cloaking) - Capture-->
@@ -230,6 +258,7 @@
 			<obj>lresearchc.odf</obj>
 			<obj>rconst.odf</obj>
 			<obj mustNotHave="true">LyrMix3.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Gorn Tech (GHRC) - Capture-->
@@ -238,6 +267,7 @@
 			<obj>lbase.odf</obj>
 			<obj>lresearchc.odf</obj>
 			<obj>gconst.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--ISC Tech (Jump Drive) - Capture-->
@@ -246,6 +276,7 @@
 			<obj>lbase.odf</obj>
 			<obj>lresearchc.odf</obj>
 			<obj>iconst.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Hydran Tech (Occilot LPF) - Capture-->
@@ -254,6 +285,7 @@
 			<obj>lbase.odf</obj>
 			<obj>lresearchc.odf</obj>
 			<obj>hconst.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Pseudo-Fighter (Occilot LPF)-->
