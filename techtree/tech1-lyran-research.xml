@@ -238,6 +238,7 @@
 		<requirement race="lyran" buttonHideUnavailable="true">
 			<obj>lbase.odf</obj>
 			<obj>lresearchc.odf</obj>
+			<ally race="cardassian" />
 			<cap maxCapValue="1" />
 		</requirement>
 	</object>
