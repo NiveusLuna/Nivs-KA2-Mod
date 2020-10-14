@@ -344,8 +344,8 @@
 		</requirement>
 	</object>
 	<!--Outpost Upgrade-->
-	<object ODF="LStationUp.odf" buttonHideUnavailable="true">
-		<requirement race="lyran">
+	<object ODF="LStationUp.odf">
+		<requirement race="lyran" buttonHideUnavailable="true">
 			<obj>LyrMix7.odf</obj>
 		</requirement>
 	</object>
