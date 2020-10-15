@@ -1,0 +1,168 @@
+<techtree>
+	<!--***[ THOLIAN RESEARCH PROJECTS ]*********************-->
+	<!--Hull Research (Enlarged Basic Hull)-->
+	<object ODF="ThoHull1.odf">
+		<requirement>
+			<obj>TresearB.odf</obj>
+		</requirement>
+	</object>
+	<!--Hull Research (Neo-Tholian Hull - 1/4 Sized Prototype)-->
+	<object ODF="ThoHull2.odf">
+		<requirement>
+			<obj>TresearB.odf</obj>
+			<obj>ThoMiscR3.odf</obj>
+		</requirement>
+	</object>
+	<!--Hull Research (Neo-Tholian Hull - Developmental Hull)-->
+	<object ODF="ThoHull3.odf">
+		<requirement>
+			<obj>TresearB.odf</obj>
+			<obj>ThoHull2.odf</obj>
+		</requirement>
+	</object>
+	<!--Hull Research (Neo-Tholian Hull - Full Size Neo-Tholian Hull)-->
+	<object ODF="ThoHull4.odf">
+		<requirement>
+			<obj>TresearB.odf</obj>
+			<obj>ThoHull3.odf</obj>
+		</requirement>
+	</object>
+	<!--Conversion Kit (Neo-Tholian Enhancement - Cruiser)-->
+	<object ODF="ThoEqu1.odf">
+		<requirement>
+			<obj>TresearC.odf</obj>
+			<obj>ThoHull1.odf</obj>
+			<obj>ThoMiscR2.odf</obj>
+		</requirement>
+	</object>
+	<!--Conversion Kit (Monitor Conversion)-->
+	<object ODF="ThoEqu2.odf">
+		<requirement>
+			<obj>TresearC.odf</obj>
+			<obj>ThoEqu1.odf</obj>
+			<obj>ThoMiscR1.odf</obj>
+		</requirement>
+	</object>
+	<!--Conversion Kit (Battleship Conversion)-->
+	<object ODF="ThoEqu3.odf">
+		<requirement>
+			<obj>TresearC.odf</obj>
+			<obj>ThoMiscR1.odf</obj>
+			<obj>ThoHull4.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Heavy Disruptor Battery Research)-->
+	<object ODF="ThoMiscR1.odf">
+		<requirement>
+			<obj>ThoMiscR3.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Composite Design Research)-->
+	<object ODF="ThoMiscR2.odf">
+		<requirement>
+			<obj>ttransmit.odf</obj>
+			<obj>ThoMiscR4.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Neo-Tholian Design Rediscovery)-->
+	<object ODF="ThoMiscR3.odf">
+		<requirement>
+			<obj>ttransmit.odf</obj>
+			<obj>ThoMiscR2.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Neo-Tholian Contact Frequencies)-->
+	<object ODF="ThoMiscR4.odf">
+		<requirement>
+			<obj>ttransmit.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Intergalactic Destination Coordinates)-->
+	<object ODF="ThoMiscR5.odf">
+		<requirement>
+			<obj>ttransmit.odf</obj>
+			<obj>ThoMiscR4.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Local Area Portal Generation)-->
+	<object ODF="ThoMiscR6.odf">
+		<requirement>
+			<obj>ttransmit.odf</obj>
+			<obj>ThoMiscR5.odf</obj>
+			<obj>Tyard2.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Energy Cannon)-->
+	<object ODF="ThoMiscR7.odf">
+		<requirement>
+			<obj>ttransmit.odf</obj>
+			<obj>ThoMiscR4.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Enhanced Phaser Power Crystals - Weapons Systems Upgrade I)-->
+	<object ODF="Thopod11.odf">
+		<requirement>
+			<obj>tupgrade.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Enhanced Shield Crystals - Shield Systems Upgrade I)-->
+	<object ODF="Thopod12.odf">
+		<requirement>
+			<obj>tupgrade.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Sensor Net Upgrade - Sensor Package Upgrade I)-->
+	<object ODF="Thopod13.odf">
+		<requirement>
+			<obj>tupgrade.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Crystaline Engine Core Refinement - Propulsion Systems Upgrade I)-->
+	<object ODF="Thopod14.odf">
+		<requirement>
+			<obj>tupgrade.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Auxilliary Gravitational Field Generator - Life Support Systems Upgrade II)-->
+	<object ODF="Thopod15.odf">
+		<requirement>
+			<obj>tupgrade.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Super Enhanced Phaser Power Crystal Research - Weapon Systems Upgrade II)-->
+	<object ODF="Thopod21.odf">
+		<requirement>
+			<obj>thopod11.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Super Enhanced Shield Crystals Research - Shield Systems Upgrade II)-->
+	<object ODF="Thopod22.odf">
+		<requirement>
+			<obj>thopod12.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Sensor Net Upgrade Phase II - Sensor Package Upgrade II)-->
+	<object ODF="Thopod23.odf">
+		<requirement>
+			<obj>thopod13.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Impulse Drive Plate Polarisation - Propulsion Systems Upgrade II)-->
+	<object ODF="Thopod24.odf">
+		<requirement>
+			<obj>thopod14.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Sulphur-Ammonia Life Support Systems - Life Support Systems Upgrade II)-->
+	<object ODF="Thopod25.odf">
+		<requirement>
+			<obj>thopod15.odf</obj>
+		</requirement>
+	</object>
+	<!--Planetary Shield (Tholian)-->
+	<object ODF="shieldTholian.odf">
+		<requirement buttonHideUnavailable="true">
+			<obj>thopod22.odf</obj>
+		</requirement>
+	</object>
+</techtree>
