@@ -399,7 +399,7 @@
 		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>kyard.odf</obj>
-			<capList>OrionCap</cap>
+			<capList>OrionCap</capList>
 		</requirement>
 	</object>
 	<!--ShaKurian Mercenary Warp-In Ability-->
@@ -407,7 +407,7 @@
 		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>kyard.odf</obj>
-			<capList>ShakurianCap</cap>
+			<capList>ShakurianCap</capList>
 		</requirement>
 	</object>
 </techtree>

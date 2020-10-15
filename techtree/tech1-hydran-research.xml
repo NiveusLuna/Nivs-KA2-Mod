@@ -320,7 +320,7 @@
 		<requirement race="hydran">
 			<obj>hbase.odf</obj>
 			<obj>hyard.odf</obj>
-			<capList>MirakCap</cap>
+			<capList>MirakCap</capList>
 		</requirement>
 	</object>
 	<!--ShaKurian Mercenary Warp-In Ability-->
@@ -328,7 +328,7 @@
 		<requirement race="hydran">
 			<obj>hbase.odf</obj>
 			<obj>hyard.odf</obj>
-			<capList>ShakurianCap</cap>
+			<capList>ShakurianCap</capList>
 		</requirement>
 	</object>
 </techtree>
