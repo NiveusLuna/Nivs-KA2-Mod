@@ -1,0 +1,471 @@
+<techtree>
+	<!--***[ ROMULAN RESEARCH PROJECTS ]*********************-->
+	<!--Hull Research (Ornith Series Screen FF)-->
+	<object ODF="RomHull1.odf">
+		<requirement race="romulan">
+			<obj>rbase.odf</obj>
+			<obj>rresearcha.odf</obj>
+		</requirement>
+	</object>
+	<!--Hull Research (Ornith Series Cruiser CL CA)-->
+	<object ODF="RomHull2.odf">
+		<requirement race="romulan">
+			<obj>rbase.odf</obj>
+			<obj>rresearcha.odf</obj>
+			<obj>RomHull1.odf</obj>
+		</requirement>
+	</object>
+	<!--Hull Research (Ornith Series Dreadnought DN)-->
+	<object ODF="RomHull3.odf">
+		<requirement race="romulan">
+			<obj>rbase.odf</obj>
+			<obj>rresearcha.odf</obj>
+			<obj>RomHull2.odf</obj>
+		</requirement>
+	</object>
+	<!--Hull Research (New Series Escort EC)-->
+	<object ODF="RomHull4.odf">
+		<requirement race="romulan">
+			<obj>rbase.odf</obj>
+			<obj>rresearcha.odf</obj>
+			<obj>RomHull1.odf</obj>
+			<obj>RomHull7.odf</obj>
+		</requirement>
+	</object>
+	<!--Hull Research (New Series Adv. Cruiser CC BC)-->
+	<object ODF="RomHull5.odf">
+		<requirement race="romulan">
+			<obj>rbase.odf</obj>
+			<obj>rresearcha.odf</obj>
+			<obj>RomHull4.odf</obj>
+			<obj>RomHull2.odf</obj>
+			<obj>RomHull8.odf</obj>
+		</requirement>
+	</object>
+	<!--Hull Research (New Series Battleship BB)-->
+	<object ODF="RomHull6.odf">
+		<requirement race="romulan">
+			<obj>rbase.odf</obj>
+			<obj>rresearcha.odf</obj>
+			<obj>RomHull5.odf</obj>
+			<obj>RomHull3.odf</obj>
+			<obj>RomHull9.odf</obj>
+		</requirement>
+	</object>
+	<!--Hull Research (KR Frigate Refit FKF)-->
+	<object ODF="RomHull7.odf">
+		<requirement race="romulan">
+			<obj>rbase.odf</obj>
+			<obj>rresearcha.odf</obj>
+		</requirement>
+	</object>
+	<!--Hull Research (KR Cruiser Refit CKA)-->
+	<object ODF="RomHull8.odf">
+		<requirement race="romulan">
+			<obj>rbase.odf</obj>
+			<obj>rresearcha.odf</obj>
+			<obj>RomHull7.odf</obj>
+		</requirement>
+	</object>
+	<!--Hull Research (KR Capital Ship Refit BKC DKN)-->
+	<object ODF="RomHull9.odf">
+		<requirement race="romulan">
+			<obj>rbase.odf</obj>
+			<obj>rresearcha.odf</obj>
+			<obj>RomHull8.odf</obj>
+		</requirement>
+	</object>
+	<!--Hull Research (Utility Craft FB AK)-->
+	<object ODF="RomHull11.odf">
+		<requirement race="romulan">
+			<obj>rbase.odf</obj>
+			<obj>rresearcha.odf</obj>
+		</requirement>
+	</object>
+	<!--Hull Research (Combat Utility Craft AR APA)-->
+	<object ODF="RomHull10.odf">
+		<requirement race="romulan">
+			<obj>rbase.odf</obj>
+			<obj>rresearcha.odf</obj>
+			<obj>RomHull11.odf</obj>
+		</requirement>
+	</object>
+	<!--Conversion Kit (Scout Frigate FS)-->
+	<object ODF="RomEqu1.odf">
+		<requirement race="romulan">
+			<obj>rbase.odf</obj>
+			<obj>rresearchb.odf</obj>
+			<obj>RomHull1.odf</obj>
+		</requirement>
+	</object>
+	<!--Conversion Kit (Scout Frigate FKS)-->
+	<object ODF="RomEqu2.odf">
+		<requirement race="romulan">
+			<obj>rbase.odf</obj>
+			<obj>rresearchb.odf</obj>
+			<obj>RomHull7.odf</obj>
+		</requirement>
+	</object>
+	<!--Conversion Kit (Torpedo Cruiser CT)-->
+	<object ODF="RomEqu3.odf">
+		<requirement race="romulan">
+			<obj>rbase.odf</obj>
+			<obj>rresearchb.odf</obj>
+			<obj>Romhull2.odf</obj>
+			<obj>Romhull8.odf</obj>
+		</requirement>
+	</object>
+	<!--Conversion Kit (Escort Carrier CVE)-->
+	<object ODF="RomEqu4.odf">
+		<requirement race="romulan">
+			<obj>rbase.odf</obj>
+			<obj>rresearchb.odf</obj>
+			<obj>Romhull10.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Type L Plasma Torpedo - Light Plasma Torpedoes)-->
+	<object ODF="RomMiscR1.odf">
+		<requirement race="romulan">
+			<obj>rbase.odf</obj>
+			<obj>rresearchc.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Type M Plasma Torpedo - Medium Plasma Torpedoes)-->
+	<object ODF="RomMiscR2.odf">
+		<requirement race="romulan">
+			<obj>rbase.odf</obj>
+			<obj>rresearchc.odf</obj>
+			<obj>RomMiscR1.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Twin Torpedo Tube Mountings - Plasma Torpedoes)-->
+	<object ODF="RomMiscR3.odf">
+		<requirement race="romulan">
+			<obj>rbase.odf</obj>
+			<obj>rresearchc.odf</obj>
+			<obj>RomMiscR1.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Multiple Torpedo Tube Mountings - Plasma Torpedoes)-->
+	<object ODF="RomMiscR4.odf">
+		<requirement race="romulan">
+			<obj>rbase.odf</obj>
+			<obj>rresearchc.odf</obj>
+			<obj>RomMiscR2.odf</obj>
+			<obj>RomMiscR3.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Assault Phaser Examination - Captured Weaponry)-->
+	<object ODF="RomMiscR5.odf">
+		<requirement race="romulan">
+			<obj>rbase.odf</obj>
+			<obj>rresearchc.odf</obj>
+			<obj>rompod3.odf</obj>
+			<obj>RomHull6.odf</obj>
+			<obj>rompod21.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Graviton Cannon Examination - Captured Weaponry)-->
+	<object ODF="RomMiscR6.odf">
+		<requirement race="romulan">
+			<obj>rbase.odf</obj>
+			<obj>rresearchc.odf</obj>
+			<obj>rompod3.odf</obj>
+			<obj>RomHull2.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Quantum Wave Beam Examination - Captured Weaponry)-->
+	<object ODF="RomMiscR7.odf">
+		<requirement race="romulan">
+			<obj>rbase.odf</obj>
+			<obj>rresearchc.odf</obj>
+			<obj>rompod3.odf</obj>
+			<obj>RomHull5.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Extremely High Frequency Radiation Emitters - Siege Weaponry)-->
+	<object ODF="RomMiscR8.odf">
+		<requirement race="romulan">
+			<obj>rbase.odf</obj>
+			<obj>rresearchc.odf</obj>
+			<obj>rompod21.odf</obj>
+			<obj>RomHull3.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Dual Heavy Weapon Power Relays - Dual CFDICs)-->
+	<object ODF="rompod1.odf">
+		<requirement race="romulan">
+			<obj>rbase.odf</obj>
+			<obj>rresearchc.odf</obj>
+			<obj>RomHull9.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Tal Shiar Agent Training - Espionage)-->
+	<object ODF="rompod2.odf">
+		<requirement race="romulan">
+			<obj>rbase.odf</obj>
+			<obj>rresearchc.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Tal Shiar Technology Acquisition Programme - Advanced Weapons)-->
+	<object ODF="rompod3.odf">
+		<requirement race="romulan">
+			<obj>rbase.odf</obj>
+			<obj>rresearchc.odf</obj>
+			<obj>rompod2.odf</obj>
+			<obj>rompod21.odf</obj>
+			<obj>fconst.odf</obj>
+		</requirement>
+		<requirement race="romulan">
+			<obj>rbase.odf</obj>
+			<obj>rresearchc.odf</obj>
+			<obj>rompod2.odf</obj>
+			<obj>rompod21.odf</obj>
+			<obj>gconst.odf</obj>
+		</requirement>
+		<requirement race="romulan">
+			<obj>rbase.odf</obj>
+			<obj>rresearchc.odf</obj>
+			<obj>rompod2.odf</obj>
+			<obj>rompod21.odf</obj>
+			<obj>rommix1.odf</obj>
+		</requirement>
+		<requirement race="romulan">
+			<obj>rbase.odf</obj>
+			<obj>rresearchc.odf</obj>
+			<obj>rompod2.odf</obj>
+			<obj>rompod21.odf</obj>
+			<obj>rommix4.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Plasma Generation Power Booster - Weapons Systems Upgrade I)-->
+	<object ODF="rompod11.odf">
+		<requirement race="romulan">
+			<obj>rbase.odf</obj>
+			<obj>rupgrade.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Shield Reinforcement Systems - Shield Systems Upgrade I)-->
+	<object ODF="rompod12.odf">
+		<requirement race="romulan">
+			<obj>rbase.odf</obj>
+			<obj>rupgrade.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Sensor Refinement - Sensor Package Upgrade I)-->
+	<object ODF="rompod13.odf">
+		<requirement race="romulan">
+			<obj>rbase.odf</obj>
+			<obj>rupgrade.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Impulse Drive Reactor Enhancement - Propulsion Systems Upgrade I)-->
+	<object ODF="rompod14.odf">
+		<requirement race="romulan">
+			<obj>rbase.odf</obj>
+			<obj>rupgrade.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Life Support Backup Systems - Life Support Systems Upgrade I)-->
+	<object ODF="rompod15.odf">
+		<requirement race="romulan">
+			<obj>rbase.odf</obj>
+			<obj>rupgrade.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Disruptor Packet Power Boosters - Weapon Systems Upgrade II)-->
+	<object ODF="rompod21.odf">
+		<requirement race="romulan">
+			<obj>rbase.odf</obj>
+			<obj>rompod11.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Hyperphased Shield Modulation - Shield Systems Upgrade II)-->
+	<object ODF="rompod22.odf">
+		<requirement race="romulan">
+			<obj>rbase.odf</obj>
+			<obj>rompod12.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Additive Sensor Power Relays - Sensor Package Upgrade II)-->
+	<object ODF="rompod23.odf">
+		<requirement race="romulan">
+			<obj>rbase.odf</obj>
+			<obj>rompod13.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Hydrogen Injection Nozzles - Propulsion Systems Upgrade II)-->
+	<object ODF="rompod24.odf">
+		<requirement race="romulan">
+			<obj>rbase.odf</obj>
+			<obj>rompod14.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Auxilliary Gravitational Field Generator - Life Support Systems Upgrade II)-->
+	<object ODF="rompod25.odf">
+		<requirement race="romulan">
+			<obj>rbase.odf</obj>
+			<obj>rompod15.odf</obj>
+		</requirement>
+	</object>
+	<!--Planetary Shield (Romulan)-->
+	<object ODF="shieldRomulan.odf">
+		<requirement race="romulan" buttonHideUnavailable="true">
+			<obj>rompod22.odf</obj>
+		</requirement>
+	</object>
+	<!--***[ ROMULAN MIXED TECH ]*********************-->
+	<!--Federation Tech (Dual Assault Phasers) - Capture-->
+	<object ODF="RomMix1.odf">
+		<requirement race="romulan" buttonHideUnavailable="true">
+			<obj>rbase.odf</obj>
+			<obj>rresearchc.odf</obj>
+			<obj>fconst.odf</obj>
+		</requirement>
+	</object>
+	<!--Klingon Tech (AMFP) - Allied-->
+	<object ODF="RomMix2.odf">
+		<requirement race="romulan" buttonHideUnavailable="true">
+			<obj>rbase.odf</obj>
+			<obj>rresearchc.odf</obj>
+			<ally race="cardassian" />
+			<obj mustNotHave="true">RomMix3.odf</obj>
+		</requirement>
+	</object>
+	<!--Klingon Tech (AMFP) - Capture-->
+	<object ODF="RomMix3.odf">
+		<requirement race="romulan" buttonHideUnavailable="true">
+			<obj>rbase.odf</obj>
+			<obj>rresearchc.odf</obj>
+			<obj>kconst.odf</obj>
+			<obj mustNotHave="true">RomMix2.odf</obj>
+		</requirement>
+	</object>
+	<!--Gorn Tech (GHRC + QCB) - Capture-->
+	<object ODF="RomMix4.odf">
+		<requirement race="romulan" buttonHideUnavailable="true">
+			<obj>rbase.odf</obj>
+			<obj>rresearchc.odf</obj>
+			<obj>gconst.odf</obj>
+		</requirement>
+	</object>
+	<!--ISC Tech (PPD) - Capture-->
+	<object ODF="RomMix5.odf">
+		<requirement race="romulan" buttonHideUnavailable="true">
+			<obj>rbase.odf</obj>
+			<obj>rresearchc.odf</obj>
+			<obj>iconst.odf</obj>
+		</requirement>
+	</object>
+	<!--Hydran Tech (Shadowblade) - Capture-->
+	<object ODF="RomMix6.odf">
+		<requirement race="romulan" buttonHideUnavailable="true">
+			<obj>rbase.odf</obj>
+			<obj>rresearchc.odf</obj>
+			<obj>hconst.odf</obj>
+		</requirement>
+	</object>
+	<!--Lyran Tech (ESG) - Allied-->
+	<object ODF="RomMix7.odf">
+		<requirement race="romulan" buttonHideUnavailable="true">
+			<obj>rbase.odf</obj>
+			<obj>rresearchc.odf</obj>
+			<ally race="lyran" />
+			<obj mustNotHave="true">RomMix8.odf</obj>
+		</requirement>
+	</object>
+	<!--Lyran Tech (ESG) - Capture-->
+	<object ODF="RomMix8.odf">
+		<requirement race="romulan" buttonHideUnavailable="true">
+			<obj>rbase.odf</obj>
+			<obj>rresearchc.odf</obj>
+			<obj>lconst.odf</obj>
+			<obj mustNotHave="true">RomMix7.odf</obj>
+		</requirement>
+	</object>
+	<!--Assault Phaser (Imperial Hawk Class RBB)-->
+	<object ODF="gRDAssault.odf">
+		<requirement race="romulan" buttonHideUnavailable="true">
+			<obj>RomMiscR5.odf</obj>
+			<obj>rompod3.odf</obj>
+			<obj>rommix1.odf</obj>
+		</requirement>
+	</object>
+	<!--GHRC (Legion Class RCL)-->
+	<object ODF="gRGHRC.odf">
+		<requirement race="romulan" buttonHideUnavailable="true">
+			<obj>RomMiscR6.odf</obj>
+			<obj>rompod3.odf</obj>
+			<obj>rommix4.odf</obj>
+		</requirement>
+	</object>
+	<!--QCB (Senator Class RCC)-->
+	<object ODF="gRQCB.odf">
+		<requirement race="romulan" buttonHideUnavailable="true">
+			<obj>RomMiscR7.odf</obj>
+			<obj>rompod3.odf</obj>
+			<obj>rommix4.odf</obj>
+		</requirement>
+	</object>
+	<!--PPD (Condor Class RKDN)-->
+	<object ODF="gRPPDM.odf">
+		<requirement race="romulan" buttonHideUnavailable="true">
+			<obj>rommix5.odf</obj>
+		</requirement>
+	</object>
+	<!--AMFP (War Eagle Class RDN) - Frenemy-->
+	<object ODF="gRAMFP.odf">
+		<requirement race="romulan" buttonHideUnavailable="true">
+			<obj>rommix2.odf</obj>
+		</requirement>
+		<requirement race="romulan" buttonHideUnavailable="true">
+			<obj>rommix3.odf</obj>
+		</requirement>
+	</object>
+	<!--ESG (Centurion Class RCA) - Frenemy-->
+	<object ODF="gRESG2.odf">
+		<requirement race="romulan" buttonHideUnavailable="true">
+			<obj>rommix7.odf</obj>
+		</requirement>
+		<requirement race="romulan" buttonHideUnavailable="true">
+			<obj>rommix8.odf</obj>
+		</requirement>
+	</object>
+	<!--Carrier Upgrade-->
+	<object ODF="RCarrierUp.odf">
+		<requirement race="romulan" buttonHideUnavailable="true">
+			<obj>RomMix6.odf</obj>
+		</requirement>
+	</object>
+	<!--Upgraded Carrier-->
+	<object ODF="RCVEB.odf">
+		<requirement race="romulan">
+			<obj>RomMix6.odf</obj>
+		</requirement>
+	</object>
+	<!--Upgraded Fighter (Shadowblade RFA)-->
+	<object ODF="rfighterb.odf">
+		<requirement race="romulan" buttonHideUnavailable="true">
+			<obj>rbase.odf</obj>
+			<obj>routpost.odf</obj>
+			<obj>rcveb.odf</obj>
+			<obj>rommix6.odf</obj>
+		</requirement>
+	</object>
+	<!--Mirak Diaspora Warp-In Ability-->
+	<object ODF="RMirakWarpIn.odf">
+		<requirement race="romulan">
+			<obj>Rbase.odf</obj>
+			<obj>Ryard.odf</obj>
+			<capList>MirakCap</capList>
+		</requirement>
+	</object>
+	<!--Orion Pirate Warp-In Ability-->
+	<object ODF="ROrionWarpIn.odf">
+		<requirement race="romulan">
+			<obj>Rbase.odf</obj>
+			<obj>Ryard.odf</obj>
+			<capList>OrionCap</capList>
+		</requirement>
+	</object>
+</techtree>
