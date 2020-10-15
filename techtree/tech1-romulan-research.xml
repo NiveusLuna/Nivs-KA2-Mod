@@ -5,6 +5,7 @@
 		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>rresearcha.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Hull Research (Ornith Series Cruiser CL CA)-->
@@ -13,6 +14,7 @@
 			<obj>rbase.odf</obj>
 			<obj>rresearcha.odf</obj>
 			<obj>RomHull1.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Hull Research (Ornith Series Dreadnought DN)-->
@@ -21,6 +23,7 @@
 			<obj>rbase.odf</obj>
 			<obj>rresearcha.odf</obj>
 			<obj>RomHull2.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Hull Research (New Series Escort EC)-->
@@ -30,6 +33,7 @@
 			<obj>rresearcha.odf</obj>
 			<obj>RomHull1.odf</obj>
 			<obj>RomHull7.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Hull Research (New Series Adv. Cruiser CC BC)-->
@@ -40,6 +44,7 @@
 			<obj>RomHull4.odf</obj>
 			<obj>RomHull2.odf</obj>
 			<obj>RomHull8.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Hull Research (New Series Battleship BB)-->
@@ -50,6 +55,7 @@
 			<obj>RomHull5.odf</obj>
 			<obj>RomHull3.odf</obj>
 			<obj>RomHull9.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Hull Research (KR Frigate Refit FKF)-->
@@ -57,6 +63,7 @@
 		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>rresearcha.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Hull Research (KR Cruiser Refit CKA)-->
@@ -65,6 +72,7 @@
 			<obj>rbase.odf</obj>
 			<obj>rresearcha.odf</obj>
 			<obj>RomHull7.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Hull Research (KR Capital Ship Refit BKC DKN)-->
@@ -73,6 +81,7 @@
 			<obj>rbase.odf</obj>
 			<obj>rresearcha.odf</obj>
 			<obj>RomHull8.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Hull Research (Utility Craft FB AK)-->
@@ -80,6 +89,7 @@
 		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>rresearcha.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Hull Research (Combat Utility Craft AR APA)-->
@@ -88,6 +98,7 @@
 			<obj>rbase.odf</obj>
 			<obj>rresearcha.odf</obj>
 			<obj>RomHull11.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Conversion Kit (Scout Frigate FS)-->
@@ -96,6 +107,7 @@
 			<obj>rbase.odf</obj>
 			<obj>rresearchb.odf</obj>
 			<obj>RomHull1.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Conversion Kit (Scout Frigate FKS)-->
@@ -104,6 +116,7 @@
 			<obj>rbase.odf</obj>
 			<obj>rresearchb.odf</obj>
 			<obj>RomHull7.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Conversion Kit (Torpedo Cruiser CT)-->
@@ -113,6 +126,7 @@
 			<obj>rresearchb.odf</obj>
 			<obj>Romhull2.odf</obj>
 			<obj>Romhull8.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Conversion Kit (Escort Carrier CVE)-->
@@ -121,6 +135,7 @@
 			<obj>rbase.odf</obj>
 			<obj>rresearchb.odf</obj>
 			<obj>Romhull10.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Type L Plasma Torpedo - Light Plasma Torpedoes)-->
@@ -128,6 +143,7 @@
 		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>rresearchc.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Type M Plasma Torpedo - Medium Plasma Torpedoes)-->
@@ -136,6 +152,7 @@
 			<obj>rbase.odf</obj>
 			<obj>rresearchc.odf</obj>
 			<obj>RomMiscR1.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Twin Torpedo Tube Mountings - Plasma Torpedoes)-->
@@ -144,6 +161,7 @@
 			<obj>rbase.odf</obj>
 			<obj>rresearchc.odf</obj>
 			<obj>RomMiscR1.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Multiple Torpedo Tube Mountings - Plasma Torpedoes)-->
@@ -153,6 +171,7 @@
 			<obj>rresearchc.odf</obj>
 			<obj>RomMiscR2.odf</obj>
 			<obj>RomMiscR3.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Assault Phaser Examination - Captured Weaponry)-->
@@ -163,6 +182,7 @@
 			<obj>rompod3.odf</obj>
 			<obj>RomHull6.odf</obj>
 			<obj>rompod21.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Graviton Cannon Examination - Captured Weaponry)-->
@@ -172,6 +192,7 @@
 			<obj>rresearchc.odf</obj>
 			<obj>rompod3.odf</obj>
 			<obj>RomHull2.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Quantum Wave Beam Examination - Captured Weaponry)-->
@@ -181,6 +202,7 @@
 			<obj>rresearchc.odf</obj>
 			<obj>rompod3.odf</obj>
 			<obj>RomHull5.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Extremely High Frequency Radiation Emitters - Siege Weaponry)-->
@@ -190,6 +212,7 @@
 			<obj>rresearchc.odf</obj>
 			<obj>rompod21.odf</obj>
 			<obj>RomHull3.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Dual Heavy Weapon Power Relays - Dual CFDICs)-->
@@ -198,6 +221,7 @@
 			<obj>rbase.odf</obj>
 			<obj>rresearchc.odf</obj>
 			<obj>RomHull9.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Tal Shiar Agent Training - Espionage)-->
@@ -205,6 +229,7 @@
 		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>rresearchc.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Tal Shiar Technology Acquisition Programme - Advanced Weapons)-->
@@ -215,6 +240,7 @@
 			<obj>rompod2.odf</obj>
 			<obj>rompod21.odf</obj>
 			<obj>fconst.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 		<requirement race="romulan">
 			<obj>rbase.odf</obj>
@@ -222,6 +248,7 @@
 			<obj>rompod2.odf</obj>
 			<obj>rompod21.odf</obj>
 			<obj>gconst.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 		<requirement race="romulan">
 			<obj>rbase.odf</obj>
@@ -229,6 +256,7 @@
 			<obj>rompod2.odf</obj>
 			<obj>rompod21.odf</obj>
 			<obj>rommix1.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 		<requirement race="romulan">
 			<obj>rbase.odf</obj>
@@ -236,6 +264,7 @@
 			<obj>rompod2.odf</obj>
 			<obj>rompod21.odf</obj>
 			<obj>rommix4.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Plasma Generation Power Booster - Weapons Systems Upgrade I)-->
@@ -243,6 +272,7 @@
 		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>rupgrade.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Shield Reinforcement Systems - Shield Systems Upgrade I)-->
@@ -250,6 +280,7 @@
 		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>rupgrade.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Sensor Refinement - Sensor Package Upgrade I)-->
@@ -257,6 +288,7 @@
 		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>rupgrade.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Impulse Drive Reactor Enhancement - Propulsion Systems Upgrade I)-->
@@ -264,6 +296,7 @@
 		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>rupgrade.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Life Support Backup Systems - Life Support Systems Upgrade I)-->
@@ -271,6 +304,7 @@
 		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>rupgrade.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Disruptor Packet Power Boosters - Weapon Systems Upgrade II)-->
@@ -278,6 +312,7 @@
 		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>rompod11.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Hyperphased Shield Modulation - Shield Systems Upgrade II)-->
@@ -285,6 +320,7 @@
 		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>rompod12.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Additive Sensor Power Relays - Sensor Package Upgrade II)-->
@@ -292,6 +328,7 @@
 		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>rompod13.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Hydrogen Injection Nozzles - Propulsion Systems Upgrade II)-->
@@ -299,6 +336,7 @@
 		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>rompod14.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Research Pod (Auxilliary Gravitational Field Generator - Life Support Systems Upgrade II)-->
@@ -306,6 +344,7 @@
 		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>rompod15.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Planetary Shield (Romulan)-->
@@ -321,6 +360,7 @@
 			<obj>rbase.odf</obj>
 			<obj>rresearchc.odf</obj>
 			<obj>fconst.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Klingon Tech (AMFP) - Allied-->
@@ -330,6 +370,7 @@
 			<obj>rresearchc.odf</obj>
 			<ally race="cardassian" />
 			<obj mustNotHave="true">RomMix3.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Klingon Tech (AMFP) - Capture-->
@@ -339,6 +380,7 @@
 			<obj>rresearchc.odf</obj>
 			<obj>kconst.odf</obj>
 			<obj mustNotHave="true">RomMix2.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Gorn Tech (GHRC + QCB) - Capture-->
@@ -347,6 +389,7 @@
 			<obj>rbase.odf</obj>
 			<obj>rresearchc.odf</obj>
 			<obj>gconst.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--ISC Tech (PPD) - Capture-->
@@ -355,6 +398,7 @@
 			<obj>rbase.odf</obj>
 			<obj>rresearchc.odf</obj>
 			<obj>iconst.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Hydran Tech (Shadowblade) - Capture-->
@@ -363,6 +407,7 @@
 			<obj>rbase.odf</obj>
 			<obj>rresearchc.odf</obj>
 			<obj>hconst.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Lyran Tech (ESG) - Allied-->
@@ -372,6 +417,7 @@
 			<obj>rresearchc.odf</obj>
 			<ally race="lyran" />
 			<obj mustNotHave="true">RomMix8.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Lyran Tech (ESG) - Capture-->
@@ -381,6 +427,7 @@
 			<obj>rresearchc.odf</obj>
 			<obj>lconst.odf</obj>
 			<obj mustNotHave="true">RomMix7.odf</obj>
+			<cap maxCapValue="1" />
 		</requirement>
 	</object>
 	<!--Assault Phaser (Imperial Hawk Class RBB)-->
