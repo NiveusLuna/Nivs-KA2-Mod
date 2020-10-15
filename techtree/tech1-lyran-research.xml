@@ -361,7 +361,7 @@
 		<requirement race="lyran">
 			<obj>lbase.odf</obj>
 			<obj>lyard.odf</obj>
-			<cap>OrionCap</cap>
+			<capList>OrionCap</cap>
 		</requirement>
 	</object>
 	<!--ShaKurian Mercenary Warp-In Ability-->
@@ -369,7 +369,7 @@
 		<requirement race="lyran">
 			<obj>lbase.odf</obj>
 			<obj>lyard.odf</obj>
-			<cap>ShakurianCap</cap>
+			<capList>ShakurianCap</cap>
 		</requirement>
 	</object>
 </techtree>
