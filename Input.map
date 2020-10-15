@@ -5855,7 +5855,7 @@ bc_iscmiscr8 {
 	- keyboard	Alt
 	- keyboard	BackQuote
 }
-# ISC-Federation Mix Tech (Allied)
+# ISC-Federation Mix Tech (Capture)
 bc_iscmix1 {
 	+ keyboard	F
 	+ keyboard	Control
@@ -5887,7 +5887,7 @@ bc_iscmix4 {
 	- keyboard	Alt
 	- keyboard	BackQuote
 }
-# ISC-Hydran Mix Tech (Allied)
+# ISC-Hydran Mix Tech (Capture)
 bc_iscmix5 {
 	+ keyboard	H
 	+ keyboard	Control
