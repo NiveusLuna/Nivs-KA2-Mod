@@ -1460,6 +1460,15 @@ wc_grppdm {
 	- keyboard	BackQuote
 }
 
+# Plasmatic Pulsar Device - Medium Variant (Gorn-ISC Mix Tech)
+wc_ggppdm {
+	+ keyboard	F7
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
 # Plasmatic Pulsar Device - Heavy Variant (ISC)
 wc_gippdh {
 	+ keyboard	F7
@@ -5273,7 +5282,7 @@ bc_fedmix3 {
 	+ keyboard	G
 	+ keyboard	Control
 	+ keyboard	Shift
-	- keyboard	Alt
+	+ keyboard	Alt
 	- keyboard	BackQuote
 }
 # Federation-ISC Mix Tech (Capture)
@@ -5289,7 +5298,7 @@ bc_fedmix5 {
 	+ keyboard	H
 	+ keyboard	Control
 	+ keyboard	Shift
-	- keyboard	Alt
+	+ keyboard	Alt
 	- keyboard	BackQuote
 }
 # Federation-Lyran Mix Tech (Capture)
@@ -5435,7 +5444,7 @@ bc_klimix7 {
 	+ keyboard	L
 	+ keyboard	Control
 	+ keyboard	Shift
-	- keyboard	Alt
+	+ keyboard	Alt
 	- keyboard	BackQuote
 }
 
@@ -5663,7 +5672,7 @@ bc_gormix1 {
 	+ keyboard	F
 	+ keyboard	Control
 	+ keyboard	Shift
-	- keyboard	Alt
+	+ keyboard	Alt
 	- keyboard	BackQuote
 }
 # Gorn-Klingon Mix Tech (Capture)
@@ -5695,7 +5704,7 @@ bc_gormix5 {
 	+ keyboard	H
 	+ keyboard	Control
 	+ keyboard	Shift
-	- keyboard	Alt
+	+ keyboard	Alt
 	- keyboard	BackQuote
 }
 # Gorn-Lyran Mix Tech (Capture)
@@ -5949,7 +5958,7 @@ bc_hydmix1 {
 	+ keyboard	F
 	+ keyboard	Control
 	+ keyboard	Shift
-	- keyboard	Alt
+	+ keyboard	Alt
 	- keyboard	BackQuote
 }
 # Hydran-Klingon Mix Tech (Capture)
@@ -5973,7 +5982,7 @@ bc_hydmix4 {
 	+ keyboard	G
 	+ keyboard	Control
 	+ keyboard	Shift
-	- keyboard	Alt
+	+ keyboard	Alt
 	- keyboard	BackQuote
 }
 # Hydran-ISC Mix Tech (Capture)
@@ -6055,7 +6064,7 @@ bc_lyrmix2 {
 	+ keyboard	K
 	+ keyboard	Control
 	+ keyboard	Shift
-	- keyboard	Alt
+	+ keyboard	Alt
 	- keyboard	BackQuote
 }
 # Lyran-Romulan Mix Tech (Allied)
