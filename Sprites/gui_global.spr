@@ -4,3 +4,4 @@ sprite_table
 @include gui_addon-allied-repair-halt.spr
 @include gui_global-orig.spr
 @include gui_addon-faster-trading.spr
+@include gui_bugfix.spr
