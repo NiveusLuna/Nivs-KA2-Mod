@@ -477,15 +477,12 @@ b_gstationup all_interface_buttons02	312	0	96	96		#	4	1
 b_gMirakWarpIn	all_interface_buttons03	104	208	96	96		#	2	3 
 b_gShakurianWarpIn	all_interface_buttons03	416	208	96	96		#	5	3
 
-b_gGDDSDefensive all_interface_buttons09	208	312	96	96		#	3	4
-
 # ISC Advanced Weapon Buttons
 
 b_gICloak		all_interface_buttons05	416	0	96	96		#	5	1
 b_gIGHRC		all_interface_buttons09	0	208	96	96		#	1	3
 b_gIGHRC2		all_interface_buttons09	0	208	96	96		#	1	3
 b_gIGrappler	all_interface_buttons09	416	416	96	96		#	5	5
-b_gIESG2		all_interface_buttons09	208	312	96	96		#	3	4
 b_gISSJD		all_interface_buttons06	0	104	96	96		#	1	2
 b_gISSDG		all_interface_buttons06	0	104	96	96		#	1	2
 b_gISubPort		all_interface_buttons06	0	104	96	96		#	1	2
