@@ -6725,3 +6725,67 @@ bc_all_halt {
 	- keyboard	Alt
 	- keyboard	BackQuote
 }
+
+bc_ShieldConcordium {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+bc_ShieldFederation {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+bc_ShieldGorn {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+bc_ShieldHydran {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+bc_ShieldKlingon {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+bc_ShieldLyran {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+bc_ShieldRomulan {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
+
+bc_ShieldTholian {
+	+ keyboard	F1
+	- keyboard	Control
+	- keyboard	Shift
+	- keyboard	Alt
+	- keyboard	BackQuote
+}
