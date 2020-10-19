@@ -1,0 +1,33 @@
+// Planetary Shield Upgrade
+
+unitName = "Planetary Shield Generator"
+
+tooltip = "PLANET_SHIELD"
+verboseTooltip = "PLANET_SHIELD_V"
+
+//cost in dilithium
+dilithiumCost = 1500
+
+// cost in latinum
+latinumCost = 0
+
+// cost in metal
+metalCost = 500
+
+//cost in officers
+officerCost = 0
+
+//cost in crew
+crewCost = 25
+
+//Amount of time required to build upgrade
+buildTime = 50.0
+
+// how many hitpoints this shield will have when built
+hitPoints = 1000.0
+
+// percent chance this shield will be hit after it is built
+hitPercent = 10.0
+
+//DO NOT CHANGE -- this is a shield ODF
+classLabel = "planet_shield"
