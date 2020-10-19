@@ -31,3 +31,5 @@ hitPercent = 10.0
 
 //DO NOT CHANGE -- this is a shield ODF
 classLabel = "planet_shield"
+
+hotkeyLabel = "HOTKEY_F1"
