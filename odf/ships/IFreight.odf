@@ -1,0 +1,161 @@
+#include "freight.odf"
+
+//MAIN DESIGN PARAMETERS
+
+//Race which can build ship & starting race of ship
+race = "borg"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Type DF-XX"
+
+//tooltips
+tooltip = "Type DF-XX - Freighter"
+verboseTooltip = "ISC_IDF_V"
+
+buildableByOwnerRaceOnly=1
+
+//Amount of time required to build ship
+buildTime = 95
+
+//Number of officers required to build this ship
+officerCost = 1
+
+//Number of crew required to build ship & Starting crew
+crewCost = 100
+
+saneCrewLossMethod = 1
+
+//Dilithium Cost to build
+dilithiumCost = 320
+
+//Metal Cost to build
+metalCost = 780
+
+//Max Shield Strength & Begining Shield Strength <500
+maxHealth = 260
+
+maxShields = 530
+
+// Hitpoints
+
+shieldGeneratorHitPoints = 260
+enginesHitPoints = 260
+weaponsHitPoints = 260
+lifeSupportHitPoints = 260
+sensorsHitPoints = 260
+
+//Rate at which shield recharges (points per second... we think)
+shieldRate = 0.5
+
+shieldhit = "shield_isc_hitM"
+shieldhitcritical = "shield_isc_hitcritM"
+shielddown = "shield_isc_down"
+
+// can hold metal
+maxDilithium = 2000
+maxMetal = 3000
+
+// which resources can this station process?
+resourcesCanHandle = "dilithium" "metal"
+
+// ISC Short Sensors
+rangeScan = 600.0f
+
+//**********************************************************************
+//SHIP NAMES
+
+//Possible Craft Names
+possibleCraftNames = 
+			"DF-XX-89416" 
+			"DF-XX-48084" 
+			"DF-XX-78466" 
+			"DF-XX-15145"
+			"DF-XX-16458" 
+			"DF-XX-08450" 
+			"DF-XX-84015" 
+			"DF-XX-68405"
+			"DF-XX-47850" 
+			"DF-XX-48469" 
+			"DF-XX-99456" 
+			"DF-XX-98259"
+			"DF-XX-69696" 
+			"DF-XX-94535" 
+			"DF-XX-84055" 
+			"DF-XX-48486"
+			"DF-XX-98741" 
+			"DF-XX-78456" 
+			"DF-XX-08054" 
+			"DF-XX-10564"
+			"DF-XX-96569" 
+			"DF-XX-84264" 
+			"DF-XX-16054" 
+			"DF-XX-80584"
+			"DF-XX-80585"
+			"DF-XX-80586"
+			"DF-XX-80587"
+			"DF-XX-80588"
+			"DF-XX-80589"
+			"DF-XX-80590"
+
+
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Mining Beam for Dilithium
+weapon1 = "gmineDilithiumISC"
+weaponHardpoints1 = "hp14" "hp15"
+
+weapon1iconpos = 32    -12
+
+// Mining Beam for Tritanium
+weapon2 = "gmineMetalISC"
+weaponHardpoints2 = "hp14" "hp15"
+
+weapon2iconpos = 32    10
+
+// Self Destruct Sequence
+weapon3 = "gselfdes"
+weaponHardpoints3 = "hp01"
+
+// Tractor Beam
+weapon4 = "gtracbm"
+weaponhardpoints4 = "hp13"
+
+weapon4iconpos = 42    32
+
+// Hardpoints to hit for various systems and other locations.
+enginesTargetHardpoints = "hp08" "hp10" "hp11" 
+lifeSupportTargetHardpoints = "hp16" 
+weaponsTargetHardpoints = "hp14" "hp06" 
+shieldGeneratorTargetHardpoints = "hp17" 
+sensorsTargetHardpoints = "hp05" 
+hullTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp09" "hp12" 
+criticalTargetHardpoints = "hp01" "hp02" "hp03" "hp04" "hp09" "hp12" 
+
+latinum_spray_hardpoint = "hp01"
+
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//An abstract number that represents how much extra strength must be
+//used to attack this craft due to its weapons. 
+// (0.0=no weapons, 0.5 = average weapons, 1.0=many good weapons)
+attackPower = 0.0f
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 60.0f
+
+//**********************************************************************
+
+//physics file for all other physics stuff
+physicsFile = "physics_DFXX.odf"
+
+hotkeyLabel = "HOTKEY_F2"
+
+baseName = "idf"
+ScaleSOD = 0.5
+
+// Impulse Sound
+ambientSound = "AMBisc.wav"
