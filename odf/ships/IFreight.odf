@@ -53,7 +53,7 @@ shielddown = "shield_isc_down"
 
 // can hold metal
 maxDilithium = 2000
-maxMetal = 3000
+maxMetal = 1000
 
 // which resources can this station process?
 resourcesCanHandle = "dilithium" "metal"
