@@ -14,7 +14,7 @@ tooCloseToTurn = 100;
 
 // When path following, we follow a point on our path that's
 // this far in front of us.  This is usually 150
-pathLeadDistance = 1500;
+pathLeadDistance = 150;
 
 //
 // Smooth Physics Parameters
