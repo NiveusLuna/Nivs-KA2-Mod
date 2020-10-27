@@ -97,7 +97,7 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"hydpod14",		1,0, -1,  0,	// Research - Propulsion System Upgrade I
 	"hsrepair",		3,0, -1,  0,	// HAR - Fleet Repair Tender - Squire Class - Repair Tenders for Cruiser Squadrons etc
 	"hydmiscr5", 	1,0, -1,  0, 	// Research - Photon Cannon
-	"hydhull4",		1,0, -1,  9,	// Research - Advanced Cruiser Hull
+	"hydhull4",		1,0, -1,  0,	// Research - Advanced Cruiser Hull
 	"hcruise",		3,0, -1,  0,	// HCA - Heavy Cruiser - Baron Class - 2nd CA Squadron
 	"hydequ3",		1,0, -1,  0,	// Research - Monitor Conversion
 	"hccruise",		1,0, -1, -4,	// HCC - Command Cruiser - Duke Class - Prototype

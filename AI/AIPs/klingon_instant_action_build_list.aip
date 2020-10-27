@@ -76,7 +76,7 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"glcruise",		3,0, -1,  0,	// GCL - Light Cruiser - Rattlesnake Class - 1st CL Squadron
 	"gtrading",		1,2, -1,  0,	// Trading Station (2nd)
 	"gcolony",		3,0,  4,  0, 	// GFB - Colony Ship - Python Class (1,2,3)
-	"gormiscR3",	1,0, -1,  9,	// Research - Ablative Armour Plate
+	"gormiscR3",	1,0, -1,  0,	// Research - Ablative Armour Plate
 	"gfrigate",		3,0, -1,  0,    // GFF - Frigate - King Snake Class - 3rd Patrol
 	"gmining",		1,2, -1,  0,	// Mining Station (3)
 	"gcargo",		2,0, -1,  0, 	// GAK - Cargo Freighter - Cobra Class (1,2)
@@ -85,7 +85,7 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"gyard2", 		1,1, -1,  0,	// Advanced Shipyard (1st)
 	"gsrepair",		3,0, -1,  0,	// GAR - Fleet Repair Tender - Gecko Class
 	"gorhull5",		1,1, -1,  0, 	// Research - Advanced Cruiser Hull
-	"gormiscR2",	1,0, -1,  9,	// Research - Multiple Torpedo Tubes
+	"gormiscR2",	1,0, -1,  0,	// Research - Multiple Torpedo Tubes
 	"gfrigate",		3,0, -1,  0, 	// GFF - Frigate - King Snake Class - 3rd Patrol
 	"gccruise",		1,0, -1, -3,	// GCC - Command Cruiser - Beowuulf Class - Prototype
 	"gassault",		3,0, -1,  0, 	// GAPA - Assault Transport - Asp Class - 1st Assault Squadron

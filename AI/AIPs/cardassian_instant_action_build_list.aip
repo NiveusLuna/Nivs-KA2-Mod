@@ -93,7 +93,7 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"kyard2", 		1,0, -1,  0,	// Advanced Shipyard (1st)
 	"ksrepair",		3,0, -1,  0,	// KAR - Fleet Repair Frigate - Suspicious-R Class - Repair Frigates for Cruiser Squadrons etc
 	"kescort",		3,0, -1,  0, 	// KEC - Escort - Bird of Prey Class - 2nd Patrol
-	"klimiscR2",	1,0, -1,  9,	// Research - Dual Forward Torpedo Tubes
+	"klimiscR2",	1,0, -1,  0,	// Research - Dual Forward Torpedo Tubes
 	"kassault",		3,0, -1,  0, 	// KAPA - Troop Transport - Poisoned Barb Class - 1st Assault Squadron
 	"kdestroyl", 	1,0, -1,  0, 	// KDL - Destroyer Leader - Captain Class - Leader for 2nd Flotilla
 	"ksensor",		2,4, -1,  0,	// Sensor Probe Net (3)

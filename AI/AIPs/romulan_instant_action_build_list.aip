@@ -90,7 +90,7 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"romMiscR4",	1,1, -1,  0, 	// Research - Twin Torpedo Tubes
 	"rorbital",		1,2, -1,  0,	// Orbital Processing Facility (4)
 	"rlcruise",		3,0, -1,  0,	// RCL - Light Cruiser - Legion Class - 2nd CL Squadron
-	"romhull9",		1,0, -1,  9,	// Research - KR Capital Hull
+	"romhull9",		1,0, -1,  0,	// Research - KR Capital Hull
 	"routpost",		1,3, -1,  0,    // Outpost
 	"rkcruise",		3,0, -1,  0,    // RCKA - Heavy Cruiser - Stormbird Class - 2nd CA Squadron
 	"rompod1",		1,0, -1,  3,	// Research - Dual Heavy Mounts
@@ -100,7 +100,7 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"rcruise",		2,0, -1,  0,    // RCA - Heavy Cruiser - Centurion Class - 3rd CA Squadron
 	"rmining",		1,3, -1,  0,	// Mining Station (3)
 	"rcargo",		2,0, -1,  0, 	// RAK - Cargo Freighter - Patrician Class (1,2)
-	"romHull10",	1,0, -1,  9,	// Research - Combat Utility Hulls
+	"romHull10",	1,0, -1,  0,	// Research - Combat Utility Hulls
 	"rlcruise",		3,0, -1, -3,	// KCL - Light Cruiser - Legion Class - 3rd CL Squadron
 	"rsrepair",		3,0, -1,  0,	// RAR - Fleet Repair Tender - Talon Class - Repair Tenders
 	"rkbcruise",	3,0, -1, -4,	// RBKC - Battlecruiser - Raven Class - 1st BC Squadron
