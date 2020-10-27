@@ -83,7 +83,7 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"fcruise",		1,0, -1, -3,	// FCA - Heavy Cruiser - Constitution Class Refit - Prototype
 	"fyard2", 		1,0, -1,  0,	// Advanced Shipyard (1st)
 	"fdestroy",		3,0, -1,  0, 	// FDD - Destroyer - Akula Class Refit - 3rd Flotilla
-	"fedhull4",		1,0, -1,  9,	// Research - Command Cruiser Hull
+	"fedhull4",		1,0, -1,  0,	// Research - Command Cruiser Hull
 	"fdestroyl", 	1,0, -1,  0, 	// FDL - Destroyer Leader - Warsaw Class - Leaders for 3rd Flotilla
 	"fsensor",		2,2, -1,  0,	// Sensor Probe Net (3)
 	"fccruise",		1,0, -1, -3,	// FCC - Command Cruiser - Lexington Class - Prototype
