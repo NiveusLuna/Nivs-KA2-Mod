@@ -82,7 +82,6 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"fcargo",		2,0, -1,  0, 	// FAK - Cargo Freighter - Clydesdale Class (1,2)
 	"fcruise",		1,0, -1, -3,	// FCA - Heavy Cruiser - Constitution Class Refit - Prototype
 	"fyard2", 		1,0, -1,  0,	// Advanced Shipyard (1st)
-	"fconst",		1,0, -1,  0,	// FACS - Construction Tender - Liberty Class (4)
 	"fdestroy",		3,0, -1,  0, 	// FDD - Destroyer - Akula Class Refit - 3rd Flotilla
 	"fedhull4",		1,0, -1,  9,	// Research - Command Cruiser Hull
 	"fdestroyl", 	1,0, -1,  0, 	// FDL - Destroyer Leader - Warsaw Class - Leaders for 3rd Flotilla
@@ -104,7 +103,6 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"fgcruise",		2,0, -1,  0,    // FCG - Gun Cruiser - Soyuz Class - 2nd CL/CG Squadron
 	"fedhull6",		1,0, -1,  0,	// Research - Dreadnought Hull
 	"fbcruise",		1,0, -1, -4,	// FBC - Battlecruiser - Excelsior Class - Prototype
-	"fconst",		1,0, -1,  0,	// FACS - Construction Tender - Liberty Class (5)
 	"fedpod12",		1,0, -1,  0,	// Research - Shield System Upgrade I
 	"fcruise",		3,0, -1,  0,	// FCA - Heavy Cruiser - Constitution Class Refit - 2nd CA Squadron
 	"fedmiscR1",	1,0, -1,  0,	// Research - Type II-U Warp Nacelles
@@ -125,7 +123,6 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"fedequ5",		1,0, -1,  0,	// Research - Torpedo Cruiser Conversion
 	"fedpod4",		1,0, -1,  0, 	// Research - Enhanced Sensor Plasma Detection Techniques
 	"fsuperbl",		1,0, -1,  0,	// Research Station (Super Weapon)
-	"fconst",		1,0, -1,  0,	// FACS - Construction Tender - Liberty Class (6)
 	"fedequ6",		1,0, -1,  0,	// Research - New Heavy Cruiser Conversion
 	"fbcruise",		3,0, -1,  0,	// FBC - Battlecruiser - Excelsior Class - 2nd BC Squadron
 	"fedpod24",		1,0, -1,  0,	// Research - Propulsion System Upgrade II
