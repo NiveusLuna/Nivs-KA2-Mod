@@ -54,7 +54,7 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"fresearchb",	1,0, -1,  2,	// Research Station - Conversions
 	"fresearchc",	1,1, -1,  0,	// Research Station - Equipment
 	"ffrigate",		2,0,  4, -3,	// FFF - Frigate - Okinawa Class - 2nd Patrol
-	"fdestroy",		3,0, -1,  0, 	// FDD - Destroyer - Akula Class Refit - 1st Flotilla
+	"fdestroy",		3,0, -1,  -4, 	// FDD - Destroyer - Akula Class Refit - 1st Flotilla
 	"fcolony",		3,0,  4,  0, 	// FFB - Colony Ship - Independance Class (1,2,3)
 	"fmining", 		1,1, -1,  0,    // Mining Station (2)
 	"fedhull2",		1,1, -1,  0, 	// Research - Light Cruiser Hull
@@ -63,7 +63,7 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"fsensor",		2,1, -1,  0,	// Sensor Probe Net (2)
 	"ffreight",     3,0, -1,  0,    // FDF - Mining Freighter - Freelancer Class (4,5,6)
 	"fedmiscR2",	1,0, -1,  0,	// Research - Megaphaser Emitters
-	"fdestroy",		3,0, -1,  0, 	// FDD - Destroyer - Akula Class Refit - 2nd Flotilla
+	"fdestroy",		3,0, -1,  -4, 	// FDD - Destroyer - Akula Class Refit - 2nd Flotilla
 	"fedequ2",		1,0, -1,  0, 	// Research - Leader Conversion
 	"fyard",		1,0, -1,  0, 	// Standard Shipyard (2nd)
 	"fedequ3",		1,0, -1,  0,	// Research - Gun Cruiser Conversion
@@ -79,10 +79,11 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"ftrading",		1,2, -1,  0,	// Trading Station (2nd)
 	"fgcruise",		2,0, -1,  0,    // FCG - Gun Cruiser - Soyuz Class - 1st CL/CG Squadron
 	"fmining",		1,2, -1,  0,	// Mining Station (3)
-	"fcargo",		2,0, -1,  0, 	// FAK - Cargo Freighter - Clydesdale Class (1,2)
-	"fcruise",		1,0, -1, -3,	// FCA - Heavy Cruiser - Constitution Class Refit - Prototype
+	"fcargo",		1,0, -1,  0, 	// FAK - Cargo Freighter - Clydesdale Class (1)
+	"fenta",		1,0, -1, -3,	// FCA - Heavy Cruiser - Constitution Class Refit - Enterprise A (Prototype)
+	"fcargo",		1,0, -1,  0, 	// FAK - Cargo Freighter - Clydesdale Class (2)
 	"fyard2", 		1,0, -1,  0,	// Advanced Shipyard (1st)
-	"fdestroy",		3,0, -1,  0, 	// FDD - Destroyer - Akula Class Refit - 3rd Flotilla
+	"fdestroy",		3,0, -1,  -4, 	// FDD - Destroyer - Akula Class Refit - 3rd Flotilla
 	"fedhull4",		1,0, -1,  0,	// Research - Command Cruiser Hull
 	"fdestroyl", 	1,0, -1,  0, 	// FDL - Destroyer Leader - Warsaw Class - Leaders for 3rd Flotilla
 	"fsensor",		2,2, -1,  0,	// Sensor Probe Net (3)
