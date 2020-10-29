@@ -102,9 +102,9 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"hydequ3",		1,0, -1,  0,	// Research - Monitor Conversion
 	"hccruise",		1,0, -1, -4,	// HCC - Command Cruiser - Duke Class - Prototype
 	"hydpod13",		1,0, -1,  0,	// Research - Sensor System Upgrade I
-	"hconst",		1,0, -1,  0,	// HACS - Construction Tender - Peasant Class (5)
+	"hcruise",		1,0, -1,  0,	// HCA - Heavy Cruiser - Baron Class - 3rd CA Squadron
 	"hydpod12",		1,0, -1,  0,	// Research - Shield System Upgrade I
-	"hcruise",		3,0, -1,  0,	// HCA - Heavy Cruiser - Baron Class - 3rd CA Squadron
+	"hcruise",		2,0, -1,  0,	// HCA - Heavy Cruiser - Baron Class - 3rd CA Squadron
 	"hydmiscr6",	1,0, -1,  0,	// Research - Proximity Shells
 	"hccruise",		3,0, -1,  0,	// HCC - Command Cruiser - Duke Class - Command Cruisers for Cruiser Squadrons
 	"hydhull5",		1,0, -1,  0,	// Research - Capital Hull
