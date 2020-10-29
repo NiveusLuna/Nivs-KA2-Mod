@@ -22,34 +22,30 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	//
 
 	"rbase",		1,0, -1,  1,	// Starbase - HQ
-	"rconst",		1,0, -1,  0,	// RACS - Construction Tender - Merlin Class (1)
+	"rconst",		4,0, -1,  0,	// RACS - Construction Tender - Merlin Class (1-4)
 	"rresearcha",	1,0, -1,  0,    // Research Station - Hulls
-	"romHull7", 	1,0, -1,  0, 	// Research - KR Frigate Hull
-	"rconst",		1,0, -1,  0,	// RACS - Construction Tender - Merlin Class (2)
 	"rmining", 		1,0, -1,  0,    // Mining Station (1)
-	"rconst",		1,0, -1,  0,	// RACS - Construction Tender - Merlin Class (3)
-	"rorbital",		1,0, -1,  0,	// Orbital Processing Facility (1)
-	"rconst",		1,0, -1,  0,	// RACS - Construction Tender - Merlin Class (4)
 	"rtrading",		1,0, -1,  0,	// Trading Station (1st)
+	"rresearchb",	1,0, -1,  0,	// Research Station - Conversions
+	"rresearchc",	1,0, -1,  0,	// Research Station - Equipment
 	"rconst",		1,0, -1,  0,	// RACS - Construction Tender - Merlin Class (5)
-	"ryard",		1,0, -1,  0, 	// Standard Shipyard (1st)
-
-	// While we wait on the yard...
 	"rfreight",		1,0, -1,  0,    // RDF - Mining Freighter - Osprey Class (1)
+	"rorbital",		1,0, -1,  0,	// Orbital Processing Facility (1)
+	"ryard",		1,0, -1,  0, 	// Standard Shipyard (1st)
+	
+	// While we wait on the yard...
+	"rfreight",		1,0, -1,  0,    // RDF - Mining Freighter - Osprey Class (2)
+	"romHull7", 	1,0, -1,  0, 	// Research - KR Frigate Hull
 	"rmine", 		2,0, -1,  0, 	// Type RA Mines (for Mining Station 1)
 	"rsensor",		1,1, -1,  0,	// Sensor Probe Net (1)
-	"rfreight",		1,0, -1,  0,    // RDF - Mining Freighter - Osprey Class (2)
-	"rdestroy",		1,0, -1,  0,	// RDD - Destroyer - War Bird Class - 1st Patrol
-	"rorbital",		1,0, -1,  0,	// Orbital Processing Facility (2)
 	"rfreight",		1,0, -1,  0,    // RDF - Mining Freighter - Osprey Class (3)
-	"rdestroy",		1,0, -1,  0,	// RDD - Destroyer - War Bird Class - 1st Patrol
+	"rdestroy",		2,0, -1,  0,	// RDD - Destroyer - War Bird Class - 1st Patrol
 
 	//
 	// Phase II. Development Stage (Mainly KR Series, slowly introducing Ornith Series)
 	//
 
-	"rresearchb",	1,0, -1,  2,	// Research Station - Conversions
-	"rresearchc",	1,0, -1,  0,	// Research Station - Equipment
+	"rorbital",		1,0, -1,  2,	// Orbital Processing Facility (2)
 	"rkfrigate",	2,0,  4, -3,	// RFKF - Frigate - Finch Class - 1st Patrol
 	"rkfrigate",	3,0, -1,  0, 	// RFKF - Frigate - Finch Class - 1st Patrol
 	"romhull1",		1,1, -1,  0, 	// Research - Ornith Frigate Hull
