@@ -9,14 +9,13 @@
 // Load up the basic structures...
 #include "aipdef.h"
 
-// This aip needs to play by the rules
-// This aip is a cheating fuck, but it might be able to keep up with the player
-int checkTechnologyAvailable = 0;
+// This aip needs to play by the rules.
+// Hopefully, this will make the AI remember what it was supposed to be building.
+int checkTechnologyAvailable = 1;
 
 Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 {
 //--------------------------------------------------------------------
-
 
 	//
 	// Phase I. Establishment Stage (New EC and new FF)

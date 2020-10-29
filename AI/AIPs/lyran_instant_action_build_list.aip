@@ -9,15 +9,13 @@
 // Load up the basic structures...
 #include "aipdef.h"
 
-// This aip needs to play by the rules
-// This aip is a cheating fuck, but it might be able to keep up with the player
-int checkTechnologyAvailable = 0;
+// This aip needs to play by the rules.
+// Hopefully, this will make the AI remember what it was supposed to be building.
+int checkTechnologyAvailable = 1;
 
 Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 {
 //--------------------------------------------------------------------
-
-
 
 	//
 	// Phase I. Establishment Stage (New FF)
@@ -48,8 +46,6 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"lfrigate",		1,0,  4, -3,	// LFF - Frigate - Lynx Class - 1st Patrol
 	"lfreight",		1,0, -1,  0,    // LDF - Mining Freighter - Queen Cat Class (3)
 	"lfrigate",		1,0,  4, -3,	// LFF - Frigate - Lynx Class - 1st Patrol
-
-
 
 	//
 	// Phase II. Development Stage (Additional FF, new FS, new EC, DD, new DL and prototype CL)

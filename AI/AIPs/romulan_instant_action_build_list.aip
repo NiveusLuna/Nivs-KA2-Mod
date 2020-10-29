@@ -9,14 +9,13 @@
 // Load up the basic structures...
 #include "aipdef.h"
 
-// This aip needs to play by the rules
-int checkTechnologyAvailable = 0;
+// This aip needs to play by the rules.
+// Hopefully, this will make the AI remember what it was supposed to be building.
+int checkTechnologyAvailable = 1;
 
 Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 {
 //--------------------------------------------------------------------
-
-
 
 	//
 	// Phase I. Establishment Stage (Early Series Refit DDs Only!)
@@ -44,7 +43,6 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"rorbital",		1,1, -1,  0,	// Orbital Processing Facility (2)
 	"rfreight",		1,0, -1,  0,    // RDF - Mining Freighter - Osprey Class (3)
 	"rdestroy",		1,0, -1,  0,	// RDD - Destroyer - War Bird Class - 1st Patrol
-
 
 	//
 	// Phase II. Development Stage (Mainly KR Series, slowly introducing Ornith Series)
@@ -167,7 +165,5 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"rdread",		2,0, -1,  0,	// RDN - Dreadnought - War Eagle Class - 2nd Task Force
 	"rbattle",		1,0, -1,  0,	// RBB - Battleship - Imperial Hawk Class - 2nd Task Force
 	"RomMiscR8",	1,0, -1,  0,	// Research - QCB
-
-
 
 };
