@@ -34,8 +34,10 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"htrading",		1,0, -1,  0,	// Trading Station (1st)
 	"hconst",		1,0, -1,  0,	// HACS - Construction Tender - Peasant Class (5)
 	"hyard",		1,0, -1,  0, 	// Standard Shipyard (1st)
+
+	// While we wait on the yard...
 	"hfreight",		1,0, -1,  0,    // HDF - Mining Freighter - Serf Class (1)
-	"hsensor",		2,0, -1,  0,	// Sensor Probe Net (1)
+	"hsensor",		1,0, -1,  0,	// Sensor Probe Net (1)
 	"horbital",		1,1, -1,  0,	// Orbital Processing Facility (2)
 	"hfreight",		1,0, -1,  0,    // HDF - Mining Freighter - Serf Class (2)
 	"hfreight",		1,0, -1,  0,    // HDF - Mining Freighter - Serf Class (3)
@@ -56,7 +58,7 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"hydequ1", 		1,0, -1,  0, 	// Research - Scout Frigate Conversion
 	"hmine", 		2,1, -1,  0, 	// Type HA Mines (for Mining Station 1)
 	"hdestroy",		3,0, -1,  0, 	// HDD - Destroyer - Knight Class - 1st Flotilla
-	"hsensor",		2,1, -1,  0,	// Sensor Probe Net (2)
+	"hsensor",		1,1, -1,  0,	// Sensor Probe Net (2)
 	"hfreight",     3,0, -1,  0,    // HDF - Mining Freighter - Serf Class (4,5,6)
 	"houtpost",		1,1, -1,  0,    // Outpost - Defence for Research Stations
 	"hscout",		3,0, -1,  0, 	// HFS - Scout Frigate - Archer Class
@@ -82,7 +84,7 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"hcruise",		1,0, -1, -3,	// HCA - Heavy Cruiser - Baron Class - Prototype
 	"hconst",		1,0, -1,  0,	// HACS - Construction Tender - Peasant Class (4)
 	"hlcruise",		3,0, -1,  0, 	// HCL - Light Cruiser - Regent Class - 1st CL Squadron
-	"hsensor",		2,2, -1,  0,	// Sensor Probe Net (3)
+	"hsensor",		1,2, -1,  0,	// Sensor Probe Net (3)
 	"hdestroyl", 	1,0, -1,  0, 	// HDL - Destroyer Leader - Paladin Class - Leaders for 3rd Flotilla
 	"hcruise",		3,0, -1, -4,	// HCA - Heavy Cruiser - Baron Class - 1st CA Squadron
 

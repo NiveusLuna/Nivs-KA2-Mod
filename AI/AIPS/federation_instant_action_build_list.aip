@@ -35,12 +35,13 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"fconst",		1,0, -1,  0,	// FACS - Construction Tender - Liberty Class (5)
 	"fedhull1", 	1,0, -1,  0, 	// Research - Destroyer Hull
    	"fyard",		1,0, -1,  0, 	// Standard Shipyard (1st)
+
+	// While we wait on the yard...
 	"ffreight",		1,0, -1,  0,    // FDF - Mining Freighter - Freelancer Class (1)
 	"fmine", 		1,0, -1,  0, 	// Type FA Mines (for Mining Station 1)
 	"ffreight",		1,0, -1,  0,    // FDF - Mining Freighter - Freelancer Class (2)
 	"fsensor",		1,0, -1,  0,	// Sensor Probe Net (1)
 	"fmine", 		1,0, -1,  0, 	// Type FA Mines (for Mining Station 1)
-	"fsensor",		1,0, -1,  0,	// Sensor Probe Net (1)
 	"forbital",		1,1, -1,  0,	// Orbital Processing Facility (2)
 	"fescort",		1,0,  4, -3,	// FEC - Escort - Oberth Class - 1st Patrol
 	"ffreight",		1,0, -1,  0,    // FDF - Mining Freighter - Freelancer Class (3)
@@ -60,7 +61,7 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"fedhull2",		1,1, -1,  0, 	// Research - Light Cruiser Hull
 	"fmine", 		2,1, -1,  0, 	// Type FA Mines (for Mining Station 1)
 	"flcruise",		1,0, -1, -2,    // FCL - Light Cruiser - Miranda Class - Prototype
-	"fsensor",		2,1, -1,  0,	// Sensor Probe Net (2)
+	"fsensor",		1,1, -1,  0,	// Sensor Probe Net (2)
 	"ffreight",     3,0, -1,  0,    // FDF - Mining Freighter - Freelancer Class (4,5,6)
 	"fedmiscR2",	1,0, -1,  0,	// Research - Megaphaser Emitters
 	"fdestroy",		3,0, -1,  -4, 	// FDD - Destroyer - Akula Class Refit - 2nd Flotilla
@@ -86,7 +87,7 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"fdestroy",		3,0, -1, -4, 	// FDD - Destroyer - Akula Class Refit - 3rd Flotilla
 	"fedhull4",		1,0, -1,  0,	// Research - Command Cruiser Hull
 	"fdestroyl", 	1,0, -1,  0, 	// FDL - Destroyer Leader - Warsaw Class - Leaders for 3rd Flotilla
-	"fsensor",		2,2, -1,  0,	// Sensor Probe Net (3)
+	"fsensor",		1,2, -1,  0,	// Sensor Probe Net (3)
 	"fccruise",		1,0, -1, -3,	// FCC - Command Cruiser - Lexington Class - Prototype
 	"fcruise",		3,0, -1, -4,	// FCA - Heavy Cruiser - Constitution Class Refit - 1st CA Squadron
 
@@ -149,12 +150,12 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"fxbattle",		1,0, -1,  0, 	// FBBX -  Experimental Battleship - Yamato Class - Prototype/1st Task Force
 	"fedpod25",		1,0, -1,  0, 	// Research - Life Support Systems Upgrade II
 	"fbattle",		1,0, -1,  0, 	// FBB - Battleship - Missouri Class - 1st Task Force
-	
+
 	"fcarrier",		1,0, -1,  0, 	// FCVN - Fleet Carrier - Ark Royal Class - 2nd Task Force
 	"fcruise",		1,0, -1,  0,	// FCA - Heavy Cruiser - Constitution Class Refit - 2nd Task Force
 	"fbattle",		1,0, -1,  0, 	// FBB - Battleship - Missouri Class - 2nd Task Force
 	"fcruise",		1,0, -1,  0,	// FCA - Heavy Cruiser - Constitution Class Refit - 2nd Task Force
 	"fdread",		1,0, -1,  0,    // FDN - Dreadnought - Ulysses Class - 2nd Task Force
 	"fbattle",		99,0, -1,  0, 	// FBB - Battleship - Missouri Class - 2nd Task Force
-	
+
 };

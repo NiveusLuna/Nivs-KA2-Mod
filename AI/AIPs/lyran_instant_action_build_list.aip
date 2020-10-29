@@ -30,6 +30,8 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"lmining", 		1,0, -1,  0,    // Mining Station (1)
 	"lconst",		1,0, -1,  0,	// LACS - Construction Tender - Felidae Class (3)
 	"lyard",		1,0, -1,  0, 	// Standard Shipyard (1st)
+
+	// While we wait on the yard...
 	"lconst",		1,0, -1,  0,	// LACS - Construction Tender - Felidae Class (4)
 	"ltrading",		1,0, -1,  0,	// Trading Station (1st)
 	"lconst",		1,0, -1,  0,	// LACS - Construction Tender - Felidae Class (5)
@@ -38,7 +40,6 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"lorbital",		1,1, -1,  0,	// Orbital Processing Facility (2)
 	"lmine", 		1,0, -1,  0, 	// Type LA Mines (for Mining Station 1)
 	"lmine", 		1,0, -1,  0, 	// Type LA Mines (for Mining Station 1)
-	"lsensor",		1,1, -1,  0,	// Sensor Probe Net (1)
 	"lsensor",		1,1, -1,  0,	// Sensor Probe Net (1)
 	"lfrigate",		1,0,  4, -3,	// LFF - Frigate - Lynx Class - 1st Patrol
 	"lfreight",		1,0, -1,  0,    // LDF - Mining Freighter - Queen Cat Class (1)
@@ -64,7 +65,7 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"lscout",		2,0, -1, -5, 	// LFS - Scout Frigate - Wildcat Class - 1st Patrol
 	"lmine", 		2,1, -1,  0, 	// Type LA Mines (for Mining Station 1)
 	"llcruise",		1,0, -1, -2,    // LCL - Light Cruiser - Leopard Class - Prototype
-	"lsensor",		2,0, -1,  0,	// Sensor Probe Net (2)
+	"lsensor",		1,0, -1,  0,	// Sensor Probe Net (2)
 	"lyrmiscR2",	1,0, -1,  3,	// Research - Heavy Phaser Cannon
 	"lfreight",     3,0, -1,  0,    // LDF - Mining Freighter - Queen Cat Class (4,5,6)
 	"ldestroy",		3,0, -1,  0, 	// LDD - Destroyer - Caracal Class - 1st Flotilla
@@ -94,7 +95,7 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"lfrigate",		3,0, -1,  0, 	// LFF - Frigate - Lynx Class - 4th Patrol
 	"lassault",		3,0, -1,  0, 	// LAPA - Troop Transport - Serval Class - 1st Assault Squadron
 	"llcruise", 	1,0, -1,  0, 	// LCL - Light Cruiser - Leopard Class - Leader for 2nd Flotilla
-	"lsensor",		2,3, -1,  0,	// Sensor Probe Net (3)
+	"lsensor",		1,3, -1,  0,	// Sensor Probe Net (3)
 	"lhcruise",		3,0, -1, -4,	// LCA - Heavy Cruiser - Tiger Class - 1st CA Squadron
 
 	//
