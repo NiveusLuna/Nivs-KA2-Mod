@@ -31,7 +31,6 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"rorbital",		1,0, -1,  0,	// Orbital Processing Facility (1)
 	"rconst",		1,0, -1,  0,	// RACS - Construction Tender - Merlin Class (4)
 	"rtrading",		1,0, -1,  0,	// Trading Station (1st)
-	"rconst",		1,0, -1,  0,	// RACS - Construction Tender - Merlin Class (5)
 	"ryard",		1,0, -1,  0, 	// Standard Shipyard (1st)
 
 	// While we wait on the yard...
