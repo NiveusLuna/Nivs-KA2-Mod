@@ -31,6 +31,7 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"fconst",		1,0, -1,  0,	// FACS - Construction Tender - Liberty Class (4)
 	"fmonitoring",	1,0, -1,  0,    // Monitoring Station
 	"fresearcha",	1,0, -1,  0,    // Research Station - Hulls
+	"fconst",		1,0, -1,  0,	// FACS - Construction Tender - Liberty Class (5)
 	"fedhull1", 	1,0, -1,  0, 	// Research - Destroyer Hull
    	"fyard",		1,0, -1,  0, 	// Standard Shipyard (1st)
 

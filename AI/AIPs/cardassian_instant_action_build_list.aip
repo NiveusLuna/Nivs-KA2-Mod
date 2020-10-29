@@ -30,6 +30,7 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"korbital",		1,0, -1,  0,	// Orbital Processing Facility (1)
 	"kconst",		1,0, -1,  0,	// KACS - Construction Tender - Warpig Class (4)
 	"ktrading",		1,0, -1,  0,	// Trading Station (1st)
+	"kconst",		1,0, -1,  0,	// KACS - Construction Tender - Warpig Class (5)
 	"kyard",		1,0, -1,  0, 	// Standard Shipyard (1st)
 
 	// While we wait on the yard...

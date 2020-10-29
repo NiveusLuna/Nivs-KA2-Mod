@@ -31,6 +31,7 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"hconst",		1,0, -1,  0,	// HACS - Construction Tender - Peasant Class (4)
 	"hresearchc",	1,0, -1,  0,    // Research Station - Equipment
 	"htrading",		1,0, -1,  0,	// Trading Station (1st)
+	"hconst",		1,0, -1,  0,	// HACS - Construction Tender - Peasant Class (5)
 	"hyard",		1,0, -1,  0, 	// Standard Shipyard (1st)
 
 	// While we wait on the yard...
@@ -101,6 +102,7 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"hydequ3",		1,0, -1,  0,	// Research - Monitor Conversion
 	"hccruise",		1,0, -1, -4,	// HCC - Command Cruiser - Duke Class - Prototype
 	"hydpod13",		1,0, -1,  0,	// Research - Sensor System Upgrade I
+	"hconst",		1,0, -1,  0,	// HACS - Construction Tender - Peasant Class (5)
 	"hydpod12",		1,0, -1,  0,	// Research - Shield System Upgrade I
 	"hcruise",		3,0, -1,  0,	// HCA - Heavy Cruiser - Baron Class - 3rd CA Squadron
 	"hydmiscr6",	1,0, -1,  0,	// Research - Proximity Shells
