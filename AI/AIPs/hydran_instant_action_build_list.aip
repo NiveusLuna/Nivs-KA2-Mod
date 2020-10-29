@@ -37,7 +37,7 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	// While we wait on the yard...
 	"hfreight",		1,0, -1,  0,    // HDF - Mining Freighter - Serf Class (1)
 	"hsensor",		1,0, -1,  0,	// Sensor Probe Net (1)
-	"horbital",		1,1, -1,  0,	// Orbital Processing Facility (2)
+	"horbital",		1,0, -1,  0,	// Orbital Processing Facility (2)
 	"hfreight",		1,0, -1,  0,    // HDF - Mining Freighter - Serf Class (2)
 	"hfreight",		1,0, -1,  0,    // HDF - Mining Freighter - Serf Class (3)
 	"hfrigate",		3,0,  4, -3,	// HFF - Frigate - Yeoman Class - 1st Patrol
@@ -71,7 +71,7 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	//
 
 	"hydhull3",		1,0, -1,  3,	// Research - Heavy Cruiser Hull
-	"horbital",		1,2, -1,  0,	// Orbital Processing Facility (4)
+	"horbital",		1,0, -1,  0,	// Orbital Processing Facility (4)
 	"hlcruise",		1,0, -1, -3,	// HCA - Light Cruiser - Regent Class - Prototype
 	"htrading",		1,2, -1,  0,	// Trading Station (2nd)
 	"hydmiscr3", 	1,0, -1,  0, 	// Research - Hellbore Cannon

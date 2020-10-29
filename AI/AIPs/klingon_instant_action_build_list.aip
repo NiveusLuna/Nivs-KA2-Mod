@@ -34,7 +34,7 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 
 	// While we wait on the yard...
 	"gconst",		1,0, -1,  0,	// GACS - Construction Tender - Lizard Class (5)
-	"gorbital",		1,1, -1,  0,	// Orbital Processing Facility (2)
+	"gorbital",		1,0, -1,  0,	// Orbital Processing Facility (2)
 	"gorhull3", 	1,0, -1,  0, 	// Research - Light Screen Hull
 	"gmine", 		2,0, -1,  0, 	// Type GA Mines (for Mining Station 1)
 	"gfreight",		1,0, -1,  0,    // GDF - Mining Freighter - Adder Class (1)
@@ -75,7 +75,7 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	//
 	"gorhull2",		1,1, -1,  0, 	// Research - Bulk Freighter Hull
 	"gdestroy",		3,0,  4, -3,	// GDD - Destroyer - Anaconda Class - 3rd Patrol
-	"gorbital",		1,2, -1,  0,	// Orbital Processing Facility (4)
+	"gorbital",		1,0, -1,  0,	// Orbital Processing Facility (4)
 	"glcruise",		3,0, -1,  0,	// GCL - Light Cruiser - Rattlesnake Class - 1st CL Squadron
 	"gtrading",		1,2, -1,  0,	// Trading Station (2nd)
 	"gcolony",		3,0,  4,  0, 	// GFB - Colony Ship - Python Class (1,2,3)

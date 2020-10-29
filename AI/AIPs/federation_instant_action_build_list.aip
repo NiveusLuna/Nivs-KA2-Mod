@@ -41,7 +41,7 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"ffreight",		1,0, -1,  0,    // FDF - Mining Freighter - Freelancer Class (2)
 	"fsensor",		1,0, -1,  0,	// Sensor Probe Net (1)
 	"fmine", 		1,0, -1,  0, 	// Type FA Mines (for Mining Station 1)
-	"forbital",		1,1, -1,  0,	// Orbital Processing Facility (2)
+	"forbital",		1,0, -1,  0,	// Orbital Processing Facility (2)
 	"fescort",		1,0,  4, -3,	// FEC - Escort - Oberth Class - 1st Patrol
 	"ffreight",		1,0, -1,  0,    // FDF - Mining Freighter - Freelancer Class (3)
 	"fescort",		2,0,  4, -3,	// FEC - Escort - Oberth Class - 1st Patrol
@@ -74,7 +74,7 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	//
 
 	"fedhull3",		1,0, -1,  3,	// Research - Heavy Cruiser Hull
-	"forbital",		1,2, -1,  0,	// Orbital Processing Facility (4)
+	"forbital",		1,0, -1,  0,	// Orbital Processing Facility (4)
 	"flcruise",		3,0, -1,  0,	// FCL - Light Cruiser - Miranda Class - 1st CL/CG Squadron
 	"ftrading",		1,2, -1,  0,	// Trading Station (2nd)
 	"fgcruise",		2,0, -1,  0,    // FCG - Gun Cruiser - Soyuz Class - 1st CL/CG Squadron

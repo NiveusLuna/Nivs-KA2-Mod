@@ -36,7 +36,7 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	// While we wait on the yard...
 	"klihull5", 	1,0, -1,  0, 	// Research - E Series Hull
 	"koutpost",		1,0, -1,  0,    // Outpost
-	"korbital",		1,2, -1,  0,	// Orbital Processing Facility (2)
+	"korbital",		1,0, -1,  0,	// Orbital Processing Facility (2)
 	"kfreight",		1,0, -1,  0,    // KDF - Mining Freighter - Bloodline Class (1)
 	"kmine", 		1,0, -1,  0, 	// Type KA Mines (for Mining Station 1)
 	"ksensor",		1,1, -1,  0,	// Sensor Probe Net (1)
@@ -77,7 +77,7 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 
 	"klimiscR3",	1,0, -1,  3,	// Research - Central Power Nacelles
 	"kcfrigate",	2,0,  4, -3,	// KFC - Cargo Frigate - Suspicious-C Class - 1st Patrol
-	"korbital",		1,3, -1,  0,	// Orbital Processing Facility (4)
+	"korbital",		1,0, -1,  0,	// Orbital Processing Facility (4)
 	"klcruise",		3,0, -1,  0,	// KCL - Light Cruiser - Relentless Class - 1st CL Squadron
 	"koutpost",		1,4, -1,  0,    // Outpost
 	"kcolony",		3,0,  4,  0, 	// KFB - Colony Ship - Brave Settler Class (1,2,3)

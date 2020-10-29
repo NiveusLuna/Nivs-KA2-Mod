@@ -35,7 +35,7 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"lconst",		1,0, -1,  0,	// LACS - Construction Tender - Felidae Class (5)
 	"lresearcha",	1,0, -1,  0,    // Research Station - Hulls
 	"lyrHull1", 	1,0, -1,  0, 	// Research - Destroyer Hull
-	"lorbital",		1,1, -1,  0,	// Orbital Processing Facility (2)
+	"lorbital",		1,0, -1,  0,	// Orbital Processing Facility (2)
 	"lmine", 		1,0, -1,  0, 	// Type LA Mines (for Mining Station 1)
 	"lmine", 		1,0, -1,  0, 	// Type LA Mines (for Mining Station 1)
 	"lsensor",		1,1, -1,  0,	// Sensor Probe Net (1)
@@ -75,7 +75,7 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 
 	"lyrmiscR3",	1,0, -1,  3,	// Research - Underway Replenishment
 	"lfrigate",		3,0,  4, -3,	// LFF - Frigate - Lynx Class - 3rd Patrol
-	"lorbital",		1,2, -1,  0,	// Orbital Processing Facility (4)
+	"lorbital",		1,0, -1,  0,	// Orbital Processing Facility (4)
 	"llcruise",		3,0, -1,  0,	// LCL - Light Cruiser - Leopard Class - 1st CL Squadron
 	"lyrhull3",		1,1, -1,  0, 	// Research - Heavy Cruiser Hull
 	"loutpost",		1,3, -1,  0,    // Outpost
