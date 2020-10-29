@@ -28,10 +28,10 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"lmining", 		1,0, -1,  0,    // Mining Station (1)
 	"lconst",		1,0, -1,  0,	// LACS - Construction Tender - Felidae Class (3)
 	"lyard",		1,0, -1,  0, 	// Standard Shipyard (1st)
-
-	// While we wait on the yard...
 	"lconst",		1,0, -1,  0,	// LACS - Construction Tender - Felidae Class (4)
 	"ltrading",		1,0, -1,  0,	// Trading Station (1st)
+	
+	// While we wait on the yard...
 	"lconst",		1,0, -1,  0,	// LACS - Construction Tender - Felidae Class (5)
 	"lresearcha",	1,0, -1,  0,    // Research Station - Hulls
 	"lyrHull1", 	1,0, -1,  0, 	// Research - Destroyer Hull

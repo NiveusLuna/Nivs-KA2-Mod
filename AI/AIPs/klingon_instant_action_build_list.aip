@@ -29,10 +29,10 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"gconst",		1,0, -1,  0,	// GACS - Construction Tender - Lizard Class (3)
 	"gresearcha",	1,0, -1,  0,    // Research Station - Hulls
 	"gyard",		1,0, -1,  0, 	// Standard Shipyard (1st)
-
-	// While we wait on the yard...
 	"gconst",		1,0, -1,  0,	// GACS - Construction Tender - Lizard Class (4)
 	"gtrading",		1,0, -1,  0,	// Trading Station (1st)
+
+	// While we wait on the yard...
 	"gconst",		1,0, -1,  0,	// GACS - Construction Tender - Lizard Class (5)
 	"gorbital",		1,1, -1,  0,	// Orbital Processing Facility (2)
 	"gorhull3", 	1,0, -1,  0, 	// Research - Light Screen Hull

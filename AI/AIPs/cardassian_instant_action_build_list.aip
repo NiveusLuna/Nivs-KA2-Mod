@@ -32,9 +32,9 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"ktrading",		1,0, -1,  0,	// Trading Station (1st)
 	"kconst",		1,0, -1,  0,	// KACS - Construction Tender - Warpig Class (5)
 	"kyard",		1,0, -1,  0, 	// Standard Shipyard (1st)
-	"klihull5", 	1,0, -1,  0, 	// Research - E Series Hull
 
 	// While we wait on the yard...
+	"klihull5", 	1,0, -1,  0, 	// Research - E Series Hull
 	"koutpost",		1,0, -1,  0,    // Outpost
 	"korbital",		1,2, -1,  0,	// Orbital Processing Facility (2)
 	"kfreight",		1,0, -1,  0,    // KDF - Mining Freighter - Bloodline Class (1)
