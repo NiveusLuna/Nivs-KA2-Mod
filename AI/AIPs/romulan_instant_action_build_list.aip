@@ -40,12 +40,13 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"rsensor",		1,1, -1,  0,	// Sensor Probe Net (1)
 	"rfreight",		1,0, -1,  0,    // RDF - Mining Freighter - Osprey Class (3)
 	"rdestroy",		2,0, -1,  0,	// RDD - Destroyer - War Bird Class - 1st Patrol
+	"rorbital",		1,0, -1,  0,	// Orbital Processing Facility (2)
 
 	//
 	// Phase II. Development Stage (Mainly KR Series, slowly introducing Ornith Series)
 	//
 
-	"rorbital",		1,0, -1,  2,	// Orbital Processing Facility (2)
+	"rupgrade",		1,0, -1,  2,	// Research Station (Upgrades)
 	"rkfrigate",	2,0,  4, -3,	// RFKF - Frigate - Finch Class - 1st Patrol
 	"rkfrigate",	3,0, -1,  0, 	// RFKF - Frigate - Finch Class - 1st Patrol
 	"romhull1",		1,1, -1,  0, 	// Research - Ornith Frigate Hull
@@ -111,9 +112,8 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	// Phase IV. Heavy Ship Stage (No more KRs, Gradual decline in Ornith, New Series ascends slowly)
 	//
 
-	"rupgrade",		1,0, -1,  4,	// Research Station (Upgrades)
 	"rlcruise", 	3,0, -1,  0,	// RCL - Light Cruiser - Legion Class - 4th CL Squadron
-	"romhull3",		1,0, -1,  0,	// Research - Ornith Dreadnought Hull
+	"romhull3",		1,0, -1,  4,	// Research - Ornith Dreadnought Hull
 	"rfrigate",		3,0, -1,  0,	// RFF - Frigate - Gladius Class - 2nd Patrol
 	"romHull5",		1,0, -1,  0,	// Research - New Series Adv Cruiser Hull
 	"rdread", 		1,0, -1, -4,    // RDN - Dreadnought - War Eagle Class - Prototype
