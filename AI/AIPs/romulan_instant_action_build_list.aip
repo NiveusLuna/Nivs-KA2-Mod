@@ -27,20 +27,21 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"rmining", 		1,0, -1,  0,    // Mining Station (1)
 	"rtrading",		1,0, -1,  0,	// Trading Station (1st)
 	"rresearchb",	1,0, -1,  0,	// Research Station - Conversions
-	"rresearchc",	1,0, -1,  0,	// Research Station - Equipment
 	"rconst",		1,0, -1,  0,	// RACS - Construction Tender - Merlin Class (5)
-	"rfreight",		1,0, -1,  0,    // RDF - Mining Freighter - Osprey Class (1)
-	"rorbital",		1,0, -1,  0,	// Orbital Processing Facility (1)
 	"ryard",		1,0, -1,  0, 	// Standard Shipyard (1st)
+	"rfreight",		1,0, -1,  0,    // RDF - Mining Freighter - Osprey Class (1)
+	"rresearchc",	1,0, -1,  0,	// Research Station - Equipment
+	"rorbital",		1,0, -1,  0,	// Orbital Processing Facility (1)
+	
 	
 	// While we wait on the yard...
 	"rfreight",		1,0, -1,  0,    // RDF - Mining Freighter - Osprey Class (2)
 	"romHull7", 	1,0, -1,  0, 	// Research - KR Frigate Hull
 	"rmine", 		2,0, -1,  0, 	// Type RA Mines (for Mining Station 1)
-	"rsensor",		1,1, -1,  0,	// Sensor Probe Net (1)
+	"rsensor",		1,0, -1,  0,	// Sensor Probe Net (1)
 	"rfreight",		1,0, -1,  0,    // RDF - Mining Freighter - Osprey Class (3)
 	"rdestroy",		2,0, -1,  0,	// RDD - Destroyer - War Bird Class - 1st Patrol
-	"rorbital",		1,0, -1,  0,	// Orbital Processing Facility (2)
+	"rorbital",		1,1, -1,  0,	// Orbital Processing Facility (2)
 
 	//
 	// Phase II. Development Stage (Mainly KR Series, slowly introducing Ornith Series)
