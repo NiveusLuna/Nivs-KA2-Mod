@@ -51,8 +51,9 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"rkfrigate",	2,0,  4, -3,	// RFKF - Frigate - Finch Class - 1st Patrol
 	"rkfrigate",	3,0, -1,  0, 	// RFKF - Frigate - Finch Class - 1st Patrol
 	"romhull1",		1,1, -1,  0, 	// Research - Ornith Frigate Hull
-	"rdestroy",		3,0, -1,  0,	// RDD - Destroyer - War Bird Class - 1st Flotilla
+	"rdestroy",		1,0, -1,  0,	// RDD - Destroyer - War Bird Class - 1st Flotilla
 	"romEqu2", 		1,0, -1,  0, 	// Research - KR Science Frigate Conversion
+	"rdestroy",		2,0, -1,  0,	// RDD - Destroyer - War Bird Class - 1st Flotilla
 	"rmining", 		1,1, -1,  0,    // Mining Station (2)
 	"rkfrigate",	3,0, -1,  0, 	// RFKF - Frigate - Finch Class - 1st Patrol
 	"romMiscR1",	1,1, -1,  0, 	// Research - Light Plasma Torpedo
@@ -69,13 +70,16 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"romhull2",		1,1, -1,  0, 	// Research - Ornith Cruiser Hull
 	"rscout",		2,0, -1, -5, 	// RFS - Ornith Science Frigate - 1st Patrol
 	"romMiscR3",	1,1, -1,  0, 	// Research - Twin Torpedo Tubes
-	"rfreight",     3,0, -1,  0,    // RDF - Mining Freighter - Osprey Class (4,5,6)
-	"rkescort",		2,0, -1, -5, 	// REKC - Escort - Kite Class - 1st Patrol
+	"rfreight",     1,0, -1,  0,    // RDF - Mining Freighter - Osprey Class (4)
+	"rkescort",		1,0, -1, -5, 	// REKC - Escort - Kite Class - 1st Patrol
+	"rfreight",     1,0, -1,  0,    // RDF - Mining Freighter - Osprey Class (5)
+	"rkescort",		1,0, -1, -5, 	// REKC - Escort - Kite Class - 1st Patrol
+	"rfreight",     1,0, -1,  0,    // RDF - Mining Freighter - Osprey Class (6)
 	"romHull11",	1,0, -1,  0,	// Research - Utility Hulls
 	"rlcruise",		3,0, -1,  0, 	// RCL - Light Cruiser - Legion Class - 1st CL Squadron
 	"romhull4",		1,0, -1,  0, 	// Research - New Series Escort Hull
 	"rkcruise",		3,0, -1,  0,    // RCKA - Heavy Cruiser - Stormbird Class - 1st CA Squadron
-	"ryard",		1,0, -1,  0, 	// Standard Shipyard (2nd)
+	"ryard",		1,1, -1,  0, 	// Standard Shipyard (2nd)
 	"rcruise", 		1,0, -1, -2, 	// RCA - Heavy Cruiser - Centurion Class - Prototype
 
 	//
@@ -139,8 +143,8 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	// Phase V. Capital Ship Stage (Mix of Ornith with mainly New Series)
 	//
 
-	"rtcruise",		3,0, -1,  5,	// RCT - Torpedo Cruiser - Peregrine Class - 1st CT Battery
-	"rompod23",		1,0, -1,  0,    // Research - Sensor System Upgrade II
+	"rompod23",		1,0, -1,  5,    // Research - Sensor System Upgrade II
+	"rtcruise",		3,0, -1,  0,	// RCT - Torpedo Cruiser - Peregrine Class - 1st CT Battery
 	"rcruise",		3,0, -1,  0,	// RCA - Heavy Cruiser - Centurion Class - 5th CA Squadron
 	"romHull6",		1,0, -1,  0,	// Research - New Series Battleship Hull
 	"rbcruise", 	3,0, -1,  0,    // RBC - Battlecruiser - Imperium Class - 3rd BC Squadron
