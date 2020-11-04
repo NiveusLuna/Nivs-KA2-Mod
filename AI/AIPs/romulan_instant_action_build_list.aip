@@ -161,9 +161,7 @@ Way_Better_Build_List_Element the_build_list[MAX_ELEMENTS] =
 	"rompod22",		1,0, -1,  0,	// Research - Shield System Upgrade II
 	"rbcruise", 	3,0, -1,  0,    // RBC - Battlecruiser - Imperium Class - 4th BC Squadron
 	"rompod21",		1,0, -1,  0,	// Research - Weapon System Upgrade II
-	"rdread",		2,0, -1,  0,	// RDN - Dreadnought - War Eagle Class - 2nd Task Force
-	"rompod3",		1,0, -1,  3,	// Research - Tal Shiar Agents
-	"rdread",		2,0, -1,  0,	// RDN - Dreadnought - War Eagle Class - 2nd Task Force
+	"rdread",		4,0, -1,  0,	// RDN - Dreadnought - War Eagle Class - 2nd Task Force
 	"rbattle",		1,0, -1,  0,	// RBB - Battleship - Imperial Hawk Class - 2nd Task Force
 	"RomMiscR8",	1,0, -1,  0,	// Research - QCB
 
