@@ -5,13 +5,6 @@ This is where I add new things to Klingon Academy 2, or alter design decisions t
 
 TODO
 
-add resourceweapons to trading stations
-
-- sell 1000 di
-- sell 1000 tri
-- buy 1000 di
-- buy 1000 tri
-
 add 1 minute cooldown to warp-in weapons
 
 alter build lists
