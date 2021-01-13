@@ -1,0 +1,90 @@
+#include "craft.odf"
+
+//This is for stat accumulation
+shipclass = "repair"
+
+//**********************************************************************
+//AI system parameters
+//These parameters influence how the AI evaluates and compares craft.
+
+//An abstract number that represents how much extra strength must be
+//used to attack this craft due to its weapons. 
+// (0.0=no weapons, 0.5 = average weapons, 1.0=many good weapons)
+attackPower = 0.00f
+
+//The normalized intrinsic value of a target.  High value craft make good
+//attack targets. (0.0=lowest value, 1.0=highest value)
+intrinsicValue = 0.50f
+
+//**********************************************************************
+
+
+//**********************************************************************
+//SYSTEM HITPOINTS
+//These values are the hitpoint values of the systems
+//If the value is set to zero the ship does not have that system
+enginesHitPoints = 10
+lifeSupportHitPoints = 10
+weaponsHitPoints = 10
+shieldGeneratorHitPoints = 10
+sensorsHitPoints = 10
+//**********************************************************************
+ 
+
+//**********************************************************************
+
+// This is the size of the build animation sparks.
+weldingRadius = 0.5
+
+//**********************************************************************
+//MESSAGE & SOUND PARAMETERS
+
+eventSelect = "RepairSelect"
+eventAcknowledge = "RepairAcknowledge"
+eventStop = "RepairStop"
+eventMove = "RepairMove"
+eventRepair = "RepairRepair"
+eventRepairTargetShip = "RepairTargetShip"
+eventRepairTargetStation = "RepairTargetStation"
+
+//**********************************************************************
+//PROGRAMMING PARAMETERS WHICH SHOULD NOT BE CHANGED & UNUSED PARAMETERS
+
+//programming thing DO NOT CHANGE
+classLabel = "RepairShip"
+
+//AI Type DO NOT CHANGE
+aiName = "RepairShipProcess"
+
+//*****************************************************
+// Repair Parameters
+// normal teleporting recrewing would be about .25
+// and we recrew from our team, so it should be slow
+recrewRate = 0.1
+repairRate = 0.5
+
+//*****************************************************
+//Maximum Value of Special Energy
+maxSpecialEnergy = 1
+
+//Rate at which special energy recharges (points per second... we think)
+specialEnergyRate = 1
+
+//**********************************************************************
+//PHYSICS Parameters
+
+physicsFile = "srepairphys.odf"
+avoidanceClass = 5
+
+//************************************************************
+// Tara additions for context sensitive menus
+repair_ship = 1
+can_explore = 1
+canAttack = 1
+
+//************************************************************
+// ship type for formations
+shipType = "N"
+
+//Explosion to use
+
