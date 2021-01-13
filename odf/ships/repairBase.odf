@@ -88,3 +88,10 @@ shipType = "N"
 
 //Explosion to use
 
+// ***************************************
+// THERE BE MODS HERE
+// default autonomy: G/H/H
+defaultAlertStatus = 2 // Green
+defaultSpecialWeaponAutonomy = 2 // High
+defaultMovementAutonomy = 2 // High
+
