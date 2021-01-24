@@ -460,20 +460,29 @@
 			<obj>rommix5.odf</obj>
 		</requirement>
 	</object>
-	<!--AMFP (War Eagle Class RDN) - Frenemy-->
+	<!-- If we group frenemy tech under one object and hide both requirements if not met,
+	then the button will never show up because at least one requirement will
+	always hide the button -->
+	<!--AMFP (War Eagle Class RDN) - Allied-->
 	<object ODF="gRAMFP.odf">
 		<requirement race="romulan" buttonHideUnavailable="true">
 			<obj>rommix2.odf</obj>
 		</requirement>
+	</object>
+	<!--AMFP (War Eagle Class RDN) - Captured-->
+	<object ODF="gRAMFP2.odf">
 		<requirement race="romulan" buttonHideUnavailable="true">
 			<obj>rommix3.odf</obj>
 		</requirement>
 	</object>
-	<!--ESG (Centurion Class RCA) - Frenemy-->
+	<!--ESG (Centurion Class RCA) - Allied-->
 	<object ODF="gRESG2.odf">
 		<requirement race="romulan" buttonHideUnavailable="true">
 			<obj>rommix7.odf</obj>
 		</requirement>
+	</object>
+	<!--ESG (Centurion Class RCA) - Captured-->
+	<object ODF="gRESG2B.odf">
 		<requirement race="romulan" buttonHideUnavailable="true">
 			<obj>rommix8.odf</obj>
 		</requirement>
