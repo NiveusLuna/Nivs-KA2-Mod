@@ -1,0 +1,5 @@
+#include "HBase.odf"
+// Keep Hydran AI from bricking on these two because it
+// tripped over its own constructors again
+buildItem7 = "hdread"
+buildItem8 = "hcarrier"
