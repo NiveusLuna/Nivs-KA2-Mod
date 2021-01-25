@@ -215,7 +215,7 @@ int cfgFLIP_TO_WINDOWED_ON_ASSERT = 1;
 int cfgTACTICAL_GRID_RENDER = 0;
 
 // What's our default grid rendering state in strategic mode? 0=grid only, 1=grid+height bars, 2=none
-int cfgSTRATEGIC_GRID_RENDER = 2;
+int cfgSTRATEGIC_GRID_RENDER = 0;
 
 // Should we show the framerate in the upper left corner?
 int  FRAMERATE_DISPLAY = 0;
