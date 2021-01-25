@@ -1,0 +1,29 @@
+// resourceweapon to buy metal
+
+// Say my name
+wpnname = "Buy More Metal"
+
+// my description
+tooltip = "Buy More Metal"
+verboseTooltip = "Buy 1000 Metal"
+
+// One-off
+oneTimeMode = 1
+
+// Spend 1,430 latinum ...
+addLatinum = -1430
+
+// to gain 1,000 metal
+addMetal = 1000
+
+// this is a resourceweapon
+classlabel = "resourceweapon"
+
+// I'm a snowflake!
+special = 1
+
+// Where do you want me?
+buttonslot = 20
+
+// You bad man, using people is bad!
+hotkeyLabel = "NO_HOTKEY"

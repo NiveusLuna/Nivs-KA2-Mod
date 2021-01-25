@@ -3,5 +3,6 @@ weapon1 = "uniRW-buy-di"
 weapon2 = "uniRW-buy-metal"
 weapon3 = "uniRW-sell-di"
 weapon4 = "uniRW-sell-metal"
-weapon5 = null
+weapon5 = "resource-buy-metal"
 weapon6 = lousyape
+weapon7 = null
