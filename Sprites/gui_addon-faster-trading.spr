@@ -8,3 +8,4 @@ b_uniRW-buy-metal		all_trade_buttons	104	208	96	96		#	2	3
 b_uniRW-sell-di			all_trade_buttons	0	208	96	96		#	1	3
 b_uniRW-sell-metal		all_trade_buttons	208	208	96	96		#	3	3
 b_resource-buy-metal	all_interface_buildbuttons08	208	104	96	96		#	3	2
+b_resource-sell-dilithium	all_interface_buildbuttons08	312	104	96	96		#	4	2
